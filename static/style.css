@@ -17,7 +17,7 @@ ul {
     columns: 3;
 }
 
-.poemlink a:link, a:visited {
+a.poemlink:link, a.poemlink:visited {
     background-color: #563d66;
     color: white;
     width: 100%;
@@ -28,7 +28,7 @@ ul {
     display: inline-block;
   }
   
-.poemlink  a:hover, a:active {
+a.poemlink:hover, a.poemlink:active {
     background-color: #aaa;
   }
 
