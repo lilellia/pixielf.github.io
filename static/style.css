@@ -17,16 +17,18 @@ ul {
     columns: 3;
 }
 
-a:link, a:visited {
+.poemlink a:link, a:visited {
     background-color: #563d66;
     color: white;
-    width: 30%;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
   
-  a:hover, a:active {
+.poemlink  a:hover, a:active {
     background-color: #aaa;
   }
 
