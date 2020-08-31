@@ -78,3 +78,17 @@ a.poemlink:hover, a.poemlink:active {
     display: table;
     clear: both;
   }
+
+/* allow ruby (furigana) */
+ruby {
+    ruby-align: center;
+}
+
+ruby rt {
+    padding-bottom: 6px;
+}
+
+ruby rtu {
+    ruby-position: under;
+    font-style: italic;
+}
