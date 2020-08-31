@@ -18,9 +18,9 @@ ul {
 }
 
 a:link, a:visited {
-    background-color: #343;
+    background-color: #563d66;
     color: white;
-    padding: 14px 25px;
+    width: 30%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -54,8 +54,8 @@ a:link, a:visited {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #f4e3ff;
+    color: black;
   }
 
   .column {
