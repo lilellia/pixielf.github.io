@@ -1,3 +1,8 @@
+body {
+    background-color: #333;
+    color: #ddd;
+}
+
 .title {
     font-family: Tangerine, serif;
     font-style: italic;
@@ -6,6 +11,10 @@
 .poem {
     font-family: Montserrat, sans-serif;
     font-style: italic;
+}
+
+ul {
+    columns: 3;
 }
 
 /* Add a black background color to the top navigation */
