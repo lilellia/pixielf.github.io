@@ -30,19 +30,25 @@ def htmlify(title: str, latex: str) -> str:
         <p>
 '''
 
+    def delatexify(s):
+        return re.sub(r'\\hspace\*\{.*?\}', '&nbsp;', s).replace(r'``', '"').replace(r"''", '"')
+
     # the actual poem part
     for line in latex.splitlines():
         if not line.strip():
             continue
         if (m := re.fullmatch(r'\s*(.*)\s*\\\\', line)):
             # normal line in stanza
-            html += f"{' ' * 12}{m.group(1)}<br/>\n"
+            s = delatexify(m.group(1))
+            html += f"{' ' * 12}{s}<br/>\n"
         elif (m := re.fullmatch(r'\s*(.*)\s*\\\\!', line)):
             # last line in stanza
-            html += f"{' ' * 12}{m.group(1)}<br/>\n{' ' * 8}</p>\n{' ' * 8}<p>\n"
+            s = delatexify(m.group(1))
+            html += f"{' ' * 12}{s}<br/>\n{' ' * 8}</p>\n{' ' * 8}<p>\n"
         else:
             # probably last line of poem
-            html += f"{' ' * 12}{line.strip()}\n{' ' * 8}</p>\n"
+            s = delatexify(line.strip())
+            html += f"{' ' * 12}{s}\n{' ' * 8}</p>\n"
 
     # the bottom bit
     html += '''\
@@ -71,17 +77,19 @@ def insert(title, filepath):
     def key(poem):
         t = re.sub(r'\[.*?\]', '', poem.title)
         g = itertools.dropwhile(lambda char: re.match('[A-Za-z]', char) is None, t)
-        return ''.join(g)
+        return ''.join(g).upper()
 
     poems.sort(key=key)
     new_list = soup.new_tag('ul', id='poem-list')
     for title, link in poems:
         li = soup.new_tag('li')
-        li.append(soup.new_tag('a', href=link, text=title))
+        a = soup.new_tag('a', href=link)
+        a.string = title
+        li.append(a)
         new_list.append(li)
 
     poem_list.replace_with(new_list)
-    INDEX.write_text(soup)
+    INDEX.write_text(soup.prettify())
 
 
 def main():
