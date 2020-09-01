@@ -30,6 +30,10 @@ ul {
     padding: 0px;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
 a.poemlink:link, a.poemlink:visited {
     background-color: #563d66;
     color: white;
