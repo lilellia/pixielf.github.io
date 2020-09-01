@@ -71,7 +71,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   }
 
 
-  
+
 .quotation {
   padding: 5px;
   margin-left: 10px;
@@ -93,11 +93,11 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 }
 
 .highlight.red {
-  background-color: rgba(250, 57, 57, 0.5);
+  background-color: rgba(250, 57, 57, 0.25);
 }
 
 .highlight.orange {
-  background-color: rgba(255, 121, 54, 0.5);
+  background-color: rgba(255, 121, 54, 0.25);
 }
   
   /* Style the links inside the navigation bar */
