@@ -79,7 +79,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   padding: 5px;
   margin-left: 10px;
   background-color: #333;
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .quotation.homura {
@@ -121,6 +121,14 @@ div.highlight {
 
 .highlight.green {
   background-color: rgba(135, 199, 86, 0.25);
+}
+
+.highlight.cyan {
+  background-color: rgba(151, 252, 229, 0.25);
+}
+
+.highlight.blue {
+  background-color: rgba(38, 153, 191, 0.25);
 }
   
   /* Style the links inside the navigation bar */
