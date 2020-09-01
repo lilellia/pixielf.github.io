@@ -69,6 +69,11 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     background-color: #333;
     overflow: hidden;
   }
+
+.highlight {
+  opacity: 70%;
+  padding: 3px;
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
