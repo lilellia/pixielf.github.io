@@ -71,8 +71,10 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   }
 
 .highlight {
-  opacity: 70%;
+  opacity: 25%;
   padding: 3px;
+  font-size: 80%;
+  width: 100%;
 }
   
   /* Style the links inside the navigation bar */
