@@ -17,6 +17,12 @@ h1 {
     font-style: italic;
 }
 
+.commentary {
+  width: 70%;
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+}
+
 ul {
     columns: 4;
     list-style-type: none;
@@ -78,3 +84,39 @@ a.poemlink:hover, a.poemlink:active {
     display: table;
     clear: both;
   }
+
+/* use hoverable tooltips for, e.g., Sí avisí bý commentary*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
