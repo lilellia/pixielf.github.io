@@ -71,10 +71,17 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   }
 
 .highlight {
-  opacity: 25%;
   padding: 3px;
   font-size: 80%;
   width: 100%;
+}
+
+.highlight .red {
+  background-color: rgba(250, 57, 57, 0.5);
+}
+
+.highlight .orange {
+  background-color: rgba(255, 121, 54, 0.5);
 }
   
   /* Style the links inside the navigation bar */
