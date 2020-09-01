@@ -100,8 +100,11 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .highlight {
   padding: 3px;
-  font-size: 80%;
   width: 100%;
+}
+
+div.highlight {
+  font-size: 80%;
 }
 
 .highlight.red {
@@ -116,8 +119,8 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   background-color: rgba(252, 247, 134, 0.25);
 }
 
-.highlight.lime {
-  background-color: rgba(210, 247, 109, 0.25);
+.highlight.green {
+  background-color: rgba(135, 199, 86, 0.25);
 }
   
   /* Style the links inside the navigation bar */
