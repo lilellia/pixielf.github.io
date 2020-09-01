@@ -23,7 +23,7 @@ h1 {
   font-style: italic;
 }
 
-ul {
+ul#poemlist {
     columns: 4;
     list-style-type: none;
     margin: 0px;
@@ -113,7 +113,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: fit-content;
+  width: 120ch;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -138,4 +138,6 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  background-color: #aaa;
+  opacity: 60%;
 }
