@@ -71,6 +71,9 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   }
 
 
+.underline {
+  text-decoration: underline;
+}
 
 .quotation {
   padding: 5px;
@@ -87,6 +90,14 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   color: #f039fa;
 }
 
+.quotation.anna {
+  color: #bd3a6f;
+}
+
+.quotation.elsa {
+  color: #6bdbd0;
+}
+
 .highlight {
   padding: 3px;
   font-size: 80%;
@@ -99,6 +110,14 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .highlight.orange {
   background-color: rgba(255, 121, 54, 0.25);
+}
+
+.highlight.yellow {
+  background-color: rgba(252, 247, 134, 0.25);
+}
+
+.highlight.lime {
+  background-color: rgba(210, 247, 109, 0.25);
 }
   
   /* Style the links inside the navigation bar */
