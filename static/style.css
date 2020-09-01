@@ -76,11 +76,11 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   width: 100%;
 }
 
-.highlight .red {
+.highlight.red {
   background-color: rgba(250, 57, 57, 0.5);
 }
 
-.highlight .orange {
+.highlight.orange {
   background-color: rgba(255, 121, 54, 0.5);
 }
   
