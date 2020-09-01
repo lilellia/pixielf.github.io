@@ -117,7 +117,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   background-color: black;
   color: #fff;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 10px;
   position: absolute;
   z-index: 1;
   top: 150%;
