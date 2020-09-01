@@ -113,7 +113,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 30%;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -123,7 +123,7 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   z-index: 1;
   top: 150%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -15%;
 }
 
 .tooltip .tooltiptext::after {
@@ -140,9 +140,4 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
-
-.tooltip:hover .tooltip {
-  background-color: #aaa;
-  opacity: 60%;
 }
