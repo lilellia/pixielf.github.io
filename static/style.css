@@ -70,6 +70,22 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
+
+  
+.quotation {
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.quotation.homura {
+  color: #855996;
+}
+
+.quotation.madoka {
+  color: #f039fa;
+}
+
 .highlight {
   padding: 3px;
   font-size: 80%;
