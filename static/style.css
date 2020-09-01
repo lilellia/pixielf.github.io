@@ -49,6 +49,21 @@ a.poemlink:hover, a.poemlink:active {
     background-color: #aaa;
   }
 
+  a.poemlink-commentary:link, a.poemlink-commentary:visited {
+    background-color: #563d66;
+    color: white;
+    width: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a.poemlink-commentary:hover, a.poemlink-commentary:active {
+    background-color: #aaa;
+  }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
