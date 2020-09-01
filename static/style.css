@@ -116,7 +116,6 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
   width: 200px;
   background-color: black;
   color: #fff;
-  text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
@@ -139,5 +138,5 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-  font-size: 9px;
+  font-size: 11px;
 }
