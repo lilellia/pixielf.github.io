@@ -70,11 +70,6 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-
-.underline {
-  text-decoration: underline;
-}
-
 .quotation {
   padding: 5px;
   margin-left: 10px;
