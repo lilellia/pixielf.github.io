@@ -52,8 +52,10 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-ul#trophy-list {
-  columns: 3;
+#trophy-list {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
 }
 
 div.trophy {
