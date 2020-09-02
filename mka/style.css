@@ -68,11 +68,11 @@ div.trophy {
 }
 
 div.trophy.platinum {
-  background-color: #b0c5ff;
+  background-color: #c4d4e0;
 }
 
 div.trophy.gold {
-  background-color: #FFDF00;
+  background-color: #d4af37;
 }
 
 div.trophy.silver {
@@ -125,7 +125,9 @@ div.trophy.bronze {
 
 
 .detail {
-  font-size: 80%; font-style: italic;
+  width: 90%;
+  font-size: 80%;
+  font-style: italic;
 }
 
 img.icon {
