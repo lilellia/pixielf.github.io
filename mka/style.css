@@ -52,31 +52,27 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-div.trophy-platinum {
-  width: 85%;
-  margin-left: 15%;
+div.trophy {
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 8px;
+}
+
+div.trophy div.platinum {
   background-color: #b0c5ff;
 }
 
-div.trophy-gold {
-  width: 85%;
-  margin-left: 15%;
-  padding: 8px;
+div.trophy div.gold {
   background-color: #fadf69;  
 }
 
-div.trophy-silver {
-  width: 85%;
-  margin-left: 15%;
-  padding: 8px;
+div.trophy div.silver {
   background-color: #a8a8a8;
 }
 
-div.trophy-bronze {
-  width: 85%;
-  margin-left: 15%;
-  padding: 8px;
+div.trophy div.bronze {
   background-color: #945215;
 }
 
