@@ -139,12 +139,12 @@ table td {
   border-bottom: 1px dotted black;
 }
 
-tr.even {
+td.even {
   background-color: #d09cf0;
   color: #333;
 }
 
-tr.odd {
+td.odd {
   background-color: #836c91;
   color: #ddd;
 }
