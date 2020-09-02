@@ -60,19 +60,19 @@ div.trophy {
   padding: 8px;
 }
 
-div.trophy div.platinum {
+div.trophy.platinum {
   background-color: #b0c5ff;
 }
 
-div.trophy div.gold {
+div.trophy.gold {
   background-color: #fadf69;  
 }
 
-div.trophy div.silver {
+div.trophy.silver {
   background-color: #a8a8a8;
 }
 
-div.trophy div.bronze {
+div.trophy.bronze {
   background-color: #945215;
 }
 
