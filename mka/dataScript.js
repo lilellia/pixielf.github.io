@@ -241,9 +241,16 @@ const RECIPES = [
     { recipe: 'Boots', location: 'Mana Ruins - Interior Heights, or Infirmary (Chapter 7)', itemName: 'Winged Boots', ingredients: ['Angel Wing/Archangel Wing/Fallen Wing', 'Pleather Cloth/Silky Cloth/Formell Fabric', 'Dietary Fiber/Silver Thread/Clear Fiber/Shinke Onion', "Alchemic Bag/Angel's Bag/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core"] },
     { recipe: 'Boots', location: 'Mana Ruins - Interior Heights, or Infirmary (Chapter 7)', itemName: 'Flying Fish Boots', ingredients: ['Chinook/King Tuna/Queen Tuna/Sharkgill/Sharkgill Sword', 'Pleather Cloth/Silky Cloth/Formell Fabric', 'Silver Thread/Clear Fiber/Shinke Onion', 'Scale Gauntlet/Dragonscale Garb/Fishscale Garb/Scale Chips/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core'] },
     { recipe: 'Mystery Medicine', location: "Complete Nikki's 2nd Character Quest", itemName: 'Loveless Potion', ingredients: ['Puniball/Puni Gummi/Soul of Darkness', 'Heal Jar/Cure Jar/120% Fruit/Veggielicious/Veggie Purple', 'Tiger Blowfish/Blowfish-X/Poison Shroom', 'Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative'] },
-    { recipe: "Synthesizer's Text", location: 'Complete Synthesis VII Equipment Assignment', itemName: 'Flash of Galileo', ingredients: ['Rusty Flask', 'Polish Powder'] }
+    { recipe: "Synthesizer's Text", location: 'Complete Synthesis VII Equipment Assignment', itemName: 'Flask of Galileo', ingredients: ['Rusty Flask', 'Polish Powder'] }
 ]
 
+
+/** getSelectedValue(selectorID: str) -> str
+ * Return the value chosen from the given selector ID
+ */
+function getSelectedValue(selectorID) {
+    return selector.options[selector.selectedIndex].value;
+}
 
 /** getRecipeFromSelect()
  * 
@@ -251,14 +258,25 @@ const RECIPES = [
  * corresponding to that item.
 */
 function getRecipeFromSelect() {
-    let el = document.getElementById("recipeItemSelect");
-    let itemName = el.options[el.selectedIndex].text;
-    console.log(itemName);
+    let itemName = getSelectedValue("recipeItemSelect");
+    let recipe;
     for(let i = 0; i < RECIPES.length; i++) {
         if (RECIPES[i].itemName == itemName) {
-            console.log(RECIPES[i]);
+            recipe = RECIPES[i];
+            break;
         }
     }
 
-    return null;
+    // set recipe name
+    document.getElementById("recipeName").innerHTML = "<span>" + recipe.recipe + "</span>";
+
+    // set recipe location
+    document.getElementById("recipeLocation").innerHTML = "<span>" + recipe.location + "</span>";
+
+    // set ingredients
+    let html = "<ul>";
+    for (let j = 0; j < recipe.ingredients.length; j++) {
+        html += "<li>" + recipe.ingredients[j] + "</li>";
+    }
+    document.getElementById("recipeIngredients").innerHTML = html;
 }
