@@ -133,3 +133,18 @@ div.trophy.bronze {
 img.icon {
   margin-right: 2%;
 }
+
+table td {
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+tr.even {
+  background-color: #d09cf0;
+  color: #333;
+}
+
+tr.odd {
+  background-color: #836c91;
+  color: #ddd;
+}
