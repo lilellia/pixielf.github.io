@@ -249,6 +249,7 @@ const RECIPES = [
  * Return the value chosen from the given selector ID
  */
 function getSelectedValue(selectorID) {
+    let selector = document.getElementById(selectorID);
     return selector.options[selector.selectedIndex].value;
 }
 
