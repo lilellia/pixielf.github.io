@@ -1,53 +1,53 @@
 [
     {
-        "recipe": "Powdering Powder",
-        "location": "Cafeteria (Chapter 1)",
-        "itemName": "Flour",
+        "recipe_name": "Powdering Powder",
+        "recipe_location": "Cafeteria (Chapter 1)",
+        "item_name": "Flour",
         "ingredients": [
             "Carrotato/Belgrade Potato/Pumpotatokin",
             "Spinacherb/Dunkelhite/Purplinacherb/Gash Twig/Kittynip/Tercia Pollen/Taun/Huffin"
         ]
     },
     {
-        "recipe": "Powdering Powder",
-        "location": "Cafeteria (Chapter 1)",
-        "itemName": "Salt",
+        "recipe_name": "Powdering Powder",
+        "recipe_location": "Cafeteria (Chapter 1)",
+        "item_name": "Salt",
         "ingredients": [
             "Masou/Endless Seaweed/Strom Shell/Joker Fish",
             "Clearwater/Brown Groundwater/Marine Water"
         ]
     },
     {
-        "recipe": "Powdering Powder",
-        "location": "Cafeteria (Chapter 1)",
-        "itemName": "Black Powder",
+        "recipe_name": "Powdering Powder",
+        "recipe_location": "Cafeteria (Chapter 1)",
+        "item_name": "Black Powder",
         "ingredients": [
             "Carbon Boulder/Raw Komet Ore/Super Komet/Black Steel/Black Liquid/Spinacherb/Purplinacherb/Gash Twig/Kittynip/Eicheloa/Poison Shroom/Taun/Huffin",
             "Canone Rock/Flame/Tera Flame/Plosion"
         ]
     },
     {
-        "recipe": "Powdering Powder",
-        "location": "Cafeteria (Chapter 1)",
-        "itemName": "Polish Powder",
+        "recipe_name": "Powdering Powder",
+        "recipe_location": "Cafeteria (Chapter 1)",
+        "item_name": "Polish Powder",
         "ingredients": [
             "Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver",
             "Canone Rock/Glacier Stone/Thunder Stone/Raw Komet Ore/Super Komet/Carbon Boulder"
         ]
     },
     {
-        "recipe": "Miraculous Powder",
-        "location": "Student Store (Chapter 9)",
-        "itemName": "Shiny Powder",
+        "recipe_name": "Miraculous Powder",
+        "recipe_location": "Student Store (Chapter 9)",
+        "item_name": "Shiny Powder",
         "ingredients": [
             "Raw Komet Ore/Super Komet/Gravity Stone/Pendelook",
             "Elemia Silver/White Steel/Altena Ingot/Gold Bullion"
         ]
     },
     {
-        "recipe": "How to Knead Dirt",
-        "location": "Campus Grounds (Chapter 6)",
-        "itemName": "Magical Clay",
+        "recipe_name": "How to Knead Dirt",
+        "recipe_location": "Campus Grounds (Chapter 6)",
+        "item_name": "Magical Clay",
         "ingredients": [
             "Dirt/Red Dirt/Black Dirt",
             "Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -55,9 +55,9 @@
         ]
     },
     {
-        "recipe": "How to Knead Dirt",
-        "location": "Campus Grounds (Chapter 6)",
-        "itemName": "Blood Clay",
+        "recipe_name": "How to Knead Dirt",
+        "recipe_location": "Campus Grounds (Chapter 6)",
+        "item_name": "Blood Clay",
         "ingredients": [
             "Dunkelhite",
             "Dirt/Red Dirt/Black Dirt",
@@ -66,9 +66,9 @@
         ]
     },
     {
-        "recipe": "Alchemic Steel",
-        "location": "Student Store (Chapter 4)",
-        "itemName": "Black Steel",
+        "recipe_name": "Alchemic Steel",
+        "recipe_location": "Student Store (Chapter 4)",
+        "item_name": "Black Steel",
         "ingredients": [
             "Legien Steel",
             "Beast Fang/Strom Shell/Monster Cookie/Puni Gummi",
@@ -76,9 +76,9 @@
         ]
     },
     {
-        "recipe": "Alchemic Steel",
-        "location": "Student Store (Chapter 4)",
-        "itemName": "Red Steel",
+        "recipe_name": "Alchemic Steel",
+        "recipe_location": "Student Store (Chapter 4)",
+        "item_name": "Red Steel",
         "ingredients": [
             "Cyprus Copper",
             "Monster Bone/King Crab/Trout",
@@ -86,9 +86,9 @@
         ]
     },
     {
-        "recipe": "Alchemic Steel",
-        "location": "Student Store (Chapter 4)",
-        "itemName": "Blue Steel",
+        "recipe_name": "Alchemic Steel",
+        "recipe_location": "Student Store (Chapter 4)",
+        "item_name": "Blue Steel",
         "ingredients": [
             "Preuve Lead",
             "Dragon Bone/Chinook/Scale Chips/99% Chaos Choco",
@@ -96,9 +96,9 @@
         ]
     },
     {
-        "recipe": "Alchemic Steel",
-        "location": "Student Store (Chapter 4)",
-        "itemName": "White Steel",
+        "recipe_name": "Alchemic Steel",
+        "recipe_location": "Student Store (Chapter 4)",
+        "item_name": "White Steel",
         "ingredients": [
             "Elemia Silver",
             "Black Stee/Red Steel/Blue Steel",
@@ -106,9 +106,9 @@
         ]
     },
     {
-        "recipe": "Holy Metal",
-        "location": "Dragon's Grave - Cave of Origin",
-        "itemName": "Altena Ingot",
+        "recipe_name": "Holy Metal",
+        "recipe_location": "Dragon's Grave - Cave of Origin",
+        "item_name": "Altena Ingot",
         "ingredients": [
             "White Steel/Gold Bullion/Blood Clay",
             "Brilliant Stone/Pentagle/Aroma Material",
@@ -116,9 +116,9 @@
         ]
     },
     {
-        "recipe": "Ingot",
-        "location": "Resource Center Dungeon/Vendor (Chapter 11)",
-        "itemName": "Gold Bullion",
+        "recipe_name": "Ingot",
+        "recipe_location": "Resource Center Dungeon/Vendor (Chapter 11)",
+        "item_name": "Gold Bullion",
         "ingredients": [
             "Altena Ingot",
             "Jade Tablet",
@@ -127,9 +127,9 @@
         ]
     },
     {
-        "recipe": "God's Drink",
-        "location": "Infirmary (Chapter 4)",
-        "itemName": "Nectar",
+        "recipe_name": "God's Drink",
+        "recipe_location": "Infirmary (Chapter 4)",
+        "item_name": "Nectar",
         "ingredients": [
             "Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange",
             "Carrotato/Belgrade Potato/Burdock Straight/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -137,9 +137,9 @@
         ]
     },
     {
-        "recipe": "God's Drink",
-        "location": "Infirmary (Chapter 4)",
-        "itemName": "Black Liquid",
+        "recipe_name": "God's Drink",
+        "recipe_location": "Infirmary (Chapter 4)",
+        "item_name": "Black Liquid",
         "ingredients": [
             "Masou/Chinook/Trout/Bonita/Endless Seaweed/Joker Fish",
             "Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Preservative",
@@ -147,9 +147,9 @@
         ]
     },
     {
-        "recipe": "Generic Cloth",
-        "location": "Automatically obtain",
-        "itemName": "Nicro Cloth",
+        "recipe_name": "Generic Cloth",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Nicro Cloth",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom",
             "Tuft/Knot/Shiny Moustache/Meringue Whip",
@@ -157,9 +157,9 @@
         ]
     },
     {
-        "recipe": "Funfur Cloth",
-        "location": "The Height, or Campus Grounds (Chapter 3)",
-        "itemName": "Pleather Cloth",
+        "recipe_name": "Funfur Cloth",
+        "recipe_location": "The Height, or Campus Grounds (Chapter 3)",
+        "item_name": "Pleather Cloth",
         "ingredients": [
             "Red Petal/Blue Petal/Glowing Petal",
             "Tuft/Knot/Shiny Moustache/Meringue Whip/Nicro Cloth",
@@ -168,9 +168,9 @@
         ]
     },
     {
-        "recipe": "Noble Fabric",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Silky Cloth",
+        "recipe_name": "Noble Fabric",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Silky Cloth",
         "ingredients": [
             "Red Petal/Blue Petal/Glowing Petal/Shiny Powder",
             "Knot/Shiny Moustache/Meringue Whip/Silver Thread",
@@ -178,9 +178,9 @@
         ]
     },
     {
-        "recipe": "Legendary Fabric",
-        "location": "Complete Job no. 048, or Student Store (Chapter 9)",
-        "itemName": "Formell Fabric",
+        "recipe_name": "Legendary Fabric",
+        "recipe_location": "Complete Job no. 048, or Student Store (Chapter 9)",
+        "item_name": "Formell Fabric",
         "ingredients": [
             "Rainbow Feather/Crimson Feather/White Feather/Black Feather",
             "Shiny Moustache/Meringue Whip/Silver Thread/Silky Cloth",
@@ -189,9 +189,9 @@
         ]
     },
     {
-        "recipe": "Preserved Food",
-        "location": "Complete Job no. 042",
-        "itemName": "Goat Cheese",
+        "recipe_name": "Preserved Food",
+        "recipe_location": "Complete Job no. 042",
+        "item_name": "Goat Cheese",
         "ingredients": [
             "Goat Milk",
             "Lando/X-Lando/Sweet Lando/Yubana Fruit/Dried Yubana/Yubana Flower",
@@ -199,9 +199,9 @@
         ]
     },
     {
-        "recipe": "Preserved Food",
-        "location": "Complete Job no. 042",
-        "itemName": "Bacon",
+        "recipe_name": "Preserved Food",
+        "recipe_location": "Complete Job no. 042",
+        "item_name": "Bacon",
         "ingredients": [
             "Wild Meat/Rotten Meat/Golden Meat",
             "Preservative",
@@ -209,9 +209,9 @@
         ]
     },
     {
-        "recipe": "Preserved Food",
-        "location": "Complete Job no. 042",
-        "itemName": "Smoked Fish",
+        "recipe_name": "Preserved Food",
+        "recipe_location": "Complete Job no. 042",
+        "item_name": "Smoked Fish",
         "ingredients": [
             "Masou/Bonita/Joker Fish/Chinook/Trout",
             "Woodchip/Giant Woodchip/Wooden Club",
@@ -220,9 +220,9 @@
         ]
     },
     {
-        "recipe": "Liquid Metal",
-        "location": "Student Store (Chapter 9)",
-        "itemName": "Liquid Metal",
+        "recipe_name": "Liquid Metal",
+        "recipe_location": "Student Store (Chapter 9)",
+        "item_name": "Liquid Metal",
         "ingredients": [
             "Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative",
             "Canone Rock/Glacier Stone/Thunder Stone/Raw Komet Ore/Super Komet/Canone Crystal/Glacier Crystal/Thunder Crystal",
@@ -230,9 +230,9 @@
         ]
     },
     {
-        "recipe": "Curing Medicine",
-        "location": "Automatically obtain",
-        "itemName": "Cure Jar",
+        "recipe_name": "Curing Medicine",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Cure Jar",
         "ingredients": [
             "Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion",
             "Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom/Taun/Huffin",
@@ -240,9 +240,9 @@
         ]
     },
     {
-        "recipe": "Curing Medicine",
-        "location": "Automatically obtain",
-        "itemName": "Preservative",
+        "recipe_name": "Curing Medicine",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Preservative",
         "ingredients": [
             "Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange/Nectar",
             "Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom/Taun/Huffin",
@@ -251,9 +251,9 @@
         ]
     },
     {
-        "recipe": "Strong Fiber",
-        "location": "Automatically obtain",
-        "itemName": "Dietary Fiber",
+        "recipe_name": "Strong Fiber",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Dietary Fiber",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig/Huffin/Belgrade Potato",
             "Burdock Straight/Burdock Curve",
@@ -261,9 +261,9 @@
         ]
     },
     {
-        "recipe": "Strong Fiber",
-        "location": "Automatically obtain",
-        "itemName": "Silver Thread",
+        "recipe_name": "Strong Fiber",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Silver Thread",
         "ingredients": [
             "Glowing Petal/Shiny Powder",
             "Elemia Silver/White Steel/Altena Ingot",
@@ -271,9 +271,9 @@
         ]
     },
     {
-        "recipe": "Magical String",
-        "location": "Mana Ruins - Bottom Center, or Student Store (Chapter 10)",
-        "itemName": "Clear Fiber",
+        "recipe_name": "Magical String",
+        "recipe_location": "Mana Ruins - Bottom Center, or Student Store (Chapter 10)",
+        "item_name": "Clear Fiber",
         "ingredients": [
             "Chrome Crystal/Gravity Stone/Soul of Darkness",
             "Plosion/Black Powder",
@@ -282,9 +282,9 @@
         ]
     },
     {
-        "recipe": "Explosive Powder",
-        "location": "Complete Job no. 044, or Campus Grounds (Chapter 5)",
-        "itemName": "Plosion",
+        "recipe_name": "Explosive Powder",
+        "recipe_location": "Complete Job no. 044, or Campus Grounds (Chapter 5)",
+        "item_name": "Plosion",
         "ingredients": [
             "Canone Crystal/Glacier Crystal/Thunder Crystal/Raw Komet Ore/Super Komet/Uni/Big Uni",
             "Carbon Boulder",
@@ -293,9 +293,9 @@
         ]
     },
     {
-        "recipe": "Mechanical Box",
-        "location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
-        "itemName": "Gearbox",
+        "recipe_name": "Mechanical Box",
+        "recipe_location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
+        "item_name": "Gearbox",
         "ingredients": [
             "Eternal Turnkey",
             "Black Steel/Red Steel/Blue Steel/White Steel",
@@ -303,9 +303,9 @@
         ]
     },
     {
-        "recipe": "Mechanical Box",
-        "location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
-        "itemName": "Le Merou Cog",
+        "recipe_name": "Mechanical Box",
+        "recipe_location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
+        "item_name": "Le Merou Cog",
         "ingredients": [
             "Gear",
             "Grand Gear",
@@ -314,9 +314,9 @@
         ]
     },
     {
-        "recipe": "Spring Decor",
-        "location": "The Heights, or Student Store (Chapter 3)",
-        "itemName": "Eternal Turnkey",
+        "recipe_name": "Spring Decor",
+        "recipe_location": "The Heights, or Student Store (Chapter 3)",
+        "item_name": "Eternal Turnkey",
         "ingredients": [
             "Gear/Grand Gear/Little Gear/Le Merou Cog",
             "Legien Steel/Black Steel/Red Steel/Blue Steel/White Steel",
@@ -324,9 +324,9 @@
         ]
     },
     {
-        "recipe": "Normal Paper",
-        "location": "Student Store (Chapter 1)",
-        "itemName": "Zettel",
+        "recipe_name": "Normal Paper",
+        "recipe_location": "Student Store (Chapter 1)",
+        "item_name": "Zettel",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig/Kitty Nip/Taun/Huffin/Dunkelhite",
             "Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -334,9 +334,9 @@
         ]
     },
     {
-        "recipe": "Expensive Paper",
-        "location": "Student Store (Chapter 6)",
-        "itemName": "Holy Crest Paper",
+        "recipe_name": "Expensive Paper",
+        "recipe_location": "Student Store (Chapter 6)",
+        "item_name": "Holy Crest Paper",
         "ingredients": [
             "Zettel",
             "Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -344,9 +344,9 @@
         ]
     },
     {
-        "recipe": "Vibrating Metal",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Apollo's Diapason",
+        "recipe_name": "Vibrating Metal",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Apollo's Diapason",
         "ingredients": [
             "Black Steel/Red Steel/Blue Steel",
             "Chrome Crystal/Pendelook/Soul of Darkness",
@@ -354,9 +354,9 @@
         ]
     },
     {
-        "recipe": "Mystery Ring",
-        "location": "Mana Ruins - Bottom Center, or Student Store (Chapter 10)",
-        "itemName": "Fortune Ring",
+        "recipe_name": "Mystery Ring",
+        "recipe_location": "Mana Ruins - Bottom Center, or Student Store (Chapter 10)",
+        "item_name": "Fortune Ring",
         "ingredients": [
             "White Steel/Altena Ingot",
             "Apollo's Diapason/Alchemic Cymbal",
@@ -364,9 +364,9 @@
         ]
     },
     {
-        "recipe": "Thermometer",
-        "location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
-        "itemName": "Galilean Scope",
+        "recipe_name": "Thermometer",
+        "recipe_location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
+        "item_name": "Galilean Scope",
         "ingredients": [
             "Black Liquid",
             "Preservative",
@@ -375,9 +375,9 @@
         ]
     },
     {
-        "recipe": "Shiny Stone",
-        "location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
-        "itemName": "Brilliant Stone",
+        "recipe_name": "Shiny Stone",
+        "recipe_location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
+        "item_name": "Brilliant Stone",
         "ingredients": [
             "Canone Crystal/Glacier Crystal/Thunder Crystal",
             "Chrome Crystal",
@@ -386,9 +386,9 @@
         ]
     },
     {
-        "recipe": "Shiny Stone",
-        "location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
-        "itemName": "Pentagle",
+        "recipe_name": "Shiny Stone",
+        "recipe_location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
+        "item_name": "Pentagle",
         "ingredients": [
             "Pendelook",
             "Chrome Crystal",
@@ -397,9 +397,9 @@
         ]
     },
     {
-        "recipe": "Spirit Crystal",
-        "location": "Infirmary (Chapter 7)",
-        "itemName": "Canone Crystal",
+        "recipe_name": "Spirit Crystal",
+        "recipe_location": "Infirmary (Chapter 7)",
+        "item_name": "Canone Crystal",
         "ingredients": [
             "Canone Crystal",
             "Preservative/X-Heal",
@@ -407,9 +407,9 @@
         ]
     },
     {
-        "recipe": "Spirit Crystal",
-        "location": "Infirmary (Chapter 7)",
-        "itemName": "Glacier Crystal",
+        "recipe_name": "Spirit Crystal",
+        "recipe_location": "Infirmary (Chapter 7)",
+        "item_name": "Glacier Crystal",
         "ingredients": [
             "Glacier Stone",
             "Preservative/X-Heal",
@@ -417,9 +417,9 @@
         ]
     },
     {
-        "recipe": "Spirit Crystal",
-        "location": "Infirmary (Chapter 7)",
-        "itemName": "Thunder Crystal",
+        "recipe_name": "Spirit Crystal",
+        "recipe_location": "Infirmary (Chapter 7)",
+        "item_name": "Thunder Crystal",
         "ingredients": [
             "Thunder Stone",
             "Preservative/X-Heal",
@@ -427,9 +427,9 @@
         ]
     },
     {
-        "recipe": "Igniter Device",
-        "location": "Student Store (Chapter 10)",
-        "itemName": "Auto Igniter",
+        "recipe_name": "Igniter Device",
+        "recipe_location": "Student Store (Chapter 10)",
+        "item_name": "Auto Igniter",
         "ingredients": [
             "Canone Crystal/Flame Ring",
             "Gearbox",
@@ -438,9 +438,9 @@
         ]
     },
     {
-        "recipe": "Cooler",
-        "location": "Student Store (Chapter 10)",
-        "itemName": "Coolster",
+        "recipe_name": "Cooler",
+        "recipe_location": "Student Store (Chapter 10)",
+        "item_name": "Coolster",
         "ingredients": [
             "Glacier Crystal/Ice Ring",
             "Le Merou Cog",
@@ -449,9 +449,9 @@
         ]
     },
     {
-        "recipe": "Vacuum Pipe",
-        "location": "Complete Job no. 049, or Student Store (Chapter 10)",
-        "itemName": "Voidspark Pipe",
+        "recipe_name": "Vacuum Pipe",
+        "recipe_location": "Complete Job no. 049, or Student Store (Chapter 10)",
+        "item_name": "Voidspark Pipe",
         "ingredients": [
             "Thunder Crystal/Thunder Ring",
             "Apollo's Diapason",
@@ -460,9 +460,9 @@
         ]
     },
     {
-        "recipe": "Rhythmical Machine",
-        "location": "Millenium Tree, or Campus Grounds (Chapter 6)",
-        "itemName": "Metronome",
+        "recipe_name": "Rhythmical Machine",
+        "recipe_location": "Millenium Tree, or Campus Grounds (Chapter 6)",
+        "item_name": "Metronome",
         "ingredients": [
             "Eternal Turnkey",
             "Gearbox",
@@ -471,9 +471,9 @@
         ]
     },
     {
-        "recipe": "Musical Strings",
-        "location": "Complete Job no. 057",
-        "itemName": "Carabine Harp",
+        "recipe_name": "Musical Strings",
+        "recipe_location": "Complete Job no. 057",
+        "item_name": "Carabine Harp",
         "ingredients": [
             "Dragon Bone",
             "Dragon Scale",
@@ -482,9 +482,9 @@
         ]
     },
     {
-        "recipe": "Swinging Drum",
-        "location": "Resource Center Dungeon",
-        "itemName": "Wood Tympani",
+        "recipe_name": "Swinging Drum",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Wood Tympani",
         "ingredients": [
             "Woodchip/Giant Woodchip/Wooden Club",
             "Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -493,9 +493,9 @@
         ]
     },
     {
-        "recipe": "Giant Music Device",
-        "location": "Dragon's Grave - Cave of Origin, or Campus Grounds (Chapter 11)",
-        "itemName": "Organne la Firste",
+        "recipe_name": "Giant Music Device",
+        "recipe_location": "Dragon's Grave - Cave of Origin, or Campus Grounds (Chapter 11)",
+        "item_name": "Organne la Firste",
         "ingredients": [
             "Blood Clay",
             "Wood Tympani",
@@ -504,9 +504,9 @@
         ]
     },
     {
-        "recipe": "Vortex Trumpet",
-        "location": "Campus Grounds (Chapter 9)",
-        "itemName": "Velvet Horn",
+        "recipe_name": "Vortex Trumpet",
+        "recipe_location": "Campus Grounds (Chapter 9)",
+        "item_name": "Velvet Horn",
         "ingredients": [
             "Strom Shell/Long Ice Cream/Burdock Curve",
             "Blue Steel/White Steel",
@@ -515,9 +515,9 @@
         ]
     },
     {
-        "recipe": "Echoing Cymbal",
-        "location": "Resource Center Dungeon/Vendor",
-        "itemName": "Alchemic Cymbal",
+        "recipe_name": "Echoing Cymbal",
+        "recipe_location": "Resource Center Dungeon/Vendor",
+        "item_name": "Alchemic Cymbal",
         "ingredients": [
             "Black Steel/Red Steel/Blue Steel/White Steel",
             "Apollo's Diapason",
@@ -526,9 +526,9 @@
         ]
     },
     {
-        "recipe": "Healing Medicine",
-        "location": "Automatically obtain",
-        "itemName": "Heal Jar",
+        "recipe_name": "Healing Medicine",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Heal Jar",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig/Huffin",
             "Blue Petal/Glowing Petal/Red Petal",
@@ -536,9 +536,9 @@
         ]
     },
     {
-        "recipe": "Healing Medicine",
-        "location": "Automatically obtain",
-        "itemName": "X-Heal",
+        "recipe_name": "Healing Medicine",
+        "recipe_location": "Automatically obtain",
+        "item_name": "X-Heal",
         "ingredients": [
             "Taun/Purplinacherb/Tercia Pollen",
             "Lando/X-Lando/Sweet Lando",
@@ -547,9 +547,9 @@
         ]
     },
     {
-        "recipe": "Spreading Medicine",
-        "location": "Infirmary (Chapter 8)",
-        "itemName": "Heal All",
+        "recipe_name": "Spreading Medicine",
+        "recipe_location": "Infirmary (Chapter 8)",
+        "item_name": "Heal All",
         "ingredients": [
             "Heal Jar/X-Heal",
             "Apollo's Diapason/Alchemic Cymbal",
@@ -558,9 +558,9 @@
         ]
     },
     {
-        "recipe": "Super Juice",
-        "location": "Infirmary (Chapter 8)",
-        "itemName": "Super Nectar",
+        "recipe_name": "Super Juice",
+        "recipe_location": "Infirmary (Chapter 8)",
+        "item_name": "Super Nectar",
         "ingredients": [
             "Brilliant Stone/Pentagle",
             "X-Lando/Sweet Lando/Mandarin Orange",
@@ -569,9 +569,9 @@
         ]
     },
     {
-        "recipe": "A Holy Cup",
-        "location": "Infirmary (Chapter 10)",
-        "itemName": "Shining Grail",
+        "recipe_name": "A Holy Cup",
+        "recipe_location": "Infirmary (Chapter 10)",
+        "item_name": "Shining Grail",
         "ingredients": [
             "Nectar",
             "Super Nectar",
@@ -579,9 +579,9 @@
         ]
     },
     {
-        "recipe": "Mental Stabilizer",
-        "location": "Resource Center Dungeon",
-        "itemName": "Amber Soup",
+        "recipe_name": "Mental Stabilizer",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Amber Soup",
         "ingredients": [
             "ATK Fruit/MGK Fruit/DEF Fruit/RES Fruit/SPD Fruit",
             "Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -589,9 +589,9 @@
         ]
     },
     {
-        "recipe": "Mental Stabilizer",
-        "location": "Resource Center Dungeon",
-        "itemName": "Tranquilizer",
+        "recipe_name": "Mental Stabilizer",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Tranquilizer",
         "ingredients": [
             "Youthful Apple/Eternal Peach",
             "Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin",
@@ -599,9 +599,9 @@
         ]
     },
     {
-        "recipe": "Ultimate Remedy",
-        "location": "Automatically obtain",
-        "itemName": "Elixir",
+        "recipe_name": "Ultimate Remedy",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Elixir",
         "ingredients": [
             "Super Nectar",
             "X-Heal",
@@ -610,9 +610,9 @@
         ]
     },
     {
-        "recipe": "Flaming BBQ",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "Steak",
+        "recipe_name": "Flaming BBQ",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "Steak",
         "ingredients": [
             "Wild Meat/Rotten Meat/Golden Meat",
             "Carrotato/Belgrade Potato/Pumpotatokin",
@@ -620,9 +620,9 @@
         ]
     },
     {
-        "recipe": "Flaming BBQ",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "Broiled Fish",
+        "recipe_name": "Flaming BBQ",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "Broiled Fish",
         "ingredients": [
             "Masou/Trout/Chinook",
             "Radish/Medicinal Radish",
@@ -630,9 +630,9 @@
         ]
     },
     {
-        "recipe": "Flaming BBQ",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "Ceramic Plate",
+        "recipe_name": "Flaming BBQ",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "Ceramic Plate",
         "ingredients": [
             "Magical Clay/Blood Clay",
             "Liquid Metal/Preservative",
@@ -640,9 +640,9 @@
         ]
     },
     {
-        "recipe": "Gorgeous Boat",
-        "location": "Student Store (Chapter 11)",
-        "itemName": "Fish \"Boat\": Marlow",
+        "recipe_name": "Gorgeous Boat",
+        "recipe_location": "Student Store (Chapter 11)",
+        "item_name": "Fish Boat: Marlow",
         "ingredients": [
             "King Tuna/Queen Tuna",
             "Bonita/Joker Fish/Blowfish-X/Tiger Blowfish/Chinook/Trout/Masou",
@@ -651,9 +651,9 @@
         ]
     },
     {
-        "recipe": "Deliciousoup",
-        "location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
-        "itemName": "Green Soup",
+        "recipe_name": "Deliciousoup",
+        "recipe_location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
+        "item_name": "Green Soup",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig",
             "Clearwater/Goat Milk",
@@ -662,9 +662,9 @@
         ]
     },
     {
-        "recipe": "Deliciousoup",
-        "location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
-        "itemName": "Red Soup",
+        "recipe_name": "Deliciousoup",
+        "recipe_location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
+        "item_name": "Red Soup",
         "ingredients": [
             "Lando/X-Lando/Sweet Lando/Night-in-grape",
             "Tiger Blowfish/Blowfish-X/99% Chaos Choco",
@@ -673,9 +673,9 @@
         ]
     },
     {
-        "recipe": "Deliciousoup",
-        "location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
-        "itemName": "Golden Soup",
+        "recipe_name": "Deliciousoup",
+        "recipe_location": "Old Schoolhouse, or Cafeteria (Chapter 2)",
+        "item_name": "Golden Soup",
         "ingredients": [
             "Gold Bullion",
             "Golden Meat",
@@ -684,9 +684,9 @@
         ]
     },
     {
-        "recipe": "Bomb",
-        "location": "Automatically obtain",
-        "itemName": "Flame",
+        "recipe_name": "Bomb",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Flame",
         "ingredients": [
             "Canone Rock",
             "Polish Powder/Flour/Black Powder",
@@ -694,9 +694,9 @@
         ]
     },
     {
-        "recipe": "Bomb",
-        "location": "Automatically obtain",
-        "itemName": "Bomb Ice",
+        "recipe_name": "Bomb",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Bomb Ice",
         "ingredients": [
             "Glacier Stone",
             "Polish Powder/Flour/Black Powder",
@@ -704,9 +704,9 @@
         ]
     },
     {
-        "recipe": "Bomb",
-        "location": "Automatically obtain",
-        "itemName": "Lightning Rod",
+        "recipe_name": "Bomb",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Lightning Rod",
         "ingredients": [
             "Thunder Stone",
             "Polish Powder/Flour/Black Powder",
@@ -714,9 +714,9 @@
         ]
     },
     {
-        "recipe": "Super Bomb",
-        "location": "Campus Grounds (Chapter 7)",
-        "itemName": "Tera Flame",
+        "recipe_name": "Super Bomb",
+        "recipe_location": "Campus Grounds (Chapter 7)",
+        "item_name": "Tera Flame",
         "ingredients": [
             "Canone Crystal",
             "Plosion",
@@ -724,9 +724,9 @@
         ]
     },
     {
-        "recipe": "Super Bomb",
-        "location": "Campus Grounds (Chapter 7)",
-        "itemName": "Bobomb Ice",
+        "recipe_name": "Super Bomb",
+        "recipe_location": "Campus Grounds (Chapter 7)",
+        "item_name": "Bobomb Ice",
         "ingredients": [
             "Glacier Crystal",
             "Plosion",
@@ -734,9 +734,9 @@
         ]
     },
     {
-        "recipe": "Super Bomb",
-        "location": "Campus Grounds (Chapter 7)",
-        "itemName": "Thunder Rod",
+        "recipe_name": "Super Bomb",
+        "recipe_location": "Campus Grounds (Chapter 7)",
+        "item_name": "Thunder Rod",
         "ingredients": [
             "Thunder Crystal",
             "Plosion",
@@ -744,9 +744,9 @@
         ]
     },
     {
-        "recipe": "Exploding Uni",
-        "location": "Complete Job no. 046",
-        "itemName": "Uni Bomb",
+        "recipe_name": "Exploding Uni",
+        "recipe_location": "Complete Job no. 046",
+        "item_name": "Uni Bomb",
         "ingredients": [
             "Uni/Big Uni",
             "Plosion",
@@ -754,9 +754,9 @@
         ]
     },
     {
-        "recipe": "Uni the Great",
-        "location": "Complete Job no. 047, or Student Store (Chapter 8)",
-        "itemName": "Big Uni Bomb",
+        "recipe_name": "Uni the Great",
+        "recipe_location": "Complete Job no. 047, or Student Store (Chapter 8)",
+        "item_name": "Big Uni Bomb",
         "ingredients": [
             "Big Uni",
             "Plosion",
@@ -764,9 +764,9 @@
         ]
     },
     {
-        "recipe": "Uni the Great",
-        "location": "Complete Job no. 047, or Student Store (Chapter 8)",
-        "itemName": "Big Orange Bomb",
+        "recipe_name": "Uni the Great",
+        "recipe_location": "Complete Job no. 047, or Student Store (Chapter 8)",
+        "item_name": "Big Orange Bomb",
         "ingredients": [
             "Tangerine/Sunrise Orange/Mandarin Orange",
             "Plosion",
@@ -774,9 +774,9 @@
         ]
     },
     {
-        "recipe": "Uni the Great",
-        "location": "Complete Job no. 047, or Student Store (Chapter 8)",
-        "itemName": "Big Lando Bomb",
+        "recipe_name": "Uni the Great",
+        "recipe_location": "Complete Job no. 047, or Student Store (Chapter 8)",
+        "item_name": "Big Lando Bomb",
         "ingredients": [
             "X-Lando/Sweet Lando",
             "Plosion",
@@ -784,9 +784,9 @@
         ]
     },
     {
-        "recipe": "The Mystic Uni",
-        "location": "Dragon's Grave - Cave of Origin",
-        "itemName": "Uni God",
+        "recipe_name": "The Mystic Uni",
+        "recipe_location": "Dragon's Grave - Cave of Origin",
+        "item_name": "Uni God",
         "ingredients": [
             "Uni/Big Uni",
             "Soul of Darkness",
@@ -795,9 +795,9 @@
         ]
     },
     {
-        "recipe": "Fruit Bomb",
-        "location": "Resource Center Dungeon, or Cafeteria (Chapter 4)",
-        "itemName": "Orange Bomb",
+        "recipe_name": "Fruit Bomb",
+        "recipe_location": "Resource Center Dungeon, or Cafeteria (Chapter 4)",
+        "item_name": "Orange Bomb",
         "ingredients": [
             "Tangerine/Sunrise Orange/Mandarin Orange",
             "Flour/Black Powder/Polish Powder/Plosion",
@@ -805,9 +805,9 @@
         ]
     },
     {
-        "recipe": "Sweet Fruit Bomb",
-        "location": "Mana Ruins - Outskirts, or Cafeteria (Chapter 5)",
-        "itemName": "Lando Bomb",
+        "recipe_name": "Sweet Fruit Bomb",
+        "recipe_location": "Mana Ruins - Outskirts, or Cafeteria (Chapter 5)",
+        "item_name": "Lando Bomb",
         "ingredients": [
             "Lando/X-Lando/Sweet Lando",
             "Flour/Black Powder/Polish Powder/Plosion",
@@ -815,9 +815,9 @@
         ]
     },
     {
-        "recipe": "Twirly Thing",
-        "location": "Complete Job no. 058, or Student Store (Chapter 8)",
-        "itemName": "Globe",
+        "recipe_name": "Twirly Thing",
+        "recipe_location": "Complete Job no. 058, or Student Store (Chapter 8)",
+        "item_name": "Globe",
         "ingredients": [
             "Raw Komet Ore/Super Komet",
             "Polish Powder/Shiny Powder",
@@ -826,9 +826,9 @@
         ]
     },
     {
-        "recipe": "A Small Universe",
-        "location": "Dragon's Grave - Cave of Origin",
-        "itemName": "Stellar Globe",
+        "recipe_name": "A Small Universe",
+        "recipe_location": "Dragon's Grave - Cave of Origin",
+        "item_name": "Stellar Globe",
         "ingredients": [
             "Globe",
             "Le Merou Cog/Eternal Turnkey/Gearbox/Organne la Firste",
@@ -837,9 +837,9 @@
         ]
     },
     {
-        "recipe": "Pudding",
-        "location": "Cafeteria (Chapter 6)",
-        "itemName": "Unipuni Pudding",
+        "recipe_name": "Pudding",
+        "recipe_location": "Cafeteria (Chapter 6)",
+        "item_name": "Unipuni Pudding",
         "ingredients": [
             "Uni/Big Uni",
             "Puppy Paw Flan",
@@ -848,9 +848,9 @@
         ]
     },
     {
-        "recipe": "Traditional Cake",
-        "location": "Cafeteria (Chapter 5)",
-        "itemName": "Cheesecake",
+        "recipe_name": "Traditional Cake",
+        "recipe_location": "Cafeteria (Chapter 5)",
+        "item_name": "Cheesecake",
         "ingredients": [
             "Goat Cheese",
             "Vanilla Syrup/Goat Milk",
@@ -858,9 +858,9 @@
         ]
     },
     {
-        "recipe": "Traditional Cake",
-        "location": "Cafeteria (Chapter 5)",
-        "itemName": "Pumpotatokin Pie",
+        "recipe_name": "Traditional Cake",
+        "recipe_location": "Cafeteria (Chapter 5)",
+        "item_name": "Pumpotatokin Pie",
         "ingredients": [
             "Pumpotatokin",
             "Vanilla Syrup/Goat Milk",
@@ -868,9 +868,9 @@
         ]
     },
     {
-        "recipe": "Bite-sized Sorbet",
-        "location": "Cafeteria (Chapter 7)",
-        "itemName": "Grape Sherbet",
+        "recipe_name": "Bite-sized Sorbet",
+        "recipe_location": "Cafeteria (Chapter 7)",
+        "item_name": "Grape Sherbet",
         "ingredients": [
             "Bitter Grape/Night-in-grape",
             "Long Ice Cream",
@@ -878,9 +878,9 @@
         ]
     },
     {
-        "recipe": "Bite-sized Sorbet",
-        "location": "Cafeteria (Chapter 7)",
-        "itemName": "Muscat Sorbet",
+        "recipe_name": "Bite-sized Sorbet",
+        "recipe_location": "Cafeteria (Chapter 7)",
+        "item_name": "Muscat Sorbet",
         "ingredients": [
             "Muscat",
             "Long Ice Cream",
@@ -888,9 +888,9 @@
         ]
     },
     {
-        "recipe": "Sweets Paradise",
-        "location": "Complete Job no. 055, or Cafeteria (Chapter 11)",
-        "itemName": "Sweetsland",
+        "recipe_name": "Sweets Paradise",
+        "recipe_location": "Complete Job no. 055, or Cafeteria (Chapter 11)",
+        "item_name": "Sweetsland",
         "ingredients": [
             "Unipuni Pudding",
             "Jumbo Donut",
@@ -899,9 +899,9 @@
         ]
     },
     {
-        "recipe": "Fruit Juice",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "120% Fruit",
+        "recipe_name": "Fruit Juice",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "120% Fruit",
         "ingredients": [
             "Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange",
             "Lando/X-Lando/Sweet Lando",
@@ -909,9 +909,9 @@
         ]
     },
     {
-        "recipe": "Fruit Juice",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "Veggielicious",
+        "recipe_name": "Fruit Juice",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "Veggielicious",
         "ingredients": [
             "Spinacherb",
             "Carrotato",
@@ -920,9 +920,9 @@
         ]
     },
     {
-        "recipe": "Fruit Juice",
-        "location": "Cafeteria (Chapter 3)",
-        "itemName": "Veggie Purple",
+        "recipe_name": "Fruit Juice",
+        "recipe_location": "Cafeteria (Chapter 3)",
+        "item_name": "Veggie Purple",
         "ingredients": [
             "Purplinacherb",
             "Carrotato",
@@ -931,9 +931,9 @@
         ]
     },
     {
-        "recipe": "Radiating Disc",
-        "location": "Automatically obtain",
-        "itemName": "Divine Shield",
+        "recipe_name": "Radiating Disc",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Divine Shield",
         "ingredients": [
             "Holy Crest Paper/Brilliant Stone",
             "Red Steel/Blue Steel",
@@ -941,9 +941,9 @@
         ]
     },
     {
-        "recipe": "Magic Stake Cloth",
-        "location": "Automatically obtain",
-        "itemName": "Misty Curtain",
+        "recipe_name": "Magic Stake Cloth",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Misty Curtain",
         "ingredients": [
             "Holy Crest Paper/Brilliant Stone",
             "Silky Cloth/Formell Fabric",
@@ -951,9 +951,9 @@
         ]
     },
     {
-        "recipe": "Invisible Mantle",
-        "location": "Campus Grounds (Chapter 6)",
-        "itemName": "Treasure Cape",
+        "recipe_name": "Invisible Mantle",
+        "recipe_location": "Campus Grounds (Chapter 6)",
+        "item_name": "Treasure Cape",
         "ingredients": [
             "Amber Soup/Tranquilizer",
             "Silky Cloth/Formell Fabric",
@@ -961,9 +961,9 @@
         ]
     },
     {
-        "recipe": "Old Collar",
-        "location": "Automatically obtain",
-        "itemName": "Ragged Collar",
+        "recipe_name": "Old Collar",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Ragged Collar",
         "ingredients": [
             "Woodchip/Giant Woodchip",
             "Legien Steel",
@@ -971,9 +971,9 @@
         ]
     },
     {
-        "recipe": "Old Collar",
-        "location": "Automatically obtain",
-        "itemName": "Leather Collar",
+        "recipe_name": "Old Collar",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Leather Collar",
         "ingredients": [
             "Pleather Cloth/Brisingamen",
             "Cyprus Copper",
@@ -981,9 +981,9 @@
         ]
     },
     {
-        "recipe": "Medicinal Collar",
-        "location": "Infirmary (Chapter 3)",
-        "itemName": "Flea Necklace",
+        "recipe_name": "Medicinal Collar",
+        "recipe_location": "Infirmary (Chapter 3)",
+        "item_name": "Flea Necklace",
         "ingredients": [
             "Dietary Fiber/Spinacherb/Gash Twig/Eicheloa/Poison Shroom",
             "Carrotato/Dirt/Red Dirt/Black Dirt",
@@ -992,9 +992,9 @@
         ]
     },
     {
-        "recipe": "Medicinal Collar",
-        "location": "Infirmary (Chapter 3)",
-        "itemName": "Bone Necklace",
+        "recipe_name": "Medicinal Collar",
+        "recipe_location": "Infirmary (Chapter 3)",
+        "item_name": "Bone Necklace",
         "ingredients": [
             "Beast Fang/Monster Bone",
             "Leather Collar",
@@ -1003,9 +1003,9 @@
         ]
     },
     {
-        "recipe": "Cute Ribbon",
-        "location": "Mana Ruins - Outskirts, or Infirmary (Chapter 5)",
-        "itemName": "Pretty Ribbon",
+        "recipe_name": "Cute Ribbon",
+        "recipe_location": "Mana Ruins - Outskirts, or Infirmary (Chapter 5)",
+        "item_name": "Pretty Ribbon",
         "ingredients": [
             "Nicro Cloth/Pleather Cloth/Silky Cloth",
             "Leather Collar/Ragged Collar",
@@ -1014,9 +1014,9 @@
         ]
     },
     {
-        "recipe": "Cute Ribbon",
-        "location": "Mana Ruins - Outskirts, or Infirmary (Chapter 5)",
-        "itemName": "Cait Sith's Collar",
+        "recipe_name": "Cute Ribbon",
+        "recipe_location": "Mana Ruins - Outskirts, or Infirmary (Chapter 5)",
+        "item_name": "Cait Sith's Collar",
         "ingredients": [
             "Pentagle/Brilliant Stone/Gravity Stone",
             "Pretty Ribbon",
@@ -1025,9 +1025,9 @@
         ]
     },
     {
-        "recipe": "Huge Ring",
-        "location": "Automatically obtain",
-        "itemName": "Giant's Ring",
+        "recipe_name": "Huge Ring",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Giant's Ring",
         "ingredients": [
             "Iron Plate/Bronze Plate/Black Steel/Red Steel",
             "Flame Ring/Ice Ring/Thunder Ring",
@@ -1035,9 +1035,9 @@
         ]
     },
     {
-        "recipe": "Huge Donut",
-        "location": "Cafeteria (Chapter 8)",
-        "itemName": "Jumbo Donut",
+        "recipe_name": "Huge Donut",
+        "recipe_location": "Cafeteria (Chapter 8)",
+        "item_name": "Jumbo Donut",
         "ingredients": [
             "Meringue Whip/Taiyaki/Long Ice Cream",
             "Flour/Salt/Shiny Powder",
@@ -1046,9 +1046,9 @@
         ]
     },
     {
-        "recipe": "Collar of Magic",
-        "location": "Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)",
-        "itemName": "Runed Collar",
+        "recipe_name": "Collar of Magic",
+        "recipe_location": "Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)",
+        "item_name": "Runed Collar",
         "ingredients": [
             "Bone Necklace",
             "Shield of Ajax/Mirror of Gargol/Divine Shield/Misty Curtain/Dunkelhite",
@@ -1056,9 +1056,9 @@
         ]
     },
     {
-        "recipe": "Collar of Magic",
-        "location": "Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)",
-        "itemName": "Magic Stone Collar",
+        "recipe_name": "Collar of Magic",
+        "recipe_location": "Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)",
+        "item_name": "Magic Stone Collar",
         "ingredients": [
             "Cait Sith's Collar/Runed Collar",
             "Altena Ingot",
@@ -1067,9 +1067,9 @@
         ]
     },
     {
-        "recipe": "God's Necklace",
-        "location": "Heart's Prison",
-        "itemName": "Brisingamen",
+        "recipe_name": "God's Necklace",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Brisingamen",
         "ingredients": [
             "Magic Stone Collar",
             "Uni God",
@@ -1077,9 +1077,9 @@
         ]
     },
     {
-        "recipe": "Standard Mechsword",
-        "location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
-        "itemName": "Pyre Blade",
+        "recipe_name": "Standard Mechsword",
+        "recipe_location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
+        "item_name": "Pyre Blade",
         "ingredients": [
             "Burdock Straight/Worn Weapon",
             "Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver",
@@ -1088,9 +1088,9 @@
         ]
     },
     {
-        "recipe": "Standard Mechsword",
-        "location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
-        "itemName": "Pyre Blade II",
+        "recipe_name": "Standard Mechsword",
+        "recipe_location": "Mana Ruins - Outskirts, or Student Store (Chapter 5)",
+        "item_name": "Pyre Blade II",
         "ingredients": [
             "Pyre Blade",
             "Vorey Splitter/Sledgehammer",
@@ -1099,9 +1099,9 @@
         ]
     },
     {
-        "recipe": "Epigonic Mechsword",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Machine Cradle",
+        "recipe_name": "Epigonic Mechsword",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Machine Cradle",
         "ingredients": [
             "Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver",
             "Gearbox/Metronome",
@@ -1110,9 +1110,9 @@
         ]
     },
     {
-        "recipe": "Modified Mechsword",
-        "location": "Student Student (Chapter 7)",
-        "itemName": "Alvero",
+        "recipe_name": "Modified Mechsword",
+        "recipe_location": "Student Student (Chapter 7)",
+        "item_name": "Alvero",
         "ingredients": [
             "Blue Steel",
             "Gearbox/Metronome/Voidspark Pipe/Machine Cradle",
@@ -1121,9 +1121,9 @@
         ]
     },
     {
-        "recipe": "Modified Mechsword",
-        "location": "Student Student (Chapter 7)",
-        "itemName": "Sharkgill Sword",
+        "recipe_name": "Modified Mechsword",
+        "recipe_location": "Student Student (Chapter 7)",
+        "item_name": "Sharkgill Sword",
         "ingredients": [
             "Sharkgill",
             "\"Kaiser\": Aqua Hero",
@@ -1131,9 +1131,9 @@
         ]
     },
     {
-        "recipe": "Enhanced Mechsword",
-        "location": "Dragon's Grave - Cave of Origin",
-        "itemName": "Progius",
+        "recipe_name": "Enhanced Mechsword",
+        "recipe_location": "Dragon's Grave - Cave of Origin",
+        "item_name": "Progius",
         "ingredients": [
             "Voidspark Pipe/White Steel/Altena Ingot",
             "Le Merou Cog",
@@ -1141,9 +1141,9 @@
         ]
     },
     {
-        "recipe": "Motorized Mechsword",
-        "location": "Complete Job no. 050, or Student Store (Chapter 11)",
-        "itemName": "Quartz Slicer",
+        "recipe_name": "Motorized Mechsword",
+        "recipe_location": "Complete Job no. 050, or Student Store (Chapter 11)",
+        "item_name": "Quartz Slicer",
         "ingredients": [
             "Alvero/Gravity Stone/Canone Crystal/Glacier Crystal/Thunder Crystal",
             "Voidspark Pipe/Velvet Horn",
@@ -1151,9 +1151,9 @@
         ]
     },
     {
-        "recipe": "Master Mechsword",
-        "location": "Heart's Prison",
-        "itemName": "Deus ex Machina",
+        "recipe_name": "Master Mechsword",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Deus ex Machina",
         "ingredients": [
             "Pyre Blade II",
             "Quartz Slicer",
@@ -1161,9 +1161,9 @@
         ]
     },
     {
-        "recipe": "Game Card",
-        "location": "Mana Ruins - Outskirts",
-        "itemName": "Astral Card",
+        "recipe_name": "Game Card",
+        "recipe_location": "Mana Ruins - Outskirts",
+        "item_name": "Astral Card",
         "ingredients": [
             "Zettel/Holy Crest Paper",
             "Asclepius/Symbol of Uroborus",
@@ -1172,9 +1172,9 @@
         ]
     },
     {
-        "recipe": "Game Card",
-        "location": "Mana Ruins - Outskirts",
-        "itemName": "Itsa Card",
+        "recipe_name": "Game Card",
+        "recipe_location": "Mana Ruins - Outskirts",
+        "item_name": "Itsa Card",
         "ingredients": [
             "King Style",
             "Astral Card",
@@ -1183,9 +1183,9 @@
         ]
     },
     {
-        "recipe": "Ritual Charm",
-        "location": "Dragon's Grave - Bone Grove, or Student Store (Chapter 6)",
-        "itemName": "Flonne's Charm",
+        "recipe_name": "Ritual Charm",
+        "recipe_location": "Dragon's Grave - Bone Grove, or Student Store (Chapter 6)",
+        "item_name": "Flonne's Charm",
         "ingredients": [
             "Holy Crest Paper/Bonus Card",
             "Heal Jar/X-Heal/Heal All/Cure Jar",
@@ -1194,18 +1194,18 @@
         ]
     },
     {
-        "recipe": "Bonus Card",
-        "location": "Complete Job no. 059, or Cafeteria (Chapter 7)",
-        "itemName": "Bonus Card",
+        "recipe_name": "Bonus Card",
+        "recipe_location": "Complete Job no. 059, or Cafeteria (Chapter 7)",
+        "item_name": "Bonus Card",
         "ingredients": [
             "Rocks rock!",
-            "Astral Card/Flonne's Charm/Bonus Card/Trauer Card/Solingen/Wild Card/Itsa Card/Type Solomon"
+            "Astral Card/Flonne's Charm/Bonus Card/Trauer Tarot/Solingen/Wild Card/Itsa Card/Type Solomon"
         ]
     },
     {
-        "recipe": "Magic Card",
-        "location": "Wind's Corridor - Abyss, or Infirmary (Chapter 8)",
-        "itemName": "Trauer Card",
+        "recipe_name": "Magic Card",
+        "recipe_location": "Wind's Corridor - Abyss, or Infirmary (Chapter 8)",
+        "item_name": "Trauer Tarot",
         "ingredients": [
             "Astral Card",
             "Holy Crest Paper",
@@ -1214,9 +1214,9 @@
         ]
     },
     {
-        "recipe": "Razor Card",
-        "location": "Student Store (Chapter 8)",
-        "itemName": "Solingen",
+        "recipe_name": "Razor Card",
+        "recipe_location": "Student Store (Chapter 8)",
+        "item_name": "Solingen",
         "ingredients": [
             "Red Steel/Blue Steel/White Steel/Magical Clay/Blood Clay",
             "Polish Powder/Shiny Powder",
@@ -1224,9 +1224,9 @@
         ]
     },
     {
-        "recipe": "Razor Card",
-        "location": "Student Store (Chapter 8)",
-        "itemName": "Wild Card",
+        "recipe_name": "Razor Card",
+        "recipe_location": "Student Store (Chapter 8)",
+        "item_name": "Wild Card",
         "ingredients": [
             "Astral Card",
             "Gravity Stone",
@@ -1234,9 +1234,9 @@
         ]
     },
     {
-        "recipe": "Magic Act",
-        "location": "Heart's Prison",
-        "itemName": "Type Solomon",
+        "recipe_name": "Magic Act",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Type Solomon",
         "ingredients": [
             "Flonne's Charm",
             "Fires of Hell/Diamond Dust/Electric Elect",
@@ -1245,9 +1245,9 @@
         ]
     },
     {
-        "recipe": "Lovely Bag",
-        "location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
-        "itemName": "Favorite Bag",
+        "recipe_name": "Lovely Bag",
+        "recipe_location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
+        "item_name": "Favorite Bag",
         "ingredients": [
             "Zettel/Nicro Cloth",
             "Puniball",
@@ -1255,9 +1255,9 @@
         ]
     },
     {
-        "recipe": "Luxury Purse",
-        "location": "Infirmary (Chapter 2)",
-        "itemName": "Brand Name Bag",
+        "recipe_name": "Luxury Purse",
+        "recipe_location": "Infirmary (Chapter 2)",
+        "item_name": "Brand Name Bag",
         "ingredients": [
             "Pleather Cloth",
             "Crimson Feather",
@@ -1266,9 +1266,9 @@
         ]
     },
     {
-        "recipe": "Luxury Purse",
-        "location": "Infirmary (Chapter 2)",
-        "itemName": "Fake Brand Bag",
+        "recipe_name": "Luxury Purse",
+        "recipe_location": "Infirmary (Chapter 2)",
+        "item_name": "Fake Brand Bag",
         "ingredients": [
             "Nicro Cloth",
             "Blue Petal/Red Petal",
@@ -1277,9 +1277,9 @@
         ]
     },
     {
-        "recipe": "Net Basket",
-        "location": "Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)",
-        "itemName": "Alchemist's Basket",
+        "recipe_name": "Net Basket",
+        "recipe_location": "Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)",
+        "item_name": "Alchemist's Basket",
         "ingredients": [
             "Dietary Fiber/Burdock Straight/Uni",
             "Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange",
@@ -1287,9 +1287,9 @@
         ]
     },
     {
-        "recipe": "Net Basket",
-        "location": "Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)",
-        "itemName": "Eco-bag",
+        "recipe_name": "Net Basket",
+        "recipe_location": "Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)",
+        "item_name": "Eco-bag",
         "ingredients": [
             "Kittynip",
             "Yubana Fruit/Dried Yubana/Yubana Flower/Lando/X-Lando/Sweet Lando/ATK Fruit/MGK Fruit/DEF Fruit/RES Fruit/SPD Fruit",
@@ -1298,9 +1298,9 @@
         ]
     },
     {
-        "recipe": "Alchemy Pack",
-        "location": "Complete Job no. 045, or Student Store (Chapter 6)",
-        "itemName": "Alchemic Bag",
+        "recipe_name": "Alchemy Pack",
+        "recipe_location": "Complete Job no. 045, or Student Store (Chapter 6)",
+        "item_name": "Alchemic Bag",
         "ingredients": [
             "Silky Cloth/Formell Fabric",
             "Alchemist's Basket",
@@ -1309,9 +1309,9 @@
         ]
     },
     {
-        "recipe": "Alchemy Pack",
-        "location": "Complete Job no. 045, or Student Store (Chapter 6)",
-        "itemName": "Angel's Bag",
+        "recipe_name": "Alchemy Pack",
+        "recipe_location": "Complete Job no. 045, or Student Store (Chapter 6)",
+        "item_name": "Angel's Bag",
         "ingredients": [
             "Archangel Wings",
             "Angel's Slip/Devil's Panties",
@@ -1320,9 +1320,9 @@
         ]
     },
     {
-        "recipe": "Metallic Pack",
-        "location": "Campus Grounds (Chapter 8)",
-        "itemName": "Plate Bag",
+        "recipe_name": "Metallic Pack",
+        "recipe_location": "Campus Grounds (Chapter 8)",
+        "item_name": "Plate Bag",
         "ingredients": [
             "Bronze Plate/Iron Plate/Baked Plate",
             "Shield of Ajax/Mirror of Gargol/Divine Shield/Misty Curtain",
@@ -1331,9 +1331,9 @@
         ]
     },
     {
-        "recipe": "High Capacity Pack",
-        "location": "Heart's Prison",
-        "itemName": "Dimension Bag",
+        "recipe_name": "High Capacity Pack",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Dimension Bag",
         "ingredients": [
             "Angel's Bag",
             "Super Komet Ore",
@@ -1342,9 +1342,9 @@
         ]
     },
     {
-        "recipe": "Hammeryhammer",
-        "location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
-        "itemName": "Crack Hammer",
+        "recipe_name": "Hammeryhammer",
+        "recipe_location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
+        "item_name": "Crack Hammer",
         "ingredients": [
             "Canone Rock/Glacier Stone/Thunder Stone",
             "Legien Steel/Cyprus Copper",
@@ -1353,9 +1353,9 @@
         ]
     },
     {
-        "recipe": "Hammeryhammer",
-        "location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
-        "itemName": "Crusher Twins",
+        "recipe_name": "Hammeryhammer",
+        "recipe_location": "Wind's Corridor - Mist, or Campus Grounds (Chapter 2)",
+        "item_name": "Crusher Twins",
         "ingredients": [
             "Uni/Big Uni",
             "Black Steel/Red Steel",
@@ -1364,9 +1364,9 @@
         ]
     },
     {
-        "recipe": "Wooden Beatstick",
-        "location": "The Heights, or Student Store (Chapter 3)",
-        "itemName": "Wooden Club",
+        "recipe_name": "Wooden Beatstick",
+        "recipe_location": "The Heights, or Student Store (Chapter 3)",
+        "item_name": "Wooden Club",
         "ingredients": [
             "Woodchip/Giant Woodchip",
             "Spinacherb/Gash Twig/Dietary Fiber",
@@ -1375,9 +1375,9 @@
         ]
     },
     {
-        "recipe": "Wooden Beatstick",
-        "location": "The Heights, or Student Store (Chapter 3)",
-        "itemName": "Brownie Hammer",
+        "recipe_name": "Wooden Beatstick",
+        "recipe_location": "The Heights, or Student Store (Chapter 3)",
+        "item_name": "Brownie Hammer",
         "ingredients": [
             "Wooden Club/Wood Tympani",
             "Brownie Mask",
@@ -1385,9 +1385,9 @@
         ]
     },
     {
-        "recipe": "Wooden Beatstick",
-        "location": "The Heights, or Student Store (Chapter 3)",
-        "itemName": "Yula Hammer",
+        "recipe_name": "Wooden Beatstick",
+        "recipe_location": "The Heights, or Student Store (Chapter 3)",
+        "item_name": "Yula Hammer",
         "ingredients": [
             "Brownie Hammer",
             "Megingjorz",
@@ -1396,9 +1396,9 @@
         ]
     },
     {
-        "recipe": "Charge Hammer",
-        "location": "Complete Job no. 060, or Student Store (Chapter 6)",
-        "itemName": "Sledgehammer",
+        "recipe_name": "Charge Hammer",
+        "recipe_location": "Complete Job no. 060, or Student Store (Chapter 6)",
+        "item_name": "Sledgehammer",
         "ingredients": [
             "Gearbox/Eternal Key/Metronome",
             "Giant Woodchip",
@@ -1407,9 +1407,9 @@
         ]
     },
     {
-        "recipe": "Charge Hammer",
-        "location": "Complete Job no. 060, or Student Store (Chapter 6)",
-        "itemName": "Grand Sledgehammer",
+        "recipe_name": "Charge Hammer",
+        "recipe_location": "Complete Job no. 060, or Student Store (Chapter 6)",
+        "item_name": "Grand Sledgehammer",
         "ingredients": [
             "Sledgehammer",
             "Altena Ingot",
@@ -1418,9 +1418,9 @@
         ]
     },
     {
-        "recipe": "Hammeryhammer Plus",
-        "location": "Student Store (Chapter 8)",
-        "itemName": "Vorey Splitter",
+        "recipe_name": "Hammeryhammer Plus",
+        "recipe_location": "Student Store (Chapter 8)",
+        "item_name": "Vorey Splitter",
         "ingredients": [
             "Crusher Twins",
             "Canone Crystal/Glacier Crystal/Thunder Crystal",
@@ -1429,9 +1429,9 @@
         ]
     },
     {
-        "recipe": "God's Hammer",
-        "location": "Heart's Prison",
-        "itemName": "Thor Hammer",
+        "recipe_name": "God's Hammer",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Thor Hammer",
         "ingredients": [
             "Grand Sledgehammer",
             "Uni God",
@@ -1440,9 +1440,9 @@
         ]
     },
     {
-        "recipe": "Stuffed Animal",
-        "location": "Resource Center Dungeon",
-        "itemName": "Doll's Claw",
+        "recipe_name": "Stuffed Animal",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Doll's Claw",
         "ingredients": [
             "Nicro Cloth/Pleather Cloth",
             "Tuft/Knot/Shiny Moustache",
@@ -1450,9 +1450,9 @@
         ]
     },
     {
-        "recipe": "Stuffed Animal",
-        "location": "Resource Center Dungeon",
-        "itemName": "Plastic Claw",
+        "recipe_name": "Stuffed Animal",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Plastic Claw",
         "ingredients": [
             "Carbon Boulder/Rocks rock!",
             "Puniball/Puni Gummi",
@@ -1461,9 +1461,9 @@
         ]
     },
     {
-        "recipe": "Metallic Claw",
-        "location": "Student Store (Chapter 6)",
-        "itemName": "Steel Claw",
+        "recipe_name": "Metallic Claw",
+        "recipe_location": "Student Store (Chapter 6)",
+        "item_name": "Steel Claw",
         "ingredients": [
             "Legien Steel/Cyprus Copper",
             "Black Steel",
@@ -1471,9 +1471,9 @@
         ]
     },
     {
-        "recipe": "Metallic Claw",
-        "location": "Student Store (Chapter 6)",
-        "itemName": "Alloy Claw",
+        "recipe_name": "Metallic Claw",
+        "recipe_location": "Student Store (Chapter 6)",
+        "item_name": "Alloy Claw",
         "ingredients": [
             "Preuve Lead",
             "Red Steel",
@@ -1482,9 +1482,9 @@
         ]
     },
     {
-        "recipe": "Metallic Claw",
-        "location": "Student Store (Chapter 6)",
-        "itemName": "Super Allow Claw",
+        "recipe_name": "Metallic Claw",
+        "recipe_location": "Student Store (Chapter 6)",
+        "item_name": "Super Alloy Claw",
         "ingredients": [
             "White Steel",
             "Blue Steel",
@@ -1493,9 +1493,9 @@
         ]
     },
     {
-        "recipe": "Beast's Claw",
-        "location": "Millenium Tree, or Student Store (Chapter 8)",
-        "itemName": "Bear Claw",
+        "recipe_name": "Beast's Claw",
+        "recipe_location": "Millenium Tree, or Student Store (Chapter 8)",
+        "item_name": "Bear Claw",
         "ingredients": [
             "Steel Claw",
             "Le Merou Cog/Gear/Grand Gear/Little Gear/Eternal Turnkey",
@@ -1503,9 +1503,9 @@
         ]
     },
     {
-        "recipe": "Beast's Claw",
-        "location": "Millenium Tree, or Student Store (Chapter 8)",
-        "itemName": "Electric Claw",
+        "recipe_name": "Beast's Claw",
+        "recipe_location": "Millenium Tree, or Student Store (Chapter 8)",
+        "item_name": "Electric Claw",
         "ingredients": [
             "Super Alloy Claw",
             "Altena Ingot",
@@ -1514,9 +1514,9 @@
         ]
     },
     {
-        "recipe": "Claw Super Weapon",
-        "location": "Heart's Prison",
-        "itemName": "Hellclaw",
+        "recipe_name": "Claw Super Weapon",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Hellclaw",
         "ingredients": [
             "Plastic Claw",
             "Archangel Wing",
@@ -1525,9 +1525,9 @@
         ]
     },
     {
-        "recipe": "Favorite Sword",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Dimentia Blade",
+        "recipe_name": "Favorite Sword",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Dimentia Blade",
         "ingredients": [
             "Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver/Azoth Z",
             "Black Steel/Red Steel",
@@ -1536,9 +1536,9 @@
         ]
     },
     {
-        "recipe": "Favorite Sword",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Muramasa",
+        "recipe_name": "Favorite Sword",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Muramasa",
         "ingredients": [
             "Dimentia Blade",
             "Elemia Silver/Pendelook",
@@ -1547,9 +1547,9 @@
         ]
     },
     {
-        "recipe": "Foreign Blade",
-        "location": "Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)",
-        "itemName": "Blue Dragon",
+        "recipe_name": "Foreign Blade",
+        "recipe_location": "Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)",
+        "item_name": "Blue Dragon",
         "ingredients": [
             "Dragon Bone/Dragon Scale/Dragon Tongue/Carabine Harp",
             "Carbon Boulder/Raw Komet Ore/Super Komet",
@@ -1558,9 +1558,9 @@
         ]
     },
     {
-        "recipe": "Foreign Blade",
-        "location": "Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)",
-        "itemName": "Ben Breaker",
+        "recipe_name": "Foreign Blade",
+        "recipe_location": "Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)",
+        "item_name": "Ben Breaker",
         "ingredients": [
             "Blue Dragon",
             "Pentagle",
@@ -1569,9 +1569,9 @@
         ]
     },
     {
-        "recipe": "Alchemic Sword",
-        "location": "Complete Job no. 056, or Student Store (Chapter 10)",
-        "itemName": "Azoth Z",
+        "recipe_name": "Alchemic Sword",
+        "recipe_location": "Complete Job no. 056, or Student Store (Chapter 10)",
+        "item_name": "Azoth Z",
         "ingredients": [
             "Jade Tablet",
             "Aroma Material",
@@ -1580,9 +1580,9 @@
         ]
     },
     {
-        "recipe": "A Master's Swing",
-        "location": "Heart's Prison",
-        "itemName": "Pellucian",
+        "recipe_name": "A Master's Swing",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Pellucian",
         "ingredients": [
             "Muramasa",
             "Altena Ingot",
@@ -1591,9 +1591,9 @@
         ]
     },
     {
-        "recipe": "Sphere Spaceship",
-        "location": "Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)",
-        "itemName": "Commercial Pot",
+        "recipe_name": "Sphere Spaceship",
+        "recipe_location": "Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)",
+        "item_name": "Commercial Pot",
         "ingredients": [
             "Carbon Boulder/Magical Clay/Blood Clay",
             "Liquid Metal/Preservative/Nectar/Super Nectar",
@@ -1602,9 +1602,9 @@
         ]
     },
     {
-        "recipe": "Sphere Spaceship",
-        "location": "Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)",
-        "itemName": "Proto Pot",
+        "recipe_name": "Sphere Spaceship",
+        "recipe_location": "Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)",
+        "item_name": "Proto Pot",
         "ingredients": [
             "Red Steel/Magical Clay/Blood Clay",
             "Liquid Metal/Preservative/Nectar/Super Nectar",
@@ -1613,9 +1613,9 @@
         ]
     },
     {
-        "recipe": "Neo Spaceship",
-        "location": "Resource Center Dungeon/Vendor (Chapter 7)",
-        "itemName": "Mark II",
+        "recipe_name": "Neo Spaceship",
+        "recipe_location": "Resource Center Dungeon/Vendor (Chapter 7)",
+        "item_name": "Mark II",
         "ingredients": [
             "Liquid Metal",
             "Pendelook",
@@ -1624,9 +1624,9 @@
         ]
     },
     {
-        "recipe": "Object from Space",
-        "location": "Dragon's Grave - Cave of Origin",
-        "itemName": "Pot Station",
+        "recipe_name": "Object from Space",
+        "recipe_location": "Dragon's Grave - Cave of Origin",
+        "item_name": "Pot Station",
         "ingredients": [
             "Commercial Pot",
             "Proto Pot",
@@ -1635,9 +1635,9 @@
         ]
     },
     {
-        "recipe": "Royal Spaceship",
-        "location": "Heart's Prison",
-        "itemName": "Crown Pot",
+        "recipe_name": "Royal Spaceship",
+        "recipe_location": "Heart's Prison",
+        "item_name": "Crown Pot",
         "ingredients": [
             "Mark II",
             "Gold Bullion",
@@ -1646,9 +1646,9 @@
         ]
     },
     {
-        "recipe": "Light Armor",
-        "location": "Student Store (Chapter 3)",
-        "itemName": "Leather Cuirass",
+        "recipe_name": "Light Armor",
+        "recipe_location": "Student Store (Chapter 3)",
+        "item_name": "Leather Cuirass",
         "ingredients": [
             "Pleather Cloth",
             "Male Uniform/Altered Uniform M/Female Uniform/Altered Uniform F",
@@ -1656,9 +1656,9 @@
         ]
     },
     {
-        "recipe": "Platemail",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Iron Plate",
+        "recipe_name": "Platemail",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Iron Plate",
         "ingredients": [
             "Black Steel",
             "Leather Cuirass",
@@ -1666,9 +1666,9 @@
         ]
     },
     {
-        "recipe": "Platemail",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Bronze Plate",
+        "recipe_name": "Platemail",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Bronze Plate",
         "ingredients": [
             "Red Steel",
             "Leather Cuirass/Iron Plate",
@@ -1676,9 +1676,9 @@
         ]
     },
     {
-        "recipe": "Platemail",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Baked Plate",
+        "recipe_name": "Platemail",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Baked Plate",
         "ingredients": [
             "Monster Cookie/Sweetsland",
             "Flour/Salt",
@@ -1687,9 +1687,9 @@
         ]
     },
     {
-        "recipe": "Platemail",
-        "location": "Student Store (Chapter 5)",
-        "itemName": "Armored Crab",
+        "recipe_name": "Platemail",
+        "recipe_location": "Student Store (Chapter 5)",
+        "item_name": "Armored Crab",
         "ingredients": [
             "King Crab",
             "Iron Plate/Bronze Plate/Baked Plate",
@@ -1697,9 +1697,9 @@
         ]
     },
     {
-        "recipe": "Royal Metal Armor",
-        "location": "Clocktower, or Campus Grounds (Chapter 10)",
-        "itemName": "Silver Cuirass",
+        "recipe_name": "Royal Metal Armor",
+        "recipe_location": "Clocktower, or Campus Grounds (Chapter 10)",
+        "item_name": "Silver Cuirass",
         "ingredients": [
             "White Steel/Liquid Metal",
             "Iron Plate/Bronze Plate/Baked Plate/Armored Crab/Kaiserfish Mail",
@@ -1707,9 +1707,9 @@
         ]
     },
     {
-        "recipe": "Royal Metal Armor",
-        "location": "Clocktower, or Campus Grounds (Chapter 10)",
-        "itemName": "Kaiserfish Mail",
+        "recipe_name": "Royal Metal Armor",
+        "recipe_location": "Clocktower, or Campus Grounds (Chapter 10)",
+        "item_name": "Kaiserfish Mail",
         "ingredients": [
             "\"Kaiser\": Aqua Hero",
             "Iron Plate/Bronze Plate/Baked Plate/Armored Crab",
@@ -1717,9 +1717,9 @@
         ]
     },
     {
-        "recipe": "Royal Metal Armor",
-        "location": "Clocktower, or Campus Grounds (Chapter 10)",
-        "itemName": "Gold Mail",
+        "recipe_name": "Royal Metal Armor",
+        "recipe_location": "Clocktower, or Campus Grounds (Chapter 10)",
+        "item_name": "Gold Mail",
         "ingredients": [
             "Gold Bullion/Golden Soup",
             "Silver Cuirass/Estevan Guard",
@@ -1727,9 +1727,9 @@
         ]
     },
     {
-        "recipe": "Standard Uniform - M",
-        "location": "Student Store (Chapter 1, Week 2)",
-        "itemName": "Male Uniform",
+        "recipe_name": "Standard Uniform - M",
+        "recipe_location": "Student Store (Chapter 1, Week 2)",
+        "item_name": "Male Uniform",
         "ingredients": [
             "Nicro Cloth",
             "Zettel/Tuft/Knot/Worn Armor",
@@ -1737,9 +1737,9 @@
         ]
     },
     {
-        "recipe": "Standard Uniform - M",
-        "location": "Student Store (Chapter 1, Week 2)",
-        "itemName": "Altered Uniform M",
+        "recipe_name": "Standard Uniform - M",
+        "recipe_location": "Student Store (Chapter 1, Week 2)",
+        "item_name": "Altered Uniform M",
         "ingredients": [
             "Male Uniform",
             "Woodchip/Worn Weapon",
@@ -1748,9 +1748,9 @@
         ]
     },
     {
-        "recipe": "Oldschool Uniform",
-        "location": "Campus Grounds (Chapter 4)",
-        "itemName": "Japanesque Uniform",
+        "recipe_name": "Oldschool Uniform",
+        "recipe_location": "Campus Grounds (Chapter 4)",
+        "item_name": "Japanesque Uniform",
         "ingredients": [
             "Male Uniform/Altered Uniform M",
             "Black Liquid/Black Powder/Black Steel/Black Dirt/Black Feather",
@@ -1758,9 +1758,9 @@
         ]
     },
     {
-        "recipe": "Oldschool Uniform",
-        "location": "Campus Grounds (Chapter 4)",
-        "itemName": "White Japanesque ",
+        "recipe_name": "Oldschool Uniform",
+        "recipe_location": "Campus Grounds (Chapter 4)",
+        "item_name": "White Japanesque",
         "ingredients": [
             "Japanesque Uniform",
             "White Feather/Long Ice Cream/Meringue Whip/White Steel",
@@ -1768,9 +1768,9 @@
         ]
     },
     {
-        "recipe": "Oldschool Uniform",
-        "location": "Campus Grounds (Chapter 4)",
-        "itemName": "Gangster",
+        "recipe_name": "Oldschool Uniform",
+        "recipe_location": "Campus Grounds (Chapter 4)",
+        "item_name": "Gangster",
         "ingredients": [
             "White Japanesque",
             "Bone Necklace/Cait Sith's Collar",
@@ -1779,9 +1779,9 @@
         ]
     },
     {
-        "recipe": "Royal Clothes",
-        "location": "Student Store (Chapter 11)",
-        "itemName": "King Style",
+        "recipe_name": "Royal Clothes",
+        "recipe_location": "Student Store (Chapter 11)",
+        "item_name": "King Style",
         "ingredients": [
             "King Tuna/Queen Tuna/Crown Pot/Crown Breastplate/Star Queen",
             "White Japanesque",
@@ -1790,9 +1790,9 @@
         ]
     },
     {
-        "recipe": "Standard Uniform - F",
-        "location": "Student Store (Chapter 1, Week 2)",
-        "itemName": "Female Uniform",
+        "recipe_name": "Standard Uniform - F",
+        "recipe_location": "Student Store (Chapter 1, Week 2)",
+        "item_name": "Female Uniform",
         "ingredients": [
             "Nicro Cloth",
             "Zettel/Tuft/Knot/Angel's Slip",
@@ -1800,9 +1800,9 @@
         ]
     },
     {
-        "recipe": "Standard Uniform - F",
-        "location": "Student Store (Chapter 1, Week 2)",
-        "itemName": "Altered Uniform F",
+        "recipe_name": "Standard Uniform - F",
+        "recipe_location": "Student Store (Chapter 1, Week 2)",
+        "item_name": "Altered Uniform F",
         "ingredients": [
             "Female Uniform",
             "Tangerine/Sunrise Orange/Bitter Grape/Night-in-grape",
@@ -1811,9 +1811,9 @@
         ]
     },
     {
-        "recipe": "Standard Uniform - F",
-        "location": "Student Store (Chapter 1, Week 2)",
-        "itemName": "Long Uniform",
+        "recipe_name": "Standard Uniform - F",
+        "recipe_location": "Student Store (Chapter 1, Week 2)",
+        "item_name": "Long Uniform",
         "ingredients": [
             "Altered Uniform F",
             "Pleather Cloth",
@@ -1822,9 +1822,9 @@
         ]
     },
     {
-        "recipe": "Retro Uniform",
-        "location": "Campus Grounds (Chapter 4)",
-        "itemName": "Bad Girl",
+        "recipe_name": "Retro Uniform",
+        "recipe_location": "Campus Grounds (Chapter 4)",
+        "item_name": "Bad Girl",
         "ingredients": [
             "Long Uniform/Altered Uniform F",
             "Knot/Dietary Fiber/Silver Thread/Clear Fiber",
@@ -1832,9 +1832,9 @@
         ]
     },
     {
-        "recipe": "Retro Uniform",
-        "location": "Campus Grounds (Chapter 4)",
-        "itemName": "Maiden",
+        "recipe_name": "Retro Uniform",
+        "recipe_location": "Campus Grounds (Chapter 4)",
+        "item_name": "Maiden",
         "ingredients": [
             "Crimson Feather/Rainbow Feather/Angel Wing",
             "Heaven's Silk/Feathery Flow",
@@ -1843,9 +1843,9 @@
         ]
     },
     {
-        "recipe": "Elegant Clothes",
-        "location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
-        "itemName": "Heaven's Silk",
+        "recipe_name": "Elegant Clothes",
+        "recipe_location": "Wind's Corridor - Abyss, or Student Store (Chapter 8)",
+        "item_name": "Heaven's Silk",
         "ingredients": [
             "Angel's Slip/Devil's Panties",
             "Angel Wing/Archangel Wings/Fallen Wing",
@@ -1854,9 +1854,9 @@
         ]
     },
     {
-        "recipe": "Cat Suit",
-        "location": "Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)",
-        "itemName": "Black Cat",
+        "recipe_name": "Cat Suit",
+        "recipe_location": "Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)",
+        "item_name": "Black Cat",
         "ingredients": [
             "Kitty Ears",
             "Angel's Slip/Devil's Panties",
@@ -1865,9 +1865,9 @@
         ]
     },
     {
-        "recipe": "Cat Suit",
-        "location": "Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)",
-        "itemName": "Kitty Ear Maid",
+        "recipe_name": "Cat Suit",
+        "recipe_location": "Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)",
+        "item_name": "Kitty Ear Maid",
         "ingredients": [
             "Heaven's Silk/Long Uniform/Bad Girl",
             "Kitty Ears/Black Cat",
@@ -1876,9 +1876,9 @@
         ]
     },
     {
-        "recipe": "Robe",
-        "location": "Resource Center Dungeon",
-        "itemName": "Arabesque Robe",
+        "recipe_name": "Robe",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Arabesque Robe",
         "ingredients": [
             "Spinacherb/Purplinacherb/Gash Twig/Kittynip/Dunkelhite",
             "Nicro Cloth/Pleather Cloth/Silky Cloth",
@@ -1887,9 +1887,9 @@
         ]
     },
     {
-        "recipe": "Robe",
-        "location": "Resource Center Dungeon",
-        "itemName": "Raven Robe",
+        "recipe_name": "Robe",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Raven Robe",
         "ingredients": [
             "Black Liquid/Black Powder/Black Feather",
             "Nicro Cloth/Pleather Cloth/Silky Cloth",
@@ -1898,9 +1898,9 @@
         ]
     },
     {
-        "recipe": "Robe",
-        "location": "Resource Center Dungeon",
-        "itemName": "La Matador",
+        "recipe_name": "Robe",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "La Matador",
         "ingredients": [
             "Crimson Feather/Night-in-grape/Cyprus Copper/Red Petal",
             "Nicro Cloth/Pleather Cloth/Silky Cloth",
@@ -1909,9 +1909,9 @@
         ]
     },
     {
-        "recipe": "Robe",
-        "location": "Resource Center Dungeon",
-        "itemName": "Chocolate Robe",
+        "recipe_name": "Robe",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Chocolate Robe",
         "ingredients": [
             "Raven Robe",
             "99% Chaos Choco",
@@ -1920,9 +1920,9 @@
         ]
     },
     {
-        "recipe": "Magic Garments",
-        "location": "Campus Grounds (Chapter 8)",
-        "itemName": "Dragonscale Garb",
+        "recipe_name": "Magic Garments",
+        "recipe_location": "Campus Grounds (Chapter 8)",
+        "item_name": "Dragonscale Garb",
         "ingredients": [
             "Dragon Scale",
             "Silky Cloth/Formell Fabric/Misty Curtain",
@@ -1931,9 +1931,9 @@
         ]
     },
     {
-        "recipe": "Magic Garments",
-        "location": "Campus Grounds (Chapter 8)",
-        "itemName": "Aurora Curtain",
+        "recipe_name": "Magic Garments",
+        "recipe_location": "Campus Grounds (Chapter 8)",
+        "item_name": "Aurora Curtain",
         "ingredients": [
             "Rainbow Feather/Dunkelhite",
             "Misty Curtain",
@@ -1942,9 +1942,9 @@
         ]
     },
     {
-        "recipe": "Magic Garments",
-        "location": "Campus Grounds (Chapter 8)",
-        "itemName": "Fishscale Garb",
+        "recipe_name": "Magic Garments",
+        "recipe_location": "Campus Grounds (Chapter 8)",
+        "item_name": "Fishscale Garb",
         "ingredients": [
             "Blowfish-X/Tiger Blowfish/Chinook/Trout/Masou",
             "Silky Cloth/Formell Fabric/Misty Curtain",
@@ -1953,9 +1953,9 @@
         ]
     },
     {
-        "recipe": "Heavy Armor",
-        "location": "Automatically obtain",
-        "itemName": "Estevan Guard",
+        "recipe_name": "Heavy Armor",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Estevan Guard",
         "ingredients": [
             "Bronze Plate/Bone Breastplate",
             "Dragon Scale/Dragon Tongue/Carabine Harp",
@@ -1964,9 +1964,9 @@
         ]
     },
     {
-        "recipe": "Heavy Armor",
-        "location": "Automatically obtain",
-        "itemName": "Bone Breastplate",
+        "recipe_name": "Heavy Armor",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Bone Breastplate",
         "ingredients": [
             "Iron Plate",
             "Monster Bone",
@@ -1975,9 +1975,9 @@
         ]
     },
     {
-        "recipe": "Holy Armor",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Crown Breastplate",
+        "recipe_name": "Holy Armor",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Crown Breastplate",
         "ingredients": [
             "Estevan Guard/Bone Breastplate/Silver Cuirass/Gold Mai",
             "Altena Ingot",
@@ -1985,9 +1985,9 @@
         ]
     },
     {
-        "recipe": "Hardened Cloak",
-        "location": "Complete Job no. 061, or Student Store (Chapter 6)",
-        "itemName": "Panzer Cloak",
+        "recipe_name": "Hardened Cloak",
+        "recipe_location": "Complete Job no. 061, or Student Store (Chapter 6)",
+        "item_name": "Panzer Cloak",
         "ingredients": [
             "Iron Plate/Bronze Plate",
             "Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -1995,9 +1995,9 @@
         ]
     },
     {
-        "recipe": "Hardened Cloak",
-        "location": "Complete Job no. 061, or Student Store (Chapter 6)",
-        "itemName": "Imperial Cloth",
+        "recipe_name": "Hardened Cloak",
+        "recipe_location": "Complete Job no. 061, or Student Store (Chapter 6)",
+        "item_name": "Imperial Cloak",
         "ingredients": [
             "Dragonscale Garb/Aurora Curtain/Fishscale Garb",
             "Symbol of Uroborus/Velvet Horn",
@@ -2005,9 +2005,9 @@
         ]
     },
     {
-        "recipe": "Women's Armor",
-        "location": "Automatically obtain",
-        "itemName": "Feathery Flow",
+        "recipe_name": "Women's Armor",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Feathery Flow",
         "ingredients": [
             "Angel Wing/Fallen Wing",
             "Blue Steel/White Steel",
@@ -2015,9 +2015,9 @@
         ]
     },
     {
-        "recipe": "Women's Armor",
-        "location": "Automatically obtain",
-        "itemName": "Star Queen",
+        "recipe_name": "Women's Armor",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Star Queen",
         "ingredients": [
             "Brilliant Stone/Pentagle/Aroma Material",
             "Feathery Flow",
@@ -2026,9 +2026,9 @@
         ]
     },
     {
-        "recipe": "Women's Armor",
-        "location": "Automatically obtain",
-        "itemName": "Angel Cloth",
+        "recipe_name": "Women's Armor",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Angel Cloth",
         "ingredients": [
             "Archangel Wings",
             "Angel's Slip/Devil's Panties",
@@ -2037,9 +2037,9 @@
         ]
     },
     {
-        "recipe": "Legendary Robe",
-        "location": "God's Scar, or Student Store (Chapter 10)",
-        "itemName": "Alchemy Robe",
+        "recipe_name": "Legendary Robe",
+        "recipe_location": "God's Scar, or Student Store (Chapter 10)",
+        "item_name": "Alchemy Robe",
         "ingredients": [
             "Formell Fabric",
             "Brilliant Stone/Pentagle/Aroma Material/Chrome Crystal",
@@ -2048,9 +2048,9 @@
         ]
     },
     {
-        "recipe": "Legendary Robe",
-        "location": "God's Scar, or Student Store (Chapter 10)",
-        "itemName": "Saint's Garb",
+        "recipe_name": "Legendary Robe",
+        "recipe_location": "God's Scar, or Student Store (Chapter 10)",
+        "item_name": "Saint's Garb",
         "ingredients": [
             "Altena Ingot",
             "Imperial Cloth/Alchemy Robe",
@@ -2058,9 +2058,9 @@
         ]
     },
     {
-        "recipe": "Sexy Outfit",
-        "location": "Dragon's Grave - Cave of Origin, or Infirmary (Chapter 11)",
-        "itemName": "Lucifer's Leotard",
+        "recipe_name": "Sexy Outfit",
+        "recipe_location": "Dragon's Grave - Cave of Origin, or Infirmary (Chapter 11)",
+        "item_name": "Lucifer's Leotard",
         "ingredients": [
             "Devil's Panties",
             "Heaven's Silk/Black Cat",
@@ -2069,9 +2069,9 @@
         ]
     },
     {
-        "recipe": "Dark Battlespirit",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Bleak Veil",
+        "recipe_name": "Dark Battlespirit",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Bleak Veil",
         "ingredients": [
             "Gold Mail",
             "Fallen Wing",
@@ -2080,9 +2080,9 @@
         ]
     },
     {
-        "recipe": "Man's Mantle",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Gallant Mantle",
+        "recipe_name": "Man's Mantle",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Gallant Mantle",
         "ingredients": [
             "Gangster",
             "Meginjorz",
@@ -2091,9 +2091,9 @@
         ]
     },
     {
-        "recipe": "Grand Robe",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Grand Alchemist",
+        "recipe_name": "Grand Robe",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Grand Alchemist",
         "ingredients": [
             "Saint's Garb",
             "Shining Grail",
@@ -2102,9 +2102,9 @@
         ]
     },
     {
-        "recipe": "Sensitive Hair",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Biohair Wig",
+        "recipe_name": "Sensitive Hair",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Biohair Wig",
         "ingredients": [
             "Dragon Tongue",
             "Uni God",
@@ -2113,9 +2113,9 @@
         ]
     },
     {
-        "recipe": "Beast Hide",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Holy Beast Hide",
+        "recipe_name": "Beast Hide",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Holy Beast Hide",
         "ingredients": [
             "Angel Cloth",
             "Shiny Mustache",
@@ -2124,9 +2124,9 @@
         ]
     },
     {
-        "recipe": "Master's Outfit",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Knight's Waistcoat",
+        "recipe_name": "Master's Outfit",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Knight's Waistcoat",
         "ingredients": [
             "Maiden",
             "Feathery Flow",
@@ -2135,9 +2135,9 @@
         ]
     },
     {
-        "recipe": "Incanter's Garb",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Robe of Life",
+        "recipe_name": "Incanter's Garb",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Robe of Life",
         "ingredients": [
             "Saint's Garb",
             "Trauer Tarot",
@@ -2146,9 +2146,9 @@
         ]
     },
     {
-        "recipe": "Liquid Armor",
-        "location": "Resource Center - Unorganized Zone",
-        "itemName": "Rejuvenator Skin",
+        "recipe_name": "Liquid Armor",
+        "recipe_location": "Resource Center - Unorganized Zone",
+        "item_name": "Rejuvenator Skin",
         "ingredients": [
             "Elixir",
             "Blood Clay",
@@ -2157,9 +2157,9 @@
         ]
     },
     {
-        "recipe": "Magic Ring",
-        "location": "Automatically obtain",
-        "itemName": "Flame Ring",
+        "recipe_name": "Magic Ring",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Flame Ring",
         "ingredients": [
             "Canone Rock/Canone Crystal/Auto Igniter/Plosion/Flame Ring/Fires of Hell",
             "Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook",
@@ -2168,9 +2168,9 @@
         ]
     },
     {
-        "recipe": "Magic Ring",
-        "location": "Automatically obtain",
-        "itemName": "Ice Ring",
+        "recipe_name": "Magic Ring",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Ice Ring",
         "ingredients": [
             "Glacier Stone/Glacier Crystal/Coolster/Long Ice Cream/Ice Ring/Diamond Dust",
             "Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook",
@@ -2179,9 +2179,9 @@
         ]
     },
     {
-        "recipe": "Magic Ring",
-        "location": "Automatically obtain",
-        "itemName": "Thunder Ring",
+        "recipe_name": "Magic Ring",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Thunder Ring",
         "ingredients": [
             "Thunder Stone/Thunder Crystal/Voidspark Pipe/Lightning Rod/Thunder Ring/Electric Elect",
             "Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook",
@@ -2190,9 +2190,9 @@
         ]
     },
     {
-        "recipe": "Pot of Flames",
-        "location": "Campus Grounds (Chapter 10)",
-        "itemName": "Fires of Hell",
+        "recipe_name": "Pot of Flames",
+        "recipe_location": "Campus Grounds (Chapter 10)",
+        "item_name": "Fires of Hell",
         "ingredients": [
             "Auto Igniter/Aroma Material",
             "Fortune Ring/Flame Ring/Tera Flame/Stone of Alectoria",
@@ -2200,9 +2200,9 @@
         ]
     },
     {
-        "recipe": "Freezing Device",
-        "location": "Campus Grounds (Chapter 10)",
-        "itemName": "Diamond Dust",
+        "recipe_name": "Freezing Device",
+        "recipe_location": "Campus Grounds (Chapter 10)",
+        "item_name": "Diamond Dust",
         "ingredients": [
             "Coolster/Aroma Material",
             "Brilliant Stone/Ice Ring/Bobomb Ice/Stone of Alectoria",
@@ -2210,9 +2210,9 @@
         ]
     },
     {
-        "recipe": "Electric Machine",
-        "location": "Campus Grounds (Chapter 10)",
-        "itemName": "Electric Elect",
+        "recipe_name": "Electric Machine",
+        "recipe_location": "Campus Grounds (Chapter 10)",
+        "item_name": "Electric Elect",
         "ingredients": [
             "Voidspark Pipe/Aroma Material",
             "Gearbox/Thunder Ring/Thunder Rod/Stone of Alectoria",
@@ -2220,9 +2220,9 @@
         ]
     },
     {
-        "recipe": "Gloves",
-        "location": "Campus Grounds (Chapter 2)",
-        "itemName": "Puppy Paw Gloves",
+        "recipe_name": "Gloves",
+        "recipe_location": "Campus Grounds (Chapter 2)",
+        "item_name": "Puppy Paw Gloves",
         "ingredients": [
             "Tuft/Knot/Shiny Moustache/Puppy Paw Flan",
             "Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -2230,9 +2230,9 @@
         ]
     },
     {
-        "recipe": "Gloves",
-        "location": "Campus Grounds (Chapter 2)",
-        "itemName": "Thorn Gauntlet",
+        "recipe_name": "Gloves",
+        "recipe_location": "Campus Grounds (Chapter 2)",
+        "item_name": "Thorn Gauntlet",
         "ingredients": [
             "Cyprus Copper",
             "Pleather Cloth/Nicro Cloth/Puppy Paw Gloves",
@@ -2240,9 +2240,9 @@
         ]
     },
     {
-        "recipe": "Gloves",
-        "location": "Campus Grounds (Chapter 2)",
-        "itemName": "Gloves of Artorius",
+        "recipe_name": "Gloves",
+        "recipe_location": "Campus Grounds (Chapter 2)",
+        "item_name": "Gloves of Artorius",
         "ingredients": [
             "Legien Steel",
             "Pleather Cloth/Nicro Cloth/Puppy Paw Gloves",
@@ -2250,9 +2250,9 @@
         ]
     },
     {
-        "recipe": "Gloves",
-        "location": "Campus Grounds (Chapter 2)",
-        "itemName": "Scale Gauntlet",
+        "recipe_name": "Gloves",
+        "recipe_location": "Campus Grounds (Chapter 2)",
+        "item_name": "Scale Gauntlet",
         "ingredients": [
             "Dragon Scale/Scale Chips",
             "Gloves of Artorius/Thorn Gauntlet",
@@ -2261,9 +2261,9 @@
         ]
     },
     {
-        "recipe": "A Small Wand",
-        "location": "Resource Center Dungeon",
-        "itemName": "Asclepius",
+        "recipe_name": "A Small Wand",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Asclepius",
         "ingredients": [
             "Woodchip/Giant Woodchip/Wooden Club",
             "Beast Fang",
@@ -2271,9 +2271,9 @@
         ]
     },
     {
-        "recipe": "Stone of Sealing",
-        "location": "Wind's Corridor - Abyss, or Infirmary (Chapter 8)",
-        "itemName": "Stone of Alectoria",
+        "recipe_name": "Stone of Sealing",
+        "recipe_location": "Wind's Corridor - Abyss, or Infirmary (Chapter 8)",
+        "item_name": "Stone of Alectoria",
         "ingredients": [
             "Canone Crystal/Glacier Crystal/Thunder Crystal/Aroma Material",
             "Blue Steel/White Steel",
@@ -2282,9 +2282,9 @@
         ]
     },
     {
-        "recipe": "Alchemy Symbol",
-        "location": "Student Store (Chapter 8)",
-        "itemName": "Symbol of Uroborus",
+        "recipe_name": "Alchemy Symbol",
+        "recipe_location": "Student Store (Chapter 8)",
+        "item_name": "Symbol of Uroborus",
         "ingredients": [
             "Dragon Bone/Dragon Scale/Dragon Tongue",
             "Aslepius/Stone of Alectoria",
@@ -2293,9 +2293,9 @@
         ]
     },
     {
-        "recipe": "Doll",
-        "location": "The Heights",
-        "itemName": "Straw Doll",
+        "recipe_name": "Doll",
+        "recipe_location": "The Heights",
+        "item_name": "Straw Doll",
         "ingredients": [
             "Nicro Cloth/Dietary Fiber",
             "Burdock Straight/Burdock Curve/Worn Weapon",
@@ -2304,9 +2304,9 @@
         ]
     },
     {
-        "recipe": "Doll",
-        "location": "The Heights",
-        "itemName": "Vasilissa's Doll",
+        "recipe_name": "Doll",
+        "recipe_location": "The Heights",
+        "item_name": "Vasilissa's Doll",
         "ingredients": [
             "Brownie Mask",
             "Straw Doll/Doll's Claw",
@@ -2315,9 +2315,9 @@
         ]
     },
     {
-        "recipe": "Wing of an Angel",
-        "location": "Resource Center Dungeon",
-        "itemName": "Angel Wing",
+        "recipe_name": "Wing of an Angel",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Angel Wing",
         "ingredients": [
             "Angel's Slip",
             "Crimson Feather/White Feather",
@@ -2326,9 +2326,9 @@
         ]
     },
     {
-        "recipe": "Wing of an Angel",
-        "location": "Resource Center Dungeon",
-        "itemName": "Fallen Wing",
+        "recipe_name": "Wing of an Angel",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Fallen Wing",
         "ingredients": [
             "Devil's Panties",
             "Black Feather",
@@ -2337,9 +2337,9 @@
         ]
     },
     {
-        "recipe": "Wing of an Angel",
-        "location": "Resource Center Dungeon",
-        "itemName": "Archangel Wings",
+        "recipe_name": "Wing of an Angel",
+        "recipe_location": "Resource Center Dungeon",
+        "item_name": "Archangel Wings",
         "ingredients": [
             "Angel Wing",
             "Rainbow Feather",
@@ -2348,9 +2348,9 @@
         ]
     },
     {
-        "recipe": "Power Girdle",
-        "location": "Clocktower, or Infirmary (Chapter 10)",
-        "itemName": "Megingjorz",
+        "recipe_name": "Power Girdle",
+        "recipe_location": "Clocktower, or Infirmary (Chapter 10)",
+        "item_name": "Megingjorz",
         "ingredients": [
             "Formell Fabric",
             "Cait Sith's Collar/Pretty Ribbon/Brisingamen",
@@ -2359,20 +2359,20 @@
         ]
     },
     {
-        "recipe": "Green Tablet",
-        "location": "Automatically obtain",
-        "itemName": "Jade Tablet",
+        "recipe_name": "Green Tablet",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Jade Tablet",
         "ingredients": [
             "White Steel/Altena Ingot",
             "Flame Ring/Ice Ring/Thunder Ring/Fires of Hell/Diamond Dust/Electric Elect",
-            "Trauer Card/Flonne's Charm/Type Solomon",
+            "Trauer Tarot/Flonne's Charm/Type Solomon",
             "Aroma Material/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core"
         ]
     },
     {
-        "recipe": "Hard Shield",
-        "location": "Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)",
-        "itemName": "Shield of Ajax",
+        "recipe_name": "Hard Shield",
+        "recipe_location": "Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)",
+        "item_name": "Shield of Ajax",
         "ingredients": [
             "Divine Shield",
             "Blue Steel/White Steel/Altena Ingot",
@@ -2381,9 +2381,9 @@
         ]
     },
     {
-        "recipe": "Hard Shield",
-        "location": "Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)",
-        "itemName": "Mirror of Gargol",
+        "recipe_name": "Hard Shield",
+        "recipe_location": "Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)",
+        "item_name": "Mirror of Gargol",
         "ingredients": [
             "Misty Curtain",
             "Blue Steel/White Steel/Altena Ingot",
@@ -2392,9 +2392,9 @@
         ]
     },
     {
-        "recipe": "Fishbot",
-        "location": "Cafeteria (Chapter 8)",
-        "itemName": "\"Kaiser\": Aqua Hero",
+        "recipe_name": "Fishbot",
+        "recipe_location": "Cafeteria (Chapter 8)",
+        "item_name": "Kaiser: Aqua Hero",
         "ingredients": [
             "Sharkgill",
             "Masou/Trout/Chinook/King Tuna/Queen Tuna",
@@ -2403,9 +2403,9 @@
         ]
     },
     {
-        "recipe": "The Gem of Alchemy",
-        "location": "Automatically obtain",
-        "itemName": "Aroma Material",
+        "recipe_name": "The Gem of Alchemy",
+        "recipe_location": "Automatically obtain",
+        "item_name": "Aroma Material",
         "ingredients": [
             "Brilliant Stone",
             "Pentagle",
@@ -2414,9 +2414,9 @@
         ]
     },
     {
-        "recipe": "Wallet",
-        "location": "Millenium Tree, or Infirmary (Chapter 6)",
-        "itemName": "Toad Mouth",
+        "recipe_name": "Wallet",
+        "recipe_location": "Millenium Tree, or Infirmary (Chapter 6)",
+        "item_name": "Toad Mouth",
         "ingredients": [
             "Silky Cloth/Formell Fabric",
             "Legien Steel/Cyprus Copper/Preuve Lead",
@@ -2425,18 +2425,18 @@
         ]
     },
     {
-        "recipe": "Handprint",
-        "location": "Clocktower, or Infirmary (Chapter 10)",
-        "itemName": "Philosopher's Hand",
+        "recipe_name": "Handprint",
+        "recipe_location": "Clocktower, or Infirmary (Chapter 10)",
+        "item_name": "Philosopher's Hand",
         "ingredients": [
             "Puppy Paw Gloves/Thorn Gauntlet/Gloves of Artorius/Scale Gauntlet",
             "Liquid Metal/Magical Clay/Blood Clay/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core"
         ]
     },
     {
-        "recipe": "Glasses",
-        "location": "Resource Center Dungeon/Vendor",
-        "itemName": "Glasses of Death",
+        "recipe_name": "Glasses",
+        "recipe_location": "Resource Center Dungeon/Vendor",
+        "item_name": "Glasses of Death",
         "ingredients": [
             "Chrome Crystal/Gravity Stone",
             "Black Liquid/Black Powder",
@@ -2445,9 +2445,9 @@
         ]
     },
     {
-        "recipe": "Head Gear",
-        "location": "Infirmary (Chapter 4)",
-        "itemName": "Feather Charm",
+        "recipe_name": "Head Gear",
+        "recipe_location": "Infirmary (Chapter 4)",
+        "item_name": "Feather Charm",
         "ingredients": [
             "Angel Wing/Rainbow Feather/Crimson Feather/White Feather/Black Feather",
             "Dietary Fiber/Silver Thread/Clear Fiber",
@@ -2455,9 +2455,9 @@
         ]
     },
     {
-        "recipe": "Head Gear",
-        "location": "Infirmary (Chapter 4)",
-        "itemName": "Kitty Ears",
+        "recipe_name": "Head Gear",
+        "recipe_location": "Infirmary (Chapter 4)",
+        "item_name": "Kitty Ears",
         "ingredients": [
             "Beast Fang/Tuft/Knot/Shiny Moustache",
             "Silky Cloth/Formell Fabric",
@@ -2465,9 +2465,9 @@
         ]
     },
     {
-        "recipe": "Head Gear",
-        "location": "Infirmary (Chapter 4)",
-        "itemName": "Bunny Ears",
+        "recipe_name": "Head Gear",
+        "recipe_location": "Infirmary (Chapter 4)",
+        "item_name": "Bunny Ears",
         "ingredients": [
             "Kitty Ears",
             "Carrotato",
@@ -2475,9 +2475,9 @@
         ]
     },
     {
-        "recipe": "Fancy Hat",
-        "location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
-        "itemName": "Tangerine Hat",
+        "recipe_name": "Fancy Hat",
+        "recipe_location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
+        "item_name": "Tangerine Hat",
         "ingredients": [
             "Tangerine/Sunrise Orange/Mandarin Orange/Orange Bomb/Big Orange Bomb",
             "Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -2485,9 +2485,9 @@
         ]
     },
     {
-        "recipe": "Fancy Hat",
-        "location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
-        "itemName": "Lando Cap",
+        "recipe_name": "Fancy Hat",
+        "recipe_location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
+        "item_name": "Lando Cap",
         "ingredients": [
             "Lando/X-Lando/Sweet Lando/Lando Bomb/Big Lando Bomb",
             "Silky Cloth/Formell Fabric",
@@ -2495,9 +2495,9 @@
         ]
     },
     {
-        "recipe": "Fancy Hat",
-        "location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
-        "itemName": "Yubana Cover",
+        "recipe_name": "Fancy Hat",
+        "recipe_location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
+        "item_name": "Yubana Cover",
         "ingredients": [
             "Yubana Fruit/Dried Yubana/Yubana Flower",
             "Brownie Mask/Vasilissa's Doll",
@@ -2505,9 +2505,9 @@
         ]
     },
     {
-        "recipe": "Fancy Hat",
-        "location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
-        "itemName": "Afrotic Wig",
+        "recipe_name": "Fancy Hat",
+        "recipe_location": "Complete Job no. 043, or Campus Grounds (Chapter 4)",
+        "item_name": "Afrotic Wig",
         "ingredients": [
             "Flame/Tera Flame",
             "Knot",
@@ -2516,9 +2516,9 @@
         ]
     },
     {
-        "recipe": "Boots",
-        "location": "Mana Ruins - Interior Heights, or Infirmary (Chapter 7)",
-        "itemName": "Winged Boots",
+        "recipe_name": "Boots",
+        "recipe_location": "Mana Ruins - Interior Heights, or Infirmary (Chapter 7)",
+        "item_name": "Winged Boots",
         "ingredients": [
             "Angel Wing/Archangel Wing/Fallen Wing",
             "Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -2527,9 +2527,9 @@
         ]
     },
     {
-        "recipe": "Boots",
-        "location": "Mana Ruins - Interior Heights, or Infirmary (Chapter 7)",
-        "itemName": "Flying Fish Boots",
+        "recipe_name": "Boots",
+        "recipe_location": "Mana Ruins - Interior Heights, or Infirmary (Chapter 7)",
+        "item_name": "Flying Fish Boots",
         "ingredients": [
             "Chinook/King Tuna/Queen Tuna/Sharkgill/Sharkgill Sword",
             "Pleather Cloth/Silky Cloth/Formell Fabric",
@@ -2538,9 +2538,9 @@
         ]
     },
     {
-        "recipe": "Mystery Medicine",
-        "location": "Complete Nikki's 2nd Character Quest",
-        "itemName": "Loveless Potion",
+        "recipe_name": "Mystery Medicine",
+        "recipe_location": "Complete Nikki's 2nd Character Quest",
+        "item_name": "Loveless Potion",
         "ingredients": [
             "Puniball/Puni Gummi/Soul of Darkness",
             "Heal Jar/Cure Jar/120% Fruit/Veggielicious/Veggie Purple",
@@ -2549,9 +2549,9 @@
         ]
     },
     {
-        "recipe": "Synthesizer's Text",
-        "location": "Complete Synthesis VII Equipment Assignment",
-        "itemName": "Flask of Galileo",
+        "recipe_name": "Synthesizer's Text",
+        "recipe_location": "Complete Synthesis VII Equipment Assignment",
+        "item_name": "Flask of Galileo",
         "ingredients": [
             "Rusty Flask",
             "Polish Powder"
