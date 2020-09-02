@@ -124,6 +124,7 @@ def build_recipes():
             item['Recipe Location'] = r['recipe_location']
             item['Ingredients'] = r['ingredients']
             stream.write(htmlify(item, headers) + '\n')
+        stream.write('</table></div>')
 
     with open('x.txt', 'w+') as f:
         stream.seek(0)
