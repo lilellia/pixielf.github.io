@@ -8,14 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="../favicon.png" type="image/x-icon">
-    <script src="dataScript.js"></script>
+    <script src="../collapsible.js"></script>
 
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
     <h1>Recipe Data</h1>
 
-    <table>
+    <button type="button" class="collapsible">Usable Items</button>
+    <div class="content">
+        <table>
         <tr>
             <th style="width: 12%;">Item Name</th>
             <th style="width: 12%;">Recipe Name</th>
@@ -3844,10 +3846,8 @@
                 </p>
             </td>
         </tr>
-
-
-
     </table>
+    </div>
 </body>
 
 </html>
