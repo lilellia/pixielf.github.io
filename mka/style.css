@@ -60,6 +60,8 @@ div.trophy-list {
 }
 
 div.trophy {
+  display: flex;
+  align-items: center;
   margin-left: 12px;
   padding: 4px;
   color: #333;
