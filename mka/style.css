@@ -52,16 +52,15 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-#trophy-list {
+div.trophy-list {
   display: grid;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  grid-template-columns: auto auto auto;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto;
 }
 
 div.trophy {
-  margin: 3px;
-  padding: 3px;
+  padding: 8px;
 }
 
 div.trophy.platinum {
@@ -81,7 +80,7 @@ div.trophy.bronze {
 }
 
 .trophy-name {
-  font-size: 125%;
+  font-size: 150%;
   font-style: bold;
 }
 
