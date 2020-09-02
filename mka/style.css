@@ -127,3 +127,7 @@ div.trophy.bronze {
 .detail {
   font-size: 80%; font-style: italic;
 }
+
+img.icon {
+  margin-right: 2%;
+}
