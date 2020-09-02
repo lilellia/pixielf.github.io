@@ -245,12 +245,15 @@ const RECIPES = [
 ]
 
 
-/** getRecipeIndexFromItemName(x)
+/** getRecipeFromSelect()
  * 
- * From the given name of the item (e.g., "Puppy Paw Gloves"), return the
- * recipe that describes this item.
+ * Reads the name of the item from the selection box, then returns the recipe
+ * corresponding to that item.
 */
-function getRecipeFromItemName(itemName) {
+function getRecipeFromSelect() {
+    let el = document.getElementById("recipeItemSelect");
+    let itemName = el.options[el.selectedIndex].text;
+    console.log(itemName);
     for(let i = 0; i < RECIPES.length; i++) {
         if (RECIPES[i].itemName == itemName) {
             console.log(RECIPES[i]);
