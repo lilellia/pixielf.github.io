@@ -268,16 +268,22 @@ function getRecipeFromSelect() {
         }
     }
 
-    // set recipe name
-    document.getElementById("recipeName").innerHTML = "<span>" + recipe.recipe + "</span>";
+    let nameElement = document.getElementById("recipeName");
+    let locationElement = document.getElementById("recipeLocation");
+    let ingredientElement = document.getElementById("recipeIngredients");
 
-    // set recipe location
-    document.getElementById("recipeLocation").innerHTML = "<span>" + recipe.location + "</span>";
+    if (recipe === undefined) {
+        // reset all of the detail elements
+        nameElement.innerHTML = "<span></span>";
+        locationElement.innerHTML = "<span></span>";
+        ingredientElement.innerHTML = "<span></span>";
+    } else {
+        // update the detail elements to match
+        nameElement.innerHTML = "<span>" + recipe.recipe + "</span>";
+        locationElement.innerHTML = "<span>" + recipe.location + "</span>";
 
-    // set ingredients
-    let html = "<ul>";
-    for (let j = 0; j < recipe.ingredients.length; j++) {
-        html += "<li>" + recipe.ingredients[j] + "</li>";
+        let ingredients = "";
+        for (let j = 0; j < recipe.ingredients.length; j++) { ingredients += "<li>" + recipe.ingredients[j] + "</li>"; }
+        ingredientElement.innerHTML = "<ul>" + ingredients + "</ul>";
     }
-    document.getElementById("recipeIngredients").innerHTML = html;
 }
