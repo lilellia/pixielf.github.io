@@ -12,6 +12,11 @@ h1 {
     font-style: italic;
 }
 
+ul#entries {
+  list-style-type: none;
+  padding: 10px;
+}
+
 a:link, a:visited {
   color: white;
 }
