@@ -35,7 +35,7 @@ def build_recipes():
     with open('raw_data/recipe-data.json', 'r') as f:
         recipes = json.load(f)
 
-    for category in ('Usable', 'Material', 'Weapons', 'Armor', 'Accessory', 'Key'):
+    for category in ('Usable', 'Material', 'Weapon', 'Armor', 'Accessory', 'Key'):
         stream.write(f'''
     <button type="button" class="collapsible">{category} Items</button>
     <div class="content">
