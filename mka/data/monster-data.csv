@@ -1,0 +1,219 @@
+,Name,HP,AP,Cole,Species,Traits,Protections,Location,Spoil,Snack,Heart
+0,Mini Puni,39,5,2,Puni,Weak against Fire,"Sleep, Curse",Wind's Corridor (Both Areas),Puniball,Puni Gummi,0
+1,Puni,64,12,14,Puni,Weak against Fire,"Sleep, Curse",Wind's Corridor (Both Areas),Puniball,Puni Gummi,0
+2,Red Puni,138,18,13,Puni,Weak against Fire,"Sleep, Curse",The Heights,Puniball,Puni Gummi,0
+3,Healy Puni,205,35,48,Puni,Weak against Fire,"Sleep, Curse","Resource Center, Mana Ruins - Interior Heights,Dragon's Grave - Bone Grove",Puniball,Puni Gummi,0
+4,Zombie Puni,194,30,20,Undead,Weak against Fire,"Poison, Sleep, Curse","Resource Center, Dragon's Grave - Bone Grove",Puniball,Puni Gummi,0
+5,Sludge Puni,582,90,161,Undead,Weak against Fire,"Poison, Sleep, Curse",Old Schoolhouse - Closed Area,Monster Bone,Puni Gummi,0
+6,Gold Puni,487,70,44,Puni,Weak against Fire,"Sleep, Curse",Mana Ruins - Interior Heights,Puniball,Puni Gummi,0
+7,Dark Puni,905,100,29,Puni,Weak against Fire,"Sleep, Curse",Old Schoolhouse - Closed Area,Puniball,99% Chaos Choco,0
+8,Giant Puni,4072,140,311,Puni,"Weak against Fire, Strong against Physical Attacks","Sleep, Curse","Job 071, Heart's Prison",Puniball,99% Chaos Choco,0
+9,Kobold,137,15,22,Beast,Weak against Lightning,None,"Job 062, The Heights",Tuft,Puppy Paw Flan,0
+10,Kobold Mage,145,25,18,Beast,Weak against Lightning,None,The Heights,Tuft,Puppy Paw Flan,6
+11,Kobold Fighter,327,30,50,Beast,Weak against Lightning,None,"Job 070, The Millennium Tree",Knot,Puppy Paw Flan,0
+12,Kobold Priest,327,30,60,Beast,Weak against Lightning,None,"Job 070, The Millenium Tree",Knot,Puppy Paw Flan,12
+13,Kobold Guard,1078,70,81,Beast,"Weak against Lightning, Strong against Fire",None,"Job 070, God's Scar",Knot,Puppy Paw Flan,0
+14,Kobold Sergeant,2478,90,32,Beast,Weak against Lightning,None,"Job 070, God's Scar",Shiny Moustache,Puppy Paw Flan,20
+15,Kobold Elite,1358,75,176,Beast,Weak against Lightning,None,"Job 070, God's Scar",Shiny Moustache,Puppy Paw Flan,24
+16,Kobold Ninja,5385,150,21,Beast,"Weak against Lightning, Strong against Physical Attack",Poison,"Job 052, Job 070, Job 071, Resource Center - Unorganized Zone",Shiny Moustache,99% Chaos Choco,26
+17,Kobold Kunoichi,5498,145,156,Beast,"Weak against Lightning, Strong against Fire and Ice",Poison,"Job 052, Job 070, Resource Center 0 Unorganized Zone",Shiny Moustache,Puppy Paw Flan,30
+18,Kobold Savior,2842,70,154,Beast,None,None,God's Scar,Shiny Moustache,Puppy Paw Flan,30
+19,Lizard,472,30,61,Dragon,Weak against Ice,Poison,"Dragon's Grave - Bone Grove, Heaven's Road",Beast Fang,Monster Cookie,0
+20,Lizard Warrior,624,40,47,Dragon,Weak against Ice,Poison,Dragon's Grave - Bone Grove,Beast Fang,Monster Cookie,0
+21,Lizard Shaman,560,55,46,Lizard,Weak against Ice,Poison,Dragon's Grave - Bone Grove,Soul of Darkness,Monster Cookie,0
+22,Lizard Lord,1330,75,31,Dragon,Weak against Ice,Poison,"Dragon's Grave - Heaven's Road, Cave of Origin",Red Dirt,Scale Chips,0
+23,Lizard Wizard,500,50,30,Dragon,Weak against Ice,Poison,"Dragon's Grave - Heaven's Road, Cave of Origin",Red Dirt,Scale Chips,0
+24,Dragonewt,8132,140,20,Dragon,Strong against Ice,None,"Job 071, Dragon's Grave - Cave of Origin",Dragon Tongue,Scale Chips,0
+25,Bear,656,25,61,Beast,Weak against Fire,None,"Job 062, The Living Forest",Wild Meat,Monster Cookie,8
+26,Owlbear,692,30,13,Beast,Weak against Fire,None,Wind's Corridor (Both Areas),Wild Meat,Monster Cookie,10
+27,Jagged Bear,3370,70,20,Beast,"Weak against Fire, Strong against Ice",None,Wind's Corridor - Abyss,Wild Meat,Puppy Paw Flan,20
+28,Nightwalker,6080,130,23,Beast,Strong against Magic Attacks,None,"Job 071, Heart's Prison",Wild Meant,Long Ice Cream,30
+29,Bear Cub,164,15,6,Beast,Weak against Fire,None,"Job 062, The Living Forest",Wild Meat,Monster Cookie,0
+30,Tiger,110,23,44,Beast,Weak against Ice,Slow,"Job 062, Wind's Corridor (Both Areas)",Beast Fang,Puppy Paw Flan,5
+31,Leopard,400,30,51,Beast,Weak against Ice,Slow,The Heights,Beast Fang,Puppy Paw Flan,8
+32,Panther,1391,80,54,Beast,Weak against Ice,Slow,God's Scar,Beast Fang,Puppy Paw Flan,18
+33,Jagged Tiger,961,75,62,Beast,"Weak against Fire, Strong against Ice",Slow,Wind's Corridor - Abyss,Monster Bone,Puppy Paw Flan,24
+34,Koalaria,84,15,7,Beast,Weak against Fire,None,The Living Forest,Woodchip,Puppy Paw Flan,6
+35,Magikoalaria,291,30,43,Beast,Weak against Fire,None,"Dragon's Grave - Bone Grove, Millenium Tree",Giant Woodchip,Puppy Paw Flan,12
+36,Mountkoalaria,363,30,40,Beast,Weak against Fire,None,Dragon's Grave - Heaven's Road,Giant Woodchip,Puppy Paw Flan,18
+37,Airplant,94,14,12,Undead,Weak against Fire,Sleep,Old Schoolhouse,Blue Petal,Monster Cookie,0
+38,Morninglory,232,25,17,Undead,Weak against Ice,Sleep,The Heights,Blue Petal,Candy Eye,0
+39,Trumpet Lily,162,16,12,Undead,Weak against Fire,Sleep,Wind's Corridor (Both Areas),Red Petal,Monster Cookie,0
+40,Moon Flower,523,30,40,Demon,Weak against Ice,Sleep,"Job 071, Millenium Tree",Glowing Petal,Candy Eye,0
+41,Leaf Sprite,259,30,40,Spirit,Weak against Fire,None,"Job 068, Mana Ruins - Outskirts, Dragon's Grave - Bone Grove",Woodchip,Candy Eye,0
+42,Jewel Sprite,2437,110,60,Spirit,"Weak against Lightning, Strong against Magical Attacks",None,"Resource Center - Unorganized Zone, Heart's Prison",Pendelook,Meringue Whip,0
+43,Sword Sprite,633,60,28,Spirit,Weak against Lightning,None,"Job 068, Mana Ruins - Interior Heights",Worn Weapon,Vanilla Syrup,0
+44,Dryad,517,45,15,Spirit,"Weak against Fire, Strong against Physical Attacks",None,"Job 068, Millenium Tree",Angel's Slip,Candy Eye,0
+45,Orb,1546,80,427,Spirit,"Weak against Lightning, Strong against Magical Attacks",None,"Job 071, Mana Ruins - Bottom Center",Pendelook,Vanilla Syrup,0
+46,Blade Sprite,1492,75,35,Spirit,None,None,"Job 049, Job 068, Clocktower",Worn Weapon,Vanilla Syrup,0
+47,Death Sprite,3237,155,94,Spirit,Strong against Physical and Magical Attacks,"Poison, Sleep, Cure","Resource Center - Unorganized Zone, Heart's Prison",Soul of Darkness,Meringue Whip,0
+48,Gem Sprite,170,30,78,,Strong against Physical and Magical Attacks,None,Resource Center,Pendelook,Candy Eye,0
+49,Clay Puppet,104,25,39,,Weak against Lightning,Seal,Old Schoolhouse,Gear,Monster Cookie,0
+50,Pot Spirit,958,70,91,,Weak against Lightning,Seal,Clocktower,Gear,Rocks rock!,0
+51,Stone Puppet,1469,80,45,,Strong against Physical and Magical Attacks,Seal,"Job 071, Mana Ruins - Bottom Center",Grand Gear,Rocks rock!,0
+52,Kettle Spirit,905,60,27,,"Weak against Lightning, Strong against Magical Attacks",Seal,Old Schoolhouse - Closed Area,Tiny Gear,Rocks rock!,0
+53,Kamikaze Doll,102,12,8,,Weak against Fire,None,"Job 042, Job 070, Old Schoolhouse",Worn Armor,Monster Cookie,0
+54,Kamikaze Doll G,1707,80,228,,Weak against Fire,None,"Job 070, Mana Ruins - Bottom Center",Worn Armor,Long Ice Cream,0
+55,Birdhorse Rider,1324,70,22,,None,None,"Job 070, God's Scar",Crimson Feather,Long Ice Cream,0
+56,1 Inch Brownie,1419,80,73,,None,None,"Job 070, Wind's Corridor - Abyss",Brownie Mask,Long Ice Cream,0
+57,Brownie,210,25,14,,None,None,"Job 070, The Heights",Brownie Mask,Monster Cookie,0
+58,Golden Pig,2891,80,46,Beast,Weak against Ice,None,God's Scar,Golden Meat,Long Ice Cream,25
+59,Sword Geist,480,30,11,Undead,Weak against Fire,"Sleep, Curse","Job 044, Old Schoolhouse, Clocktower",Worn Weapon,Monster Cookie,0
+60,Death Sword,1593,75,29,Undead,"Weak against Fire, Strong against Lightning","Sleep, Curse",Clocktower,Worn Weapon,Long Ice Cream,0
+61,Shield Geist,426,20,16,Undead,Weak against Fire,"Sleep, Curse",Old Schoolhouse,Gear,Monster Cookie,0
+62,Gram Rider,5418,90,91,Undead,"Weak against Fire, Strong against Lightning","Poison, Sleep, Curse",Clocktower,Monster Bone,Long Ice Cream,0
+63,Stone Soldier,1246,30,91,,Weak against Lightning,"Poison, Sleep, Curse","Job 065, Mana Ruins - Outskirts",Legien Steel,Monster Cookie,0
+64,Steelarmor Soldier,3393,70,17,,Weak against Lightning,"Poison, Sleep, Curse","Job 065, Mana Ruins - Interior Heights",Cyprus Copper,Rocks rock!,0
+65,Obsidian Soldier,9318,80,53,,"Weak against Ice, Strong against Fire","Poison, Sleep, Curse",Mana Ruins - Bottom Center,Preuve Lead,Rocks rock!,0
+66,Alchemic Soldier,5050,75,212,,"Weak against Fire, Strong against Ice","Poison, Sleep, Curse",Old Schoolhouse - Closed Area,Elemia Silver,Rocks rock!,0
+67,Adamantine Soldier,9810,175,157,,Strong against Physical Attack,"Poison, Sleep, Curse",Heart's Prison,Chrome Crystal,Rocks rock!,0
+68,Stone Beast,450,30,22,,Weak again Lightning,"Poison, Sleep, Curse","Job 065, Mana Ruins - Outskirts",Legien Steel,Monster Cookie,0
+69,Steelarmor Beast,1503,45,26,,Weak against Lightning,"Poison, Sleep, Curse","Job 065, Mana Ruins - Interior Heights",Cyprus Copper,Rocks rock!,0
+70,Obsidian Beast,7741,90,31,,"Weak against Ice, Strong against Fire","Poison, Sleep, Curse",Mana Ruins - Bottom Center,Preuve Lead,Rocks  rock!,0
+71,Alchemic Beast,4130,80,27,,"Weak against Lightning, Strong against Ice","Poison, Sleep, Curse",Old Schoolhouse - Closed Area,Elemia Silver,Rocks rock!,0
+72,Stone Demon,609,30,17,,Weak against Lightning,"Poison, Sleep, Curse",Mana Ruins - Outskirts,Legien Steel,Monster Cookie,0
+73,Steelarmor Demon,2371,75,78,,"Weak against Lighting, Strong against Magical Attacks","Poison, Sleep, Curse","Job 065, Mana Ruins - Interior Heights",Cyprus Copper,Rocks rock!,0
+74,Obsidian Demon,5683,80,154,,"Weak against Ice, Strong against Magical Attacks","Poison, Sleep, Curse",Mana Ruins - Bottom Center,Preuve Lead,Rocks rock!,0
+75,Alchemic Demon,6872,170,406,,"Weak against Lightning, Strong against Magical Attacks","Poison, Sleep, Curse",Heart's Prison,Elemia Silver,99% Chaos Choco,0
+76,Fran Pfeil,2084,75,24,Dragon,"Weak against Ice, Strong against Fire",None,"Job 069, Dragon's Grave - Bone Grove",Dragon Bone,Scale Chips,0
+77,Buzzard Wyrm,2534,80,33,Dragon,"Weak against Fire, Strong against Ice",None,"Job 069, Dragon Grave - Heaven's Road, Cave of Origin",Dragon Scale,Scale Chips,0
+78,Necrohydra,10008,145,22,Undead,"Weak against Lightning, Strong against Fire and Ice","Poison, Curse",Dragon's Grave - Cave of Origin,Dragon Tongue,Scale Chips,0
+79,Power,462,30,27,Demon,"Weak against Lightning, Strong against Fire and Ice",Curse,"Job 067, Resource Center",Angel's Slip,Vanilla Syrup,0
+80,Marquis,584,30,36,Demon,"Strong against Fire, Ice, Lightning",Curse,"Job 067, Resource Center",Devil's Panties,Vanilla Syrup,0
+81,Dominion,3721,120,118,Demon,Strong against Fire,Seal,Resource Center - Unorganized Zone,Rainbow Feather,Vanilla Syrup,0
+82,Elder,1185,50,29,Demon,None,Seal,"Job 067, Wind's Corridor - Abyss,Mana Ruins - Interior Heights",Devil's Panties,Vanilla Syrup,0
+83,Duke,7941,145,101,Demon,None,Seal,"Resource Center - Unorganized Zone, Heart's Prison",Carbon Boulder,Meringue Whip,0
+84,Granduke,11704,180,24,Demon,None,Seal,Heart's Prison,Carbon Boulder,Meringue Whip,0
+85,Ancients,5746,85,39,Demon,Weak against Lightning,Seal,"Job 067, Old Schoolhouse - Closed Area",Dragon Scale,Meringue Whip,0
+86,Old Zero,5620,80,64,Spirit,None,Seal,"Job 067, Job 071, Mana Ruins - Bottom Center",Angel's Slip,Meringue Whip,0
+87,Arks,1097,55,93,Spirit,None,Seal,"Job 067, Mana Ruins - Interior Heights,Wind's Corridor - Abyss",White Feather,Vanilla Syrup,0
+88,Twinhead,683,50,127,Dragon,None,Poison,"Job 069, Dragon's Grave - Heaven's Road",Dragon Bone,Monster Cookie,0
+89,Jagged Hunter,911,45,25,Dragon,None,Poison,"Dragon's Grave - Bone Grove, Heaven's Road",Dragon Bone,Scale Chips,0
+90,Muterion,3528,70,64,Dragon,None,Poison,"Job 069, Dragon's Grave - Cave of Origin",Dragon Bone,Scale Chips,0
+91,Drake ,406,30,17,Dragon,None,Poison,"Job 069, Mana Ruins - Outskirts",Beast Fang,Monster Cookie,0
+92,Flare Drake,1437,70,78,Dragon,"Weak against Ice, Strong against Fire",Poison,"Job 069, Old Schoolhouse - Closed Area",Beast Fang,Monster Cookie,0
+93,Mini Drake,834,40,93,Dragon,"Weak against Ice, Strong against Fire",Poison,"Job 069, Old Schoolhouse - Closed Area",Beast Fang,Scale Chips,0
+94,Scar Breath,1072,60,93,Dragon,"Weak against Fire, Strong against Ice",Poison,"Job 069, Wind's Corridor - Abyss",Beast Fang,Scale Chips,0
+95,Scar Child,638,35,25,Dragon,"Weak against Fire, Strong against Ice",Poison,"Job 069, Wind's Corridor - Abyss",Beast Fang,Monster Cookie,0
+96,Gold Leo,1629,60,302,Beast,None,None,God's Scar,Beast Fang,Puppy Paw Flan,10
+97,Hellfang,1002,50,25,Beast,Strong against Fire,Slow,Millenium Tree,Monster Bone,Puppy Paw Flan,18
+98,Hellion,872,70,110,Beast,Strong against Fire,Slow,"Job 071, Mana Ruins - Interior Heights",Monster Bone,Puppy Paw Flan,16
+99,Harpy,243,40,3,Beast,Weak against Lightning,None,The Heights,Crimson Feather,Monster Cookie,6
+100,Shadow Girl,508,55,3,Beast,Weak against Lightning,None,None,"Job 054, Dragon's Grave - Bone Grove",Black Feather,12
+101,Blackwing,1818,90,3,Beast,None,Poison,"Job 054, Mana Ruins - Bottom Center",Black Feather,Monster Cookie,30
+102,Clione,273,30,42,Spirit,"Weak against Fire, Strong against Ice",None,"Dragon's Grave - Bone Grove, Millenium Tree",Glacier Stone,Candy Ice,0
+103,Ariel,78,15,7,Spirit,"Weak against Fire, Strong against Ice",None,The Living Forest,Glacier Stone,Candy Eye,0
+104,Amnes,849,70,44,Spirit,"Weak against Fire, Strong against Ice",None,Wind's Corridor - Abyss,Glacier Stone,Candy Eye,0
+105,Ruby Eye,321,30,24,Spirit,"Weak against Ice, Strong against Fire",None,Mana Ruins - Outskirts,Canone Rock,Candy Eye,0
+106,Evil Gaze,3672,145,54,Spirit,None,"Sleep, Curse","Job 071, Heart's Prison",Gravity Stone,99% Chaos Choco,0
+107,Necromancer,2594,100,64,,Strong against Magical Attacks,"Poison, Curse","Job 066, Resource Center - Unorganized Zone, Heart's Prison",Gravity Stone,99% Chaos Choco,0
+108,Visionist,192,30,45,,Strong against Magical Attacks,None,"Job 064, Resource Center",Thunder Stone,Vanilla Syrup,0
+109,Warlock,192,30,44,,Strong against Magical Attacks,None,"Job 065, Old Schoolhouse",Canone Rock,Vanilla Syrup,0
+110,Mistress,6493,175,95,,Strong against Magical Spells,"Poison, Sleep, Curse, Seal, Slow","Job 071, Heart's Prison",Super Komet,Meringue Whip,0
+111,Bone Dragon,885,70,62,Undead,Weak against Fire,"Poison, Sleep, Curse","Job 066, Clocktower",Dragon Bone,Scale Chips,0
+112,Feartail,2144,75,154,Undead,Weak against Fire and Ice,"Poison, Sleep, Curse","Job 069, Dragon's Grave - Cave of Origin",Dragon Bone,99% Chaos Choco,0
+113,Mandragora,135,15,12,Demon,Weak against Fire and Ice,Poison,The Living Forest,Woodchip,Monster Cookie,0
+114,Dunkelhite,544,30,40,Demon,Weak against Fire and Ice,Poison,Millenium Tree,Red Petal,Monster Cookie,0
+115,Lantern Fish,113,25,14,Demon,Weak against Lightning,None,The Heights,Masou,Taiyaki,0
+116,Tiny Death,336,45,36,Demon,Weak against Lightning,None,"Mana Ruins - Bottom Center, Dragon's Grave - Bone Grove",Blowfish-X,Taiyaki,0
+117,Delinquent (Guy),152,15,14,,None,None,"Job 064, Chapter 7, Flay Character Quest 5, Old Schoolhouse",,,0
+118,Berserk Student (Guy),1192,70,78,,None,None,"Job 064, Chapter 7, Clocktower",,,0
+119,Delinquent (Girl),124,20,12,,None,None,"Job 064, Chapter 7, Old Schoolhouse",,,0
+120,Berserk Student (Girl),1391,70,62,,None,None,"Job 064, Clocktower",,,0
+121,Gespenst,104,25,41,Undead,"Weak against Lightning, Strong against Ice","Poison, Curse","Job 066, Old Schoolhouse",Legien Steel,Monster Cookie,0
+122,Shade,822,70,62,Undead,"Weak against Lightning, Strong against Ice","Poison, Curse","Job 066, Old Schoolhouse - Closed Area",Soul of Darkness,Long Ice Cream,0
+123,Invisible,1141,75,2,Undead,"Weak against Lightning, Strong against Ice","Poison, Curse","Job 066, Clocktower",Chrome Crystal,Long Ice Cream,0
+124,Floater,236,30,43,Undead,Strong against Ice,"Poison, Curse","Job 066, Mana Ruins - Outskirts, Interior Heights",Soul of Darkness,Monster Cookie,0
+125,Dieg Spirit,167,30,45,Undead,Strong against Ice and Physical Attacks,"Poison, Curse","Job 066, Resource Center",Soul of Darkness,Monster Cookie,0
+126,Toy Ghost,1510,75,195,Undead,Strong against Ice and Physical Attacks,"Poison, Curse","Job 049, Dragon's Grave - Cave of Origin, Clocktower",Pendelook,Long Ice Cream,0
+127,Funny Lich,1847,100,154,Undead,Strong against Ice and Physical Attacks,"Poison, Sleep,  Curse, Seal","Dragon's Grave - Cave of Origin, Heart's Prison",Pendelook,99% Chaos Choco,0
+128,Trap Box,454,30,43,Demon,Weak against Lightning,Seal,Mana Ruins - Outskirts,Gear,Monster Cookie,0
+129,Fakereature,2008,70,35,Demon,Weak against Lightning,Seal,Mana Ruins - Bottom Center,Worn Weapon,Long Ice Cream,0
+130,Jewel Keeper,814,50,32,Demon,Weak against Lightning,Seal,Mana Ruins - Interior Heights,X-Heal,Long Ice Cream,0
+131,Watcher,534,45,127,Demon,None,Seal,"Mana Ruins - Interior Heights, Dragon's Grave - Heaven's Road",Monster Bone,Long Ice Cream,0
+132,Greed Gate,6799,145,54,Demon,None,"Poison, Sleep, Curse, Seal",Heart's Prison,Monster Bone,99% Chaos Choco,0
+133,Crag Mana,698,70,20,Spirit,None,Seal,"Job 068, Mana Ruins - Interior Heights",Carbon Boulder,Rocks rock!,0
+134,Frost Mana,1580,70,20,Spirit,"Weak against Fire, Strong against Ice",Seal,"Job 068, Mana Ruins - Bottom Center, God's Scar",Chrome Crystal,Vanilla Syrup,0
+135,Blaze Mana,3154,70,47,Spirit,"Weak against Ice, Strong against Fire",Seal,"Job 068, Mana Ruins - Bottom Center",Chrome Crystal,Vanilla Syrup,0
+136,Halo Mana,911,50,0,Spirit,Strong against Physical and Magical Attacks,"Poison, Sleep, Curse, Seal, Slow","Job 068, Mana Ruins - Interior Heights",Glowing Petal,Candy Ice,0
+137,Cyclone Mana,124,20,0,Spirit,"Weak against Fire, Strong against Lightning",Seal,Wind's Corridor (Both Areas),Thunder Stone,Candy Eye,0
+138,Dinosis,9493,800,0,Dragon,"Weak against Lightning, Strong against Fire and Ice","Poison, Curse",Dragon's Grave - Cave of Origin,Dragon's Tongue,Scale Chips,0
+139,Caterperider,1034,250,0,,None,Poison,Job 042,Preserved Food Recipe,,0
+140,Yulaurnie,1991,260,0,,Weak against Lightning,None,Job 43,Fancy Hat Recipe,,0
+141,Dark Bringer,2765,460,0,Undead,None,None,Job 044,Explosive Powder Recipe,,0
+142,Armed Brownie,7113,460,0,,Weak against Lightning,"Poison, Sleep, Curse, Seal",Job 045,Alchemy Pack Recipe,,0
+143,Stonewing Beast,6528,530,0,,Weak against Ice,"Poison, Sleep, Curse",Job 046,Exploding Uni Recipe,,0
+144,Scylla,7146,590,0,,Strong against Magical Attacks,"Sleep, Curse, Seal",Job 047,Uni the Great Recipe,,0
+145,Kobold Mama,4082,260,0,Beast,None,None,Job 048,,,40
+146,Kobold Boy,2954,200,0,Beast,None,None,Job 048,,,20
+147,Kobold Daddy,6592,350,0,Beast,None,None,Job 048,Legendary Fabric Recipe,,60
+148,Gear Sprite,6861,540,0,Spirit,"Weak against Fire and Lightning, Strong against Physical Attacks","Curse, Seal",Job 049,Vacuum Pipe Recipe,,0
+149,Dualblade Emperor,25172,800,0,,Weak against Ice,"Poison, Sleep, Slow",Job 050,Motorized Mechsword Recipe,,0
+150,Ninetails,22064,750,0,Beast,Strong against Magical Attacks,"Curse, Seal",Job 052,,,40
+151,Advocate,7341,560,0,,None,"Poison, Sleep, Curse, Seal, Slow",Job 053,,,0
+152,Silverius,12328,450,0,Dragon,"Weak against Fire, Strong against Ice",Slow,Job 043,,,0
+153,Goldenia,12328,450,0,Dragon,"Weak against Ice, Strong against Fire",Sleep,Job 053,,,0
+154,Snow Maiden,22160,700,0,Beast,"Weak against Fire, Strong against Ice","Poison, Sleep, Curse, Seal, Slow",Job 054,,,80
+155,Witch Lady,9936,350,0,,Strong against Magical Attacks,"Curse, Seal",Job 055,Sweets Paradise Recipe,,0
+156,Witch Sister,7524,350,0,,Strong against Magical Attacks,"Sleep, Seal",Job 055,,,0
+157,Witch Cousin,7495,350,0,,Strong against Magical Attacks,"Poison, Seal",Job 055,,,0
+158,Glass Dragon,13733,860,0,Dragon,"Weak against Fire, Strong against Magical Attacks","Poison, Sleep, Curse, Seal, Slow",Job 056,Alchemic Sword Recipe,,0
+159,Rowdy Leader,15178,650,0,Undead,Strong against Physical Attacks,"Poison, Sleep, Slow",Job 057,Musical Strings Recipe,,0
+160,Kiln People,4257,300,0,,None,"Poison, Sleep, Curse, Seal, Slow",Job 057,,,0
+161,Treasure King,7757,600,0,Demon,Weak against Lightning,"Poison, Sleep, Curse, Seal",Job 058,Twirly Thing Recipe,,0
+162,Puni Taro,1118,200,0,Puni,Weak against Fire,None,Job 059,Bonus Card Recipe,,0
+163,Puni Jiro,1012,200,0,Puni,Weak against Fire,None,Job 059,,,0
+164,Puni Kichi,1622,175,0,Puni,Weak against Fire,None,Job 059,,,0
+165,Echo,1203,190,0,,"Weak against Fire, Strong against Physical Attacks","Sleep, Seal",Job 060,Charge Hammer Recipe,,0
+166,Grove,947,190,0,,None,"Sleep, Seal",Job 060,,,0
+167,Amber,1038,190,0,,"Weak against Lightning, Strong against Magical Attacks","Sleep, Seal",Job 060,,,0
+168,Giant Golden Pig,1747,270,0,Beast,Weak against Ice,Slow,Job 061,Hardened Cloak Recipe,,50
+169,Living Bullet,1527,30,0,,None,"Poison, Sleep, Curse, Seal, Slow","Job 064, Clocktower",,,0
+170,Platinum Puni,241,90,0,Puni,Weak against Fire,None,Chapter 1,,,0
+171,Stone Watcher,2453,470,0,Spirit,"Weak against Fire, Ice, Lightning","Curse, Seal",Chapter 4,,,0
+172,Stone Emperor,1901,280,0,,Weak against Lightning,None,Combat III Chain Assignment,,,0
+173,Dunkelknight,12201,500,0,Demon,"Weak against Fire, Strong against Ice","Poison, Curse, Seal",Combat V Power Assignment,,,0
+174,Berserk Koalaria,22062,1000,0,Beast,Weak against Fuire,Seal,Combat VI Speed Assignment,,,70
+175,Silent Horn,19104,1900,0,Beast,"Strong against Fire, Ice, Lightning","Poision, Sleep, Curse, Seal",Combat VII Chain Assignment,,,90
+176,Poltergeist,4692,550,0,Spirit,Weak against Ice,"Curse, Seal",Sythesis VIII Attack Assigment,,,0
+177,Lonely Wraith,308,270,0,Undead,None,"Sleep, Seal",Pamela's Character Quest,,,0
+178,Drawnie,537,450,0,,None,None,Flay's Character Quest,,,0
+179,Flay,1899,360,0,,None,None,Flay's Character Quest,,,0
+180,Anna,393,240,0,,None,None,Anna's Character Quest,,,0
+181,Mucho,14365,280,0,,None,"Poison, Sleep, Curse, Seal, Slow",Muppy's Character Quest,,,0
+182,Lore Beast,1036,200,0,Beast,Weak against Ice,None,Chapter 1,Bomb Recipe,,20
+183,Roxis (1st Encounter),990,360,0,,None,Seal,Chapter 2,,,0
+184,Fallen Lover,2517,280,0,Undead,None,None,Chapter 3,Curing Medicine Recipe,,0
+185,Tony (1st and 3rd Encounter),1683,720,0,,None,Seal,"Chapter 4, Chapter 7",Radiating Disc Recipe,,0
+186,Renee (1st and 3rd Encounter),1909,600,0,,None,Sleep,"Chapter 4, Chapter 7",Magic Stake Cloth Recipe,,0
+187,Azureflame Mana (1st and 3rd Encounter),1670,280,0,Spirit,None,"Poison, Sleep, Curse","Chapter 4, Chapter 7",,,0
+188,Glowfire Mana,382,60,0,Spirit,"Weak against Ice, Strong against Fire","Poison, Sleep, Slow",Chapter 4,,,0
+189,Roxis (2nd Encounter),1312,600,0,,None,Seal,Chapter 4,,,0
+190,Grandwing Drake (1st Encounter),8480,1000,0,Dragon,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 5,Magic Ring Recipe,,0
+191,Tony (2nd Encounter),7266,840,0,,None,Seal,Chapter 6,Heavy Armor Recipe,,0
+192,Renee (2nd Encounter),5864,720,0,,None,Sleep,Chapter 6,Women's Armor Recipe,,0
+193,Azureflame Mana,5505,240,0,Spirit,None,"Poison, Sleep, Curse",Chapter 6,,,0
+194,Chimera,17702,1300,0,Beast,Weak against Fire,"Sleep, Curse, Seal",Chapter 8,SPD Fruit,,40
+195,Zweis Monde (1st Encounter),22869,1800,0,Spirit,Strong against Physical and Magical Attacks,"Poison, Sleep, Curse, Seal, Slow",Chapter 9,Green Tablet Recipe,,0
+196,Isolde (1st Encounter),25270,2400,0,,Strong against Lightning,"Poison, Sleep, Curse, Seal, Slow",Chapter 10,Ultimate Remedy Recipe,,0
+197,Isolde (2nd Encounter),31065,3000,0,,Strong against Lightning,"Poison, Sleep, Curse, Seal, Slow",Chapter 11,The Gem of Alchemy Recipe,,0
+198,Tony (4th Encounter),22957,535,0,,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,MGK Fruit,,0
+199,Renee (4th Encounter),17273,660,0,,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,ATK Fruit,,0
+200,Azureflame Mana (4th Encounter),24748,360,0,Spirit,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,,,0
+201,Grandwing Drake (2nd Encounter),38273,1440,0,Dragon,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,,,0
+202,Zweis Monde (2nd Encounter),33845,1320,0,Spirit,Strong against Physical and Magical Attacks,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,,,0
+203,Vayne,27590,0,0,,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,,,0
+204,Crazed Eye,61335,0,0,,None,"Poison, Sleep, Curse, Seal, Slow",Chapter 12,,,0
+205,Magus,33864,445,0,Undead,None,Seal,Bonus Dungeon,,,0
+206,Rockwell,22853,445,0,Dragon,"Weak against Ice, Strong against Physical Attacks",Seal,Bonus Dungeon,,,0
+207,Fatebringer,29293,445,0,Undead,Strong against Lightning,Seal,Bonus Dungeon,,,0
+208,Cobalt Scar,32202,840,0,Dragon,"Weak against Lightning, Strong against Ice","Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
+209,Abyss Keeper,58344,440,0,Beast,"Strong against Fire, Ice, Lightning","Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,80
+210,Secret Gangster,25346,430,0,,None,Seal,Bonus Dungeon,,,0
+211,Gangster Boss,48182,430,0,,None,Seal,Bonus Dungeon,,,0
+212,Uber Gangster,64779,440,0,,None,Seal,Bonus Dungeon,,,0
+213,Darlvero,49728,0,0,Demon,None,"Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
+214,Darkyula,54948,0,0,Demon,None,"Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
+215,Darcrowley,53716,0,0,Demon,None,"Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
+216,Pain,85800,1300,0,,None,"Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
+217,Darkash,65610,0,0,Demon,None,"Poison, Sleep, Curse, Seal, Slow",Bonus Dungeon,,,0
