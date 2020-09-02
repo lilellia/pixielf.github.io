@@ -253,7 +253,7 @@ const RECIPES = [
 function getRecipeFromItemName(itemName) {
     for(let i = 0; i < RECIPES.length; i++) {
         if (RECIPES[i].itemName == itemName) {
-            return RECIPES[i];
+            console.log(RECIPES[i]);
         }
     }
 

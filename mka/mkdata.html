@@ -1,16 +1,66 @@
 <html>
  <head>
   <title>
-   lilellia
+   Mana Khemia Data
   </title>
   <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
   <link href="style.css" rel="stylesheet"/>
+  <link rel="icon" href="../favicon.png" type="image/x-icon">
+  <script src="dataScript.js"></script> 
+  
  </head>
 
  <body style="font-family: Montserrat, sans-serif;">
     <h1>Recipe Data</h1>
-    <select id="recipeSelect">
+    <select id="recipeSelect" onchange="getRecipeFromItemName();">
+        <option value="blank">Choose an Item...</option>
+
+        <!-- Usable Items -->
+        <option value='Heal Jar'>Heal Jar</option>
+        <option value='X-Heal'>X-Heal</option>
+        <option value='Heal All'>Heal All</option>
+        <option value='Super Nectar'>Super Nectar</option>
+        <option value='Shining Grail'>Shining Grail</option>
+        <option value='Amber Soup'>Amber Soup</option>
+        <option value='Tranquilizer'>Tranquilizer</option>
+        <option value='Elixir'>Elixir</option>
+        <option value='Steak'>Steak</option>
+        <option value='Broiled Fish'>Broiled Fish</option>
+        <option value='Ceramic Plate'>Ceramic Plate</option>
+        <option value='Fish Boat: Marlow'>Fish Boat: Marlow</option>
+        <option value='Green Soup'>Green Soup</option>
+        <option value='Red Soup'>Red Soup</option>
+        <option value='Golden Soup'>Golden Soup</option>
+        <option value='Flame'>Flame</option>
+        <option value='Bomb Ice'>Bomb Ice</option>
+        <option value='Lightning Rod'>Lightning Rod</option>
+        <option value='Tera Flame'>Tera Flame</option>
+        <option value='Bobomb Ice'>Bobomb Ice</option>
+        <option value='Thunder Rod'>Thunder Rod</option>
+        <option value='Uni Bomb'>Uni Bomb</option>
+        <option value='Big Uni Bomb'>Big Uni Bomb</option>
+        <option value='Big Orange Bomb'>Big Orange Bomb</option>
+        <option value='Big Lando Bomb'>Big Lando Bomb</option>
+        <option value='Uni God'>Uni God</option>
+        <option value='Orange Bomb'>Orange Bomb</option>
+        <option value='Lando Bomb'>Lando Bomb</option>
+        <option value='Globe'>Globe</option>
+        <option value='Stellar Globe'>Stellar Globe</option>
+        <option value='Unipuni Pudding'>Unipuni Pudding</option>
+        <option value='Cheesecake'>Cheesecake</option>
+        <option value='Pumpotatokin Pie'>Pumpotatokin Pie</option>
+        <option value='Grape Sherbet'>Grape Sherbet</option>
+        <option value='Muscat Sorbet'>Muscat Sorbet</option>
+        <option value='Sweetsland'>Sweetsland</option>
+        <option value='120% Fruit'>120% Fruit</option>
+        <option value='Veggielicious'>Veggielicious</option>
+        <option value='Veggie Purple'>Veggie Purple</option>
+        <option value='Divine Shield'>Divine Shield</option>
+        <option value='Misty Curtain'>Misty Curtain</option>
+        <option value='Treasure Cape'>Treasure Cape</option>
+
+        <!-- Material Items -->
         <option value='Flour'>Flour</option>
         <option value='Salt'>Salt</option>
         <option value='Black Powder'>Black Powder</option>
@@ -62,48 +112,8 @@
         <option value='Organne la Firste'>Organne la Firste</option>
         <option value='Velvet Horn'>Velvet Horn</option>
         <option value='Alchemic Cymbal'>Alchemic Cymbal</option>
-        <option value='Heal Jar'>Heal Jar</option>
-        <option value='X-Heal'>X-Heal</option>
-        <option value='Heal All'>Heal All</option>
-        <option value='Super Nectar'>Super Nectar</option>
-        <option value='Shining Grail'>Shining Grail</option>
-        <option value='Amber Soup'>Amber Soup</option>
-        <option value='Tranquilizer'>Tranquilizer</option>
-        <option value='Elixir'>Elixir</option>
-        <option value='Steak'>Steak</option>
-        <option value='Broiled Fish'>Broiled Fish</option>
-        <option value='Ceramic Plate'>Ceramic Plate</option>
-        <option value='Fish Boat: Marlow'>Fish Boat: Marlow</option>
-        <option value='Green Soup'>Green Soup</option>
-        <option value='Red Soup'>Red Soup</option>
-        <option value='Golden Soup'>Golden Soup</option>
-        <option value='Flame'>Flame</option>
-        <option value='Bomb Ice'>Bomb Ice</option>
-        <option value='Lightning Rod'>Lightning Rod</option>
-        <option value='Tera Flame'>Tera Flame</option>
-        <option value='Bobomb Ice'>Bobomb Ice</option>
-        <option value='Thunder Rod'>Thunder Rod</option>
-        <option value='Uni Bomb'>Uni Bomb</option>
-        <option value='Big Uni Bomb'>Big Uni Bomb</option>
-        <option value='Big Orange Bomb'>Big Orange Bomb</option>
-        <option value='Big Lando Bomb'>Big Lando Bomb</option>
-        <option value='Uni God'>Uni God</option>
-        <option value='Orange Bomb'>Orange Bomb</option>
-        <option value='Lando Bomb'>Lando Bomb</option>
-        <option value='Globe'>Globe</option>
-        <option value='Stellar Globe'>Stellar Globe</option>
-        <option value='Unipuni Pudding'>Unipuni Pudding</option>
-        <option value='Cheesecake'>Cheesecake</option>
-        <option value='Pumpotatokin Pie'>Pumpotatokin Pie</option>
-        <option value='Grape Sherbet'>Grape Sherbet</option>
-        <option value='Muscat Sorbet'>Muscat Sorbet</option>
-        <option value='Sweetsland'>Sweetsland</option>
-        <option value='120% Fruit'>120% Fruit</option>
-        <option value='Veggielicious'>Veggielicious</option>
-        <option value='Veggie Purple'>Veggie Purple</option>
-        <option value='Divine Shield'>Divine Shield</option>
-        <option value='Misty Curtain'>Misty Curtain</option>
-        <option value='Treasure Cape'>Treasure Cape</option>
+
+        <!-- Weapons -->
         <option value='Ragged Collar'>Ragged Collar</option>
         <option value='Leather Collar'>Leather Collar</option>
         <option value='Flea Necklace'>Flea Necklace</option>
@@ -168,6 +178,8 @@
         <option value='Mark II'>Mark II</option>
         <option value='Pot Station'>Pot Station</option>
         <option value='Crown Pot'>Crown Pot</option>
+
+        <!-- Armor -->
         <option value='Leather Cuirass'>Leather Cuirass</option>
         <option value='Iron Plate'>Iron Plate</option>
         <option value='Bronze Plate'>Bronze Plate</option>
@@ -216,6 +228,8 @@
         <option value="Knight's Waistcoat">Knight's Waistcoat</option>
         <option value='Robe of Life'>Robe of Life</option>
         <option value='Rejuvenator Skin'>Rejuvenator Skin</option>
+
+        <!-- Accessory -->
         <option value='Flame Ring'>Flame Ring</option>
         <option value='Ice Ring'>Ice Ring</option>
         <option value='Thunder Ring'>Thunder Ring</option>
@@ -253,6 +267,8 @@
         <option value='Winged Boots'>Winged Boots</option>
         <option value='Flying Fish Boots'>Flying Fish Boots</option>
         <option value='Loveless Potion'>Loveless Potion</option>
+
+        <!-- Key -->
         <option value='Flash of Galileo'>Flash of Galileo</option>
     </select>
  </body>
