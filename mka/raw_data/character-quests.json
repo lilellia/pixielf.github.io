@@ -2,43 +2,199 @@
     "Philo": [
         {
             "available": 2,
+            "hook": "What kind of syntheses does Jess do alone?",
             "story": "I messed up another alchemy synthesis. I thought it would work, too. Vayne helped me clean up this time, but I need to be more careful next time."
         },
 
         {
             "available": 3,
+            "hook": "...has Jess blown anything else up?",
             "story": "...I blew up the atelier again. It's so weird though...\nVayne helped me clean up again, but I know this is bad. I played around with alchemy before I came to this school, so if I get kicked out, I'll be stuck in jail.\nOh, but next time I do a difficult synthesis, Vayne said he'll help me. Then I can't mess up, right?"
         },
 
         {
             "available": 4,
+            "hook": "Oh yeah, I promised to help Jess make something.",
             "story": "I fainted during synthesis. I felt perfectly fine lately, so it caught me off guard. Vayne saw it, too. I asked him to keep it a secret, but...\nOh well. It can't be helped. I was sick when I was young, and because of it..."
+        },
+
+        {
+            "available": 7,
+            "hook": "I think there's an outdoor class soon...",
+            "story": ""
+        },
+
+        {
+            "available": 11,
+            "hook": "Should I tell everyone about Jess's condition?",
+            "story": ""
         }
     ],
 
     "Nikki": [
         {
             "available": 2,
+            "hook": "I wonder what Nikki usually does.",
             "story": "Ahh, I know I shouldn't go for taken guys, but I also didn't think they would be mad enough to chase me...\nEither way, this won't stop me. I need to take as many husband candidates as I can back to the village. And I have to have a lot of kids!"
         },
 
         {
             "available": 3,
+            "hook": "What happened with Nikki's man search?",
             "story": "It was terrible. The guys I rejected came to the workshop, and Flaya got so pissed...\nThanks to Jess' Loveless Potion, they got rid of the guys. But then they turned against me. They squeezed my tail, pulled my ears...\nBut that potion was so effective. With it, I think I can go get more guys anyway!"
+        },
+
+        {
+            "available": 5,
+            "hook": "Nikki's singing has made her more popular.",
+            "story": ""
+        },
+
+        {
+            "available": 7,
+            "hook": "I wonder what happened to her fan club groupies...",
+            "story": ""
+        },
+
+        {
+            "available": 11,
+            "hook": "Nikki's attitude towards me changed a lot lately...",
+            "story": ""
         }
     ],
 
     "Pamela": [
         {
             "available": 4,
+            "hook": "Pamela joined our workshop as a favor...",
             "story": "I was so let down today. The workshop I joined isn't cute.\nIt can't he helped, since it is Flay's place, but still. When I told Vayne, he got me really cute things. They were so cute, I decorated the Library instead. Vayne is so nice. I think he'll listen to anything I say."
+        },
+
+        {
+            "available": 5,
+            "hook": "Pamela hasn't gone back to the library lately...",
+            "story": ""
+        },
+
+        {
+            "available": 6,
+            "hook": "Pamela seems so bored...",
+            "story": "",
+            "description": "You must also have finished <i>Anna I</i> before this becomes available."
+        },
+
+        {
+            "available": 7,
+            "hook": "Pamela seems so serious about alchemy now..."
+        },
+
+        {
+            "available": 11,
+            "hook": "I wonder if Pamela's depressed..."
         }
     ],
 
     "Flay": [
         {
             "available": 4,
+            "hook": "It feels like Flay's up to no good...",
             "story": "Today was quite meaningful.\nI had my doubts about Vayne truly having the potential to become a Defender of Justice, but my eyes did not deceive me. He solved the vicious crime (I set up) like a true hero, with passion for justice!\nBut he lacks power. I'll have to train his strength if I'm to reach my ultimate goal!"
+        },
+
+        {
+            "available": 5,
+            "hook": "There's been a strange rumor going around lately..."
+        },
+
+        {
+            "available": 6,
+            "hook": "*sigh* Why do I have to be a hero...?"
+        },
+
+        {
+            "available": 9,
+            "hook": "I haven't done much to uphold justice lately..."
+        },
+
+        {
+            "available": 11,
+            "hook": "Flay's been really calm lately..."
+        }
+    ],
+
+    "Roxis": [
+        {
+            "available": 5,
+            "hook": "I'm glad Roxis joined our workshop, but..."
+        },
+
+        {
+            "available": 6,
+            "hook": "I wonder if Roxis is still mad..."
+        },
+
+        {
+            "available": 7,
+            "hook": "How's Roxis been since he got his Mana?"
+        },
+
+        {
+            "available": 8,
+            "hook": "Flay said he has an important announcement about Roxis..."
+        },
+
+        {
+            "available": 11,
+            "hook": "It seems Roxis a lot of thinking lately..."
+        }
+    ],
+
+    "Anna": [
+        {
+            "available": 5,
+            "hook": "Since Anna came, it's more serious around here..."
+        },
+
+        {
+            "available": 6,
+            "hook": "I wonder when Anna does her sword practice."
+        },
+
+        {
+            "available": 8,
+            "hook": "I promised to join Anna in her sword practice..."
+        },
+
+        {
+            "available": 9,
+            "hook": "I wonder how Anna's alchemy grades are..."
+        },
+
+        {
+            "available": 11,
+            "hook": "Anna looks like she's feeling down lately..."
+        }
+    ],
+
+    "Muppy": [
+        {
+            "available": 8,
+            "hook": "I think Muppy's looking for attention..."
+        },
+
+        {
+            "available": 9,
+            "hook": "Muppy looks kinda pale... I think, maybe."
+        },
+
+        {
+            "available": 10,
+            "hook": "Muppy has only caused trouble since he got here... Is that okay?"
+        },
+
+        {
+            "available": 11,
+            "hook": "I think Muppy's been more serious lately..."
         }
     ]
 }

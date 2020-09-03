@@ -1,6 +1,5 @@
 import contextlib
 import io
-import itertools
 import json
 import pathlib
 import pandas as pd
@@ -156,6 +155,14 @@ def build_recipes():
 
 
 def htmlify_char_quest(episode, quest):
+    def _paragraphize(text):
+        if '\n' in text:
+            return '\n'.join(
+                f'<p>{para}</p>'
+                for para in text.split('\n')
+            )
+        return text
+
     available = quest.get('available', '')
     hook = quest.get('hook', '')
     description = quest.get('description', '')
@@ -164,8 +171,8 @@ def htmlify_char_quest(episode, quest):
                 <td style="width: 5%;">{romanize(episode)}</td>
                 <td style="width: 5%;">{available}</td>
                 <td style="width: 10%;">{hook}</td>
-                <td style="width: 40%;">{description}</td>
-                <td style="width: 40%;">{story}</td>
+                <td style="width: 40%;">{_paragraphize(description)}</td>
+                <td style="width: 40%;">{_paragraphize(story)}</td>
             </tr>'''
 
 
@@ -194,7 +201,7 @@ def build_character_quests():
 ''')
         filtered = quests.get(character, [])
 
-        for i, quest in itertools.zip_longest(range(5), filtered, fillvalue=dict()):
+        for i, quest in enumerate(filtered):
             stream.write(htmlify_char_quest(i+1, quest) + '\n')
         stream.write('</table></div>')
 
