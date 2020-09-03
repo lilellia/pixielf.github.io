@@ -57,6 +57,7 @@ def htmlify_recipe(item, headers):
 
 recipes = json.loads(pathlib.Path('raw_data/recipe-data.json').read_text())
 itemdata = pd.read_csv('raw_data/item-data.csv', index_col=0)
+course_data = pd.read_csv('raw_data/course-data.csv')
 
 
 def find_recipe(item):
@@ -210,5 +211,52 @@ def build_character_quests():
         f.write(stream.read())
 
 
+def build_courses():
+    def _paragraphize(text):
+        if isinstance(text, float):
+            # np.nan
+            return ''
+
+        if '\n' in text:
+            return '\n'.join(f'<p>{para}</p>' for para in text.splitlines())
+        else:
+            return text
+
+    stream = io.StringIO()
+    stream.write('''
+    <h1>Course Data</h1>
+    <div>
+    <table>
+        <tr>
+            <th style="width: 5%;">Chapter</th>
+            <th style="width: 15%;">Name</th>
+            <th style="width: 30%;">Description</th>
+            <th style="width: 50%;">Guide</th>
+        </tr>
+''')
+
+    for row in course_data.to_dict(orient='record'):
+        chapter = row.get('Chapter', '')
+        name = row.get('Course', '')
+        description = row.get('Description', '')
+        guide = row.get('Hint', '')
+
+        stream.write(f'''
+        <tr>
+            <th style="width: 5%;">{chapter}</th>
+            <th style="width: 15%;">{name}</th>
+            <th style="width: 30%;">{_paragraphize(description)}</th>
+            <th style="width: 50%;">{_paragraphize(guide)}</th>
+        </tr>
+''')
+
+    stream.write('</table></div>')
+
+    with open('x.txt', 'w+') as f:
+        stream.seek(0)
+        f.write(stream.read())
+
+
 # build_recipes()
-build_character_quests()
+# build_character_quests()
+build_courses()
