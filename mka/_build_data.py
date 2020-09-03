@@ -1,12 +1,36 @@
 import contextlib
 import io
+import itertools
 import json
 import pathlib
 import pandas as pd
 import re
 
 
-def htmlify(item, headers):
+def romanize(n):
+    def fmt(k, one: str, five: str, ten: str):
+        lookup = [
+            '', f'{one}', f'{one}{one}', f'{one}{one}{one}', f'{one}{five}',
+            f'{five}', f'{five}{one}', f'{five}{one}{one}', f'{five}{one}{one}{one}', f'{one}{ten}'
+        ]
+        return lookup[k]
+
+    roman = ''
+    while n >= 1000:
+        roman += 'M'
+        n -= 1000
+
+    hundreds, n = divmod(n, 100)
+    roman += fmt(hundreds, one='C', five='D', ten='M')
+
+    tens, n = divmod(n, 10)
+    roman += fmt(tens, one='X', five='L', ten='C')
+    roman += fmt(n, one='I', five='V', ten='X')
+
+    return roman
+
+
+def htmlify_recipe(item, headers):
     def _gen():
         for head, width in headers.items():
             val = item[head]
@@ -20,7 +44,7 @@ def htmlify(item, headers):
             elif head in ('User', 'Stats'):
                 # format as list
                 try:
-                    val = '<p><ul>' + '\n\t'.join(f'<li>{i}</li>' for i in re.split(',\s*', val)) + '</ul></p>'
+                    val = '<p><ul>' + '\n\t'.join(f'<li>{i}</li>' for i in re.split(r',\s*', val)) + '</ul></p>'
                 except TypeError:
                     val = None
             elif head == 'Sell':
@@ -123,7 +147,7 @@ def build_recipes():
             r = find_recipe(row['Name'])
             item['Recipe Location'] = r['recipe_location']
             item['Ingredients'] = r['ingredients']
-            stream.write(htmlify(item, headers) + '\n')
+            stream.write(htmlify_recipe(item, headers) + '\n')
         stream.write('</table></div>')
 
     with open('x.txt', 'w+') as f:
@@ -131,4 +155,53 @@ def build_recipes():
         f.write(stream.read())
 
 
-build_recipes()
+def htmlify_char_quest(episode, quest):
+    available = quest.get('available', '')
+    hook = quest.get('hook', '')
+    description = quest.get('description', '')
+    story = quest.get('story', '')
+    return f'''<tr>
+                <td style="width: 5%;">{romanize(episode)}</td>
+                <td style="width: 5%;">{available}</td>
+                <td style="width: 10%;">{hook}</td>
+                <td style="width: 40%;">{description}</td>
+                <td style="width: 40%;">{story}</td>
+            </tr>'''
+
+
+def build_character_quests():
+    stream = io.StringIO()
+
+    with open('raw_data/character-quests.json') as r:
+        quests = json.load(r)
+
+    for character in ('Philo', 'Nikki', 'Pamela', 'Flay', 'Roxis', 'Anna', 'Muppy'):
+        stream.write(f'''
+    <!-- {character} -->
+    <button type="button" class="collapsible">
+        <img class="icon" src="imgs/{character.lower()}.png" width="75" height="75">
+        {character}
+    </button>
+    <div class="content">
+        <table>
+            <tr>
+                <th style="width: 5%;">Episode</th>
+                <th style="width: 5%;">Available</th>
+                <th style="width: 10%;">Hook</th>
+                <th style="width: 40%;">Description</th>
+                <th style="width: 40%;">Story</th>
+            </tr>
+''')
+        filtered = quests.get(character, [])
+
+        for i, quest in itertools.zip_longest(range(5), filtered, fillvalue=dict()):
+            stream.write(htmlify_char_quest(i+1, quest) + '\n')
+        stream.write('</table></div>')
+
+    with open('y.txt', 'w+') as f:
+        stream.seek(0)
+        f.write(stream.read())
+
+
+# build_recipes()
+build_character_quests()
