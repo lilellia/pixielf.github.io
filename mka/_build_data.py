@@ -262,7 +262,7 @@ def build_courses():
 def build_enemies():
     def _paragraphize(text):
         if isinstance(text, float):
-            return '' if np.isnan(text) else text
+            return '' if np.isnan(text) else int(text)
 
         if ',' in text:
             return '<p><ul>' + '\n'.join(f'<li>{item}</li>' for item in text.split(', ')) + '</ul></p>'
@@ -304,18 +304,18 @@ def build_enemies():
 
         stream.write(f'''
     <tr>
-        <th style="width: 9%;">{_paragraphize(name)}</th>
-        <th style="width: 5%;">{hp:,}</th>
-        <th style="width: 5%;">{ap:,}</th>
-        <th style="width: 5%;">{cole:,}</th>
-        <th style="width: 5%;">{_paragraphize(species)}</th>
-        <th style="width: 5%;">{_paragraphize(weak)}</th>
-        <th style="width: 5%;">{_paragraphize(resist)}</th>
-        <th style="width: 15%;">{_paragraphize(protections)}</th>
-        <th style="width: 15%;">{_paragraphize(location)}</th>
-        <th style="width: 12%;">{_paragraphize(spoil)}</th>
-        <th style="width: 11%;">{_paragraphize(snack)}</th>
-        <th style="width: 5%;">{_paragraphize(heart)}</th>
+        <td style="width: 9%;">{_paragraphize(name)}</td>
+        <td style="width: 5%;">{hp:,}</td>
+        <td style="width: 5%;">{ap:,}</td>
+        <td style="width: 5%;">{cole:,}</td>
+        <td style="width: 5%;">{_paragraphize(species)}</td>
+        <td style="width: 5%;">{_paragraphize(weak)}</td>
+        <td style="width: 5%;">{_paragraphize(resist)}</td>
+        <td style="width: 15%;">{_paragraphize(protections)}</td>
+        <td style="width: 15%;">{_paragraphize(location)}</td>
+        <td style="width: 12%;">{_paragraphize(spoil)}</td>
+        <td style="width: 11%;">{_paragraphize(snack)}</td>
+        <td style="width: 5%;">{_paragraphize(heart)}</td>
     </tr>
 ''')
 

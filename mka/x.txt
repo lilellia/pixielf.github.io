@@ -1,0 +1,3625 @@
+
+    <div><table>
+    <tr>
+        <th style="width: 9%;">Name</th>
+        <th style="width: 5%;">HP</th>
+        <th style="width: 5%;">AP</th>
+        <th style="width: 5%;">Cole</th>
+        <th style="width: 5%;">Species</th>
+        <th style="width: 5%;">Weak</th>
+        <th style="width: 5%;">Resist</th>
+        <th style="width: 15%;">Protections</th>
+        <th style="width: 15%;">Location</th>
+        <th style="width: 12%;">Spoil</th>
+        <th style="width: 11%;">Snack</th>
+        <th style="width: 5%;">Heart</th>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mini Puni</td>
+        <td style="width: 5%;">39</td>
+        <td style="width: 5%;">5</td>
+        <td style="width: 5%;">2</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Wind's Corridor (Both Areas)</td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Puni</td>
+        <td style="width: 5%;">64</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;">14</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Wind's Corridor (Both Areas)</td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Red Puni</td>
+        <td style="width: 5%;">138</td>
+        <td style="width: 5%;">18</td>
+        <td style="width: 5%;">13</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Healy Puni</td>
+        <td style="width: 5%;">205</td>
+        <td style="width: 5%;">35</td>
+        <td style="width: 5%;">48</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Resource Center</li>
+<li>Mana Ruins - Interior Heights</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Zombie Puni</td>
+        <td style="width: 5%;">194</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Resource Center</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Sludge Puni</td>
+        <td style="width: 5%;">582</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">161</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Old Schoolhouse - Closed Area</td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gold Puni</td>
+        <td style="width: 5%;">487</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">44</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Mana Ruins - Interior Heights</td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">Puni Gummi</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dark Puni</td>
+        <td style="width: 5%;">905</td>
+        <td style="width: 5%;">100</td>
+        <td style="width: 5%;">29</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Old Schoolhouse - Closed Area</td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Giant Puni</td>
+        <td style="width: 5%;">4,072</td>
+        <td style="width: 5%;">140</td>
+        <td style="width: 5%;">311</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Puniball</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold</td>
+        <td style="width: 5%;">137</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">22</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 062</li>
+<li>The Heights</li></ul></p></td>
+        <td style="width: 12%;">Tuft</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Mage</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">18</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Tuft</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">6</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Fighter</td>
+        <td style="width: 5%;">327</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>The Millennium Tree</li></ul></p></td>
+        <td style="width: 12%;">Knot</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Priest</td>
+        <td style="width: 5%;">327</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>The Millenium Tree</li></ul></p></td>
+        <td style="width: 12%;">Knot</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">12</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Guard</td>
+        <td style="width: 5%;">1,078</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">81</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>God's Scar</li></ul></p></td>
+        <td style="width: 12%;">Knot</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Sergeant</td>
+        <td style="width: 5%;">2,478</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">32</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>God's Scar</li></ul></p></td>
+        <td style="width: 12%;">Shiny Moustache</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">20</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Elite</td>
+        <td style="width: 5%;">1,358</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">176</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>God's Scar</li></ul></p></td>
+        <td style="width: 12%;">Shiny Moustache</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">24</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Ninja</td>
+        <td style="width: 5%;">5,385</td>
+        <td style="width: 5%;">150</td>
+        <td style="width: 5%;">21</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 052</li>
+<li>Job 070</li>
+<li>Job 071</li>
+<li>Resource Center - Unorganized Zone</li></ul></p></td>
+        <td style="width: 12%;">Shiny Moustache</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;">26</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Kunoichi</td>
+        <td style="width: 5%;">5,498</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">156</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 052</li>
+<li>Job 070</li>
+<li>Resource Center 0 Unorganized Zone</li></ul></p></td>
+        <td style="width: 12%;">Shiny Moustache</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">30</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Savior</td>
+        <td style="width: 5%;">2,842</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">154</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">God's Scar</td>
+        <td style="width: 12%;">Shiny Moustache</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">30</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lizard</td>
+        <td style="width: 5%;">472</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">61</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Bone Grove</li>
+<li>Heaven's Road</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lizard Warrior</td>
+        <td style="width: 5%;">624</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">47</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;">Dragon's Grave - Bone Grove</td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lizard Shaman</td>
+        <td style="width: 5%;">560</td>
+        <td style="width: 5%;">55</td>
+        <td style="width: 5%;">46</td>
+        <td style="width: 5%;">Lizard</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;">Dragon's Grave - Bone Grove</td>
+        <td style="width: 12%;">Soul of Darkness</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lizard Lord</td>
+        <td style="width: 5%;">1,330</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">31</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Heaven's Road</li>
+<li>Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Red Dirt</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lizard Wizard</td>
+        <td style="width: 5%;">500</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Heaven's Road</li>
+<li>Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Red Dirt</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dragonewt</td>
+        <td style="width: 5%;">8,132</td>
+        <td style="width: 5%;">140</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Dragon's Grave - Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Dragon Tongue</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Bear</td>
+        <td style="width: 5%;">656</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">61</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 062</li>
+<li>The Living Forest</li></ul></p></td>
+        <td style="width: 12%;">Wild Meat</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;">8</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Owlbear</td>
+        <td style="width: 5%;">692</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">13</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Wind's Corridor (Both Areas)</td>
+        <td style="width: 12%;">Wild Meat</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;">10</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Jagged Bear</td>
+        <td style="width: 5%;">3,370</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Wind's Corridor - Abyss</td>
+        <td style="width: 12%;">Wild Meat</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">20</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Nightwalker</td>
+        <td style="width: 5%;">6,080</td>
+        <td style="width: 5%;">130</td>
+        <td style="width: 5%;">23</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Wild Meant</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;">30</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Bear Cub</td>
+        <td style="width: 5%;">164</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">6</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 062</li>
+<li>The Living Forest</li></ul></p></td>
+        <td style="width: 12%;">Wild Meat</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Tiger</td>
+        <td style="width: 5%;">110</td>
+        <td style="width: 5%;">23</td>
+        <td style="width: 5%;">44</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;"><p><ul><li>Job 062</li>
+<li>Wind's Corridor (Both Areas)</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">5</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Leopard</td>
+        <td style="width: 5%;">400</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">51</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">8</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Panther</td>
+        <td style="width: 5%;">1,391</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">54</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">God's Scar</td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">18</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Jagged Tiger</td>
+        <td style="width: 5%;">961</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">62</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">Wind's Corridor - Abyss</td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">24</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Koalaria</td>
+        <td style="width: 5%;">84</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">7</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">The Living Forest</td>
+        <td style="width: 12%;">Woodchip</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">6</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Magikoalaria</td>
+        <td style="width: 5%;">291</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">43</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Bone Grove</li>
+<li>Millenium Tree</li></ul></p></td>
+        <td style="width: 12%;">Giant Woodchip</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">12</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mountkoalaria</td>
+        <td style="width: 5%;">363</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Dragon's Grave - Heaven's Road</td>
+        <td style="width: 12%;">Giant Woodchip</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">18</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Airplant</td>
+        <td style="width: 5%;">94</td>
+        <td style="width: 5%;">14</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;">Old Schoolhouse</td>
+        <td style="width: 12%;">Blue Petal</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Morninglory</td>
+        <td style="width: 5%;">232</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">17</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Blue Petal</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Trumpet Lily</td>
+        <td style="width: 5%;">162</td>
+        <td style="width: 5%;">16</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;">Wind's Corridor (Both Areas)</td>
+        <td style="width: 12%;">Red Petal</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Moon Flower</td>
+        <td style="width: 5%;">523</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Millenium Tree</li></ul></p></td>
+        <td style="width: 12%;">Glowing Petal</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Leaf Sprite</td>
+        <td style="width: 5%;">259</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Outskirts</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 12%;">Woodchip</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Jewel Sprite</td>
+        <td style="width: 5%;">2,437</td>
+        <td style="width: 5%;">110</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Resource Center - Unorganized Zone</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Pendelook</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Sword Sprite</td>
+        <td style="width: 5%;">633</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">28</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Worn Weapon</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dryad</td>
+        <td style="width: 5%;">517</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Millenium Tree</li></ul></p></td>
+        <td style="width: 12%;">Angel's Slip</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Orb</td>
+        <td style="width: 5%;">1,546</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">427</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Pendelook</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Blade Sprite</td>
+        <td style="width: 5%;">1,492</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">35</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 049</li>
+<li>Job 068</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;">Worn Weapon</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Death Sprite</td>
+        <td style="width: 5%;">3,237</td>
+        <td style="width: 5%;">155</td>
+        <td style="width: 5%;">94</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Physical</li>
+<li>Magic</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Cure</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Resource Center - Unorganized Zone</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Soul of Darkness</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gem Sprite</td>
+        <td style="width: 5%;">170</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">78</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Physical</li>
+<li>Magic</li></ul></p></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Resource Center</td>
+        <td style="width: 12%;">Pendelook</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Clay Puppet</td>
+        <td style="width: 5%;">104</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">39</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Old Schoolhouse</td>
+        <td style="width: 12%;">Gear</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Pot Spirit</td>
+        <td style="width: 5%;">958</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">91</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Clocktower</td>
+        <td style="width: 12%;">Gear</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Puppet</td>
+        <td style="width: 5%;">1,469</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Physical</li>
+<li>Magic</li></ul></p></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Grand Gear</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kettle Spirit</td>
+        <td style="width: 5%;">905</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">27</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Old Schoolhouse - Closed Area</td>
+        <td style="width: 12%;">Tiny Gear</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kamikaze Doll</td>
+        <td style="width: 5%;">102</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;">8</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 042</li>
+<li>Job 070</li>
+<li>Old Schoolhouse</li></ul></p></td>
+        <td style="width: 12%;">Worn Armor</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kamikaze Doll G</td>
+        <td style="width: 5%;">1,707</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">228</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Worn Armor</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Birdhorse Rider</td>
+        <td style="width: 5%;">1,324</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">22</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>God's Scar</li></ul></p></td>
+        <td style="width: 12%;">Crimson Feather</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">1 Inch Brownie</td>
+        <td style="width: 5%;">1,419</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">73</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>Wind's Corridor - Abyss</li></ul></p></td>
+        <td style="width: 12%;">Brownie Mask</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Brownie</td>
+        <td style="width: 5%;">210</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">14</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 070</li>
+<li>The Heights</li></ul></p></td>
+        <td style="width: 12%;">Brownie Mask</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Golden Pig</td>
+        <td style="width: 5%;">2,891</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">46</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">God's Scar</td>
+        <td style="width: 12%;">Golden Meat</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;">25</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Sword Geist</td>
+        <td style="width: 5%;">480</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">11</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 044</li>
+<li>Old Schoolhouse</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;">Worn Weapon</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Death Sword</td>
+        <td style="width: 5%;">1,593</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">29</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Clocktower</td>
+        <td style="width: 12%;">Worn Weapon</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Shield Geist</td>
+        <td style="width: 5%;">426</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">16</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Old Schoolhouse</td>
+        <td style="width: 12%;">Gear</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gram Rider</td>
+        <td style="width: 5%;">5,418</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">91</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Clocktower</td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Soldier</td>
+        <td style="width: 5%;">1,246</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">91</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Mana Ruins - Outskirts</li></ul></p></td>
+        <td style="width: 12%;">Legien Steel</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Steelarmor Soldier</td>
+        <td style="width: 5%;">3,393</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">17</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Cyprus Copper</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Obsidian Soldier</td>
+        <td style="width: 5%;">9,318</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">53</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Mana Ruins - Bottom Center</td>
+        <td style="width: 12%;">Preuve Lead</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Alchemic Soldier</td>
+        <td style="width: 5%;">5,050</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">212</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Old Schoolhouse - Closed Area</td>
+        <td style="width: 12%;">Elemia Silver</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Adamantine Soldier</td>
+        <td style="width: 5%;">9,810</td>
+        <td style="width: 5%;">175</td>
+        <td style="width: 5%;">157</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Heart's Prison</td>
+        <td style="width: 12%;">Chrome Crystal</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Beast</td>
+        <td style="width: 5%;">450</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">22</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Mana Ruins - Outskirts</li></ul></p></td>
+        <td style="width: 12%;">Legien Steel</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Steelarmor Beast</td>
+        <td style="width: 5%;">1,503</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">26</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Cyprus Copper</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Obsidian Beast</td>
+        <td style="width: 5%;">7,741</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">31</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Mana Ruins - Bottom Center</td>
+        <td style="width: 12%;">Preuve Lead</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Alchemic Beast</td>
+        <td style="width: 5%;">4,130</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">27</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Old Schoolhouse - Closed Area</td>
+        <td style="width: 12%;">Elemia Silver</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Demon</td>
+        <td style="width: 5%;">609</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">17</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Mana Ruins - Outskirts</td>
+        <td style="width: 12%;">Legien Steel</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Steelarmor Demon</td>
+        <td style="width: 5%;">2,371</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">78</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Cyprus Copper</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Obsidian Demon</td>
+        <td style="width: 5%;">5,683</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">154</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Mana Ruins - Bottom Center</td>
+        <td style="width: 12%;">Preuve Lead</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Alchemic Demon</td>
+        <td style="width: 5%;">6,872</td>
+        <td style="width: 5%;">170</td>
+        <td style="width: 5%;">406</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Heart's Prison</td>
+        <td style="width: 12%;">Elemia Silver</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Fran Pfeil</td>
+        <td style="width: 5%;">2,084</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">24</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Buzzard Wyrm</td>
+        <td style="width: 5%;">2,534</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">33</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Dragon Grave - Heaven's Road</li>
+<li>Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Dragon Scale</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Necrohydra</td>
+        <td style="width: 5%;">10,008</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">22</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Dragon's Grave - Cave of Origin</td>
+        <td style="width: 12%;">Dragon Tongue</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Power</td>
+        <td style="width: 5%;">462</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">27</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 15%;">Curse</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Resource Center</li></ul></p></td>
+        <td style="width: 12%;">Angel's Slip</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Marquis</td>
+        <td style="width: 5%;">584</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">36</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li>
+<li>Lightning</li></ul></p></td>
+        <td style="width: 15%;">Curse</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Resource Center</li></ul></p></td>
+        <td style="width: 12%;">Devil's Panties</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dominion</td>
+        <td style="width: 5%;">3,721</td>
+        <td style="width: 5%;">120</td>
+        <td style="width: 5%;">118</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Resource Center - Unorganized Zone</td>
+        <td style="width: 12%;">Rainbow Feather</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Elder</td>
+        <td style="width: 5%;">1,185</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">29</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Wind's Corridor - Abyss</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Devil's Panties</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Duke</td>
+        <td style="width: 5%;">7,941</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">101</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Resource Center - Unorganized Zone</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Carbon Boulder</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Granduke</td>
+        <td style="width: 5%;">11,704</td>
+        <td style="width: 5%;">180</td>
+        <td style="width: 5%;">24</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Heart's Prison</td>
+        <td style="width: 12%;">Carbon Boulder</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Ancients</td>
+        <td style="width: 5%;">5,746</td>
+        <td style="width: 5%;">85</td>
+        <td style="width: 5%;">39</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Old Schoolhouse - Closed Area</li></ul></p></td>
+        <td style="width: 12%;">Dragon Scale</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Old Zero</td>
+        <td style="width: 5%;">5,620</td>
+        <td style="width: 5%;">80</td>
+        <td style="width: 5%;">64</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Job 071</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Angel's Slip</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Arks</td>
+        <td style="width: 5%;">1,097</td>
+        <td style="width: 5%;">55</td>
+        <td style="width: 5%;">93</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 067</li>
+<li>Mana Ruins - Interior Heights</li>
+<li>Wind's Corridor - Abyss</li></ul></p></td>
+        <td style="width: 12%;">White Feather</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Twinhead</td>
+        <td style="width: 5%;">683</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">127</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Dragon's Grave - Heaven's Road</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Jagged Hunter</td>
+        <td style="width: 5%;">911</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Bone Grove</li>
+<li>Heaven's Road</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Muterion</td>
+        <td style="width: 5%;">3,528</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">64</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Dragon's Grave - Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Drake</td>
+        <td style="width: 5%;">406</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">17</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Mana Ruins - Outskirts</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Flare Drake</td>
+        <td style="width: 5%;">1,437</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">78</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Old Schoolhouse - Closed Area</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mini Drake</td>
+        <td style="width: 5%;">834</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">93</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Old Schoolhouse - Closed Area</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Scar Breath</td>
+        <td style="width: 5%;">1,072</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">93</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">ice</td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Wind's Corridor - Abyss</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Scar Child</td>
+        <td style="width: 5%;">638</td>
+        <td style="width: 5%;">35</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Wind's Corridor - Abyss</li></ul></p></td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gold Leo</td>
+        <td style="width: 5%;">1,629</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">302</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">God's Scar</td>
+        <td style="width: 12%;">Beast Fang</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">10</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Hellfang</td>
+        <td style="width: 5%;">1,002</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">Millenium Tree</td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">18</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Hellion</td>
+        <td style="width: 5%;">872</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">110</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Puppy Paw Flan</td>
+        <td style="width: 5%;">16</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Harpy</td>
+        <td style="width: 5%;">243</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">3</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Crimson Feather</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;">6</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Shadow Girl</td>
+        <td style="width: 5%;">508</td>
+        <td style="width: 5%;">55</td>
+        <td style="width: 5%;">3</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 12%;"><p><ul><li>Job 054</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 11%;">Black Feather</td>
+        <td style="width: 5%;">12</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Blackwing</td>
+        <td style="width: 5%;">1,818</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">3</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;"><p><ul><li>Job 054</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Black Feather</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;">30</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Clione</td>
+        <td style="width: 5%;">273</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">42</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Bone Grove</li>
+<li>Millenium Tree</li></ul></p></td>
+        <td style="width: 12%;">Glacier Stone</td>
+        <td style="width: 11%;">Candy Ice</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Ariel</td>
+        <td style="width: 5%;">78</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">7</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">The Living Forest</td>
+        <td style="width: 12%;">Glacier Stone</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Amnes</td>
+        <td style="width: 5%;">849</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">44</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Wind's Corridor - Abyss</td>
+        <td style="width: 12%;">Glacier Stone</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Ruby Eye</td>
+        <td style="width: 5%;">321</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">24</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Mana Ruins - Outskirts</td>
+        <td style="width: 12%;">Canone Rock</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Evil Gaze</td>
+        <td style="width: 5%;">3,672</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">54</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Gravity Stone</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Necromancer</td>
+        <td style="width: 5%;">2,594</td>
+        <td style="width: 5%;">100</td>
+        <td style="width: 5%;">64</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Resource Center - Unorganized Zone</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Gravity Stone</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Visionist</td>
+        <td style="width: 5%;">192</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Resource Center</li></ul></p></td>
+        <td style="width: 12%;">Thunder Stone</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Warlock</td>
+        <td style="width: 5%;">192</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">44</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 065</li>
+<li>Old Schoolhouse</li></ul></p></td>
+        <td style="width: 12%;">Canone Rock</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mistress</td>
+        <td style="width: 5%;">6,493</td>
+        <td style="width: 5%;">175</td>
+        <td style="width: 5%;">95</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 071</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Super Komet</td>
+        <td style="width: 11%;">Meringue Whip</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Bone Dragon</td>
+        <td style="width: 5%;">885</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">62</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Feartail</td>
+        <td style="width: 5%;">2,144</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">154</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 069</li>
+<li>Dragon's Grave - Cave of Origin</li></ul></p></td>
+        <td style="width: 12%;">Dragon Bone</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mandragora</td>
+        <td style="width: 5%;">135</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;">The Living Forest</td>
+        <td style="width: 12%;">Woodchip</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dunkelhite</td>
+        <td style="width: 5%;">544</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">40</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;">Millenium Tree</td>
+        <td style="width: 12%;">Red Petal</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lantern Fish</td>
+        <td style="width: 5%;">113</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">14</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">The Heights</td>
+        <td style="width: 12%;">Masou</td>
+        <td style="width: 11%;">Taiyaki</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Tiny Death</td>
+        <td style="width: 5%;">336</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">36</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Mana Ruins - Bottom Center</li>
+<li>Dragon's Grave - Bone Grove</li></ul></p></td>
+        <td style="width: 12%;">Blowfish-X</td>
+        <td style="width: 11%;">Taiyaki</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Delinquent (Guy)</td>
+        <td style="width: 5%;">152</td>
+        <td style="width: 5%;">15</td>
+        <td style="width: 5%;">14</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Chapter 7</li>
+<li>Flay Character Quest 5</li>
+<li>Old Schoolhouse</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Berserk Student (Guy)</td>
+        <td style="width: 5%;">1,192</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">78</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Chapter 7</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Delinquent (Girl)</td>
+        <td style="width: 5%;">124</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">12</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Chapter 7</li>
+<li>Old Schoolhouse</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Berserk Student (Girl)</td>
+        <td style="width: 5%;">1,391</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">62</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gespenst</td>
+        <td style="width: 5%;">104</td>
+        <td style="width: 5%;">25</td>
+        <td style="width: 5%;">41</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Old Schoolhouse</li></ul></p></td>
+        <td style="width: 12%;">Legien Steel</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Shade</td>
+        <td style="width: 5%;">822</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">62</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Old Schoolhouse - Closed Area</li></ul></p></td>
+        <td style="width: 12%;">Soul of Darkness</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Invisible</td>
+        <td style="width: 5%;">1,141</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">2</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;">Chrome Crystal</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Floater</td>
+        <td style="width: 5%;">236</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">43</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Mana Ruins - Outskirts</li>
+<li>Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Soul of Darkness</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dieg Spirit</td>
+        <td style="width: 5%;">167</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Ice</li>
+<li>Physical</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 066</li>
+<li>Resource Center</li></ul></p></td>
+        <td style="width: 12%;">Soul of Darkness</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Toy Ghost</td>
+        <td style="width: 5%;">1,510</td>
+        <td style="width: 5%;">75</td>
+        <td style="width: 5%;">195</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Ice</li>
+<li>Physical</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 049</li>
+<li>Dragon's Grave - Cave of Origin</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;">Pendelook</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Funny Lich</td>
+        <td style="width: 5%;">1,847</td>
+        <td style="width: 5%;">100</td>
+        <td style="width: 5%;">154</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Ice</li>
+<li>Physical</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Dragon's Grave - Cave of Origin</li>
+<li>Heart's Prison</li></ul></p></td>
+        <td style="width: 12%;">Pendelook</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Trap Box</td>
+        <td style="width: 5%;">454</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">43</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Mana Ruins - Outskirts</td>
+        <td style="width: 12%;">Gear</td>
+        <td style="width: 11%;">Monster Cookie</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Fakereature</td>
+        <td style="width: 5%;">2,008</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">35</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Mana Ruins - Bottom Center</td>
+        <td style="width: 12%;">Worn Weapon</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Jewel Keeper</td>
+        <td style="width: 5%;">814</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">32</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Mana Ruins - Interior Heights</td>
+        <td style="width: 12%;">X-Heal</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Watcher</td>
+        <td style="width: 5%;">534</td>
+        <td style="width: 5%;">45</td>
+        <td style="width: 5%;">127</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Mana Ruins - Interior Heights</li>
+<li>Dragon's Grave - Heaven's Road</li></ul></p></td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">Long Ice Cream</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Greed Gate</td>
+        <td style="width: 5%;">6,799</td>
+        <td style="width: 5%;">145</td>
+        <td style="width: 5%;">54</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Heart's Prison</td>
+        <td style="width: 12%;">Monster Bone</td>
+        <td style="width: 11%;">99% Chaos Choco</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Crag Mana</td>
+        <td style="width: 5%;">698</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Carbon Boulder</td>
+        <td style="width: 11%;">Rocks rock!</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Frost Mana</td>
+        <td style="width: 5%;">1,580</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Bottom Center</li>
+<li>God's Scar</li></ul></p></td>
+        <td style="width: 12%;">Chrome Crystal</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Blaze Mana</td>
+        <td style="width: 5%;">3,154</td>
+        <td style="width: 5%;">70</td>
+        <td style="width: 5%;">47</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Bottom Center</li></ul></p></td>
+        <td style="width: 12%;">Chrome Crystal</td>
+        <td style="width: 11%;">Vanilla Syrup</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Halo Mana</td>
+        <td style="width: 5%;">911</td>
+        <td style="width: 5%;">50</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Physical</li>
+<li>Magic</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 068</li>
+<li>Mana Ruins - Interior Heights</li></ul></p></td>
+        <td style="width: 12%;">Glowing Petal</td>
+        <td style="width: 11%;">Candy Ice</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Cyclone Mana</td>
+        <td style="width: 5%;">124</td>
+        <td style="width: 5%;">20</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Wind's Corridor (Both Areas)</td>
+        <td style="width: 12%;">Thunder Stone</td>
+        <td style="width: 11%;">Candy Eye</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dinosis</td>
+        <td style="width: 5%;">9,493</td>
+        <td style="width: 5%;">800</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Dragon's Grave - Cave of Origin</td>
+        <td style="width: 12%;">Dragon's Tongue</td>
+        <td style="width: 11%;">Scale Chips</td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Caterperider</td>
+        <td style="width: 5%;">1,034</td>
+        <td style="width: 5%;">250</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Poison</td>
+        <td style="width: 15%;">Job 042</td>
+        <td style="width: 12%;">Preserved Food Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Yulaurnie</td>
+        <td style="width: 5%;">1,991</td>
+        <td style="width: 5%;">260</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 43</td>
+        <td style="width: 12%;">Fancy Hat Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dark Bringer</td>
+        <td style="width: 5%;">2,765</td>
+        <td style="width: 5%;">460</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 044</td>
+        <td style="width: 12%;">Explosive Powder Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Armed Brownie</td>
+        <td style="width: 5%;">7,113</td>
+        <td style="width: 5%;">460</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 045</td>
+        <td style="width: 12%;">Alchemy Pack Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stonewing Beast</td>
+        <td style="width: 5%;">6,528</td>
+        <td style="width: 5%;">530</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Job 046</td>
+        <td style="width: 12%;">Exploding Uni Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Scylla</td>
+        <td style="width: 5%;">7,146</td>
+        <td style="width: 5%;">590</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 047</td>
+        <td style="width: 12%;">Uni the Great Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Mama</td>
+        <td style="width: 5%;">4,082</td>
+        <td style="width: 5%;">260</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 048</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">40</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Boy</td>
+        <td style="width: 5%;">2,954</td>
+        <td style="width: 5%;">200</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 048</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">20</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kobold Daddy</td>
+        <td style="width: 5%;">6,592</td>
+        <td style="width: 5%;">350</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 048</td>
+        <td style="width: 12%;">Legendary Fabric Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">60</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gear Sprite</td>
+        <td style="width: 5%;">6,861</td>
+        <td style="width: 5%;">540</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Lightning</li></ul></p></td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"><p><ul><li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 049</td>
+        <td style="width: 12%;">Vacuum Pipe Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dualblade Emperor</td>
+        <td style="width: 5%;">25,172</td>
+        <td style="width: 5%;">800</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 050</td>
+        <td style="width: 12%;">Motorized Mechsword Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Ninetails</td>
+        <td style="width: 5%;">22,064</td>
+        <td style="width: 5%;">750</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 052</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">40</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Advocate</td>
+        <td style="width: 5%;">7,341</td>
+        <td style="width: 5%;">560</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 053</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Silverius</td>
+        <td style="width: 5%;">12,328</td>
+        <td style="width: 5%;">450</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">Job 043</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Goldenia</td>
+        <td style="width: 5%;">12,328</td>
+        <td style="width: 5%;">450</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;">Job 053</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Snow Maiden</td>
+        <td style="width: 5%;">22,160</td>
+        <td style="width: 5%;">700</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 054</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">80</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Witch Lady</td>
+        <td style="width: 5%;">9,936</td>
+        <td style="width: 5%;">350</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 055</td>
+        <td style="width: 12%;">Sweets Paradise Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Witch Sister</td>
+        <td style="width: 5%;">7,524</td>
+        <td style="width: 5%;">350</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 055</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Witch Cousin</td>
+        <td style="width: 5%;">7,495</td>
+        <td style="width: 5%;">350</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 055</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Glass Dragon</td>
+        <td style="width: 5%;">13,733</td>
+        <td style="width: 5%;">860</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 056</td>
+        <td style="width: 12%;">Alchemic Sword Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Rowdy Leader</td>
+        <td style="width: 5%;">15,178</td>
+        <td style="width: 5%;">650</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 057</td>
+        <td style="width: 12%;">Musical Strings Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Kiln People</td>
+        <td style="width: 5%;">4,257</td>
+        <td style="width: 5%;">300</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Job 057</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Treasure King</td>
+        <td style="width: 5%;">7,757</td>
+        <td style="width: 5%;">600</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 058</td>
+        <td style="width: 12%;">Twirly Thing Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Puni Taro</td>
+        <td style="width: 5%;">1,118</td>
+        <td style="width: 5%;">200</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 059</td>
+        <td style="width: 12%;">Bonus Card Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Puni Jiro</td>
+        <td style="width: 5%;">1,012</td>
+        <td style="width: 5%;">200</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 059</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Puni Kichi</td>
+        <td style="width: 5%;">1,622</td>
+        <td style="width: 5%;">175</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Job 059</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Echo</td>
+        <td style="width: 5%;">1,203</td>
+        <td style="width: 5%;">190</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 060</td>
+        <td style="width: 12%;">Charge Hammer Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Grove</td>
+        <td style="width: 5%;">947</td>
+        <td style="width: 5%;">190</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 060</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Amber</td>
+        <td style="width: 5%;">1,038</td>
+        <td style="width: 5%;">190</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Magic</td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Job 060</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Giant Golden Pig</td>
+        <td style="width: 5%;">1,747</td>
+        <td style="width: 5%;">270</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Slow</td>
+        <td style="width: 15%;">Job 061</td>
+        <td style="width: 12%;">Hardened Cloak Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">50</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Living Bullet</td>
+        <td style="width: 5%;">1,527</td>
+        <td style="width: 5%;">30</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Job 064</li>
+<li>Clocktower</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Platinum Puni</td>
+        <td style="width: 5%;">241</td>
+        <td style="width: 5%;">90</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Puni</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Chapter 1</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Watcher</td>
+        <td style="width: 5%;">2,453</td>
+        <td style="width: 5%;">470</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li>
+<li>Lightning</li></ul></p></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Chapter 4</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Stone Emperor</td>
+        <td style="width: 5%;">1,901</td>
+        <td style="width: 5%;">280</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Combat III Chain Assignment</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Dunkelknight</td>
+        <td style="width: 5%;">12,201</td>
+        <td style="width: 5%;">500</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Combat V Power Assignment</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Berserk Koalaria</td>
+        <td style="width: 5%;">22,062</td>
+        <td style="width: 5%;">1,000</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Combat VI Speed Assignment</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">70</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Silent Horn</td>
+        <td style="width: 5%;">19,104</td>
+        <td style="width: 5%;">1,900</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li>
+<li>Lightning</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poision</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Combat VII Chain Assignment</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">90</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Poltergeist</td>
+        <td style="width: 5%;">4,692</td>
+        <td style="width: 5%;">550</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Sythesis VIII Attack Assigment</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lonely Wraith</td>
+        <td style="width: 5%;">308</td>
+        <td style="width: 5%;">270</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Pamela's Character Quest</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Drawnie</td>
+        <td style="width: 5%;">537</td>
+        <td style="width: 5%;">450</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Flay's Character Quest</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Flay</td>
+        <td style="width: 5%;">1,899</td>
+        <td style="width: 5%;">360</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Flay's Character Quest</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Anna</td>
+        <td style="width: 5%;">393</td>
+        <td style="width: 5%;">240</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Anna's Character Quest</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Mucho</td>
+        <td style="width: 5%;">14,365</td>
+        <td style="width: 5%;">280</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Muppy's Character Quest</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Lore Beast</td>
+        <td style="width: 5%;">1,036</td>
+        <td style="width: 5%;">200</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Chapter 1</td>
+        <td style="width: 12%;">Bomb Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">20</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Roxis (1st Encounter)</td>
+        <td style="width: 5%;">990</td>
+        <td style="width: 5%;">360</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Chapter 2</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Fallen Lover</td>
+        <td style="width: 5%;">2,517</td>
+        <td style="width: 5%;">280</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"></td>
+        <td style="width: 15%;">Chapter 3</td>
+        <td style="width: 12%;">Curing Medicine Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Tony (1st and 3rd Encounter)</td>
+        <td style="width: 5%;">1,683</td>
+        <td style="width: 5%;">720</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;"><p><ul><li>Chapter 4</li>
+<li>Chapter 7</li></ul></p></td>
+        <td style="width: 12%;">Radiating Disc Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Renee (1st and 3rd Encounter)</td>
+        <td style="width: 5%;">1,909</td>
+        <td style="width: 5%;">600</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;"><p><ul><li>Chapter 4</li>
+<li>Chapter 7</li></ul></p></td>
+        <td style="width: 12%;">Magic Stake Cloth Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Azureflame Mana (1st and 3rd Encounter)</td>
+        <td style="width: 5%;">1,670</td>
+        <td style="width: 5%;">280</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Chapter 4</li>
+<li>Chapter 7</li></ul></p></td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Glowfire Mana</td>
+        <td style="width: 5%;">382</td>
+        <td style="width: 5%;">60</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 4</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Roxis (2nd Encounter)</td>
+        <td style="width: 5%;">1,312</td>
+        <td style="width: 5%;">600</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Chapter 4</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Grandwing Drake (1st Encounter)</td>
+        <td style="width: 5%;">8,480</td>
+        <td style="width: 5%;">1,000</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 5</td>
+        <td style="width: 12%;">Magic Ring Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Tony (2nd Encounter)</td>
+        <td style="width: 5%;">7,266</td>
+        <td style="width: 5%;">840</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Chapter 6</td>
+        <td style="width: 12%;">Heavy Armor Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Renee (2nd Encounter)</td>
+        <td style="width: 5%;">5,864</td>
+        <td style="width: 5%;">720</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Sleep</td>
+        <td style="width: 15%;">Chapter 6</td>
+        <td style="width: 12%;">Women's Armor Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Azureflame Mana</td>
+        <td style="width: 5%;">5,505</td>
+        <td style="width: 5%;">240</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li></ul></p></td>
+        <td style="width: 15%;">Chapter 6</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Chimera</td>
+        <td style="width: 5%;">17,702</td>
+        <td style="width: 5%;">1,300</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;">Fire</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li></ul></p></td>
+        <td style="width: 15%;">Chapter 8</td>
+        <td style="width: 12%;">SPD Fruit</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">40</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Zweis Monde (1st Encounter)</td>
+        <td style="width: 5%;">22,869</td>
+        <td style="width: 5%;">1,800</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Physical OR Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 9</td>
+        <td style="width: 12%;">Green Tablet Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Isolde (1st Encounter)</td>
+        <td style="width: 5%;">25,270</td>
+        <td style="width: 5%;">2,400</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 10</td>
+        <td style="width: 12%;">Ultimate Remedy Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Isolde (2nd Encounter)</td>
+        <td style="width: 5%;">31,065</td>
+        <td style="width: 5%;">3,000</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 11</td>
+        <td style="width: 12%;">The Gem of Alchemy Recipe</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Tony (4th Encounter)</td>
+        <td style="width: 5%;">22,957</td>
+        <td style="width: 5%;">535</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;">MGK Fruit</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Renee (4th Encounter)</td>
+        <td style="width: 5%;">17,273</td>
+        <td style="width: 5%;">660</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;">ATK Fruit</td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Azureflame Mana (4th Encounter)</td>
+        <td style="width: 5%;">24,748</td>
+        <td style="width: 5%;">360</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Grandwing Drake (2nd Encounter)</td>
+        <td style="width: 5%;">38,273</td>
+        <td style="width: 5%;">1,440</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Zweis Monde (2nd Encounter)</td>
+        <td style="width: 5%;">33,845</td>
+        <td style="width: 5%;">1,320</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Spirit</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Physical OR Magic</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Vayne</td>
+        <td style="width: 5%;">27,590</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Crazed Eye</td>
+        <td style="width: 5%;">61,335</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Chapter 12</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Magus</td>
+        <td style="width: 5%;">33,864</td>
+        <td style="width: 5%;">445</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Rockwell</td>
+        <td style="width: 5%;">22,853</td>
+        <td style="width: 5%;">445</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 5%;">Physical</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Fatebringer</td>
+        <td style="width: 5%;">29,293</td>
+        <td style="width: 5%;">445</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Undead</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Cobalt Scar</td>
+        <td style="width: 5%;">32,202</td>
+        <td style="width: 5%;">840</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Dragon</td>
+        <td style="width: 5%;">Lightning</td>
+        <td style="width: 5%;">Ice</td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Abyss Keeper</td>
+        <td style="width: 5%;">58,344</td>
+        <td style="width: 5%;">440</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Beast</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"><p><ul><li>Fire</li>
+<li>Ice</li>
+<li>Lightning</li></ul></p></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;">80</td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Secret Gangster</td>
+        <td style="width: 5%;">25,346</td>
+        <td style="width: 5%;">430</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Gangster Boss</td>
+        <td style="width: 5%;">48,182</td>
+        <td style="width: 5%;">430</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Uber Gangster</td>
+        <td style="width: 5%;">64,779</td>
+        <td style="width: 5%;">440</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;">Seal</td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Darlvero</td>
+        <td style="width: 5%;">49,728</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Darkyula</td>
+        <td style="width: 5%;">54,948</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Darcrowley</td>
+        <td style="width: 5%;">53,716</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Pain</td>
+        <td style="width: 5%;">85,800</td>
+        <td style="width: 5%;">1,300</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+
+    <tr>
+        <td style="width: 9%;">Darkash</td>
+        <td style="width: 5%;">65,610</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">0</td>
+        <td style="width: 5%;">Demon</td>
+        <td style="width: 5%;"></td>
+        <td style="width: 5%;"></td>
+        <td style="width: 15%;"><p><ul><li>Poison</li>
+<li>Sleep</li>
+<li>Curse</li>
+<li>Seal</li>
+<li>Slow</li></ul></p></td>
+        <td style="width: 15%;">Bonus Dungeon</td>
+        <td style="width: 12%;"></td>
+        <td style="width: 11%;"></td>
+        <td style="width: 5%;"></td>
+    </tr>
+</table></div>
