@@ -1,6 +1,7 @@
 import contextlib
 import io
 import json
+import numpy as np
 import pathlib
 import pandas as pd
 import re
@@ -58,6 +59,7 @@ def htmlify_recipe(item, headers):
 recipes = json.loads(pathlib.Path('raw_data/recipe-data.json').read_text())
 itemdata = pd.read_csv('raw_data/item-data.csv', index_col=0)
 course_data = pd.read_csv('raw_data/course-data.csv')
+enemy_data = pd.read_csv('raw_data/enemy-data.csv')
 
 
 def find_recipe(item):
@@ -257,6 +259,74 @@ def build_courses():
         f.write(stream.read())
 
 
+def build_enemies():
+    def _paragraphize(text):
+        if isinstance(text, float):
+            return '' if np.isnan(text) else text
+
+        if ',' in text:
+            return '<p><ul>' + '\n'.join(f'<li>{item}</li>' for item in text.split(', ')) + '</ul></p>'
+        else:
+            return text
+
+    stream = io.StringIO()
+    stream.write('''
+    <div><table>
+    <tr>
+        <th style="width: 9%;">Name</th>
+        <th style="width: 5%;">HP</th>
+        <th style="width: 5%;">AP</th>
+        <th style="width: 5%;">Cole</th>
+        <th style="width: 5%;">Species</th>
+        <th style="width: 5%;">Weak</th>
+        <th style="width: 5%;">Resist</th>
+        <th style="width: 15%;">Protections</th>
+        <th style="width: 15%;">Location</th>
+        <th style="width: 12%;">Spoil</th>
+        <th style="width: 11%;">Snack</th>
+        <th style="width: 5%;">Heart</th>
+    </tr>
+''')
+
+    for row in enemy_data.to_dict(orient='record'):
+        name = row.get('Name', '')
+        hp = row.get('HP', '')
+        ap = row.get('AP', '')
+        cole = row.get('Cole', '')
+        species = row.get('Species', '')
+        weak = row.get('Weak', '')
+        resist = row.get('Resist', '')
+        protections = row.get('Protections', '')
+        location = row.get('Location', '')
+        spoil = row.get('Spoil', '')
+        snack = row.get('Snack', '')
+        heart = row.get('Heart', '')
+
+        stream.write(f'''
+    <tr>
+        <th style="width: 9%;">{_paragraphize(name)}</th>
+        <th style="width: 5%;">{hp:,}</th>
+        <th style="width: 5%;">{ap:,}</th>
+        <th style="width: 5%;">{cole:,}</th>
+        <th style="width: 5%;">{_paragraphize(species)}</th>
+        <th style="width: 5%;">{_paragraphize(weak)}</th>
+        <th style="width: 5%;">{_paragraphize(resist)}</th>
+        <th style="width: 15%;">{_paragraphize(protections)}</th>
+        <th style="width: 15%;">{_paragraphize(location)}</th>
+        <th style="width: 12%;">{_paragraphize(spoil)}</th>
+        <th style="width: 11%;">{_paragraphize(snack)}</th>
+        <th style="width: 5%;">{_paragraphize(heart)}</th>
+    </tr>
+''')
+
+    stream.write('</table></div>')
+
+    with open('x.txt', 'w+') as f:
+        stream.seek(0)
+        f.write(stream.read())
+
+
 # build_recipes()
 # build_character_quests()
-build_courses()
+# build_courses()
+build_enemies()
