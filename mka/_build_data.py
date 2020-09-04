@@ -197,11 +197,11 @@ def build_character_quests():
     for character in ('Philo', 'Nikki', 'Pamela', 'Flay', 'Roxis', 'Anna', 'Muppy'):
         stream.write(f'''
     <!-- {character} -->
-    <div class="cq-header {character.lower()}">
+    <div class="cq-header {character.lower()}" id="cq-{character.lower()}">
         <img class="icon" src="imgs/{character.lower()}.png" width="75" height="75">
         {character}
     </div>
-    <div class="content">
+    <div>
         <table>
             <tr>
                 <th style="width: 5%;">Episode</th>
