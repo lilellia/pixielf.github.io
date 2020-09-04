@@ -46,7 +46,7 @@ ID,Name,HP,AP,Cole,Species,Weak,Resist,Protections,Location,Spoil,Snack,Heart
 44,Dryad,517,45,15,Spirit,Fire,Physical,,"Job 068, Millenium Tree",Angel's Slip,Candy Eye,
 45,Orb,1546,80,427,Spirit,Lightning,Magic,,"Job 071, Mana Ruins - Bottom Center",Pendelook,Vanilla Syrup,
 46,Blade Sprite,1492,75,35,Spirit,,,,"Job 049, Job 068, Clocktower",Worn Weapon,Vanilla Syrup,
-47,Death Sprite,3237,155,94,Spirit,,"Physical, Magic","Poison, Sleep, Cure","Resource Center - Unorganized Zone, Heart's Prison",Soul of Darkness,Meringue Whip,
+47,Death Sprite,3237,155,94,Spirit,,"Physical, Magic","Poison, Sleep, Curse","Resource Center - Unorganized Zone, Heart's Prison",Soul of Darkness,Meringue Whip,
 48,Gem Sprite,170,30,78,,,"Physical, Magic",,Resource Center,Pendelook,Candy Eye,
 49,Clay Puppet,104,25,39,,Lightning,,Seal,Old Schoolhouse,Gear,Monster Cookie,
 50,Pot Spirit,958,70,91,,Lightning,,Seal,Clocktower,Gear,Rocks rock!,
@@ -174,7 +174,7 @@ ID,Name,HP,AP,Cole,Species,Weak,Resist,Protections,Location,Spoil,Snack,Heart
 172,Stone Emperor,1901,280,0,,Lightning,,,Combat III Chain Assignment,,,
 173,Dunkelknight,12201,500,0,Demon,Fire,Ice,"Poison, Curse, Seal",Combat V Power Assignment,,,
 174,Berserk Koalaria,22062,1000,0,Beast,Fire,,Seal,Combat VI Speed Assignment,,,70
-175,Silent Horn,19104,1900,0,Beast,,"Fire, Ice, Lightning","Poision, Sleep, Curse, Seal",Combat VII Chain Assignment,,,90
+175,Silent Horn,19104,1900,0,Beast,,"Fire, Ice, Lightning","Poison, Sleep, Curse, Seal",Combat VII Chain Assignment,,,90
 176,Poltergeist,4692,550,0,Spirit,Ice,,"Curse, Seal",Sythesis VIII Attack Assigment,,,
 177,Lonely Wraith,308,270,0,Undead,,,"Sleep, Seal",Pamela's Character Quest,,,
 178,Drawnie,537,450,0,,,,,Flay's Character Quest,,,

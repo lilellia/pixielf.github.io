@@ -294,7 +294,7 @@ def build_enemies():
 
         lst = lst.split(', ')
         imgs = ''.join(
-            f'<img src="imgs/{item.lower()}.png" width="15" height="15">'
+            f'<img src="imgs/{item.lower()}.png" width="28" height="28">'
             for item in lst
         )
         return f'<p>{imgs}</p>'
