@@ -1,0 +1,2442 @@
+
+        <button type="button" class="collapsible">Usable Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 56%;">Ingredients</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Heal Jar</td>
+	<td style="width: 12%;">Healing Medicine</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig/Huffin</li>
+	<li>Blue Petal/Glowing Petal/Red Petal</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">16</td></tr>
+<tr><td style="width: 12%;">X-Heal</td>
+	<td style="width: 12%;">Healing Medicine</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Taun/Purplinacherb/Tercia Pollen</li>
+	<li>Lando/X-Lando/Sweet Lando</li>
+	<li>Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">104</td></tr>
+<tr><td style="width: 12%;">Heal All</td>
+	<td style="width: 12%;">Spreading Machine</td>
+	<td style="width: 12%;">Infirmary (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Heal Jar/X-Heal</li>
+	<li>Apollo's Diapason/Alchemic Cymbal</li>
+	<li>Tercia Pollen/Kittynip/Dunkelhite</li>
+	<li>Yubana Fruit/Dried Yubana/Yubana Flower</li></ul></p></td>
+	<td style="width: 8%;">156</td></tr>
+<tr><td style="width: 12%;">Cure Jar</td>
+	<td style="width: 12%;">Curing Medicine</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion</li>
+	<li>Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom/Taun/Huffin</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid</li></ul></p></td>
+	<td style="width: 8%;">28</td></tr>
+<tr><td style="width: 12%;">Nectar</td>
+	<td style="width: 12%;">God's Drink</td>
+	<td style="width: 12%;">Infirmary (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Salt</li></ul></p></td>
+	<td style="width: 8%;">72</td></tr>
+<tr><td style="width: 12%;">Super Nectar</td>
+	<td style="width: 12%;">Super Juice</td>
+	<td style="width: 12%;">Infirmary (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Brilliant Stone/Pentagle</li>
+	<li>X-Lando/Sweet Lando/Mandarin Orange</li>
+	<li>Radish/Medicinal Radish/Shinke Onion</li>
+	<li>Preservative/X-Heal/Heal All</li></ul></p></td>
+	<td style="width: 8%;">186</td></tr>
+<tr><td style="width: 12%;">Shining Grail</td>
+	<td style="width: 12%;">A Holy Cup</td>
+	<td style="width: 12%;">Infirmary (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>Nectar</li>
+	<li>Super Nectar</li>
+	<li>Liquid Metal/Velvet Horn</li></ul></p></td>
+	<td style="width: 8%;">232</td></tr>
+<tr><td style="width: 12%;">Amber Soup</td>
+	<td style="width: 12%;">Mental Stabilizer</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 56%;"><p><ul><li>ATK Fruit/MGK Fruit/DEF Fruit/RES Fruit/SPD Fruit</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Clearwater/Brown Groundwater/Marine Water</li></ul></p></td>
+	<td style="width: 8%;">30</td></tr>
+<tr><td style="width: 12%;">Tranquilizer</td>
+	<td style="width: 12%;">Mental Stabilizer</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 56%;"><p><ul><li>Youthful Apple/Eternal Peach</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Fortune Ring</li></ul></p></td>
+	<td style="width: 8%;">164</td></tr>
+<tr><td style="width: 12%;">Elixir</td>
+	<td style="width: 12%;">Ultimate Remedy</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Super Nectar</li>
+	<li>X-Heal</li>
+	<li>Dunkelhite</li>
+	<li>Shinke Onion</li></ul></p></td>
+	<td style="width: 8%;">310</td></tr>
+<tr><td style="width: 12%;">Steak</td>
+	<td style="width: 12%;">Flaming BBQ</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Wild Meat/Rotten Meat/Golden Meat</li>
+	<li>Carrotato/Belgrade Potato/Pumpotatokin</li>
+	<li>Salt</li></ul></p></td>
+	<td style="width: 8%;">38</td></tr>
+<tr><td style="width: 12%;">Broiled Fish</td>
+	<td style="width: 12%;">Flaming BBQ</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Masou/Trout/Chinook</li>
+	<li>Radish/Medicinal Radish</li>
+	<li>Salt</li></ul></p></td>
+	<td style="width: 8%;">56</td></tr>
+<tr><td style="width: 12%;">Ceramic Plate</td>
+	<td style="width: 12%;">Flaming BBQ</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Magical Clay/Blood Clay</li>
+	<li>Liquid Metal/Preservative</li>
+	<li>Plosion/Tera Flame</li></ul></p></td>
+	<td style="width: 8%;">162</td></tr>
+<tr><td style="width: 12%;">Fish Boat: Marlow</td>
+	<td style="width: 12%;">Gorgeous Boat</td>
+	<td style="width: 12%;">Student Store (Chapter 11)</td>
+	<td style="width: 56%;"><p><ul><li>King Tuna/Queen Tuna</li>
+	<li>Bonita/Joker Fish/Blowfish-X/Tiger Blowfish/Chinook/Trout/Masou</li>
+	<li>Radish/Medicinal Radish</li>
+	<li>Bobomb Ice</li></ul></p></td>
+	<td style="width: 8%;">264</td></tr>
+<tr><td style="width: 12%;">Green Soup</td>
+	<td style="width: 12%;">Deliciousoup</td>
+	<td style="width: 12%;">Old Schoolhouse, or Cafeteria (Chapter 2)</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig</li>
+	<li>Clearwater/Goat Milk</li>
+	<li>Salt</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Pumpotatokin</li></ul></p></td>
+	<td style="width: 8%;">18</td></tr>
+<tr><td style="width: 12%;">Red Soup</td>
+	<td style="width: 12%;">Deliciousoup</td>
+	<td style="width: 12%;">Old Schoolhouse, or Cafeteria (Chapter 2)</td>
+	<td style="width: 56%;"><p><ul><li>Lando/X-Lando/Sweet Lando/Night-in-grape</li>
+	<li>Tiger Blowfish/Blowfish-X/99% Chaos Choco</li>
+	<li>Salt</li>
+	<li>Green Soup/Goat Milk/Ceramic Plate</li></ul></p></td>
+	<td style="width: 8%;">120</td></tr>
+<tr><td style="width: 12%;">Golden Soup</td>
+	<td style="width: 12%;">Deliciousoup</td>
+	<td style="width: 12%;">Old Schoolhouse, or Cafeteria (Chapter 2)</td>
+	<td style="width: 56%;"><p><ul><li>Gold Bullion</li>
+	<li>Golden Meat</li>
+	<li>Liquid Metal</li>
+	<li>Ceramic Plate</li></ul></p></td>
+	<td style="width: 8%;">382</td></tr>
+<tr><td style="width: 12%;">Flame</td>
+	<td style="width: 12%;">Bomb</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Canone Rock</li>
+	<li>Polish Powder/Flour/Black Powder</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric</li></ul></p></td>
+	<td style="width: 8%;">58</td></tr>
+<tr><td style="width: 12%;">Tera Flame</td>
+	<td style="width: 12%;">Super Bomb</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Canone Crystal</li>
+	<li>Plosion</li>
+	<li>Flame Ring</li></ul></p></td>
+	<td style="width: 8%;">206</td></tr>
+<tr><td style="width: 12%;">Bomb Ice</td>
+	<td style="width: 12%;">Bomb</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Glacier Stone</li>
+	<li>Polish Powder/Flour/Black Powder</li>
+	<li>Clearwater/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">66</td></tr>
+<tr><td style="width: 12%;">Bobomb Ice</td>
+	<td style="width: 12%;">Super Bomb</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Glacier Crystal</li>
+	<li>Plosion</li>
+	<li>Ice Ring</li></ul></p></td>
+	<td style="width: 8%;">206</td></tr>
+<tr><td style="width: 12%;">Lightning Rod</td>
+	<td style="width: 12%;">Bomb</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Thunder Stone</li>
+	<li>Polish Powder/Flour/Black Powder</li>
+	<li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li></ul></p></td>
+	<td style="width: 8%;">80</td></tr>
+<tr><td style="width: 12%;">Thunder Rod</td>
+	<td style="width: 12%;">Super Bomb</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Thunder Crystal</li>
+	<li>Plosion</li>
+	<li>Thunder Ring</li></ul></p></td>
+	<td style="width: 8%;">206</td></tr>
+<tr><td style="width: 12%;">Uni Bomb</td>
+	<td style="width: 12%;">Exploding Uni</td>
+	<td style="width: 12%;">Complete Job no. 046</td>
+	<td style="width: 56%;"><p><ul><li>Uni/Big Uni</li>
+	<li>Plosion</li>
+	<li>Tuft/Knot/Shiny Moustache/Meringue Whip</li></ul></p></td>
+	<td style="width: 8%;">88</td></tr>
+<tr><td style="width: 12%;">Big Uni Bomb</td>
+	<td style="width: 12%;">Uni the Great</td>
+	<td style="width: 12%;">Complete Job no. 047, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Big Uni</li>
+	<li>Plosion</li>
+	<li>Uni Bomb/Flame/Tera Flame</li></ul></p></td>
+	<td style="width: 8%;">160</td></tr>
+<tr><td style="width: 12%;">Uni God</td>
+	<td style="width: 12%;">The Mystic Uni</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin</td>
+	<td style="width: 56%;"><p><ul><li>Uni/Big Uni</li>
+	<li>Soul of Darkness</li>
+	<li>Dragon Tongue</li>
+	<li>Pentagle</li></ul></p></td>
+	<td style="width: 8%;">276</td></tr>
+<tr><td style="width: 12%;">Orange Bomb</td>
+	<td style="width: 12%;">Fruit Bomb</td>
+	<td style="width: 12%;">Resource Center Dungeon, or Cafeteria (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Flour/Black Powder/Polish Powder/Plosion</li>
+	<li>Pleather Cloth</li></ul></p></td>
+	<td style="width: 8%;">68</td></tr>
+<tr><td style="width: 12%;">Big Orange Bomb</td>
+	<td style="width: 12%;">Uni the Great</td>
+	<td style="width: 12%;">Complete Job no. 047, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Plosion</li>
+	<li>Pleather Cloth</li></ul></p></td>
+	<td style="width: 8%;">120</td></tr>
+<tr><td style="width: 12%;">Lando Bomb</td>
+	<td style="width: 12%;">Sweet Fruit Bomb</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Cafeteria (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Lando/X-Lando/Sweet Lando</li>
+	<li>Flour/Black Powder/Polish Powder/Plosion</li>
+	<li>Black Steel</li></ul></p></td>
+	<td style="width: 8%;">78</td></tr>
+<tr><td style="width: 12%;">Big Lando Bomb</td>
+	<td style="width: 12%;">Uni the Great</td>
+	<td style="width: 12%;">Complete Job no. 047, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>X-Lando/Sweet Lando</li>
+	<li>Plosion</li>
+	<li>Lando Bomb/Flame/Tera Flame</li></ul></p></td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Globe</td>
+	<td style="width: 12%;">Twirly Thing</td>
+	<td style="width: 12%;">Complete Job no. 058, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Raw Komet Ore/Super Komet</li>
+	<li>Polish Powder/Shiny Powder</li>
+	<li>Zettel/Holy Crest Paper</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel</li></ul></p></td>
+	<td style="width: 8%;">176</td></tr>
+<tr><td style="width: 12%;">Stellar Globe</td>
+	<td style="width: 12%;">Twirly Thing</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin</td>
+	<td style="width: 56%;"><p><ul><li>Globe</li>
+	<li>Le Merou Cog/Eternal Turnkey/Gearbox/Organne la Firste</li>
+	<li>Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Pot Station</li></ul></p></td>
+	<td style="width: 8%;">438</td></tr>
+<tr><td style="width: 12%;">Unipuni Pudding</td>
+	<td style="width: 12%;">Pudding</td>
+	<td style="width: 12%;">Cafeteria (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Uni/Big Uni</li>
+	<li>Puppy Paw Flan</li>
+	<li>Puni Gummi</li>
+	<li>Ceramic Plate</li></ul></p></td>
+	<td style="width: 8%;">98</td></tr>
+<tr><td style="width: 12%;">Cheesecake</td>
+	<td style="width: 12%;">Traditional Cake</td>
+	<td style="width: 12%;">Cafeteria (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Goat Cheese</li>
+	<li>Vanilla Syrup/Goat Milk</li>
+	<li>Monster Cookie/Taiyaki</li></ul></p></td>
+	<td style="width: 8%;">74</td></tr>
+<tr><td style="width: 12%;">Pumpotatokin Pie</td>
+	<td style="width: 12%;">Traditional Cake</td>
+	<td style="width: 12%;">Cafeteria (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Pumpotatokin</li>
+	<li>Vanilla Syrup/Goat Milk</li>
+	<li>Monster Cookie/Taiyaki</li></ul></p></td>
+	<td style="width: 8%;">82</td></tr>
+<tr><td style="width: 12%;">Grape Sherbet</td>
+	<td style="width: 12%;">Bite-sized Sorbet</td>
+	<td style="width: 12%;">Cafeteria (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Bitter Grape/Night-in-grape</li>
+	<li>Long Ice Cream</li>
+	<li>Bomb Ice/Bobomb Ice</li></ul></p></td>
+	<td style="width: 8%;">120</td></tr>
+<tr><td style="width: 12%;">Muscat Sorbet</td>
+	<td style="width: 12%;">Bite-sized Sorbet</td>
+	<td style="width: 12%;">Cafeteria (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Muscat</li>
+	<li>Long Ice Cream</li>
+	<li>Bomb Ice/Bobomb Ice</li></ul></p></td>
+	<td style="width: 8%;">144</td></tr>
+<tr><td style="width: 12%;">Sweetsland</td>
+	<td style="width: 12%;">Sweets Paradise</td>
+	<td style="width: 12%;">Complete Job no. 055, or Cafeteria (Chapter 11)</td>
+	<td style="width: 56%;"><p><ul><li>Unipuni Pudding</li>
+	<li>Jumbo Donut</li>
+	<li>Grape Sherbet/Muscat Sorbet</li>
+	<li>Cheesecake/Pumpotatokin Pie</li></ul></p></td>
+	<td style="width: 8%;">300</td></tr>
+<tr><td style="width: 12%;">120% Fruit</td>
+	<td style="width: 12%;">Fruit Juice</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Lando/X-Lando/Sweet Lando</li>
+	<li>Goat Milk</li></ul></p></td>
+	<td style="width: 8%;">98</td></tr>
+<tr><td style="width: 12%;">Veggielicious</td>
+	<td style="width: 12%;">Fruit Juice</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb</li>
+	<li>Carrotato</li>
+	<li>Radish/Medicinal Radish</li>
+	<li>Clearwater/Brown Groundwater/Marine Water</li></ul></p></td>
+	<td style="width: 8%;">52</td></tr>
+<tr><td style="width: 12%;">Veggie Purple</td>
+	<td style="width: 12%;">Fruit Juice</td>
+	<td style="width: 12%;">Cafeteria (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Purplinacherb</li>
+	<li>Carrotato</li>
+	<li>Radish/Medicinal Radish</li>
+	<li>Clearwater/Brown Groundwater/Marine Water</li></ul></p></td>
+	<td style="width: 8%;">94</td></tr>
+<tr><td style="width: 12%;">Divine Shield</td>
+	<td style="width: 12%;">Radiating Disc</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Holy Crest Paper/Brilliant Stone</li>
+	<li>Red Steel/Blue Steel</li>
+	<li>Chrome Crystal/Pendelook/Soul of Darkness</li></ul></p></td>
+	<td style="width: 8%;">182</td></tr>
+<tr><td style="width: 12%;">Misty Curtain</td>
+	<td style="width: 12%;">Magic Stake Cloth</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Holy Crest Paper/Brilliant Stone</li>
+	<li>Silky Cloth/Formell Fabric</li>
+	<li>Yubana Fruit/Dried Yubana/Yubana Flower/Lando/X-Lando/Sweet Lando</li></ul></p></td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Treasure Cape</td>
+	<td style="width: 12%;">Invincible Mantle</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Amber Soup/Tranquilizer</li>
+	<li>Silky Cloth/Formell Fabric</li>
+	<li>Chrome Crystal/Pendelook/Soul of Darkness</li></ul></p></td>
+	<td style="width: 8%;">126</td></tr>
+</table></div>
+        <button type="button" class="collapsible">Material Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 56%;">Ingredients</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Flour</td>
+	<td style="width: 12%;">Powdering Powder</td>
+	<td style="width: 12%;">Cafeteria (Chapter 1)</td>
+	<td style="width: 56%;"><p><ul><li>Carrotato/Belgrade Potato/Pumpotatokin</li>
+	<li>Spinacherb/Dunkelhite/Purplinacherb/Gash Twig/Kittynip/Tercia Pollen/Taun/Huffin</li></ul></p></td>
+	<td style="width: 8%;">14</td></tr>
+<tr><td style="width: 12%;">Salt</td>
+	<td style="width: 12%;">Powdering Powder</td>
+	<td style="width: 12%;">Cafeteria (Chapter 1)</td>
+	<td style="width: 56%;"><p><ul><li>Masou/Endless Seaweed/Strom Shell/Joker Fish</li>
+	<li>Clearwater/Brown Groundwater/Marine Water</li></ul></p></td>
+	<td style="width: 8%;">32</td></tr>
+<tr><td style="width: 12%;">Black Powder</td>
+	<td style="width: 12%;">Powdering Powder</td>
+	<td style="width: 12%;">Cafeteria (Chapter 1)</td>
+	<td style="width: 56%;"><p><ul><li>Carbon Boulder/Raw Komet Ore/Super Komet/Black Steel/Black Liquid/Spinacherb/Purplinacherb/Gash Twig/Kittynip/Eicheloa/Poison Shroom/Taun/Huffin</li>
+	<li>Canone Rock/Flame/Tera Flame/Plosion</li></ul></p></td>
+	<td style="width: 8%;">94</td></tr>
+<tr><td style="width: 12%;">Polish Powder</td>
+	<td style="width: 12%;">Powdering Powder</td>
+	<td style="width: 12%;">Cafeteria (Chapter 1)</td>
+	<td style="width: 56%;"><p><ul><li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li>
+	<li>Canone Rock/Glacier Stone/Thunder Stone/Raw Komet Ore/Super Komet/Carbon Boulder</li></ul></p></td>
+	<td style="width: 8%;">52</td></tr>
+<tr><td style="width: 12%;">Shiny Powder</td>
+	<td style="width: 12%;">Miraculous Powder</td>
+	<td style="width: 12%;">Student Store (Chapter 9)</td>
+	<td style="width: 56%;"><p><ul><li>Raw Komet Ore/Super Komet/Gravity Stone/Pendelook</li>
+	<li>Elemia Silver/White Steel/Altena Ingot/Gold Bullion</li></ul></p></td>
+	<td style="width: 8%;">172</td></tr>
+<tr><td style="width: 12%;">Magical Clay</td>
+	<td style="width: 12%;">How to Knead Dirt</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Dirt/Red Dirt/Black Dirt</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">46</td></tr>
+<tr><td style="width: 12%;">Blood Clay</td>
+	<td style="width: 12%;">How to Knead Dirt</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Dunkelhite</li>
+	<li>Dirt/Red Dirt/Black Dirt</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid</li></ul></p></td>
+	<td style="width: 8%;">122</td></tr>
+<tr><td style="width: 12%;">Black Steel</td>
+	<td style="width: 12%;">Alchemic Steel</td>
+	<td style="width: 12%;">Student Store (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Legien Steel</li>
+	<li>Beast Fang/Strom Shell/Monster Cookie/Puni Gummi</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">66</td></tr>
+<tr><td style="width: 12%;">Red Steel</td>
+	<td style="width: 12%;">Alchemic Steel</td>
+	<td style="width: 12%;">Student Store (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Cyprus Copper</li>
+	<li>Monster Bone/King Crab/Trout</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">126</td></tr>
+<tr><td style="width: 12%;">Blue Steel</td>
+	<td style="width: 12%;">Alchemic Steel</td>
+	<td style="width: 12%;">Student Store (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Preuve Lead</li>
+	<li>Dragon Bone/Chinook/Scale Chips/99% Chaos Choco</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">146</td></tr>
+<tr><td style="width: 12%;">White Steel</td>
+	<td style="width: 12%;">Alchemic Steel</td>
+	<td style="width: 12%;">Student Store (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Elemia Silver</li>
+	<li>Black Stee/Red Steel/Blue Steel</li>
+	<li>Liquid Metal</li></ul></p></td>
+	<td style="width: 8%;">336</td></tr>
+<tr><td style="width: 12%;">Altena Ingot</td>
+	<td style="width: 12%;">Holy Metal</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin</td>
+	<td style="width: 56%;"><p><ul><li>White Steel/Gold Bullion/Blood Clay</li>
+	<li>Brilliant Stone/Pentagle/Aroma Material</li>
+	<li>Liquid Metal</li></ul></p></td>
+	<td style="width: 8%;">290</td></tr>
+<tr><td style="width: 12%;">Gold Bullion</td>
+	<td style="width: 12%;">Ingot</td>
+	<td style="width: 12%;">Resource Center Dungeon/Vendor (Chapter 11)</td>
+	<td style="width: 56%;"><p><ul><li>Altena Ingot</li>
+	<li>Jade Tablet</li>
+	<li>Blood Clay</li>
+	<li>Dragon Tongue</li></ul></p></td>
+	<td style="width: 8%;">598</td></tr>
+<tr><td style="width: 12%;">Black Liquid</td>
+	<td style="width: 12%;">God's Drink</td>
+	<td style="width: 12%;">Infirmary (Chapter 4)</td>
+	<td style="width: 56%;"><p><ul><li>Masou/Chinook/Trout/Bonita/Endless Seaweed/Joker Fish</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Preservative</li>
+	<li>Carbon Boulder</li></ul></p></td>
+	<td style="width: 8%;">76</td></tr>
+<tr><td style="width: 12%;">Nicro Cloth</td>
+	<td style="width: 12%;">Generic Cloth</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom</li>
+	<li>Tuft/Knot/Shiny Moustache/Meringue Whip</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">16</td></tr>
+<tr><td style="width: 12%;">Pleather Cloth</td>
+	<td style="width: 12%;">Funfur Cloth</td>
+	<td style="width: 12%;">The Height, or Campus Grounds (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Red Petal/Blue Petal/Glowing Petal</li>
+	<li>Tuft/Knot/Shiny Moustache/Meringue Whip/Nicro Cloth</li>
+	<li>Masou/Trout/Chinook/Bonita/Endless Seaweed/Joker Fish</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">32</td></tr>
+<tr><td style="width: 12%;">Silky Cloth</td>
+	<td style="width: 12%;">Noble Fabric</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Red Petal/Blue Petal/Glowing Petal/Shiny Powder</li>
+	<li>Knot/Shiny Moustache/Meringue Whip/Silver Thread</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">66</td></tr>
+<tr><td style="width: 12%;">Formell Fabric</td>
+	<td style="width: 12%;">Legendary Fabric</td>
+	<td style="width: 12%;">Complete Job no. 048, or Student Store (Chapter 9)</td>
+	<td style="width: 56%;"><p><ul><li>Rainbow Feather/Crimson Feather/White Feather/Black Feather</li>
+	<li>Shiny Moustache/Meringue Whip/Silver Thread/Silky Cloth</li>
+	<li>Canone Crystal/Glacier Crystal/Thunder Crystal/Gravity Stone/Pendelook/Chrome Crystal</li>
+	<li>Heal Jar/X-Heal/Heal All/Cure Jar/Shining Grail</li></ul></p></td>
+	<td style="width: 8%;">230</td></tr>
+<tr><td style="width: 12%;">Goat Cheese</td>
+	<td style="width: 12%;">Preserved Food</td>
+	<td style="width: 12%;">Complete Job no. 042</td>
+	<td style="width: 56%;"><p><ul><li>Goat Milk</li>
+	<li>Lando/X-Lando/Sweet Lando/Yubana Fruit/Dried Yubana/Yubana Flower</li>
+	<li>Clearwater/Brown Groundwater/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">48</td></tr>
+<tr><td style="width: 12%;">Bacon</td>
+	<td style="width: 12%;">Preserved Food</td>
+	<td style="width: 12%;">Complete Job no. 042</td>
+	<td style="width: 56%;"><p><ul><li>Wild Meat/Rotten Meat/Golden Meat</li>
+	<li>Preservative</li>
+	<li>Salt</li></ul></p></td>
+	<td style="width: 8%;">48</td></tr>
+<tr><td style="width: 12%;">Smoked Fish</td>
+	<td style="width: 12%;">Preserved Food</td>
+	<td style="width: 12%;">Complete Job no. 042</td>
+	<td style="width: 56%;"><p><ul><li>Masou/Bonita/Joker Fish/Chinook/Trout</li>
+	<li>Woodchip/Giant Woodchip/Wooden Club</li>
+	<li>Salt</li>
+	<li>Flame/Tera Flame/Plosion</li></ul></p></td>
+	<td style="width: 8%;">56</td></tr>
+<tr><td style="width: 12%;">Liquid Metal</td>
+	<td style="width: 12%;">Liquid Metal</td>
+	<td style="width: 12%;">Student Store (Chapter 9)</td>
+	<td style="width: 56%;"><p><ul><li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li>
+	<li>Canone Rock/Glacier Stone/Thunder Stone/Raw Komet Ore/Super Komet/Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Pendelook</li></ul></p></td>
+	<td style="width: 8%;">176</td></tr>
+<tr><td style="width: 12%;">Preservative</td>
+	<td style="width: 12%;">Curing Medicine</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange/Nectar</li>
+	<li>Spinacherb/Purplinacherb/Gash Twig/Eicheloa/Poison Shroom/Taun/Huffin</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid</li>
+	<li>Red Petal/Blue Petal/Glowing Petal</li></ul></p></td>
+	<td style="width: 8%;">64</td></tr>
+<tr><td style="width: 12%;">Dietary Fiber</td>
+	<td style="width: 12%;">Strong Fiber</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig/Huffin/Belgrade Potato</li>
+	<li>Burdock Straight/Burdock Curve</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">26</td></tr>
+<tr><td style="width: 12%;">Silver Thread</td>
+	<td style="width: 12%;">Strong Fiber</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 56%;"><p><ul><li>Glowing Petal/Shiny Powder</li>
+	<li>Elemia Silver/White Steel/Altena Ingot</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric</li></ul></p></td>
+	<td style="width: 8%;">158</td></tr>
+<tr><td style="width: 12%;">Clear Fiber</td>
+	<td style="width: 12%;">Magical String</td>
+	<td style="width: 12%;">Mana Ruins - Bottom Center, or Student Store (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>Chrome Crystal/Gravity Stone/Soul of Darkness</li>
+	<li>Plosion/Black Powder</li>
+	<li>Silver Thread</li>
+	<li>Nectar/Super Nectar/Shining Grail/Elixir</li></ul></p></td>
+	<td style="width: 8%;">210</td></tr>
+<tr><td style="width: 12%;">Plosion</td>
+	<td style="width: 12%;">Explosive Powder</td>
+	<td style="width: 12%;">Complete Job no. 044, or Campus Grounds (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Canone Crystal/Glacier Crystal/Thunder Crystal/Raw Komet Ore/Super Komet/Uni/Big Uni</li>
+	<li>Carbon Boulder</li>
+	<li>Black Liquid/Black Powder</li>
+	<li>Tuft/Knot/Shiny Moustache/Nicro Cloth/Dietary Fiber</li></ul></p></td>
+	<td style="width: 8%;">90</td></tr>
+<tr><td style="width: 12%;">Le Merou Cog</td>
+	<td style="width: 12%;">Mechanical Box</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Student Store (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Gear</li>
+	<li>Grand Gear</li>
+	<li>Little Gear</li>
+	<li>Black Liquid</li></ul></p></td>
+	<td style="width: 8%;">94</td></tr>
+<tr><td style="width: 12%;">Eternal Turnkey</td>
+	<td style="width: 12%;">Spring Decor</td>
+	<td style="width: 12%;">The Heights, or Student Store (Chapter 3)</td>
+	<td style="width: 56%;"><p><ul><li>Gear/Grand Gear/Little Gear/Le Merou Cog</li>
+	<li>Legien Steel/Black Steel/Red Steel/Blue Steel/White Steel</li>
+	<li>Polish Powder/Shiny Powder</li></ul></p></td>
+	<td style="width: 8%;">66</td></tr>
+<tr><td style="width: 12%;">Zettel</td>
+	<td style="width: 12%;">Normal Paper</td>
+	<td style="width: 12%;">Student Store (Chapter 1)</td>
+	<td style="width: 56%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig/Kitty Nip/Taun/Huffin/Dunkelhite</li>
+	<li>Carrotato/Belgrade Potato/Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">22</td></tr>
+<tr><td style="width: 12%;">Holy Crest Paper</td>
+	<td style="width: 12%;">Expensive Paper</td>
+	<td style="width: 12%;">Student Store (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Zettel</li>
+	<li>Burdock Straight/Burdock Curve/Radish/Medicinal Radish/Shinke Onion/Pumpotatokin</li>
+	<li>X-Heal/Heal All/Shining Grail/Elixir</li></ul></p></td>
+	<td style="width: 8%;">102</td></tr>
+<tr><td style="width: 12%;">Apollo's Diapason</td>
+	<td style="width: 12%;">Vibrating Metal</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Black Steel/Red Steel/Blue Steel</li>
+	<li>Chrome Crystal/Pendelook/Soul of Darkness</li>
+	<li>Lightning Rod/Thunder Rod</li></ul></p></td>
+	<td style="width: 8%;">96</td></tr>
+<tr><td style="width: 12%;">Fortune Ring</td>
+	<td style="width: 12%;">Mystery Ring</td>
+	<td style="width: 12%;">Mana Ruins - Bottom Center, or Student Store (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>White Steel/Altena Ingot</li>
+	<li>Apollo's Diapason/Alchemic Cymbal</li>
+	<li>Gravity Stone</li></ul></p></td>
+	<td style="width: 8%;">284</td></tr>
+<tr><td style="width: 12%;">Galilean Scope</td>
+	<td style="width: 12%;">Thermometer</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Student Store (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Black Liquid</li>
+	<li>Preservative</li>
+	<li>Heal Jar/X-Heal/Heal All/Cure Jar</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">54</td></tr>
+<tr><td style="width: 12%;">Pentagle</td>
+	<td style="width: 12%;">Shiny Stone</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Pendelook</li>
+	<li>Chrome Crystal</li>
+	<li>Heal All/Super Nectar/Shining Grail/Elixir</li>
+	<li>Polish Powder/Shiny Powder </li></ul></p></td>
+	<td style="width: 8%;">288</td></tr>
+<tr><td style="width: 12%;">Brilliant Stone</td>
+	<td style="width: 12%;">Shiny Stone</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Student Store (Chapter 8)</td>
+	<td style="width: 56%;"><p><ul><li>Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Chrome Crystal</li>
+	<li>Heal All/Super Nectar/Shining Grail/Elixir</li>
+	<li>Polish Powder/Shiny Powder</li></ul></p></td>
+	<td style="width: 8%;">254</td></tr>
+<tr><td style="width: 12%;">Gearbox</td>
+	<td style="width: 12%;">Mechanical Box</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Student Store (Chapter 5)</td>
+	<td style="width: 56%;"><p><ul><li>Eternal Turnkey</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel</li>
+	<li>Gear/Little Gear/Grand Gear/Le Merou Cog</li></ul></p></td>
+	<td style="width: 8%;">76</td></tr>
+<tr><td style="width: 12%;">Canone Crystal</td>
+	<td style="width: 12%;">Spirit Crystal</td>
+	<td style="width: 12%;">Infirmary (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Canone Crystal</li>
+	<li>Preservative/X-Heal</li>
+	<li>Monster Bone/Dragon Bone</li></ul></p></td>
+	<td style="width: 8%;">124</td></tr>
+<tr><td style="width: 12%;">Glacier Crystal</td>
+	<td style="width: 12%;">Spirit Crystal</td>
+	<td style="width: 12%;">Infirmary (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Glacier Stone</li>
+	<li>Preservative/X-Heal</li>
+	<li>Trout/Chinook/Sharkgill</li></ul></p></td>
+	<td style="width: 8%;">102</td></tr>
+<tr><td style="width: 12%;">Thunder Crystal</td>
+	<td style="width: 12%;">Spirit Crystal</td>
+	<td style="width: 12%;">Infirmary (Chapter 7)</td>
+	<td style="width: 56%;"><p><ul><li>Thunder Stone</li>
+	<li>Preservative/X-Heal</li>
+	<li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li></ul></p></td>
+	<td style="width: 8%;">98</td></tr>
+<tr><td style="width: 12%;">Auto Igniter</td>
+	<td style="width: 12%;">Igniter Device</td>
+	<td style="width: 12%;">Student Store (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>Canone Crystal/Flame Ring</li>
+	<li>Gearbox</li>
+	<li>Plosion</li>
+	<li>Blue Steel/White Steel</li></ul></p></td>
+	<td style="width: 8%;">252</td></tr>
+<tr><td style="width: 12%;">Coolster</td>
+	<td style="width: 12%;">Cooler</td>
+	<td style="width: 12%;">Student Store (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>Glacier Crystal/Ice Ring</li>
+	<li>Le Merou Cog</li>
+	<li>Galilean Scope</li>
+	<li>Blue Steel/White Steel</li></ul></p></td>
+	<td style="width: 8%;">244</td></tr>
+<tr><td style="width: 12%;">Voidspark Pipe</td>
+	<td style="width: 12%;">Vacuum Pipe</td>
+	<td style="width: 12%;">Complete Job no. 049, or Student Store (Chapter 10)</td>
+	<td style="width: 56%;"><p><ul><li>Thunder Crystal/Thunder Ring</li>
+	<li>Apollo's Diapason</li>
+	<li>Formell Fabric</li>
+	<li>Blue Steel/White Steel</li></ul></p></td>
+	<td style="width: 8%;">306</td></tr>
+<tr><td style="width: 12%;">Metronome</td>
+	<td style="width: 12%;">Rhythmical Machine</td>
+	<td style="width: 12%;">Millenium Tree, or Campus Grounds (Chapter 6)</td>
+	<td style="width: 56%;"><p><ul><li>Eternal Turnkey</li>
+	<li>Gearbox</li>
+	<li>Apollo's Diapason</li>
+	<li>Le Merou Cog</li></ul></p></td>
+	<td style="width: 8%;">128</td></tr>
+<tr><td style="width: 12%;">Carabine Harp</td>
+	<td style="width: 12%;">Musical Strings</td>
+	<td style="width: 12%;">Complete Job no. 057</td>
+	<td style="width: 56%;"><p><ul><li>Dragon Bone</li>
+	<li>Dragon Scale</li>
+	<li>Silver Thread/Clear Fiber</li>
+	<li>Giant Woodchip/Wood Tympani/Wooden Club</li></ul></p></td>
+	<td style="width: 8%;">262</td></tr>
+<tr><td style="width: 12%;">Wood Tympani</td>
+	<td style="width: 12%;">Swinging Drum</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 56%;"><p><ul><li>Woodchip/Giant Woodchip/Wooden Club</li>
+	<li>Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li>
+	<li>Worn Weapon/Worn Armor</li></ul></p></td>
+	<td style="width: 8%;">70</td></tr>
+<tr><td style="width: 12%;">Organne la Firste</td>
+	<td style="width: 12%;">Giant Music Device</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin, or Campus Grounds (Chapter 11)</td>
+	<td style="width: 56%;"><p><ul><li>Blood Clay</li>
+	<li>Wood Tympani</li>
+	<li>Velvet Horn</li>
+	<li>Metronome</li></ul></p></td>
+	<td style="width: 8%;">302</td></tr>
+<tr><td style="width: 12%;">Velvet Horn</td>
+	<td style="width: 12%;">Vortex Trumpet</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 9)</td>
+	<td style="width: 56%;"><p><ul><li>Strom Shell/Long Ice Cream/Burdock Curve</li>
+	<li>Blue Steel/White Steel</li>
+	<li>Monster Bone</li>
+	<li>Alchemic Cymbal/Apollo's Diapason/Fortune Ring</li></ul></p></td>
+	<td style="width: 8%;">232</td></tr>
+<tr><td style="width: 12%;">Alchemic Cymbal</td>
+	<td style="width: 12%;">Echoing Cymbal</td>
+	<td style="width: 12%;">Resource Center Dungeon/Vendor</td>
+	<td style="width: 56%;"><p><ul><li>Black Steel/Red Steel/Blue Steel/White Steel</li>
+	<li>Apollo's Diapason</li>
+	<li>Polish Powder/Shiny Powder</li>
+	<li>Crack Hammer/Sledgehammer/Vorey Splitter</li></ul></p></td>
+	<td style="width: 8%;">110</td></tr>
+<tr><td style="width: 12%;">Loveless Potion</td>
+	<td style="width: 12%;">Mystery Medicine</td>
+	<td style="width: 12%;">Complete Nikki's 2nd Character Quest</td>
+	<td style="width: 56%;"><p><ul><li>Puniball/Puni Gummi/Soul of Darkness</li>
+	<li>Heal Jar/Cure Jar/120% Fruit/Veggielicious/Veggie Purple</li>
+	<li>Tiger Blowfish/Blowfish-X/Poison Shroom</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Vanilla Syrup/Black Liquid/Preservative</li></ul></p></td>
+	<td style="width: 8%;">38</td></tr>
+</table></div>
+        <button type="button" class="collapsible">Weapon Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 40%;">Ingredients</th>
+<th style="width: 8%;">User</th>
+<th style="width: 8%;">Stats</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Ragged Collar</td>
+	<td style="width: 12%;">Old Collar</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Woodchip/Giant Woodchip</li>
+	<li>Legien Steel</li>
+	<li>Dirt/Red Dirt/Black Dirt/Polish Powder/Flour</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+9</li>
+	<li>MGK+2</li>
+	<li>DEF+2</li>
+	<li>RES+2</li>
+	<li>SPD+2</li></ul></p></td>
+	<td style="width: 8%;">28</td></tr>
+<tr><td style="width: 12%;">Leather Collar</td>
+	<td style="width: 12%;">Old Collar</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Pleather Cloth/Brisingamen</li>
+	<li>Cyprus Copper</li>
+	<li>Polish Powder/Flour</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+17</li>
+	<li>MGK+4</li>
+	<li>DEF+4</li>
+	<li>RES+4</li>
+	<li>SPD+4</li></ul></p></td>
+	<td style="width: 8%;">62</td></tr>
+<tr><td style="width: 12%;">Flea Necklace</td>
+	<td style="width: 12%;">Medicinal Collar</td>
+	<td style="width: 12%;">Infirmary (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Dietary Fiber/Spinacherb/Gash Twig/Eicheloa/Poison Shroom</li>
+	<li>Carrotato/Dirt/Red Dirt/Black Dirt</li>
+	<li>Tuft</li>
+	<li>Cyprus Copper</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+22</li>
+	<li>MGK+6</li>
+	<li>DEF+6</li>
+	<li>RES+6</li>
+	<li>SPD+6</li></ul></p></td>
+	<td style="width: 8%;">58</td></tr>
+<tr><td style="width: 12%;">Pretty Ribbon</td>
+	<td style="width: 12%;">Cute Ribbon</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Infirmary (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth/Pleather Cloth/Silky Cloth</li>
+	<li>Leather Collar/Ragged Collar</li>
+	<li>Bitter Grape/Night-in-grape/Muscat/Blue Petal/Red Petal</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Heal Jar</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+32</li>
+	<li>MGK+16</li>
+	<li>DEF+16</li>
+	<li>RES+16</li>
+	<li>SPD+8</li></ul></p></td>
+	<td style="width: 8%;">80</td></tr>
+<tr><td style="width: 12%;">Giant's Ring</td>
+	<td style="width: 12%;">Huge Ring</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Iron Plate/Bronze Plate/Black Steel/Red Steel</li>
+	<li>Flame Ring/Ice Ring/Thunder Ring</li>
+	<li>Preuve Lead/Alchemic Cymbal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+45</li>
+	<li>MGK+23</li>
+	<li>DEF+23</li>
+	<li>RES+23</li>
+	<li>SPD+11</li></ul></p></td>
+	<td style="width: 8%;">184</td></tr>
+<tr><td style="width: 12%;">Bone Necklace</td>
+	<td style="width: 12%;">Medicinal Collar</td>
+	<td style="width: 12%;">Infirmary (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Beast Fang/Monster Bone</li>
+	<li>Leather Collar</li>
+	<li>Dragon Bone/Carabine Harp</li>
+	<li>Worn Weapon/Worn Armor</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+34</li>
+	<li>MGK+17</li>
+	<li>DEF+17</li>
+	<li>RES+17</li>
+	<li>SPD+9</li></ul></p></td>
+	<td style="width: 8%;">140</td></tr>
+<tr><td style="width: 12%;">Jumbo Donut</td>
+	<td style="width: 12%;">Huge Donut</td>
+	<td style="width: 12%;">Cafeteria (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Meringue Whip/Taiyaki/Long Ice Cream</li>
+	<li>Flour/Salt/Shiny Powder</li>
+	<li>Vanilla Syrup/Candy Eye/Goat Milk</li>
+	<li>Leather Collar/Ragged Collar</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+68</li>
+	<li>MGK+34</li>
+	<li>DEF+34</li>
+	<li>RES+34</li>
+	<li>SPD+17</li></ul></p></td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Cait Sith's Collar</td>
+	<td style="width: 12%;">Cute Ribbon</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Infirmary (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Pentagle/Brilliant Stone/Gravity Stone</li>
+	<li>Pretty Ribbon</li>
+	<li>Shiny Moustache</li>
+	<li>Vasilissa's Doll</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+85</li>
+	<li>MGK+43</li>
+	<li>DEF+43</li>
+	<li>RES+43</li>
+	<li>SPD+21</li></ul></p></td>
+	<td style="width: 8%;">298</td></tr>
+<tr><td style="width: 12%;">Runed Collar</td>
+	<td style="width: 12%;">Collar of Magic</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)</td>
+	<td style="width: 40%;"><p><ul><li>Bone Necklace</li>
+	<li>Shield of Ajax/Mirror of Gargol/Divine Shield/Misty Curtain/Dunkelhite</li>
+	<li>Magical Clay/Blood Clay/Dirt/Red Dirt/Black Dirt</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+97</li>
+	<li>MGK+49</li>
+	<li>DEF+49</li>
+	<li>RES+49</li>
+	<li>SPD+24</li></ul></p></td>
+	<td style="width: 8%;">312</td></tr>
+<tr><td style="width: 12%;">Magic Stone Collar</td>
+	<td style="width: 12%;">Collar of Magic</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin, or Student Store (Chapter 11)</td>
+	<td style="width: 40%;"><p><ul><li>Cait Sith's Collar/Runed Collar</li>
+	<li>Altena Ingot</li>
+	<li>Stone of Alectoria</li>
+	<li>Fortune Ring</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+108</li>
+	<li>MGK+54</li>
+	<li>DEF+54</li>
+	<li>RES+54</li>
+	<li>SPD+27</li></ul></p></td>
+	<td style="width: 8%;">564</td></tr>
+<tr><td style="width: 12%;">Brisingamen</td>
+	<td style="width: 12%;">God's Necklace</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Magic Stone Collar</li>
+	<li>Uni God</li>
+	<li>Symbol of Uroborus</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+121</li>
+	<li>MGK+61</li>
+	<li>DEF+61</li>
+	<li>RES+61</li>
+	<li>SPD+30</li></ul></p></td>
+	<td style="width: 8%;">516</td></tr>
+<tr><td style="width: 12%;">Pyre Blade</td>
+	<td style="width: 12%;">Standard Mechsword</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Burdock Straight/Worn Weapon</li>
+	<li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li>
+	<li>Polish Powder</li>
+	<li>Gear/Grand Gear/Little Gear/Le Merou Cog</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+39</li></ul></p></td>
+	<td style="width: 8%;">72</td></tr>
+<tr><td style="width: 12%;">Machine Cradle</td>
+	<td style="width: 12%;">Eponic Mechsword</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver</li>
+	<li>Gearbox/Metronome</li>
+	<li>Black Liquid/Preservative</li>
+	<li>Polish Powder</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+49</li></ul></p></td>
+	<td style="width: 8%;">111</td></tr>
+<tr><td style="width: 12%;">Alvero</td>
+	<td style="width: 12%;">Modified Mechsword</td>
+	<td style="width: 12%;">Student Student (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Blue Steel</li>
+	<li>Gearbox/Metronome/Voidspark Pipe/Machine Cradle</li>
+	<li>Lightning Rod/Thunder Rod/Thunder Crystal</li>
+	<li>Gear/Grand Gear/Little Gear/Le Merou Cog</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+63</li></ul></p></td>
+	<td style="width: 8%;">172</td></tr>
+<tr><td style="width: 12%;">Sharkgill Sword</td>
+	<td style="width: 12%;">Modified Mechsword</td>
+	<td style="width: 12%;">Student Student (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Sharkgill</li>
+	<li>"Kaiser": Aqua Hero</li>
+	<li>Machine Cradle</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+88</li></ul></p></td>
+	<td style="width: 8%;">272</td></tr>
+<tr><td style="width: 12%;">Pyre Blade II</td>
+	<td style="width: 12%;">Standard Mechsword</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts, or Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Pyre Blade</li>
+	<li>Vorey Splitter/Sledgehammer</li>
+	<li>Shiny Powder</li>
+	<li>Flame/Tera Flame/Uni Bomb/Big Uni Bomb/Orange Bomb/Big Orange Bomb/Lando Bomb/Big Lando Bomb</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+117</li></ul></p></td>
+	<td style="width: 8%;">340</td></tr>
+<tr><td style="width: 12%;">Progius</td>
+	<td style="width: 12%;">Enchanced Mechsword</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin</td>
+	<td style="width: 40%;"><p><ul><li>Voidspark Pipe/White Steel/Altena Ingot</li>
+	<li>Le Merou Cog</li>
+	<li>Organne La Firste/Gear/Grand Gear/Little Gear</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+134</li></ul></p></td>
+	<td style="width: 8%;">336</td></tr>
+<tr><td style="width: 12%;">Quartz Slicer</td>
+	<td style="width: 12%;">Motorized Mechsword</td>
+	<td style="width: 12%;">Complete Job no. 050, or Student Store (Chapter 11)</td>
+	<td style="width: 40%;"><p><ul><li>Alvero/Gravity Stone/Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Voidspark Pipe/Velvet Horn</li>
+	<li>Thunder Rod</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+147</li></ul></p></td>
+	<td style="width: 8%;">354</td></tr>
+<tr><td style="width: 12%;">Deus ex Machina</td>
+	<td style="width: 12%;">Master Mechsword</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Pyre Blade II</li>
+	<li>Quartz Slicer</li>
+	<li>Progius</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+166</li></ul></p></td>
+	<td style="width: 8%;">598</td></tr>
+<tr><td style="width: 12%;">Astral Card</td>
+	<td style="width: 12%;">Game Card</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts</td>
+	<td style="width: 40%;"><p><ul><li>Zettel/Holy Crest Paper</li>
+	<li>Asclepius/Symbol of Uroborus</li>
+	<li>Radish/Medicinal Radish</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water/Preservative</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+29</li>
+	<li>RES+15</li></ul></p></td>
+	<td style="width: 8%;">78</td></tr>
+<tr><td style="width: 12%;">Flonne's Charm</td>
+	<td style="width: 12%;">Ritual Charm</td>
+	<td style="width: 12%;">Dragon's Grave - Bone Grove, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Holy Crest Paper/Bonus Card</li>
+	<li>Heal Jar/X-Heal/Heal All/Cure Jar</li>
+	<li>Flame Ring/Canone Crystal</li>
+	<li>Lando/X-Lando/Sweet Lando</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+38</li>
+	<li>RES+19</li></ul></p></td>
+	<td style="width: 8%;">180</td></tr>
+<tr><td style="width: 12%;">Bonus Card</td>
+	<td style="width: 12%;">Bonus Card</td>
+	<td style="width: 12%;">Complete Job no. 059, or Cafeteria (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Rocks rock!</li>
+	<li>Astral Card/Flonne's Charm/Bonus Card/Trauer Tarot/Solingen/Wild Card/Itsa Card/Type Solomon</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+52</li>
+	<li>RES+26</li></ul></p></td>
+	<td style="width: 8%;">124</td></tr>
+<tr><td style="width: 12%;">Trauer Tarot</td>
+	<td style="width: 12%;">Magic Card</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Infirmary (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Astral Card</li>
+	<li>Holy Crest Paper</li>
+	<li>Galilean Scope/Pentagle/Brilliant Stone</li>
+	<li>Silky Cloth/Formell Fabric</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+62</li>
+	<li>RES+31</li></ul></p></td>
+	<td style="width: 8%;">192</td></tr>
+<tr><td style="width: 12%;">Solingen</td>
+	<td style="width: 12%;">Razor Card</td>
+	<td style="width: 12%;">Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Red Steel/Blue Steel/White Steel/Magical Clay/Blood Clay</li>
+	<li>Polish Powder/Shiny Powder</li>
+	<li>Tera Flame/Big Uni Bomb/Big Orange Bomb/Big Lando Bomb</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+50</li>
+	<li>MGK+43</li>
+	<li>RES+22</li></ul></p></td>
+	<td style="width: 8%;">198</td></tr>
+<tr><td style="width: 12%;">Wild Card</td>
+	<td style="width: 12%;">Razor Card</td>
+	<td style="width: 12%;">Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Astral Card</li>
+	<li>Gravity Stone</li>
+	<li>Stone of Alectoria/Magic Stone Collar</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+84</li>
+	<li>RES+42</li></ul></p></td>
+	<td style="width: 8%;">268</td></tr>
+<tr><td style="width: 12%;">Itsa Card</td>
+	<td style="width: 12%;">Game Card</td>
+	<td style="width: 12%;">Mana Ruins - Outskirts</td>
+	<td style="width: 40%;"><p><ul><li>King Style</li>
+	<li>Astral Card</li>
+	<li>Vasilissa's Doll</li>
+	<li>Philosopher's Hand</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+103</li>
+	<li>RES+52</li></ul></p></td>
+	<td style="width: 8%;">444</td></tr>
+<tr><td style="width: 12%;">Type Solomon</td>
+	<td style="width: 12%;">Magic Act</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Flonne's Charm</li>
+	<li>Fires of Hell/Diamond Dust/Electric Elect</li>
+	<li>Globe/Stellar Globe</li>
+	<li>Holy Crest Paper</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+118</li>
+	<li>RES+59</li></ul></p></td>
+	<td style="width: 8%;">402</td></tr>
+<tr><td style="width: 12%;">Favorite Bag</td>
+	<td style="width: 12%;">Lovely Bag</td>
+	<td style="width: 12%;">Wind's Corridor - Mist, or Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Zettel/Nicro Cloth</li>
+	<li>Puniball</li>
+	<li>Blue Petal/Red Petal/Glowing Petal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+13</li></ul></p></td>
+	<td style="width: 8%;">20</td></tr>
+<tr><td style="width: 12%;">Fake Brand Bag</td>
+	<td style="width: 12%;">Luxury Purse</td>
+	<td style="width: 12%;">Infirmary (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth</li>
+	<li>Blue Petal/Red Petal</li>
+	<li>Zettel/Holy Crest Paper</li>
+	<li>Huffin/Brand Name Bag</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+23</li></ul></p></td>
+	<td style="width: 8%;">36</td></tr>
+<tr><td style="width: 12%;">Brand Name Bag</td>
+	<td style="width: 12%;">Luxury Purse</td>
+	<td style="width: 12%;">Infirmary (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Pleather Cloth</li>
+	<li>Crimson Feather</li>
+	<li>Fake Brand Bag</li>
+	<li>Heal Jar/X-Heal/Preservative</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+34</li></ul></p></td>
+	<td style="width: 8%;">66</td></tr>
+<tr><td style="width: 12%;">Alchemist's Basket</td>
+	<td style="width: 12%;">Net Basket</td>
+	<td style="width: 12%;">Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Dietary Fiber/Burdock Straight/Uni</li>
+	<li>Bitter Grape/Night-in-grape/Muscat/Tangerine/Sunrise Orange/Mandarin Orange</li>
+	<li>Straw Doll/Pretty Ribbon</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+49</li></ul></p></td>
+	<td style="width: 8%;">82</td></tr>
+<tr><td style="width: 12%;">Alchemic Bag</td>
+	<td style="width: 12%;">Alchemy Pack</td>
+	<td style="width: 12%;">Complete Job no. 045, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Silky Cloth/Formell Fabric</li>
+	<li>Alchemist's Basket</li>
+	<li>Apollo's Diapason/Alchemic Cymbal</li>
+	<li>Holy Crest Paper/Zettel</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+61</li>
+	<li>DEF+20</li></ul></p></td>
+	<td style="width: 8%;">208</td></tr>
+<tr><td style="width: 12%;">Plate Bag</td>
+	<td style="width: 12%;">Metallic Pack</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Bronze Plate/Iron Plate/Baked Plate</li>
+	<li>Shield of Ajax/Mirror of Gargol/Divine Shield/Misty Curtain</li>
+	<li>Elemia Silver/Magical Clay/Blood Clay</li>
+	<li>Polish Powder/Shiny Powder</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+96</li>
+	<li>DEF+48</li></ul></p></td>
+	<td style="width: 8%;">298</td></tr>
+<tr><td style="width: 12%;">Eco-bag</td>
+	<td style="width: 12%;">Net Basket</td>
+	<td style="width: 12%;">Dragon's Grave - Bone Grove, or Campus Grounds (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Kittynip</li>
+	<li>Yubana Fruit/Dried Yubana/Yubana Flower/Lando/X-Lando/Sweet Lando/ATK Fruit/MGK Fruit/DEF Fruit/RES Fruit/SPD Fruit</li>
+	<li>Alchemic Bag</li>
+	<li>Jade Tablet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+116</li></ul></p></td>
+	<td style="width: 8%;">354</td></tr>
+<tr><td style="width: 12%;">Angel's Bag</td>
+	<td style="width: 12%;">Alchemy Pack</td>
+	<td style="width: 12%;">Complete Job no. 045, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Archangel Wings</li>
+	<li>Angel's Slip/Devil's Panties</li>
+	<li>Formell Fabric</li>
+	<li>Stone of Alectoria</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+138</li></ul></p></td>
+	<td style="width: 8%;">438</td></tr>
+<tr><td style="width: 12%;">Dimension Bag</td>
+	<td style="width: 12%;">High Capacity Pack</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Angel's Bag</li>
+	<li>Super Komet Ore</li>
+	<li>Toad Mouth</li>
+	<li>Nectar/Super Nectar/Shining Grail</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+151</li></ul></p></td>
+	<td style="width: 8%;">486</td></tr>
+<tr><td style="width: 12%;">Crack Hammer</td>
+	<td style="width: 12%;">Hammeryhammer</td>
+	<td style="width: 12%;">Wind's Corridor - Mist, or Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Canone Rock/Glacier Stone/Thunder Stone</li>
+	<li>Legien Steel/Cyprus Copper</li>
+	<li>Belgrade Potato/Carrotato/Dirt</li>
+	<li>Gear/Grand Gear/Little Gear</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+10</li>
+	<li>SPD+5</li></ul></p></td>
+	<td style="width: 8%;">76</td></tr>
+<tr><td style="width: 12%;">Wooden Club</td>
+	<td style="width: 12%;">Wooden Beatstick</td>
+	<td style="width: 12%;">The Heights, or Student Store (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Woodchip/Giant Woodchip</li>
+	<li>Spinacherb/Gash Twig/Dietary Fiber</li>
+	<li>Belgrade Potato/Carrotato/Dirt</li>
+	<li>Nicro Cloth</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+16</li>
+	<li>SPD+8</li></ul></p></td>
+	<td style="width: 8%;">26</td></tr>
+<tr><td style="width: 12%;">Brownie Hammer</td>
+	<td style="width: 12%;">Wooden Beatstick</td>
+	<td style="width: 12%;">The Heights, or Student Store (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Wooden Club/Wood Tympani</li>
+	<li>Brownie Mask</li>
+	<li>Cyprus Copper/Legien Steel/Preuve Lead</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+23</li>
+	<li>SPD+12</li></ul></p></td>
+	<td style="width: 8%;">72</td></tr>
+<tr><td style="width: 12%;">Crusher Twins</td>
+	<td style="width: 12%;">Hammeryhammer</td>
+	<td style="width: 12%;">Wind's Corridor - Mist, or Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Uni/Big Uni</li>
+	<li>Black Steel/Red Steel</li>
+	<li>Canone Rock/Glacier Stone/Thunder Stone</li>
+	<li>Belgrade Potato/Carrotato/Dirt/Red Dirt/Black Dirt/Crack Hammer</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+30</li>
+	<li>SPD+15</li></ul></p></td>
+	<td style="width: 8%;">92</td></tr>
+<tr><td style="width: 12%;">Sledgehammer</td>
+	<td style="width: 12%;">Charge Hammer</td>
+	<td style="width: 12%;">Complete Job no. 060, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Gearbox/Eternal Key/Metronome</li>
+	<li>Giant Woodchip</li>
+	<li>Red Steel/Blue Steel/White Steel</li>
+	<li>Belgrade Potato/Carrotato/Dirt/Red Dirt/Black Dirt/Magical Clay/Blood Clay</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+39</li>
+	<li>SPD+20</li></ul></p></td>
+	<td style="width: 8%;">152</td></tr>
+<tr><td style="width: 12%;">Vorey Splitter</td>
+	<td style="width: 12%;">Hammeryhammer Plus</td>
+	<td style="width: 12%;">Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Crusher Twins</li>
+	<li>Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Tera Flame/Big Uni Bomb/Big Orange Bomb/Big Lando Bomb</li>
+	<li>Burdock Straight/Burdock Curve/Shinke Onion/Pumpotatokin</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+56</li>
+	<li>SPD+28</li></ul></p></td>
+	<td style="width: 8%;">228</td></tr>
+<tr><td style="width: 12%;">Yula Hammer</td>
+	<td style="width: 12%;">Wooden Beatstick</td>
+	<td style="width: 12%;">The Heights, or Student Store (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Brownie Hammer</li>
+	<li>Megingjorz</li>
+	<li>Raw Komet Ore</li>
+	<li>Crusher Twins</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+88</li>
+	<li>SPD+44</li></ul></p></td>
+	<td style="width: 8%;">342</td></tr>
+<tr><td style="width: 12%;">Grand Sledgehammer</td>
+	<td style="width: 12%;">Charge Hammer</td>
+	<td style="width: 12%;">Complete Job no. 060, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Sledgehammer</li>
+	<li>Altena Ingot</li>
+	<li>Progius</li>
+	<li>Brownie Hammer/Yula Hammer</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+111</li>
+	<li>SPD+56</li></ul></p></td>
+	<td style="width: 8%;">648</td></tr>
+<tr><td style="width: 12%;">Thor Hammer</td>
+	<td style="width: 12%;">God's Hammer</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Grand Sledgehammer</li>
+	<li>Uni God</li>
+	<li>Gold Bullion/Altena Ingot</li>
+	<li>Raw Komet Ore/Super Komet/King Tuna/Queen Tuna/Fish "Boat": Marlow</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+120</li>
+	<li>SPD+60</li></ul></p></td>
+	<td style="width: 8%;">654</td></tr>
+<tr><td style="width: 12%;">Doll's Claw</td>
+	<td style="width: 12%;">Stuff Animal</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth/Pleather Cloth</li>
+	<li>Tuft/Knot/Shiny Moustache</li>
+	<li>Beast Fang/Super Alloy Claw</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+9</li>
+	<li>MGK+17</li></ul></p></td>
+	<td style="width: 8%;">38</td></tr>
+<tr><td style="width: 12%;">Plastic Claw</td>
+	<td style="width: 12%;">Stuffed Animal</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Carbon Boulder/Rocks rock!</li>
+	<li>Puniball/Puni Gummi</li>
+	<li>Taun</li>
+	<li>Puppy Paw Gloves/Puppy Paw Flan/Doll's Claw</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+13</li>
+	<li>MGK+26</li></ul></p></td>
+	<td style="width: 8%;">96</td></tr>
+<tr><td style="width: 12%;">Steel Claw</td>
+	<td style="width: 12%;">Metallic Claw</td>
+	<td style="width: 12%;">Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Legien Steel/Cyprus Copper</li>
+	<li>Black Steel</li>
+	<li>Gloves of Artorius/Thorn Gauntlet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+18</li>
+	<li>MGK+32</li></ul></p></td>
+	<td style="width: 8%;">106</td></tr>
+<tr><td style="width: 12%;">Bear Claw</td>
+	<td style="width: 12%;">Beast's Claw</td>
+	<td style="width: 12%;">Millenium Tree, or Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Steel Claw</li>
+	<li>Le Merou Cog/Gear/Grand Gear/Little Gear/Eternal Turnkey</li>
+	<li>Gearbox/Metronome</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+21</li>
+	<li>MGK+39</li></ul></p></td>
+	<td style="width: 8%;">186</td></tr>
+<tr><td style="width: 12%;">Alloy Claw</td>
+	<td style="width: 12%;">Metallic Claw</td>
+	<td style="width: 12%;">Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Preuve Lead</li>
+	<li>Red Steel</li>
+	<li>Steel Claw</li>
+	<li>Scale Gauntlet/Philosopher's Hand</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+53</li>
+	<li>MGK+89</li></ul></p></td>
+	<td style="width: 8%;">328</td></tr>
+<tr><td style="width: 12%;">Super Alloy Claw</td>
+	<td style="width: 12%;">Metallic Claw</td>
+	<td style="width: 12%;">Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>White Steel</li>
+	<li>Blue Steel</li>
+	<li>Alloy Claw</li>
+	<li>Megingjorz</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+61</li>
+	<li>MGK+101</li></ul></p></td>
+	<td style="width: 8%;">488</td></tr>
+<tr><td style="width: 12%;">Electric Claw</td>
+	<td style="width: 12%;">Beast's Claw</td>
+	<td style="width: 12%;">Millenium Tree, or Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Super Alloy Claw</li>
+	<li>Altena Ingot</li>
+	<li>Thunder Rod/Voidspark Pipe</li>
+	<li>Gearbox/Metronome/Organne la Firste</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+76</li>
+	<li>MGK+177</li></ul></p></td>
+	<td style="width: 8%;">470</td></tr>
+<tr><td style="width: 12%;">Hellclaw</td>
+	<td style="width: 12%;">Super Weapon</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Plastic Claw</li>
+	<li>Archangel Wing</li>
+	<li>Gold Bullion</li>
+	<li>Armored Crab</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>SP+97</li>
+	<li>MGK+139</li></ul></p></td>
+	<td style="width: 8%;">574</td></tr>
+<tr><td style="width: 12%;">Dimentia Blade</td>
+	<td style="width: 12%;">Favorite Sword</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Legien Steel/Cyprus Copper/Preuve Lead/Elemia Silver/Azoth Z</li>
+	<li>Black Steel/Red Steel</li>
+	<li>Orange Bomb/Lando Bomb/Plosion/Flame/Tera Flame</li>
+	<li>Black Powder/Polish Powder/Shiny Powder</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+25</li>
+	<li>MGK+19</li></ul></p></td>
+	<td style="width: 8%;">162</td></tr>
+<tr><td style="width: 12%;">Muramasa</td>
+	<td style="width: 12%;">Favorite Sword</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Dimentia Blade</li>
+	<li>Elemia Silver/Pendelook</li>
+	<li>Plosion/Flame/Tera Flame</li>
+	<li>Pumpotatokin/Medicinal Radish/Shinke Onion</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+38</li>
+	<li>MGK+30</li></ul></p></td>
+	<td style="width: 8%;">212</td></tr>
+<tr><td style="width: 12%;">Blue Dragon</td>
+	<td style="width: 12%;">Foreign Blade</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Dragon Bone/Dragon Scale/Dragon Tongue/Carabine Harp</li>
+	<li>Carbon Boulder/Raw Komet Ore/Super Komet</li>
+	<li>Plosion/Black Powder</li>
+	<li>Thorn Gauntlet/Scale Gauntlet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+62</li>
+	<li>MGK+53</li></ul></p></td>
+	<td style="width: 8%;">186</td></tr>
+<tr><td style="width: 12%;">Ben Breaker</td>
+	<td style="width: 12%;">Foreign Blade</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Blue Dragon</li>
+	<li>Pentagle</li>
+	<li>Plosion/Black Powder</li>
+	<li>Glasses of Death</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+76</li>
+	<li>MGK+68</li></ul></p></td>
+	<td style="width: 8%;">364</td></tr>
+<tr><td style="width: 12%;">Azoth Z</td>
+	<td style="width: 12%;">Alchemic Sword</td>
+	<td style="width: 12%;">Complete Job no. 056, or Student Store (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Jade Tablet</li>
+	<li>Aroma Material</li>
+	<li>Dragon Tongue</li>
+	<li>Dunkelhite</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+87</li>
+	<li>MGK+83</li></ul></p></td>
+	<td style="width: 8%;">498</td></tr>
+<tr><td style="width: 12%;">Pellucian</td>
+	<td style="width: 12%;">Master's Swing</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Muramasa</li>
+	<li>Altena Ingot</li>
+	<li>Liquid Metal/Blood Clay</li>
+	<li>Bobomb Ice/Coolster/Grape Sherbet/Muscat Sorbet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+97</li>
+	<li>MGK+97</li></ul></p></td>
+	<td style="width: 8%;">408</td></tr>
+<tr><td style="width: 12%;">Commercial Pot</td>
+	<td style="width: 12%;">Sphere Spaceship</td>
+	<td style="width: 12%;">Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Carbon Boulder/Magical Clay/Blood Clay</li>
+	<li>Liquid Metal/Preservative/Nectar/Super Nectar</li>
+	<li>Nicro Cloth/Pleater Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Gear/Grand Gear/Little Gear/Gearbox/Metronome/Pot Station</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+34</li>
+	<li>DEF+34</li></ul></p></td>
+	<td style="width: 8%;">92</td></tr>
+<tr><td style="width: 12%;">Proto Pot</td>
+	<td style="width: 12%;">Sphere Spaceship</td>
+	<td style="width: 12%;">Mana Ruins - Interior Heights, or Resource Center Dungeon/Vendor (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Red Steel/Magical Clay/Blood Clay</li>
+	<li>Liquid Metal/Preservative/Nectar/Super Nectar</li>
+	<li>Canone Crystal/Glacier Crystal/Thunder Crystal</li>
+	<li>Gear/Grand Gear/Little Gear/Gearbox/Metronome/Pot Station</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+52</li>
+	<li>DEF+52</li></ul></p></td>
+	<td style="width: 8%;">182</td></tr>
+<tr><td style="width: 12%;">Mark II</td>
+	<td style="width: 12%;">Neo Spaceship</td>
+	<td style="width: 12%;">Resource Center Dungeon/Vendor (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Liquid Metal</li>
+	<li>Pendelook</li>
+	<li>Lightning Rod/Thunder Rod/Voidspark Pipe</li>
+	<li>Magical Clay/Blood Clay/Commercial Pot/Proto Pot</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+81</li>
+	<li>DEF+81</li></ul></p></td>
+	<td style="width: 8%;">242</td></tr>
+<tr><td style="width: 12%;">Pot Station</td>
+	<td style="width: 12%;">Object from Space</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin</td>
+	<td style="width: 40%;"><p><ul><li>Commercial Pot</li>
+	<li>Proto Pot</li>
+	<li>White Steel/Altena Ingot</li>
+	<li>Gearbox/Metronome/Organne la Firste</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+101</li>
+	<li>DEF+101</li></ul></p></td>
+	<td style="width: 8%;">382</td></tr>
+<tr><td style="width: 12%;">Crown Pot</td>
+	<td style="width: 12%;">Royal Spaceship</td>
+	<td style="width: 12%;">Heart's Prison</td>
+	<td style="width: 40%;"><p><ul><li>Mark II</li>
+	<li>Gold Bullion</li>
+	<li>Holy Crest Paper</li>
+	<li>King Style/Star Queen/Crown Breastplate/King Tuna/Queen Tuna</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+111</li>
+	<li>DEF+111</li></ul></p></td>
+	<td style="width: 8%;">618</td></tr>
+</table></div>
+        <button type="button" class="collapsible">Armor Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 40%;">Ingredients</th>
+<th style="width: 8%;">User</th>
+<th style="width: 8%;">Stats</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Leather Cuirass</td>
+	<td style="width: 12%;">Light Armor</td>
+	<td style="width: 12%;">Student Store (Chapter 3)</td>
+	<td style="width: 40%;"><p><ul><li>Pleather Cloth</li>
+	<li>Male Uniform/Altered Uniform M/Female Uniform/Altered Uniform F</li>
+	<li>Legien Steel/Cyprus Copper</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+61</li>
+	<li>RES+64</li></ul></p></td>
+	<td style="width: 8%;">62</td></tr>
+<tr><td style="width: 12%;">Iron Plate</td>
+	<td style="width: 12%;">Platemail</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Black Steel</li>
+	<li>Leather Cuirass</li>
+	<li>Flour/Salt/Black Powder/Polish Powder</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+74</li>
+	<li>RES+77</li></ul></p></td>
+	<td style="width: 8%;">94</td></tr>
+<tr><td style="width: 12%;">Bronze Plate</td>
+	<td style="width: 12%;">Platemail</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Red Steel</li>
+	<li>Leather Cuirass/Iron Plate</li>
+	<li>Flour/Salt/Black Powder/Polish Powder</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+96</li>
+	<li>RES+99</li></ul></p></td>
+	<td style="width: 8%;">134</td></tr>
+<tr><td style="width: 12%;">Baked Plate</td>
+	<td style="width: 12%;">Platemail</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>Monster Cookie/Sweetsland</li>
+	<li>Flour/Salt</li>
+	<li>Goat Milk/Vanilla Syrup/120% Fruit/Veggielicious/Veggie Purple</li>
+	<li>Taiyaki/Rocks rock!/Meringue Whip</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+85</li>
+	<li>RES+88</li></ul></p></td>
+	<td style="width: 8%;">80</td></tr>
+<tr><td style="width: 12%;">Armored Crab</td>
+	<td style="width: 12%;">Platemail</td>
+	<td style="width: 12%;">Student Store (Chapter 5)</td>
+	<td style="width: 40%;"><p><ul><li>King Crab</li>
+	<li>Iron Plate/Bronze Plate/Baked Plate</li>
+	<li>Raw Komet Ore/Super Komet/Gravity Stone/Elemia Silver/Pendelook</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+105</li>
+	<li>RES+110</li></ul></p></td>
+	<td style="width: 8%;">120</td></tr>
+<tr><td style="width: 12%;">Kaiserfish Mail</td>
+	<td style="width: 12%;">Royal Metal Armor</td>
+	<td style="width: 12%;">Clocktower, or Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>"Kaiser": Aqua Hero</li>
+	<li>Iron Plate/Bronze Plate/Baked Plate/Armored Crab</li>
+	<li>Masou/Trout/Chinook/King Tuna/Queen Tuna/Sharkgill</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+120</li>
+	<li>RES+125</li></ul></p></td>
+	<td style="width: 8%;">256</td></tr>
+<tr><td style="width: 12%;">Silver Cuirass</td>
+	<td style="width: 12%;">Royal Metal Armor</td>
+	<td style="width: 12%;">Clocktower, or Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>White Steel/Liquid Metal</li>
+	<li>Iron Plate/Bronze Plate/Baked Plate/Armored Crab/Kaiserfish Mail</li>
+	<li>Apollo's Diapason/Fortune Ring/Alchemic Cymbal/Divine Shield</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+124</li>
+	<li>RES+129</li></ul></p></td>
+	<td style="width: 8%;">238</td></tr>
+<tr><td style="width: 12%;">Gold Mail</td>
+	<td style="width: 12%;">Royal Metal Armor</td>
+	<td style="width: 12%;">Clocktower, or Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Gold Bullion/Golden Soup</li>
+	<li>Silver Cuirass/Estevan Guard</li>
+	<li>Fortune Ring/Divine Shield</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+137</li>
+	<li>RES+143</li></ul></p></td>
+	<td style="width: 8%;">480</td></tr>
+<tr><td style="width: 12%;">Male Uniform</td>
+	<td style="width: 12%;">Standard Uniform - M</td>
+	<td style="width: 12%;">Student Store (Chapter 1, Week 2)</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth</li>
+	<li>Zettel/Tuft/Knot/Worn Armor</li>
+	<li>Gear/Red Petal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+43</li>
+	<li>RES+37</li></ul></p></td>
+	<td style="width: 8%;">20</td></tr>
+<tr><td style="width: 12%;">Altered Uniform M</td>
+	<td style="width: 12%;">Standard Uniform - M</td>
+	<td style="width: 12%;">Student Store (Chapter 1, Week 2)</td>
+	<td style="width: 40%;"><p><ul><li>Male Uniform</li>
+	<li>Woodchip/Worn Weapon</li>
+	<li>Wild Meat/Rotten Meat</li>
+	<li>Eternal Turnkey</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+56</li>
+	<li>RES+49</li></ul></p></td>
+	<td style="width: 8%;">38</td></tr>
+<tr><td style="width: 12%;">Japanesque Uniform</td>
+	<td style="width: 12%;">Oldschool Uniform</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Male Uniform/Altered Uniform M</li>
+	<li>Black Liquid/Black Powder/Black Steel/Black Dirt/Black Feather</li>
+	<li>Pleather Cloth/Bonita/Endless Seaweed</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+77</li>
+	<li>RES+68</li></ul></p></td>
+	<td style="width: 8%;">52</td></tr>
+<tr><td style="width: 12%;">White Japanesque</td>
+	<td style="width: 12%;">Oldschool Uniform</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Japanesque Uniform</li>
+	<li>White Feather/Long Ice Cream/Meringue Whip/White Steel</li>
+	<li>Glowing Petal/Scale Chips</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+116</li>
+	<li>RES+102</li></ul></p></td>
+	<td style="width: 8%;">170</td></tr>
+<tr><td style="width: 12%;">Gangster</td>
+	<td style="width: 12%;">Oldschool Uniform</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>White Japanesque</li>
+	<li>Bone Necklace/Cait Sith's Collar</li>
+	<li>Knot/Meringue Whip</li>
+	<li>Brilliant Stone/Pentagle</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+129</li>
+	<li>RES+113</li></ul></p></td>
+	<td style="width: 8%;">356</td></tr>
+<tr><td style="width: 12%;">King Style</td>
+	<td style="width: 12%;">Royal Clothes</td>
+	<td style="width: 12%;">Student Store (Chapter 11)</td>
+	<td style="width: 40%;"><p><ul><li>King Tuna/Queen Tuna/Crown Pot/Crown Breastplate/Star Queen</li>
+	<li>White Japanesque</li>
+	<li>Silky Cloth/Formell Fabric/Misty Curtain</li>
+	<li>Silver Thread/Clear Fiber</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35">
+	<img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+141</li>
+	<li>RES+124</li></ul></p></td>
+	<td style="width: 8%;">346</td></tr>
+<tr><td style="width: 12%;">Female Uniform</td>
+	<td style="width: 12%;">Standard Uniform - F</td>
+	<td style="width: 12%;">Student Store (Chapter 1, Week 2)</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth</li>
+	<li>Zettel/Tuft/Knot/Angel's Slip</li>
+	<li>Gear/Red Petal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+31</li>
+	<li>RES+49</li></ul></p></td>
+	<td style="width: 8%;">20</td></tr>
+<tr><td style="width: 12%;">Altered Uniform F</td>
+	<td style="width: 12%;">Standard Uniform - F</td>
+	<td style="width: 12%;">Student Store (Chapter 1, Week 2)</td>
+	<td style="width: 40%;"><p><ul><li>Female Uniform</li>
+	<li>Tangerine/Sunrise Orange/Bitter Grape/Night-in-grape</li>
+	<li>Heal Jar/Green Soup</li>
+	<li>Eternal Turnkey</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+31</li>
+	<li>RES+49</li></ul></p></td>
+	<td style="width: 8%;">40</td></tr>
+<tr><td style="width: 12%;">Long Uniform</td>
+	<td style="width: 12%;">Standard Uniform - F</td>
+	<td style="width: 12%;">Student Store (Chapter 1, Week 2)</td>
+	<td style="width: 40%;"><p><ul><li>Altered Uniform F</li>
+	<li>Pleather Cloth</li>
+	<li>Huffin/Gash Twig/Endless Seaweed/Long Ice Cream</li>
+	<li>Asclepius</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+51</li>
+	<li>RES+79</li></ul></p></td>
+	<td style="width: 8%;">74</td></tr>
+<tr><td style="width: 12%;">Bad Girl</td>
+	<td style="width: 12%;">Retro Uniform</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Long Uniform/Altered Uniform F</li>
+	<li>Knot/Dietary Fiber/Silver Thread/Clear Fiber</li>
+	<li>Thorn Gauntlet/Lando/X-Lando/Sweet Lando/King Grab</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+62</li>
+	<li>RES+98</li></ul></p></td>
+	<td style="width: 8%;">92</td></tr>
+<tr><td style="width: 12%;">Maiden</td>
+	<td style="width: 12%;">Retro Uniform</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Crimson Feather/Rainbow Feather/Angel Wing</li>
+	<li>Heaven's Silk/Feathery Flow</li>
+	<li>Aurora Curtain</li>
+	<li>Formell Fabric</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+104</li>
+	<li>RES+163</li></ul></p></td>
+	<td style="width: 8%;">456</td></tr>
+<tr><td style="width: 12%;">Heaven's Silk</td>
+	<td style="width: 12%;">Elegant Clothes</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Angel's Slip/Devil's Panties</li>
+	<li>Angel Wing/Archangel Wings/Fallen Wing</li>
+	<li>Misty Curtain</li>
+	<li>Silver Thread</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+79</li>
+	<li>RES+124</li></ul></p></td>
+	<td style="width: 8%;">182</td></tr>
+<tr><td style="width: 12%;">Black Cat</td>
+	<td style="width: 12%;">Cat Suit</td>
+	<td style="width: 12%;">Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Kitty Ears</li>
+	<li>Angel's Slip/Devil's Panties</li>
+	<li>Black Liquid/Black Powder/Black Dirt</li>
+	<li>Pretty Ribbon/Cait Sith's Collar/Kittynip</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+66</li>
+	<li>RES+104</li></ul></p></td>
+	<td style="width: 8%;">158</td></tr>
+<tr><td style="width: 12%;">Kitty Ear Maid</td>
+	<td style="width: 12%;">Cat Suit</td>
+	<td style="width: 12%;">Dragon's Grave - Heaven's Road, or Infirmary (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Heaven's Silk/Long Uniform/Bad Girl</li>
+	<li>Kitty Ears/Black Cat</li>
+	<li>Cait Sith's Collar/Kittynip</li>
+	<li>Silky Cloth/Formell Fabric</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+97</li>
+	<li>RES+151</li></ul></p></td>
+	<td style="width: 8%;">400</td></tr>
+<tr><td style="width: 12%;">Raven Robe</td>
+	<td style="width: 12%;">Robe</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Black Liquid/Black Powder/Black Feather</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth</li>
+	<li>Taun/Tercia Pollen</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+74</li>
+	<li>RES+101</li></ul></p></td>
+	<td style="width: 8%;">68</td></tr>
+<tr><td style="width: 12%;">Arabesque Robe</td>
+	<td style="width: 12%;">Robe</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Spinacherb/Purplinacherb/Gash Twig/Kittynip/Dunkelhite</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth</li>
+	<li>Puniball/Strom Shell</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+57</li>
+	<li>RES+78</li></ul></p></td>
+	<td style="width: 8%;">64</td></tr>
+<tr><td style="width: 12%;">La Matador</td>
+	<td style="width: 12%;">Robe</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Crimson Feather/Night-in-grape/Cyprus Copper/Red Petal</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth</li>
+	<li>Feather Charm</li>
+	<li>Lando/X-Lando/Sweet Lando/Red Soup</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+66</li>
+	<li>RES+89</li></ul></p></td>
+	<td style="width: 8%;">86</td></tr>
+<tr><td style="width: 12%;">Aurora Curtain</td>
+	<td style="width: 12%;">Magic Garments</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Rainbow Feather/Dunkelhite</li>
+	<li>Misty Curtain</li>
+	<li>Dragonscale Garb</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+150</li>
+	<li>RES+150</li></ul></p></td>
+	<td style="width: 8%;">286</td></tr>
+<tr><td style="width: 12%;">Dragonscale Garb</td>
+	<td style="width: 12%;">Magic Garments</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Dragon Scale</li>
+	<li>Silky Cloth/Formell Fabric/Misty Curtain</li>
+	<li>Dragon Bone/Dragon Tongue/Carabine Harp</li>
+	<li>Symbol of Uroborus</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+123</li>
+	<li>RES+120</li></ul></p></td>
+	<td style="width: 8%;">322</td></tr>
+<tr><td style="width: 12%;">Fishscale Garb</td>
+	<td style="width: 12%;">Magic Garments</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Blowfish-X/Tiger Blowfish/Chinook/Trout/Masou</li>
+	<li>Silky Cloth/Formell Fabric/Misty Curtain</li>
+	<li>Raven Robe/Arabesque Robe/La Matador/Chocolate Robe</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+136</li>
+	<li>RES+136</li></ul></p></td>
+	<td style="width: 8%;">172</td></tr>
+<tr><td style="width: 12%;">Chocolate Robe</td>
+	<td style="width: 12%;">Robe</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Raven Robe</li>
+	<li>99% Chaos Choco</li>
+	<li>Candy Eye/Vanilla Syrup/Magical Clay/Sweetsland</li>
+	<li>Bomb Ice/Bobomb Ice/Grape Sherbet/Muscat Sorbet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35">
+	<img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35">
+	<img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+147</li>
+	<li>RES+107</li></ul></p></td>
+	<td style="width: 8%;">196</td></tr>
+<tr><td style="width: 12%;">Estevan Guard</td>
+	<td style="width: 12%;">Heavy Armor</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Bronze Plate/Bone Breastplate</li>
+	<li>Dragon Scale/Dragon Tongue/Carabine Harp</li>
+	<li>Elemia Silver/Raw Komet Ore</li>
+	<li>Stone of Alectoria/Flame Ring/Ice Ring/Thunder Ring</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+19</li>
+	<li>DEF+149</li>
+	<li>RES+99</li></ul></p></td>
+	<td style="width: 8%;">330</td></tr>
+<tr><td style="width: 12%;">Bone Breastplate</td>
+	<td style="width: 12%;">Heavy Armor</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Iron Plate</li>
+	<li>Monster Bone</li>
+	<li>Chrome Crystal/Soul of Darkness/Preservative</li>
+	<li>Wild Meat/Rotten Meat/Golden Meat</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+16</li>
+	<li>DEF+122</li>
+	<li>RES+81</li></ul></p></td>
+	<td style="width: 8%;">170</td></tr>
+<tr><td style="width: 12%;">Crown Breastplate</td>
+	<td style="width: 12%;">Holy Armor</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Estevan Guard/Bone Breastplate/Silver Cuirass/Gold Mai</li>
+	<li>Altena Ingot</li>
+	<li>King Tuna/Queen Tuna/Crown Pot/King Style/Star Queen</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35">
+	<img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+22</li>
+	<li>DEF+175</li>
+	<li>RES+155</li></ul></p></td>
+	<td style="width: 8%;">432</td></tr>
+<tr><td style="width: 12%;">Panzer Cloak</td>
+	<td style="width: 12%;">Hardened Cloak</td>
+	<td style="width: 12%;">Complete Job no. 061, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Iron Plate/Bronze Plate</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Chrome Crystal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+13</li>
+	<li>DEF+69</li>
+	<li>RES+104</li></ul></p></td>
+	<td style="width: 8%;">118</td></tr>
+<tr><td style="width: 12%;">Imperial Cloak</td>
+	<td style="width: 12%;">Hardened Cloak</td>
+	<td style="width: 12%;">Complete Job no. 061, or Student Store (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Dragonscale Garb/Aurora Curtain/Fishscale Garb</li>
+	<li>Symbol of Uroborus/Velvet Horn</li>
+	<li>Liquid Metal</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+20</li>
+	<li>DEF+103</li>
+	<li>RES+155</li></ul></p></td>
+	<td style="width: 8%;">332</td></tr>
+<tr><td style="width: 12%;">Feathery Flow</td>
+	<td style="width: 12%;">Women's Armor</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Angel Wing/Fallen Wing</li>
+	<li>Blue Steel/White Steel</li>
+	<li>Divine Shield/Shield of Ajax</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+16</li>
+	<li>DEF+129</li>
+	<li>RES+144</li></ul></p></td>
+	<td style="width: 8%;">186</td></tr>
+<tr><td style="width: 12%;">Star Queen</td>
+	<td style="width: 12%;">Women's Armor</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Brilliant Stone/Pentagle/Aroma Material</li>
+	<li>Feathery Flow</li>
+	<li>Queen Tuna</li>
+	<li>Gloves of Artorius/Thorn Gauntlet/Scale Gauntlet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+18</li>
+	<li>DEF+143</li>
+	<li>RES+127</li></ul></p></td>
+	<td style="width: 8%;">370</td></tr>
+<tr><td style="width: 12%;">Angel Cloth</td>
+	<td style="width: 12%;">Women's Armor</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Archangel Wings</li>
+	<li>Angel's Slip/Devil's Panties</li>
+	<li>Feathery Flow</li>
+	<li>Winged Boots/Flying Fish Boots</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35">
+	<img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>ATK+19</li>
+	<li>DEF+151</li>
+	<li>RES+134</li></ul></p></td>
+	<td style="width: 8%;">456</td></tr>
+<tr><td style="width: 12%;">Alchemy Robe</td>
+	<td style="width: 12%;">Legendary Robe</td>
+	<td style="width: 12%;">God's Scar, or Student Store (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Formell Fabric</li>
+	<li>Brilliant Stone/Pentagle/Aroma Material/Chrome Crystal</li>
+	<li>Holy Crest Paper</li>
+	<li>Raw Komet Ore/Super Komet</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+25</li>
+	<li>DEF+65</li>
+	<li>RES+195</li></ul></p></td>
+	<td style="width: 8%;">334</td></tr>
+<tr><td style="width: 12%;">Saint's Garb</td>
+	<td style="width: 12%;">Legendary Robe</td>
+	<td style="width: 12%;">God's Scar, or Student Store (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Altena Ingot</li>
+	<li>Imperial Cloth/Alchemy Robe</li>
+	<li>Aroma Material</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+27</li>
+	<li>DEF+71</li>
+	<li>RES+214</li></ul></p></td>
+	<td style="width: 8%;">536</td></tr>
+<tr><td style="width: 12%;">Lucifer's Leotard</td>
+	<td style="width: 12%;">Sexy Outfit</td>
+	<td style="width: 12%;">Dragon's Grave - Cave of Origin, or Infirmary (Chapter 11)</td>
+	<td style="width: 40%;"><p><ul><li>Devil's Panties</li>
+	<li>Heaven's Silk/Black Cat</li>
+	<li>Pentagle</li>
+	<li>Fallen Wing</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Jess.png" width="35" height="35">
+	<img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>MGK+25</li>
+	<li>DEF+67</li>
+	<li>RES+201</li></ul></p></td>
+	<td style="width: 8%;">398</td></tr>
+<tr><td style="width: 12%;">Bleak Veil</td>
+	<td style="width: 12%;">Dark Battlespirit</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Gold Mail</li>
+	<li>Fallen Wing</li>
+	<li>Stellar Globe</li>
+	<li>Symbol of Uroborus</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Vayne.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+199</li>
+	<li>RES+180</li></ul></p></td>
+	<td style="width: 8%;">590</td></tr>
+<tr><td style="width: 12%;">Gallant Mantle</td>
+	<td style="width: 12%;">Man's Mantle</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Gangster</li>
+	<li>Meginjorz</li>
+	<li>Altena Ingot</li>
+	<li>Tera Flame</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Flay.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+238</li>
+	<li>RES+149</li></ul></p></td>
+	<td style="width: 8%;">528</td></tr>
+<tr><td style="width: 12%;">Grand Alchemist</td>
+	<td style="width: 12%;">Grand Robe</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Saint's Garb</li>
+	<li>Shining Grail</li>
+	<li>Philosopher's Hand</li>
+	<li>Glasses of Death</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Roxis.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+149</li>
+	<li>RES+238</li></ul></p></td>
+	<td style="width: 8%;">596</td></tr>
+<tr><td style="width: 12%;">Biohair Wig</td>
+	<td style="width: 12%;">Sensitive Hair</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Dragon Tongue</li>
+	<li>Uni God</li>
+	<li>Brilliant Stone</li>
+	<li>Aurora Curtain</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Philo.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+179</li>
+	<li>RES+198</li></ul></p></td>
+	<td style="width: 8%;">538</td></tr>
+<tr><td style="width: 12%;">Holy Beast Hide</td>
+	<td style="width: 12%;">Beast Hide</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Angel Cloth</li>
+	<li>Shiny Mustache</li>
+	<li>Bunny Ears</li>
+	<li>Super Nectar</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Nikki.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+207</li>
+	<li>RES+177</li></ul></p></td>
+	<td style="width: 8%;">582</td></tr>
+<tr><td style="width: 12%;">Knight's Waistcoat</td>
+	<td style="width: 12%;">Master's Outfit</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Maiden</li>
+	<li>Feathery Flow</li>
+	<li>Symbol of Uroborus</li>
+	<li>Winged Boots</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Anna.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+179</li>
+	<li>RES+179</li>
+	<li>SPD+40</li></ul></p></td>
+	<td style="width: 8%;">534</td></tr>
+<tr><td style="width: 12%;">Robe of Life</td>
+	<td style="width: 12%;">Incanter's Garb</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Saint's Garb</li>
+	<li>Trauer Tarot</li>
+	<li>Elixir</li>
+	<li>Formel Fabric</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Pamela.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+119</li>
+	<li>RES+268</li></ul></p></td>
+	<td style="width: 8%;">592</td></tr>
+<tr><td style="width: 12%;">Rejuvenator Skin</td>
+	<td style="width: 12%;">Liquid Armor</td>
+	<td style="width: 12%;">Resource Center - Unorganized Zone</td>
+	<td style="width: 40%;"><p><ul><li>Elixir</li>
+	<li>Blood Clay</li>
+	<li>Fires of Hell/Diamon Dust/Electric Elect</li>
+	<li>Clearwater/Brown Groundwater/Goat Milk/Marine Water</li></ul></p></td>
+	<td style="width: 8%;"><p><img class="icon" src="imgs/Muppy.png" width="35" height="35"></p></td>
+	<td style="width: 8%;"><p><ul><li>DEF+250</li>
+	<li>RES+156</li></ul></p></td>
+	<td style="width: 8%;">466</td></tr>
+</table></div>
+        <button type="button" class="collapsible">Accessory Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 40%;">Ingredients</th>
+<th style="width: 8%;">User</th>
+<th style="width: 8%;">Stats</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Flame Ring</td>
+	<td style="width: 12%;">Magic Ring</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Canone Rock/Canone Crystal/Auto Igniter/Plosion/Flame Ring/Fires of Hell</li>
+	<li>Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook</li>
+	<li>Polish Powder/Flour/Salt/Black Powder/Shiny Powder</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Ice Ring</td>
+	<td style="width: 12%;">Magic Ring</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Glacier Stone/Glacier Crystal/Coolster/Long Ice Cream/Ice Ring/Diamond Dust</li>
+	<li>Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook</li>
+	<li>Polish Powder/Flour/Salt/Black Powder/Shiny Powder</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core </li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Thunder Ring</td>
+	<td style="width: 12%;">Magic Ring</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Thunder Stone/Thunder Crystal/Voidspark Pipe/Lightning Rod/Thunder Ring/Electric Elect</li>
+	<li>Chrome Crystal/Soul of Darkness/Gravity Stone/Pendelook</li>
+	<li>Polish Powder/Flour/Salt/Black Powder/Shiny Powder</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">138</td></tr>
+<tr><td style="width: 12%;">Fires of Hell</td>
+	<td style="width: 12%;">Pot of Flames</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Auto Igniter/Aroma Material</li>
+	<li>Fortune Ring/Flame Ring/Tera Flame/Stone of Alectoria</li>
+	<li>Altena Ingot/Blood Clay/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">426</td></tr>
+<tr><td style="width: 12%;">Diamond Dust</td>
+	<td style="width: 12%;">Freezing Device</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Coolster/Aroma Material</li>
+	<li>Brilliant Stone/Ice Ring/Bobomb Ice/Stone of Alectoria</li>
+	<li>Altena Ingot/Blood Clay/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">412</td></tr>
+<tr><td style="width: 12%;">Electric Elect</td>
+	<td style="width: 12%;">Electric Machine</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Voidspark Pipe/Aroma Material</li>
+	<li>Gearbox/Thunder Ring/Thunder Rod/Stone of Alectoria</li>
+	<li>Altena Ingot/Blood Clay/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">376</td></tr>
+<tr><td style="width: 12%;">Puppy Paw Gloves</td>
+	<td style="width: 12%;">Gloves</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Tuft/Knot/Shiny Moustache/Puppy Paw Flan</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Wild Meat/Rotten Meat/Golden Meat/Bacon/Smoked Fish/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>HP+30</li></ul></p></td>
+	<td style="width: 8%;">18</td></tr>
+<tr><td style="width: 12%;">Asclepius</td>
+	<td style="width: 12%;">Small Wand</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Woodchip/Giant Woodchip/Wooden Club</li>
+	<li>Beast Fang</li>
+	<li>Gash Twig/Taun/Dunkelhite/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>SP+20</li></ul></p></td>
+	<td style="width: 8%;">36</td></tr>
+<tr><td style="width: 12%;">Stone of Alectoria</td>
+	<td style="width: 12%;">Stone of Sealing</td>
+	<td style="width: 12%;">Wind's Corridor - Abyss, or Infirmary (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Canone Crystal/Glacier Crystal/Thunder Crystal/Aroma Material</li>
+	<li>Blue Steel/White Steel</li>
+	<li>Polish Powder/Black Powder/Shiny Powder</li>
+	<li>Nectar/Super Nectar/Youthful Apple/Eternal Peach/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>HP+60</li></ul></p></td>
+	<td style="width: 8%;">222</td></tr>
+<tr><td style="width: 12%;">Symbol of Uroborus</td>
+	<td style="width: 12%;">Alchemy Symbol</td>
+	<td style="width: 12%;">Student Store (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Dragon Bone/Dragon Scale/Dragon Tongue</li>
+	<li>Aslepius/Stone of Alectoria</li>
+	<li>Flame Ring/Thunder Ring/Ice Ring</li>
+	<li>Giant's Ring/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>SP+40</li></ul></p></td>
+	<td style="width: 8%;">278</td></tr>
+<tr><td style="width: 12%;">Thorn Gauntlet</td>
+	<td style="width: 12%;">Gloves</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Cyprus Copper</li>
+	<li>Pleather Cloth/Nicro Cloth/Puppy Paw Gloves</li>
+	<li>Poison Shroom/Rotten Meat/Blowfish-X/Tiger Blowfish/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>ATK+20</li></ul></p></td>
+	<td style="width: 8%;">56</td></tr>
+<tr><td style="width: 12%;">Straw Doll</td>
+	<td style="width: 12%;">Doll</td>
+	<td style="width: 12%;">The Heights</td>
+	<td style="width: 40%;"><p><ul><li>Nicro Cloth/Dietary Fiber</li>
+	<li>Burdock Straight/Burdock Curve/Worn Weapon</li>
+	<li>Tuft/Knot/Puni Gummi</li>
+	<li>Ragged Collar/Leather Collar/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>MGK+20</li></ul></p></td>
+	<td style="width: 8%;">36</td></tr>
+<tr><td style="width: 12%;">Gloves of Artorius</td>
+	<td style="width: 12%;">Gloves</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Legien Steel</li>
+	<li>Pleather Cloth/Nicro Cloth/Puppy Paw Gloves</li>
+	<li>Worn Weapon/Worn Armor/Thorn Gauntlet/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>DEF+20</li></ul></p></td>
+	<td style="width: 8%;">60</td></tr>
+<tr><td style="width: 12%;">Vasilissa's Doll</td>
+	<td style="width: 12%;">Doll</td>
+	<td style="width: 12%;">The Heights</td>
+	<td style="width: 40%;"><p><ul><li>Brownie Mask</li>
+	<li>Straw Doll/Doll's Claw</li>
+	<li>Nicro Cloth/Pleather Cloth</li>
+	<li>Monster Cookie/Puni Gummi/Puppy Paw Flan/Soul of Darkness/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Mist Core/Soul Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>RES+20</li></ul></p></td>
+	<td style="width: 8%;">52</td></tr>
+<tr><td style="width: 12%;">Angel Wing</td>
+	<td style="width: 12%;">Wing of an Angel</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Angel's Slip</li>
+	<li>Crimson Feather/White Feather</li>
+	<li>Tuft/Knot/Shiny Moustache/Huffin/Meringue Whip</li>
+	<li>Raven Robe/Arabesque Robe/La Matador/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>SPD+20</li></ul></p></td>
+	<td style="width: 8%;">88</td></tr>
+<tr><td style="width: 12%;">Megingjorz</td>
+	<td style="width: 12%;">Power Girdle</td>
+	<td style="width: 12%;">Clocktower, or Infirmary (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Formell Fabric</li>
+	<li>Cait Sith's Collar/Pretty Ribbon/Brisingamen</li>
+	<li>Fortune Ring/Velvet Horn</li>
+	<li>Silver Thread/Clear Fiber/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>ATK+80</li></ul></p></td>
+	<td style="width: 8%;">466</td></tr>
+<tr><td style="width: 12%;">Jade Tablet</td>
+	<td style="width: 12%;">Jade Tablet</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>White Steel/Altena Ingot</li>
+	<li>Flame Ring/Ice Ring/Thunder Ring/Fires of Hell/Diamond Dust/Electric Elect</li>
+	<li>Trauer Tarot/Flonne's Charm/Type Solomon</li>
+	<li>Aroma Material/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>MGK+80</li></ul></p></td>
+	<td style="width: 8%;">404</td></tr>
+<tr><td style="width: 12%;">Shield of Ajax</td>
+	<td style="width: 12%;">Hard Shield</td>
+	<td style="width: 12%;">Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)</td>
+	<td style="width: 40%;"><p><ul><li>Divine Shield</li>
+	<li>Blue Steel/White Steel/Altena Ingot</li>
+	<li>Estevan Guard/Bone Breastplate/Crown Breastplate</li>
+	<li>Polish Powder/Shiny Powder/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>DEF+80</li></ul></p></td>
+	<td style="width: 8%;">310</td></tr>
+<tr><td style="width: 12%;">Mirror of Gargol</td>
+	<td style="width: 12%;">Hard Shield</td>
+	<td style="width: 12%;">Old Schoolhouse - Closed Area, or Campus Grounds (Chapter 9)</td>
+	<td style="width: 40%;"><p><ul><li>Misty Curtain</li>
+	<li>Blue Steel/White Steel/Altena Ingot</li>
+	<li>Dragonscale Garb/Aurora Curtain/Fishscale Garb</li>
+	<li>Polish Powder/Shiny Powder/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>RES+80</li></ul></p></td>
+	<td style="width: 8%;">310</td></tr>
+<tr><td style="width: 12%;">Archangel Wings</td>
+	<td style="width: 12%;">Wing of an Angel</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Angel Wing</li>
+	<li>Rainbow Feather</li>
+	<li>Winged Boots</li>
+	<li>Altena Ingot/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>HP+40</li>
+	<li>SP+20</li>
+	<li>ATK+20</li>
+	<li>MGK+20</li>
+	<li>DEF+20</li>
+	<li>RES+20</li>
+	<li>SPD+10</li></ul></p></td>
+	<td style="width: 8%;">412</td></tr>
+<tr><td style="width: 12%;">Fallen Wing</td>
+	<td style="width: 12%;">Wing of an Angel</td>
+	<td style="width: 12%;">Resource Center Dungeon</td>
+	<td style="width: 40%;"><p><ul><li>Devil's Panties</li>
+	<li>Black Feather</li>
+	<li>Angel Wing/Crimson Feather/White Feather</li>
+	<li>Soul of Darkness/Black Liquid/99% Chaos Choco/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>SPD+20</li></ul></p></td>
+	<td style="width: 8%;">214</td></tr>
+<tr><td style="width: 12%;">Scale Gauntlet</td>
+	<td style="width: 12%;">Gloves</td>
+	<td style="width: 12%;">Campus Grounds (Chapter 2)</td>
+	<td style="width: 40%;"><p><ul><li>Dragon Scale/Scale Chips</li>
+	<li>Gloves of Artorius/Thorn Gauntlet</li>
+	<li>Masou/Trout/Chinook/Joker Fish</li>
+	<li>Blue Steel/Black Steel/Red Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>ATK+25</li>
+	<li>MGK+25</li></ul></p></td>
+	<td style="width: 8%;">224</td></tr>
+<tr><td style="width: 12%;">Kaiser: Aqua Hero</td>
+	<td style="width: 12%;">Fishbot</td>
+	<td style="width: 12%;">Cafeteria (Chapter 8)</td>
+	<td style="width: 40%;"><p><ul><li>Sharkgill</li>
+	<li>Masou/Trout/Chinook/King Tuna/Queen Tuna</li>
+	<li>Alloy Claw/Super Alloy Claw</li>
+	<li>Straw Doll/Vasilissa's Doll/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>HP+50</li>
+	<li>SP+50</li>
+	<li>ATK+50</li>
+	<li>MGK+50</li></ul></p></td>
+	<td style="width: 8%;">276</td></tr>
+<tr><td style="width: 12%;">Aroma Material</td>
+	<td style="width: 12%;">The Gem of Alchemy</td>
+	<td style="width: 12%;">Automatically obtain</td>
+	<td style="width: 40%;"><p><ul><li>Brilliant Stone</li>
+	<li>Pentagle</li>
+	<li>Fires of Hell/Diamond Dust/Electric Elect</li>
+	<li>Tercia Pollen/Dunkelhite/Glowing Petal/Shiny Powder/Youthful Apple/Eternal Peach/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">408</td></tr>
+<tr><td style="width: 12%;">Toad Mouth</td>
+	<td style="width: 12%;">Wallet</td>
+	<td style="width: 12%;">Millenium Tree, or Infirmary (Chapter 6)</td>
+	<td style="width: 40%;"><p><ul><li>Silky Cloth/Formell Fabric</li>
+	<li>Legien Steel/Cyprus Copper/Preuve Lead</li>
+	<li>Soul of Darkness/Pendelook</li>
+	<li>Puniball/Puni Gummi/Puppy Paw Flan/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">124</td></tr>
+<tr><td style="width: 12%;">Philosopher's Hand</td>
+	<td style="width: 12%;">Handprint</td>
+	<td style="width: 12%;">Clocktower, or Infirmary (Chapter 10)</td>
+	<td style="width: 40%;"><p><ul><li>Puppy Paw Gloves/Thorn Gauntlet/Gloves of Artorius/Scale Gauntlet</li>
+	<li>Liquid Metal/Magical Clay/Blood Clay/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">102</td></tr>
+<tr><td style="width: 12%;">Glasses of Death</td>
+	<td style="width: 12%;">Glasses</td>
+	<td style="width: 12%;">Resource Center Dungeon/Vendor</td>
+	<td style="width: 40%;"><p><ul><li>Chrome Crystal/Gravity Stone</li>
+	<li>Black Liquid/Black Powder</li>
+	<li>Carbon Boulder/Black Steel</li>
+	<li>Blowfish-X/Poison Shroom/Tiger Blowfish/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">150</td></tr>
+<tr><td style="width: 12%;">Feather Charm</td>
+	<td style="width: 12%;">Head Gear</td>
+	<td style="width: 12%;">Infirmary (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Angel Wing/Rainbow Feather/Crimson Feather/White Feather/Black Feather</li>
+	<li>Dietary Fiber/Silver Thread/Clear Fiber</li>
+	<li>Black Steel/Red Steel/Blue Steel/White Steel/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>DEF+10</li>
+	<li>RES+10</li></ul></p></td>
+	<td style="width: 8%;">90</td></tr>
+<tr><td style="width: 12%;">Kitty Ears</td>
+	<td style="width: 12%;">Head Gear</td>
+	<td style="width: 12%;">Infirmary (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Beast Fang/Tuft/Knot/Shiny Moustache</li>
+	<li>Silky Cloth/Formell Fabric</li>
+	<li>Apollo's Diapason/Galilean Scope/Alchemic Cymbal/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>HP+30</li>
+	<li>SP+15</li></ul></p></td>
+	<td style="width: 8%;">104</td></tr>
+<tr><td style="width: 12%;">Bunny Ears</td>
+	<td style="width: 12%;">Head Gear</td>
+	<td style="width: 12%;">Infirmary (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Kitty Ears</li>
+	<li>Carrotato</li>
+	<li>Shiny Powder/Super Nectar/Shining Grail/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">290</td></tr>
+<tr><td style="width: 12%;">Tangerine Hat</td>
+	<td style="width: 12%;">Fancy Hat</td>
+	<td style="width: 12%;">Complete Job no. 043, or Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Tangerine/Sunrise Orange/Mandarin Orange/Orange Bomb/Big Orange Bomb</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Dietary Fiber/Silver Thread/Clear Fiber/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">70</td></tr>
+<tr><td style="width: 12%;">Lando Cap</td>
+	<td style="width: 12%;">Fancy Hat</td>
+	<td style="width: 12%;">Complete Job no. 043, or Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Lando/X-Lando/Sweet Lando/Lando Bomb/Big Lando Bomb</li>
+	<li>Silky Cloth/Formell Fabric</li>
+	<li>Dietary Fiber/Silver Thread/Clear Fiber/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">92</td></tr>
+<tr><td style="width: 12%;">Yubana Cover</td>
+	<td style="width: 12%;">Fancy Hat</td>
+	<td style="width: 12%;">Complete Job no. 043, or Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Yubana Fruit/Dried Yubana/Yubana Flower</li>
+	<li>Brownie Mask/Vasilissa's Doll</li>
+	<li>Silver Thread/Clear Fiber/Shinke Onion/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">166</td></tr>
+<tr><td style="width: 12%;">Afrotic Wig</td>
+	<td style="width: 12%;">Afrotic Wig</td>
+	<td style="width: 12%;">Complete Job no. 043, or Campus Grounds (Chapter 4)</td>
+	<td style="width: 40%;"><p><ul><li>Flame/Tera Flame</li>
+	<li>Knot</li>
+	<li>Shiny Moustache</li>
+	<li>Nicro Cloth/Pleather Cloth/Silky Cloth/Formell Fabric/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">190</td></tr>
+<tr><td style="width: 12%;">Flying Fish Boots</td>
+	<td style="width: 12%;">Boots</td>
+	<td style="width: 12%;">Mana Ruins - Interior Heights, or Infirmary (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Chinook/King Tuna/Queen Tuna/Sharkgill/Sharkgill Sword</li>
+	<li>Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Silver Thread/Clear Fiber/Shinke Onion</li>
+	<li>Scale Gauntlet/Dragonscale Garb/Fishscale Garb/Scale Chips/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;">290</td></tr>
+<tr><td style="width: 12%;">Winged Boots</td>
+	<td style="width: 12%;">Boots</td>
+	<td style="width: 12%;">Mana Ruins - Interior Heights, or Infirmary (Chapter 7)</td>
+	<td style="width: 40%;"><p><ul><li>Angel Wing/Archangel Wing/Fallen Wing</li>
+	<li>Pleather Cloth/Silky Cloth/Formell Fabric</li>
+	<li>Dietary Fiber/Silver Thread/Clear Fiber/Shinke Onion</li>
+	<li>Alchemic Bag/Angel's Bag/Earth Core/Wind Core/Aqua Core/Flame Core/Metal Core/Nature Core/Soul Core/Mist Core/Force Core/Eternal Core</li></ul></p></td>
+	<td style="width: 8%;">None</td>
+	<td style="width: 8%;"><p><ul><li>SP+20</li></ul></p></td>
+	<td style="width: 8%;">168</td></tr>
+</table></div>
+        <button type="button" class="collapsible">Key Items</button>
+        <div class="content">
+            <table>
+            <tr>
+<th style="width: 12%;">Name</th>
+<th style="width: 12%;">Synthesis</th>
+<th style="width: 12%;">Recipe Location</th>
+<th style="width: 56%;">Ingredients</th>
+<th style="width: 8%;">Sell</th>
+</tr>
+<tr><td style="width: 12%;">Flask of Galileo</td>
+	<td style="width: 12%;">Synthesizer's Text</td>
+	<td style="width: 12%;">Complete Synthesis VII Equipment Assignment</td>
+	<td style="width: 56%;"><p><ul><li>Rusty Flask</li>
+	<li>Polish Powder</li></ul></p></td>
+	<td style="width: 8%;">0</td></tr>
+</table></div>

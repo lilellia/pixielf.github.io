@@ -41,10 +41,19 @@ def htmlify_recipe(item, headers):
                     val = '<p><ul>' + '\n\t'.join(f'<li>{i}</li>' for i in val) + '</ul></p>'
                 except TypeError:
                     val = None
-            elif head in ('User', 'Stats'):
+            elif head == 'Stats':
                 # format as list
                 try:
                     val = '<p><ul>' + '\n\t'.join(f'<li>{i}</li>' for i in re.split(r',\s*', val)) + '</ul></p>'
+                except TypeError:
+                    val = None
+            elif head == 'User':
+                # use images
+                try:
+                    val = '<p>' + '\n\t'.join(
+                        f'<img class="icon" src="imgs/{char}.png" width="35" height="35">'
+                        for char in re.split(r',\s*', val)
+                    ) + '</p>'
                 except TypeError:
                     val = None
             elif head == 'Sell':
@@ -288,17 +297,6 @@ def build_enemies():
     </tr>
 ''')
 
-    def _imagify(lst):
-        if isinstance(lst, float) and np.isnan(lst):
-            return ''
-
-        lst = lst.split(', ')
-        imgs = ''.join(
-            f'<img src="imgs/{item.lower()}.png" width="28" height="28">'
-            for item in lst
-        )
-        return f'<p>{imgs}</p>'
-
     for row in enemy_data.to_dict(orient='record'):
         name = row.get('Name', '')
         hp = row.get('HP', '')
@@ -320,9 +318,9 @@ def build_enemies():
         <td style="width: 5%;">{ap:,}</td>
         <td style="width: 5%;">{cole:,}</td>
         <td style="width: 5%;">{_paragraphize(species)}</td>
-        <td style="width: 5%;">{_imagify(weak)}</td>
-        <td style="width: 5%;">{_imagify(resist)}</td>
-        <td style="width: 15%;">{_imagify(protections)}</td>
+        <td style="width: 5%;">{_paragraphize(weak)}</td>
+        <td style="width: 5%;">{_paragraphize(resist)}</td>
+        <td style="width: 15%;">{_paragraphize(protections)}</td>
         <td style="width: 15%;">{_paragraphize(location)}</td>
         <td style="width: 12%;">{_paragraphize(spoil)}</td>
         <td style="width: 11%;">{_paragraphize(snack)}</td>
@@ -337,7 +335,7 @@ def build_enemies():
         f.write(stream.read())
 
 
-# build_recipes()
+build_recipes()
 # build_character_quests()
 # build_courses()
-build_enemies()
+# build_enemies()
