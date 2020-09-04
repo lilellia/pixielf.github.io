@@ -51,7 +51,7 @@ def htmlify_recipe(item, headers):
                 # use images
                 try:
                     val = '<p>' + '\n\t'.join(
-                        f'<img class="icon" src="imgs/{char}.png" width="35" height="35">'
+                        f'<img class="icon" src="imgs/{char.lower()}.png" width="35" height="35">'
                         for char in re.split(r',\s*', val)
                     ) + '</p>'
                 except TypeError:
