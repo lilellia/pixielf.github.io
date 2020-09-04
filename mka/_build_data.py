@@ -288,6 +288,17 @@ def build_enemies():
     </tr>
 ''')
 
+    def _imagify(lst):
+        if isinstance(lst, float) and np.isnan(lst):
+            return ''
+
+        lst = lst.split(', ')
+        imgs = ''.join(
+            f'<img src="imgs/{item.lower()}.png" width="30" height="30">'
+            for item in lst
+        )
+        return f'<p>{imgs}</p>'
+
     for row in enemy_data.to_dict(orient='record'):
         name = row.get('Name', '')
         hp = row.get('HP', '')
@@ -309,8 +320,8 @@ def build_enemies():
         <td style="width: 5%;">{ap:,}</td>
         <td style="width: 5%;">{cole:,}</td>
         <td style="width: 5%;">{_paragraphize(species)}</td>
-        <td style="width: 5%;">{_paragraphize(weak)}</td>
-        <td style="width: 5%;">{_paragraphize(resist)}</td>
+        <td style="width: 5%;">{_imagify(weak)}</td>
+        <td style="width: 5%;">{_imagify(resist)}</td>
         <td style="width: 15%;">{_paragraphize(protections)}</td>
         <td style="width: 15%;">{_paragraphize(location)}</td>
         <td style="width: 12%;">{_paragraphize(spoil)}</td>
