@@ -294,7 +294,7 @@ def build_enemies():
 
         lst = lst.split(', ')
         imgs = ''.join(
-            f'<img src="imgs/{item.lower()}.png" width="30" height="30">'
+            f'<img src="imgs/{item.lower()}.png" width="15" height="15">'
             for item in lst
         )
         return f'<p>{imgs}</p>'
@@ -322,7 +322,7 @@ def build_enemies():
         <td style="width: 5%;">{_paragraphize(species)}</td>
         <td style="width: 5%;">{_imagify(weak)}</td>
         <td style="width: 5%;">{_imagify(resist)}</td>
-        <td style="width: 15%;">{_paragraphize(protections)}</td>
+        <td style="width: 15%;">{_imagify(protections)}</td>
         <td style="width: 15%;">{_paragraphize(location)}</td>
         <td style="width: 12%;">{_paragraphize(spoil)}</td>
         <td style="width: 11%;">{_paragraphize(snack)}</td>
