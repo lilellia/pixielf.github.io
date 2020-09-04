@@ -142,13 +142,13 @@ table td {
 }
 
 td.even {
-  background-color: #d09cf0;
+  background-color: #D8BFD8;
   color: #333;
 }
 
 td.odd {
-  background-color: #836c91;
-  color: #ddd;
+  background-color: #E6E6FA;
+  color: #333;
 }
 
 div.cq-header {
