@@ -160,6 +160,34 @@ div.cq-header {
   color: #333;
 }
 
+div.cq-header.philo {
+  background-color: #FFB6C1;
+}
+
+div.cq-header.nikki {
+  background-color: #EEE8AA;
+}
+
+div.cq-header.pamela {
+  background-color: #D8BFD8;
+}
+
+div.cq-header.flay {
+  background-color: #CD5C5C;
+}
+
+div.cq-header.roxis {
+  background-color: #F0E68C;
+}
+
+div.cq-header.anna {
+  background-color: #ADD8E6;
+}
+
+div.cq-header.muppy {
+  background-color: #B0C4DE;
+}
+
  /* Style the button that is used to open and close the collapsible content */
  .collapsible {
   font-family: Montserrat, sans-serif;

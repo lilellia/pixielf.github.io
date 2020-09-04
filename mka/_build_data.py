@@ -51,7 +51,7 @@ def htmlify_recipe(item, headers):
                 # use images
                 try:
                     val = '<p>' + '\n\t'.join(
-                        f'<img class="icon" src="imgs/{char.lower()}.png" width="35" height="35">'
+                        f'<img class="icon" src="imgs/{char.lower()}.png" width="50" height="50">'
                         for char in re.split(r',\s*', val)
                     ) + '</p>'
                 except TypeError:
@@ -197,10 +197,10 @@ def build_character_quests():
     for character in ('Philo', 'Nikki', 'Pamela', 'Flay', 'Roxis', 'Anna', 'Muppy'):
         stream.write(f'''
     <!-- {character} -->
-    <button type="button" class="collapsible">
+    <div class="cq-header {character.lower()}">
         <img class="icon" src="imgs/{character.lower()}.png" width="75" height="75">
         {character}
-    </button>
+    </div>
     <div class="content">
         <table>
             <tr>
@@ -335,7 +335,7 @@ def build_enemies():
         f.write(stream.read())
 
 
-build_recipes()
-# build_character_quests()
+# build_recipes()
+build_character_quests()
 # build_courses()
 # build_enemies()
