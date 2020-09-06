@@ -11,10 +11,12 @@ h1 {
     font-family: Tangerine, serif;
     font-style: italic;
     padding: 18px;
-    border: 1px solid #ddd;
 }
 
 .title.poemtitle {
+  background-color: #563d66;
+  opacity: 0.3678794412;
+  text-align: center;
   border: 1px solid #ddd;
 }
 
