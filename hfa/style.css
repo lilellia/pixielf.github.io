@@ -23,7 +23,8 @@ h1 {
 .poem {
     font-family: Montserrat, sans-serif;
     font-style: italic;
-    margin: auto;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .commentary {
@@ -62,6 +63,7 @@ hr.navdivider {
 
 .main {
   margin-left: 350px; /* Same as the width of the sidenav */
+  text-align: center;
 }
 
 @media screen and (max-height: 450px) {
@@ -79,39 +81,6 @@ ul#poemlist {
 a:link, a:visited {
   color: white;
 }
-
-a.poemlink:link, a.poemlink:visited {
-    background-color: #563d66;
-    color: white;
-    width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border: 1px dashed #ddd;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-a.poemlink:hover, a.poemlink:active {
-    background-color: #aaa;
-  }
-
-  a.poemlink-commentary:link, a.poemlink-commentary:visited {
-    background-color: #563d66;
-    color: white;
-    width: 70%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-a.poemlink-commentary:hover, a.poemlink-commentary:active {
-    background-color: #aaa;
-  }
 
 /* Add a black background color to the top navigation */
 .topnav {
