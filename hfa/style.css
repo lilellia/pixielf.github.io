@@ -17,15 +17,15 @@ h1 {
   background-color: #563d66;
   opacity: 0.3678794412;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px dashed #ddd;
+  padding-left: 50px;
 }
 
 .poem {
     font-family: Montserrat, sans-serif;
     font-style: italic;
     display: inline-block;
-    margin: 0 auto;
-    text-align: left;
+    padding-left: 50px;
 }
 
 .commentary {
@@ -64,7 +64,6 @@ hr.navdivider {
 
 .main {
   margin-left: 350px; /* Same as the width of the sidenav */
-  text-align: center;
 }
 
 @media screen and (max-height: 450px) {
