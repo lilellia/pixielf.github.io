@@ -23,6 +23,7 @@ h1 {
 .poem {
     font-family: Montserrat, sans-serif;
     font-style: italic;
+    margin: auto;
 }
 
 .commentary {
@@ -33,7 +34,7 @@ h1 {
 
 .sidenav {
   height: 100%;
-  width: 300px;
+  width: 325px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -46,9 +47,13 @@ h1 {
 .sidenav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   color: #818181;
   display: block;
+}
+
+hr.navdivider {
+  border-top: 1px dashed #333;
 }
 
 .sidenav a:hover {
@@ -56,7 +61,7 @@ h1 {
 }
 
 .main {
-  margin-left: 325px; /* Same as the width of the sidenav */
+  margin-left: 350px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {

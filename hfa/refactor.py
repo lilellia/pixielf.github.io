@@ -84,7 +84,7 @@ with open('refactored.html', 'w+') as f:
     f.write('\n<div class="sidenav">\n')
     for p in get_poems():
         title = p.title.replace('\n', '<br/>')
-        f.write(f'<a href="#{p.head}">{title}</a>\n')
+        f.write(f'<a href="#{p.head}">{title}</a><hr class"navdivider">\n')
     f.write('</div> <!-- navbar -->\n')
 
     # write out the page closer
