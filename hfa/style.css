@@ -25,6 +25,7 @@ h1 {
     font-style: italic;
     display: inline-block;
     margin: 0 auto;
+    text-align: left;
 }
 
 .commentary {
