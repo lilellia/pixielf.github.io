@@ -25,7 +25,7 @@ h1 {
 
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -38,7 +38,7 @@ h1 {
 .sidenav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 14px;
   color: #818181;
   display: block;
 }
@@ -48,7 +48,7 @@ h1 {
 }
 
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 300px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {

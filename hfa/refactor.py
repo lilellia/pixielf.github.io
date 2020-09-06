@@ -70,18 +70,22 @@ with open('refactored.html', 'w+') as f:
     <h2 class="title" style="text-align: center;">
         Lily Ellington
     </h2>
+
+    <div class="main">
 ''')
 
     # write out all of the poems
     for p in get_poems():
         f.write(str(p))
 
+    f.write('</div>\n')
+
     # create the navbar
     f.write('\n<div class="sidenav">\n')
     for p in get_poems():
         title = p.title.replace('\n', '<br/>')
-        f.write(f'<a href="{p.head}">{title}</a>\n')
-    f.write('</div> <!-- navbar -->')
+        f.write(f'<a href="#{p.head}">{title}</a>\n')
+    f.write('</div> <!-- navbar -->\n')
 
     # write out the page closer
     f.write('</body></html>')
