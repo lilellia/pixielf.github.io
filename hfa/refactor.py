@@ -27,7 +27,7 @@ class Poem:
 
     def __str__(self):
         title = self.title.replace('\n', '<br/>')
-        heading = f'\n\n<!-- {title}-->\n<h1 class="title" id="{self.head}">{title}</h1>\n'
+        heading = f'\n\n<!-- {title}-->\n<h1 class="title poemtitle" id="{self.head}">{title}</h1>\n'
 
         poem = '<div class="poem">\n'
         for stanza in self.stanzas:

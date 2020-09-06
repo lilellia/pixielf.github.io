@@ -10,6 +10,12 @@ h1 {
 .title {
     font-family: Tangerine, serif;
     font-style: italic;
+    padding: 18px;
+    border: 1px solid #ddd;
+}
+
+.title.poemtitle {
+  border: 1px solid #ddd;
 }
 
 .poem {
@@ -48,7 +54,7 @@ h1 {
 }
 
 .main {
-  margin-left: 300px; /* Same as the width of the sidenav */
+  margin-left: 325px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {
