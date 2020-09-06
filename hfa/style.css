@@ -24,7 +24,7 @@ h1 {
 }
 
 ul#poemlist {
-    columns: 4;
+    columns: 2;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -38,11 +38,14 @@ a.poemlink:link, a.poemlink:visited {
     background-color: #563d66;
     color: white;
     width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2px;
+    padding-bottom: 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border: 1px dashed #ddd;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
   
 a.poemlink:hover, a.poemlink:active {
