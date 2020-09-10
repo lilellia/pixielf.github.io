@@ -36,7 +36,7 @@ h1 {
 
 .sidenav {
   height: 100%;
-  width: 15%;
+  width: 325px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -63,12 +63,12 @@ hr.navdivider {
 }
 
 .main {
-  margin-left: 18%;
+  margin-left: 350px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px; width: 100px;}
+  .sidenav a {font-size: 12px;}
 }
 
 ul#poemlist {
