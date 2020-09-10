@@ -36,7 +36,7 @@ h1 {
 
 .sidenav {
   height: 100%;
-  width: 325px;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -63,7 +63,7 @@ hr.navdivider {
 }
 
 .main {
-  margin-left: 350px; /* Same as the width of the sidenav */
+  margin-left: 18%;
 }
 
 @media screen and (max-height: 450px) {
