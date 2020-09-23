@@ -61,9 +61,11 @@ def afs_extract(filepath: pathlib.Path):
 
 
 def convert_to_ogg(filepath: pathlib.Path) -> int:
-    args = ('ffmpeg', '-i', filepath, filepath.with_suffix('.ogg'))
+    dest = filepath.with_suffix('.ogg')
+    args = ('ffmpeg', '-i', filepath, dest)
+    print(f'Converting {filepath} → {dest}')
     r = subprocess.run(args, capture_output=True)
-    return r.status_code
+    return r.returncode
 
 
 def parse_command_line():
@@ -95,10 +97,11 @@ if __name__ == '__main__':
         afs_extract(path)
 
         for adx in path.parent.glob('*.adx'):
-            if args.convert:
-                success = convert_to_ogg(adx)
-                if not success:
+            if args.convert_ogg:
+                returncode = convert_to_ogg(adx)
+                if returncode:
                     sys.stderr.write(f'Error in converting {adx} to .ogg.\n')
 
             if args.remove_adx:
+                print(f'Deleting {adx}')
                 adx.unlink()
