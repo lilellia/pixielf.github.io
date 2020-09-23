@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>
+        Mana Khemia: Deconstruction
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+</head>
+
+<body style="font-family: Montserrat, sans-serif;">
+    <h1>Mana Khemia: Deconstruction</h1>
+    <p>
+        This is an analysis of the NTSC-U PS2 version of the .iso file for <i>Mana Khemia: Alchemists of Al-Revis</i>.
+    </p>
+
+    <h2>I: Extracting the Archive</h2>
+
+    <p>
+        ...This was actually really easy, just a simple command in the terminal:
+    </p>
+    <pre>
+        <code>
+            $ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
+        </code>
+    </pre>
+
+    <p>
+        From there, we can see what the project folder looks like:
+    </p>
+    <pre>
+        <code>
+            ManaKhemia/
+                    MODULES/
+                        - IOPRP310.IMG
+                    MOVIE/
+                        - A9_ED.SFD
+                        - A9_EDB.SFD
+                        - A9_OP.SFD
+                        - AVAN.SFD
+                        - AVANJ.SFD
+                        - SCHOOL.SFD
+                    SOUND/
+                        SSE/
+                            - SSE.AFS
+                        STREAM/
+                            - STREAM.AFS
+                    VPACK/
+                        - V00000.AFS
+                        - V01000.AFS
+                        - V02000.AFS
+                        - V03000.AFS
+                        - V04000.AFS
+                        - V05000.AFS
+                        - V06000.AFS
+                        - V07000.AFS
+                        - V08000.AFS
+                        - V09000.AFS
+                        - V10000.AFS
+                        - V11000.AFS
+                    VPACKJ/
+                        - V00000.AFS
+                        - V01000.AFS
+                        - V02000.AFS
+                        - V03000.AFS
+                        - V04000.AFS
+                        - V05000.AFS
+                        - V06000.AFS
+                        - V07000.AFS
+                        - V08000.AFS
+                        - V09000.AFS
+                        - V10000.AFS
+                        - V11000.AFS
+                    - RPK.BIN
+                    - SLUS_217.35
+                    - SYSTEM.CNF
+        </code>
+    </pre>
+
+</body>
+
+</html>
