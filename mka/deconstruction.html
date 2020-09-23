@@ -23,7 +23,7 @@
     </p>
     <pre>
         <code>
-            $ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
+$ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
         </code>
     </pre>
 
@@ -32,53 +32,183 @@
     </p>
     <pre>
         <code>
-            ManaKhemia/
-                    MODULES/
-                        - IOPRP310.IMG
-                    MOVIE/
-                        - A9_ED.SFD
-                        - A9_EDB.SFD
-                        - A9_OP.SFD
-                        - AVAN.SFD
-                        - AVANJ.SFD
-                        - SCHOOL.SFD
-                    SOUND/
-                        SSE/
-                            - SSE.AFS
-                        STREAM/
-                            - STREAM.AFS
-                    VPACK/
-                        - V00000.AFS
-                        - V01000.AFS
-                        - V02000.AFS
-                        - V03000.AFS
-                        - V04000.AFS
-                        - V05000.AFS
-                        - V06000.AFS
-                        - V07000.AFS
-                        - V08000.AFS
-                        - V09000.AFS
-                        - V10000.AFS
-                        - V11000.AFS
-                    VPACKJ/
-                        - V00000.AFS
-                        - V01000.AFS
-                        - V02000.AFS
-                        - V03000.AFS
-                        - V04000.AFS
-                        - V05000.AFS
-                        - V06000.AFS
-                        - V07000.AFS
-                        - V08000.AFS
-                        - V09000.AFS
-                        - V10000.AFS
-                        - V11000.AFS
-                    - RPK.BIN
-                    - SLUS_217.35
-                    - SYSTEM.CNF
+ManaKhemia/
+    MODULES/
+        - IOPRP310.IMG
+    MOVIE/
+        - A9_ED.SFD
+        - A9_EDB.SFD
+        - A9_OP.SFD
+        - AVAN.SFD
+        - AVANJ.SFD
+        - SCHOOL.SFD
+    SOUND/
+        SSE/
+            - SSE.AFS
+        STREAM/
+            - STREAM.AFS
+    VPACK/
+        - V00000.AFS
+        - V01000.AFS
+        - V02000.AFS
+        - V03000.AFS
+        - V04000.AFS
+        - V05000.AFS
+        - V06000.AFS
+        - V07000.AFS
+        - V08000.AFS
+        - V09000.AFS
+        - V10000.AFS
+        - V11000.AFS
+    VPACKJ/
+        - V00000.AFS
+        - V01000.AFS
+        - V02000.AFS
+        - V03000.AFS
+        - V04000.AFS
+        - V05000.AFS
+        - V06000.AFS
+        - V07000.AFS
+        - V08000.AFS
+        - V09000.AFS
+        - V10000.AFS
+        - V11000.AFS
+    - RPK.BIN
+    - SLUS_217.35
+    - SYSTEM.CNF
         </code>
     </pre>
 
+    <!-- STEP 2 -->
+    <h2>II: Investigating the MOVIE folder</h2>
+    <p>
+        I can't be bothered to deal with the <code>MODULES/IOPRP310.IMG</code> file thanks to its extension, but I <i>can</i> be bothered to look at the <code>MOVIE</code> folder. Perhaps unsurprisingly, VLC is more than happy to open the *.SFD files, though that isn't to say that it plays them without issue. In particular, it <i>does</i> play, but the playhead tracking is completely messed up. I'd also initially believed that the audio was held elsewhere as the couple clips I tried were silent, but I eventually decided to just blindly convert them to *.mp4 files instead:
+    </p>
+    <pre><code>
+ManaKhemia/MOVIE$ for f in *.SFD; do ffmpeg -i "$f" "${f/%.SFD/.mp4}"; done
+ManaKhemia/MOVIE$ ls *.mp4
+A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
+    </code></pre>
+
+    <p>
+        I clipped the ffmpeg output, but there weren't any errors, and this fixed both of the problems: the videos play normally AND with sound. And what I found is:
+    </p>
+    <table>
+        <tr>
+            <th>File</th>
+            <th>Scene</th>
+            <th>Length</th>
+        </tr>
+        <tr>
+            <td>A9_EDB.mp4</td>
+            <td>credits roll (without audio/animations)</td>
+            <td>3:45</td>
+        </tr>
+        <tr>
+            <td>A9_OP.mp4</td>
+            <td>the opening animation before the title screen (where <i>Run for Your Life</i>plays)</td>
+            <td>2:00</td>
+        </tr>
+        <tr>
+            <td>AVAN.mp4</td>
+            <td>the opening scene where Vayne meets Sulpher (immediately after selecting New Game)</td>
+            <td>0:55</td>
+        </tr>
+        <tr>
+            <td>AVANJ.mp4</td>
+            <td>the same scene, but with JA audio</td>
+            <td>0:55</td>
+        </tr>
+        <tr>
+            <td>SCHOOL.mp4</td>
+            <td>the establishing shots of Al-Revis that plays during the Orientation sequence</td>
+            <td>1:25</td>
+        </tr>
+    </table>
+    <p>
+        Nothing too crazy, but it's interesting to me just how few pre-rendered cutscenes there are. And the Vayne-Sulpher opening is one of them—none of the chapter opening scenes (Theofratus, Sulpher, and/or Isolde) scenes are. Which makes sense given that this first one is the only such scene where the text doesn't appear in the normal textboxes, but it was still something I noticed.
+    </p>
+
+    <h2>III: Investigating the SOUND folder</h2>
+    <p>What strikes me as odd ehre is that there are two subfolders, each with only a single file (whose name matches the folder itself). This could easily have been <code>SOUND/SSE.AFS</code> and <code>SOUND/STREAM.AFS</code>, but... whatever. Given the name of the folder, I think it's safe to assume that these are audio files, but I've never heard of *.AFS files. Presumably, it's some sort of compression/archive file.</p>
+    <p>
+        Spurred on by the success of VLC and ffmpeg in the previous step, I tried just using those, but neither of them were very happy with it. I tried importing it as Raw Audio in Audacity with the default settings but was greeted by nothing by ear-piercing terribleness. So... it seems like I'm going to have to figure out what's going on—according to <a href="https://en.wikipedia.org/wiki/ADX_(file_format)">Wikipedia</a>:
+    </p>
+    <p style="margin-left: 5%; font-style: italic;">
+        ADX is a lossy proprietary audio storage and compression format developed by CRI Middleware specifically for use in video games; it is derived from ADPCM. Its most notable feature is a looping function that has proved useful for background sounds in various games that have adopted the format, including many games for the Sega Dreamcast as well as some PlayStation 2, GameCube and Wii games. One of the first games to use ADX was Burning Rangers, on the Sega Saturn. Notably, the Sonic the Hedgehog series from the Dreamcast generation up to at least Shadow the Hedgehog have used this format for sound and voice recordings. <br/>
+
+        On top of the main ADPCM encoding, the ADX toolkit also includes a sibling format, AHX, which uses a variant of MPEG-2 audio intended specifically for voice recordings and <b>a packaging archive, AFS, for bundling multiple ADX and AHX tracks into a single container file</b>.
+    </p>
+    <p>
+        The article goes on to describe the technical specification for the ADX format, but since we're looking at an AFS file, that's not much help at the moment. That's... fine, I guess. The article also links to a <a href="https://web.archive.org/web/20090318103258/http://www.geocities.co.jp/Playtown/2004/dcdev/index.html">very old website</a> (a 2009 wayback-machine snapshot of a Geocities page) with <a href="https://web.archive.org/web/20110927091814/http://www.geocities.co.jp/Playtown/2004/dcdev/adx2wav02.lzh">source code for an AFS extractor</a>. Downloading the code and inspecting it—
+    </p>
+    <pre><code>
+Downloads$ 7z l adx2wav02.lzh  tail -9
+Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-01-24 17:21:26 .....         3835         1504  adx2wav.c
+2001-01-24 17:29:02 .....        11546         3792  adx2wav.exe
+2001-01-24 17:30:52 .....          979          627  adx2wav.txt
+2000-12-17 09:55:36 .....         1323          640  afs_extract.c
+2000-12-17 09:55:40 .....        11041         3233  afs_extract.exe
+------------------- ----- ------------ ------------  ------------------------
+2001-01-24 17:30:52              28724         9796  5 files
+    </code></pre>
+    <p>
+        —shows it to be some good 'ol C code with what seem to be prepacked Windows executables. I was, of course, running this on Linux, so I just rebuilt the executables myself rather than bothering with WINE. The .txt file is poorly encoded, to say the least:
+    </p>
+    <pre><code>
+adx2wav : DreamCast ADX->WAV converter
+
+http://www.geocities.co.jp/Playtown/2004/
+bero@geocities.co.jp
+
+This software convert DreamCast ADX ADPCM sound (.adx) to Windows WAVE file (.wav).
+
+adx2wav &lt;adx_file&gt;
+
+convert .adx to .wav
+
+afs_extract &lt;afs_file&gt;
+
+extract packed .AFS file to each .adx file.
+
+IMPORTANT:
+don't distruibute converted data follows copyright law in your country.
+at least Japanese law, "personal use" only. "personal use" means yourself, your family, and so on.
+
+
+DCÌADX¹ºt@C(.ADX)ðWindows WAVE`®(.WAV)ÉÏ·µÜ·B
+
+adx2wav &lt;adx_file&gt;
+
+.adx ð .wav ÉÏ·µÜ·
+
+afs_extract <afs_file>
+
+¡Ìt@CªÜÆßçêœ.AFSt@CðÂXÌadxt@CÉªµÜ·B
+afsÌÍadxÆÍÀèÜ¹ñB
+
+dv:
+Ï·µœf[^ðsÁèœÉzzµÈ¢Å­Ÿ³¢B
+­È­Æàú{Ì@¥ÅÍA"Ip"ÉÀçêÜ·B
+"Ip"ÆÍA©ªAÆ°ðwµÜ·B
+
+0.2	change adx check / volume 
+first release
+    </code></pre>
+    <p>
+        but it is enough to let us know that the script grabs the name of the file from argv, so we can run
+    </p>
+    <pre><code>
+Downloads/adx2wav02$ gcc -o afs_extract afs_extract.c
+Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS
+    </code></pre>
+    <p>which didn't seem to do anything usefl. But the <code>adx2wav02</code> and <code>$ManaKhemia/SOUND/SSE</code> folders were unchanged, and the only thing printed was <code>$ManaKhemia/SOUND/SSE/SSE.AFS - 0</code>, which... isn't super helpful. Looking at the C code, it seemed to be output by this line:</p>
+    <pre><code>
+printf("%s - %d\n",name,n);
+    </code></pre>
+    <p>which indicated that <code>n==0</code>, which is a problem for the <code>for(i=0;i&lt;n;i++) { ... }</code> loop that starts a few lines later, given that this seems to be the loop that actually pulls the <code>n</code> ADX files out of the archive.</p>
 </body>
 
 </html>
