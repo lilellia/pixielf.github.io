@@ -30,6 +30,8 @@
     <p>
         From there, we can see what the project folder looks like:
     </p>
+    <button type="button" id="manakhemia-treeview" class="collapsible">$ManaKhemia/ folder view</button>
+    <div class="content">
     <pre><code class="language-treeview">ManaKhemia/
 |-- MODULES/
 |   `-- IOPRP310.IMG
@@ -74,6 +76,7 @@
 |-- RPK.BIN
 |-- SLUS_217.35
 `-- SYSTEM.CNF</code></pre>
+</div>
 
     <!-- STEP 2 -->
     <h2>II: Investigating the MOVIE folder</h2>
@@ -148,53 +151,12 @@ Date      Time    Attr         Size   Compressed  Name
 ------------------- ----- ------------ ------------  ------------------------
 2001-01-24 17:30:52              28724         9796  5 files</code></pre>
     <p>
-        —shows it to be some good 'ol C code with what seem to be prepacked Windows executables. I was, of course, running this on Linux, so I just rebuilt the executables myself rather than bothering with WINE. The .txt file is poorly encoded, to say the least:
-    </p>
-    <pre><code>adx2wav : DreamCast ADX->WAV converter
-
-http://www.geocities.co.jp/Playtown/2004/
-bero@geocities.co.jp
-
-This software convert DreamCast ADX ADPCM sound (.adx) to Windows WAVE file (.wav).
-
-adx2wav &lt;adx_file&gt;
-
-convert .adx to .wav
-
-afs_extract &lt;afs_file&gt;
-
-extract packed .AFS file to each .adx file.
-
-IMPORTANT:
-don't distruibute converted data follows copyright law in your country.
-at least Japanese law, "personal use" only. "personal use" means yourself, your family, and so on.
-
-
-DCÌADX¹ºt@C(.ADX)ðWindows WAVE`®(.WAV)ÉÏ·µÜ·B
-
-adx2wav &lt;adx_file&gt;
-
-.adx ð .wav ÉÏ·µÜ·
-
-afs_extract <afs_file>
-
-¡Ìt@CªÜÆßçêœ.AFSt@CðÂXÌadxt@CÉªµÜ·B
-afsÌÍadxÆÍÀèÜ¹ñB
-
-dv:
-Ï·µœf[^ðsÁèœÉzzµÈ¢Å­Ÿ³¢B
-­È­Æàú{Ì@¥ÅÍA"Ip"ÉÀçêÜ·B
-"Ip"ÆÍA©ªAÆ°ðwµÜ·B
-
-0.2	change adx check / volume 
-first release</code></pre>
-    <p>
-        but it is enough to let us know that the script grabs the name of the file from argv, so we can run
+        —shows it to be some good 'ol C code with what seem to be prepacked Windows executables. I was, of course, running this on Linux, so I just rebuilt the executables myself rather than bothering with WINE. The .txt file is a bit of a garbled mess, but it is enough to let us know that the script grabs the name of the file from argv, so we can run
     </p>
     <pre><code class="language-bash">Downloads/adx2wav02$ gcc -o afs_extract afs_extract.c
 Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS</code></pre>
     
-    <p>which didn't seem to do anything useful. But the <code>adx2wav02</code> and <code>$ManaKhemia/SOUND/SSE</code> folders were unchanged, and the only thing printed was <code>$ManaKhemia/SOUND/SSE/SSE.AFS - 0</code>, which... isn't super helpful. Looking at the C code, it seemed to be output by this line:</p>
+    <p>which didn't seem to do anything useful. Both the <code>adx2wav02</code> and <code>$ManaKhemia/SOUND/SSE</code> folders were unchanged, and the only thing printed was <code>$ManaKhemia/SOUND/SSE/SSE.AFS - 0</code>, which... isn't super helpful. Looking at the C code, it seemed to be output by this line:</p>
     <pre><code>
 printf("%s - %d\n",name,n);
     </code></pre>
@@ -428,21 +390,48 @@ if __name__ == '__main__':
 
     <p>Funnily enough, I was really about to go through all of the conversion processes myself (because the Wikipedia article gave the specification), but I found this paragraph hiding at the bottom of the article and just decided to test the ADX files in VLC, which... again, perhaps unsurprisingly, worked just fine. Some ffmpeg-ing later, I had them all as .ogg files:</p>
 
-    <pre><code class="language-bash">
-$ManaKhemia/SOUND/SSE$ for f in *.adx; do ffmpeg -i "$f" "${f/%.adx/.ogg}"; rm "$f"; done
-    </code></pre>
+    <pre><code class="language-bash">$ManaKhemia/SOUND/SSE$ for f in *.adx; do ffmpeg -i "$f" "${f/%.adx/.ogg}"; rm "$f"; done</code></pre>
 
     <p>
         That's easy to add to the Python script, which I also went ahead and added a little bit of QOL features, so running this <a href="afs_extract.py">updated Python script</a>—
     </p>
-    <pre><code class="language-bash">
-$ python3 afs_extract.py $ManaKhemia/SOUND/SSE/SSE.AFS $ManaKhemia/SOUND/STREAM/STREAM.AFS --convert-ogg --delete-adx
-    </code></pre>
+    <pre><code class="language-bash">$ python3 afs_extract.py $ManaKhemia/SOUND/SSE/SSE.AFS $ManaKhemia/SOUND/STREAM/STREAM.AFS --convert-ogg --delete-adx</code></pre>
 
     <p>
-        —resulted in 207 files in <code>$ManaKhemia/SOUND/SSE</code> and another 117 in <code>$ManaKhemia/SOUND/STREAM</code>. The former group was mostly sound effects that I didn't know how to trace, so I <a href="mkdata.html#sound-data-stream">analyzed the stream files.</a>
+        —resulted in 207 files in <code>$ManaKhemia/SOUND/SSE</code> and another 117 in <code>$ManaKhemia/SOUND/STREAM</code>. The former group was mostly sound effects that I didn't know how to trace, so I <a href="mkdata.html#sound-data-stream">analyzed the stream files.</a> I definitely couldn't get all of them, and there were quite a few that I recognized but could <i>quite</i> place, so that'll be a running project as I play through the game again.
     </p>
 
+    <h2>IV: VPACK and VPACKJ</h2>
+
+    <p style="margin-left: 5%; font-size: italic;">Hey, look! The files in these two folders are <i>also</i> .AFS files, which I've just spent a bunch of time trying to figure out how to decode!</p>
+
+    <p>
+        This one was simple enough to unpack:
+    </p>
+<pre><code class="language-bash">$ python3 afs_extract.py $ManaKhemia/VPACK/*.AFS --convert-ogg --delete-adx
+$ python3 afs_extract.py $ManaKhemia/VPACKJ/*.AFS --convert-ogg --delete-adx
+</code></pre>
+
+    <p>
+        Okay, well, there's 1000 ADX files in each of those AFS files, so the folders get a bit bloated, but that's easy enough to fix:
+    </p>
+<pre><code class="language-bash">$ManaKhemia/VPACK$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.ogg V${i}000/</code></pre>
+
 </body>
+
+<script>
+    let collapsible = document.getElementsByClassName("collapsible");
+    for (let i = 0; i < collapsible.length; i++) {
+        collapsible[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
 
 </html>
