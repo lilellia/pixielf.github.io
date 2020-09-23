@@ -423,11 +423,191 @@ $ python3 afs_extract.py $ManaKhemia/VPACKJ/*.AFS --convert-ogg --delete-adx
     <p>
         Okay, well, there's 1000 ADX files in each of those AFS files, so the folders get a bit bloated, but that's easy enough to fix:
     </p>
-<pre><code class="language-bash">$ManaKhemia/VPACK$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.ogg V${i}000/; done</code></pre>
+<pre><code class="language-bash">$ManaKhemia/VPACK$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.ogg V${i}000/; done
+$ManaKhemia/VPACKJ$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.ogg V${i}000/; done
+</code></pre>
 
     <p>
-        This places them in a folder according to which AFS file they came from. It's still 1000 files in each folder, but at least it's not 11000 files in one folder.
+        This places them in a folder according to which AFS file they came from. It's still 1000 files in each folder, but at least it's not 11400 files in one folder.
     </p>
+
+    <p>
+        Looking at the first few, it became apparent that these were going to be all of the voice-acted lines:
+    </p>
+
+    <table>
+        <tr>
+            <th>File</th>
+            <th>Speaker</th>
+            <th>Line</th>
+        </tr>
+
+        <tr>
+            <td>V00000_000.ogg</td>
+            <td>VAYNE</td>
+            <td>Who are you?</td>
+        </tr>
+
+        <tr>
+            <td>V00000_001.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_002.ogg</td>
+            <td>VAYNE</td>
+            <td>Sulpher? Are you all alone too?</td>
+        </tr>
+
+        <tr>
+            <td>V00000_003.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_004.ogg</td>
+            <td>VAYNE</td>
+            <td>I see... Can I stay with you?</td>
+        </tr>
+
+        <tr>
+            <td>V00000_005.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_006.ogg</td>
+            <td>VAYNE</td>
+            <td>Thank you. Um, I'm...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_007.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_008.ogg</td>
+            <td>VAYNE</td>
+            <td>Vayne is my name...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_009.ogg</td>
+            <td>VAYNE</td>
+            <td>This is Al-Revis Academy... The place where they teach alchemy...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_010.ogg</td>
+            <td>ZEPPEL</td>
+            <td>Oh, I finally found you. Can we talk for a minute?</td>
+        </tr>
+
+        <tr>
+            <td>V00000_011.ogg</td>
+            <td>VAYNE</td>
+            <td>Wh-Who are you?</td>
+        </tr>
+    </table>
+
+    <p>
+        Annoyingly, #012 was malformed in some way and wouldn't play, but the following ones were fine. Similarly, the VPACKJ files were the same, just the Japanese voices:
+    </p>
+
+    <table>
+        <tr>
+            <th>File</th>
+            <th>Speaker</th>
+            <th>Line</th>
+        </tr>
+
+        <tr>
+            <td>V00000_000.ogg</td>
+            <td>VAYNE</td>
+            <td>.....。君は、だれ？</td>
+        </tr>
+
+        <tr>
+            <td>V00000_001.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_002.ogg</td>
+            <td>VAYNE</td>
+            <td>サルフャ。。。 君も、一人ぼっちなの？</td>
+        </tr>
+
+        <tr>
+            <td>V00000_003.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_004.ogg</td>
+            <td>VAYNE</td>
+            <td>そっか...一緒にいてもいいかな？</td>
+        </tr>
+
+        <tr>
+            <td>V00000_005.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_006.ogg</td>
+            <td>VAYNE</td>
+            <td>ありがとう。えっと、僕は...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_007.ogg</td>
+            <td>SULPHER</td>
+            <td>*meow*</td>
+        </tr>
+
+        <tr>
+            <td>V00000_008.ogg</td>
+            <td>VAYNE</td>
+            <td>ヴァイン...僕の、名前...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_009.ogg</td>
+            <td>VAYNE</td>
+            <td>ここが、アルレビス学園...錬金術を、教えてくれるところ...</td>
+        </tr>
+
+        <tr>
+            <td>V00000_010.ogg</td>
+            <td>ZEPPEL</td>
+            <td>やれやれ、やっと見つけた...ちょっと、いいかな？</td>
+        </tr>
+
+        <tr>
+            <td>V00000_011.ogg</td>
+            <td>VAYNE</td>
+            <td>だ、誰ですか？</td>
+        </tr>
+    </table>
+
+    <h2>V: RPK.BIN</h2>
+
+    <p>
+        As the extension would indicate, this is a binary file, which gave me very little hope of figuring out anything about it. But, opening it in a hex editor yielded this:
+    </p>
+
+    <p><img class="icon" src="imgs/rpk-bin-ghex.png" width="772" height="875"></p>
+
+    <p>which is super promising: it's yet another AFS file under the hood (which we can tell because AFS files start with the literal string "AFS").</p>
 
 </body>
 
