@@ -135,7 +135,7 @@ img.icon {
 }
 
 table td {
-  border: 2px dotted #ddd;
+  border: 2px solid #ddd;
   vertical-align: middle;
   padding: 3px;
   font-size: 90%;

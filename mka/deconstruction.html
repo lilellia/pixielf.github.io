@@ -25,18 +25,12 @@
     <p>
         ...This was actually really easy, just a simple command in the terminal:
     </p>
-    <pre>
-        <code class="language-bash">
-$ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
-        </code>
-    </pre>
+    <pre><code class="language-bash">$ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia</code></pre>
 
     <p>
         From there, we can see what the project folder looks like:
     </p>
-    <pre>
-        <code class="language-treeview">
-ManaKhemia/
+    <pre><code class="language-treeview">ManaKhemia/
 |-- MODULES/
 |   `-- IOPRP310.IMG
 |-- MOVIE/
@@ -79,20 +73,16 @@ ManaKhemia/
 |   `-- V11000.AFS
 |-- RPK.BIN
 |-- SLUS_217.35
-`-- SYSTEM.CNF
-        </code>
-    </pre>
+`-- SYSTEM.CNF</code></pre>
 
     <!-- STEP 2 -->
     <h2>II: Investigating the MOVIE folder</h2>
     <p>
         I can't be bothered to deal with the <code>MODULES/IOPRP310.IMG</code> file thanks to its extension, but I <i>can</i> be bothered to look at the <code>MOVIE</code> folder. Perhaps unsurprisingly, VLC is more than happy to open the *.SFD files, though that isn't to say that it plays them without issue. In particular, it <i>does</i> play, but the playhead tracking is completely messed up. I'd also initially believed that the audio was held elsewhere as the couple clips I tried were silent, but I eventually decided to just blindly convert them to *.mp4 files instead:
     </p>
-    <pre><code class="language-bash">
-ManaKhemia/MOVIE$ for f in *.SFD; do ffmpeg -i "$f" "${f/%.SFD/.mp4}"; done
+    <pre><code class="language-bash">ManaKhemia/MOVIE$ for f in *.SFD; do ffmpeg -i "$f" "${f/%.SFD/.mp4}"; done
 ManaKhemia/MOVIE$ ls *.mp4
-A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
-    </code></pre>
+A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4</code></pre>
 
     <p>
         I clipped the ffmpeg output, but there weren't any errors, and this fixed both of the problems: the videos play normally AND with sound. And what I found is:
@@ -110,7 +100,7 @@ A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
         </tr>
         <tr>
             <td>A9_OP.mp4</td>
-            <td>the opening animation before the title screen (where <i>Run for Your Life</i>plays)</td>
+            <td>the opening animation before the title screen (where <i>Run for Your Life</i> plays)</td>
             <td>2:00</td>
         </tr>
         <tr>
@@ -141,14 +131,13 @@ A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
     <p style="margin-left: 5%; font-style: italic;">
         ADX is a lossy proprietary audio storage and compression format developed by CRI Middleware specifically for use in video games; it is derived from ADPCM. Its most notable feature is a looping function that has proved useful for background sounds in various games that have adopted the format, including many games for the Sega Dreamcast as well as some PlayStation 2, GameCube and Wii games. One of the first games to use ADX was Burning Rangers, on the Sega Saturn. Notably, the Sonic the Hedgehog series from the Dreamcast generation up to at least Shadow the Hedgehog have used this format for sound and voice recordings.</p>
 
-    <p>
+    <p style="margin-left: 5%; font-style: italic;">
         On top of the main ADPCM encoding, the ADX toolkit also includes a sibling format, AHX, which uses a variant of MPEG-2 audio intended specifically for voice recordings and <b>a packaging archive, AFS, for bundling multiple ADX and AHX tracks into a single container file</b>.
     </p>
     <p>
         The article goes on to describe the technical specification for the ADX format, but since we're looking at an AFS file, that's not much help at the moment. That's... fine, I guess. The article also links to a <a href="https://web.archive.org/web/20090318103258/http://www.geocities.co.jp/Playtown/2004/dcdev/index.html">very old website</a> (a 2009 wayback-machine snapshot of a Geocities page) with <a href="https://web.archive.org/web/20110927091814/http://www.geocities.co.jp/Playtown/2004/dcdev/adx2wav02.lzh">source code for an AFS extractor</a>. Downloading the code and inspecting it—
     </p>
-    <pre><code class="language-bash">
-Downloads$ 7z l adx2wav02.lzh | tail -9
+    <pre><code class="language-bash">Downloads$ 7z l adx2wav02.lzh | tail -9
 Date      Time    Attr         Size   Compressed  Name
 ------------------- ----- ------------ ------------  ------------------------
 2001-01-24 17:21:26 .....         3835         1504  adx2wav.c
@@ -157,13 +146,11 @@ Date      Time    Attr         Size   Compressed  Name
 2000-12-17 09:55:36 .....         1323          640  afs_extract.c
 2000-12-17 09:55:40 .....        11041         3233  afs_extract.exe
 ------------------- ----- ------------ ------------  ------------------------
-2001-01-24 17:30:52              28724         9796  5 files
-    </code></pre>
+2001-01-24 17:30:52              28724         9796  5 files</code></pre>
     <p>
         —shows it to be some good 'ol C code with what seem to be prepacked Windows executables. I was, of course, running this on Linux, so I just rebuilt the executables myself rather than bothering with WINE. The .txt file is poorly encoded, to say the least:
     </p>
-    <pre><code>
-adx2wav : DreamCast ADX->WAV converter
+    <pre><code>adx2wav : DreamCast ADX->WAV converter
 
 http://www.geocities.co.jp/Playtown/2004/
 bero@geocities.co.jp
@@ -200,16 +187,14 @@ afsÌÍadxÆÍÀèÜ¹ñB
 "Ip"ÆÍA©ªAÆ°ðwµÜ·B
 
 0.2	change adx check / volume 
-first release
-    </code></pre>
+first release</code></pre>
     <p>
         but it is enough to let us know that the script grabs the name of the file from argv, so we can run
     </p>
-    <pre><code class="language-bash">
-Downloads/adx2wav02$ gcc -o afs_extract afs_extract.c
-Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS
-    </code></pre>
-    <p>which didn't seem to do anything usefl. But the <code>adx2wav02</code> and <code>$ManaKhemia/SOUND/SSE</code> folders were unchanged, and the only thing printed was <code>$ManaKhemia/SOUND/SSE/SSE.AFS - 0</code>, which... isn't super helpful. Looking at the C code, it seemed to be output by this line:</p>
+    <pre><code class="language-bash">Downloads/adx2wav02$ gcc -o afs_extract afs_extract.c
+Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS</code></pre>
+    
+    <p>which didn't seem to do anything useful. But the <code>adx2wav02</code> and <code>$ManaKhemia/SOUND/SSE</code> folders were unchanged, and the only thing printed was <code>$ManaKhemia/SOUND/SSE/SSE.AFS - 0</code>, which... isn't super helpful. Looking at the C code, it seemed to be output by this line:</p>
     <pre><code>
 printf("%s - %d\n",name,n);
     </code></pre>
@@ -222,8 +207,10 @@ printf("%s - %d\n",name,n);
     <p>
         The main function is almost trivial, but I really had to figure out the rest of the C code. Of course, it wasn't commented at all, so here's my annotated version:
     </p>
-    <pre><code class="language-c">
-int afs_extract(char *name) {
+
+    <button type="button" id="annotated-c-code" class="collapsible">afs_extract.c (annotated)</button>
+    <div class="content">
+    <pre><code class="language-c">int afs_extract(char *name) {
     // This section just establishes a bunch of variables,
     // which I don't need to deal with in Python.
     FILE *fp,*out;
@@ -351,9 +338,13 @@ int afs_extract(char *name) {
     return -1;
 }
     </code></pre>
+    </div>
     <p>
         Which I turned into this Python (3.6+) script:
     </p>
+
+    <button type="button" id="afs-extract-python" class="collapsible">afs_extract.py</button>
+    <div class="content">
     <pre><code class="language-python">
 import collections
 import pathlib
@@ -423,6 +414,7 @@ if __name__ == '__main__':
         path = pathlib.Path(filename).resolve()
         afs_extract(path)
     </code></pre>
+    </div>
 
     <p>
         which gave me <code>$ManaKhemia/SOUND/SSE/SSE_{000-206}.adx</code> to play with. I wasn't initially sure that these files would be workable at all since I had to make an assumption about how the data should be read into the <code>idx</code> struct (to get offset and size): I <i>assumed</i> that they each get four bytes (since we were reading in eight), but that was essentially a guess.
