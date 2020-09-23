@@ -35,51 +35,51 @@ $ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
         From there, we can see what the project folder looks like:
     </p>
     <pre>
-        <code>
+        <code class="langauge-treeview">
 ManaKhemia/
-    MODULES/
-        - IOPRP310.IMG
-    MOVIE/
-        - A9_ED.SFD
-        - A9_EDB.SFD
-        - A9_OP.SFD
-        - AVAN.SFD
-        - AVANJ.SFD
-        - SCHOOL.SFD
-    SOUND/
-        SSE/
-            - SSE.AFS
-        STREAM/
-            - STREAM.AFS
-    VPACK/
-        - V00000.AFS
-        - V01000.AFS
-        - V02000.AFS
-        - V03000.AFS
-        - V04000.AFS
-        - V05000.AFS
-        - V06000.AFS
-        - V07000.AFS
-        - V08000.AFS
-        - V09000.AFS
-        - V10000.AFS
-        - V11000.AFS
-    VPACKJ/
-        - V00000.AFS
-        - V01000.AFS
-        - V02000.AFS
-        - V03000.AFS
-        - V04000.AFS
-        - V05000.AFS
-        - V06000.AFS
-        - V07000.AFS
-        - V08000.AFS
-        - V09000.AFS
-        - V10000.AFS
-        - V11000.AFS
-    - RPK.BIN
-    - SLUS_217.35
-    - SYSTEM.CNF
+|-- MODULES/
+|   `-- IOPRP310.IMG
+|-- MOVIE/
+|   |-- A9_ED.SFD
+|   |-- A9_EDB.SFD
+|   |-- A9_OP.SFD
+|   |-- AVAN.SFD
+|   |-- AVANJ.SFD
+|   `-- SCHOOL.SFD
+|-- SOUND/
+|   |-- SSE/
+|       `-- SSE.AFS
+|   `-- STREAM.AFS
+|       `-- STREAM.AFS
+|-- VPACK/
+|   |-- V00000.AFS
+|   |-- V01000.AFS
+|   |-- V02000.AFS
+|   |-- V03000.AFS
+|   |-- V04000.AFS
+|   |-- V05000.AFS
+|   |-- V06000.AFS
+|   |-- V07000.AFS
+|   |-- V08000.AFS
+|   |-- V09000.AFS
+|   |-- V10000.AFS
+|   `-- V11000.AFS
+|-- VPACKJ/
+|   |-- V00000.AFS
+|   |-- V01000.AFS
+|   |-- V02000.AFS
+|   |-- V03000.AFS
+|   |-- V04000.AFS
+|   |-- V05000.AFS
+|   |-- V06000.AFS
+|   |-- V07000.AFS
+|   |-- V08000.AFS
+|   |-- V09000.AFS
+|   |-- V10000.AFS
+|   `-- V11000.AFS
+|-- RPK.BIN
+|-- SLUS_217.35
+`-- SYSTEM.CNF
         </code>
     </pre>
 
@@ -423,6 +423,34 @@ if __name__ == '__main__':
         path = pathlib.Path(filename).resolve()
         afs_extract(path)
     </code></pre>
+
+    <p>
+        which gave me <code>$ManaKhemia/SOUND/SSE/SSE_{000-206}.adx</code> to play with. I wasn't initially sure that these files would be workable at all since I had to make an assumption about how the data should be read into the <code>idx</code> struct (to get offset and size): I <i>assumed</i> that they each get four bytes (since we were reading in eight), but that was essentially a guess.
+    </p>
+
+    <h2>III (Part III): Converting ADX files to something usable</h2>
+
+    <p style="margin-left: 5%; font-style: italic;">
+        As noted earlier, AHX is just an implementation of MPEG2 audio and the decoding method is basically the same as the standard, it is possible just to demux the stream from the ADX container and feed it through a standard MPEG Audio decoder like mpg123. The ADX header's "sample rate" and "total samples" are usually correct if a decoder needs them (so should be set by encoder/muxer implementations) but most of the other fields such as the "block size" and "sample bitdepth" will usually be zero — as noted above, the looping functionality is also unavailable.
+    </p>
+
+    <p>Funnily enough, I was really about to go through all of the conversion processes myself (because the Wikipedia article gave the specification), but I found this paragraph hiding at the bottom of the article and just decided to test the ADX files in VLC, which... again, perhaps unsurprisingly, worked just fine. Some ffmpeg-ing later, I had them all as .ogg files:</p>
+
+    <pre><code class="language-bash">
+$ManaKhemia/SOUND/SSE$ for f in *.adx; do ffmpeg -i "$f" "${f/%.adx/.ogg}"; rm "$f"; done
+    </code></pre>
+
+    <p>
+        That's easy to add to the Python script, which I also went ahead and added a little bit of QOL features, so running this <a href="afs_extract.py">updated Python script</a>—
+    </p>
+    <pre><code class="language-bash">
+$ python3 afs_extract.py $ManaKhemia/SOUND/SSE/SSE.AFS $ManaKhemia/SOUND/STREAM/STREAM.AFS --convert-ogg --delete-adx
+    </code></pre>
+
+    <p>
+        —resulted in 207 files in <code>$ManaKhemia/SOUND/SSE</code> and another 117 in <code>$ManaKhemia/SOUND/STREAM</code>. The former group was mostly sound effects that I didn't know how to trace, so I <a href="mkdata.html#sound-data-stream">analyzed the stream files.</a>
+    </p>
+
 </body>
 
 </html>
