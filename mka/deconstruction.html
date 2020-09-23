@@ -8,9 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="../favicon.png" type="image/x-icon">
+
+    <link href="../prism.css" rel="stylesheet">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
+    <script src="../prism.js"></script>
+
     <h1>Mana Khemia: Deconstruction</h1>
     <p>
         This is an analysis of the NTSC-U PS2 version of the .iso file for <i>Mana Khemia: Alchemists of Al-Revis</i>.
@@ -22,7 +26,7 @@
         ...This was actually really easy, just a simple command in the terminal:
     </p>
     <pre>
-        <code>
+        <code class="language-bash">
 $ 7z x 'Mana Khemia - Alchemists of Al-Revis (USA).iso' -oManaKhemia
         </code>
     </pre>
@@ -84,7 +88,7 @@ ManaKhemia/
     <p>
         I can't be bothered to deal with the <code>MODULES/IOPRP310.IMG</code> file thanks to its extension, but I <i>can</i> be bothered to look at the <code>MOVIE</code> folder. Perhaps unsurprisingly, VLC is more than happy to open the *.SFD files, though that isn't to say that it plays them without issue. In particular, it <i>does</i> play, but the playhead tracking is completely messed up. I'd also initially believed that the audio was held elsewhere as the couple clips I tried were silent, but I eventually decided to just blindly convert them to *.mp4 files instead:
     </p>
-    <pre><code>
+    <pre><code class="language-bash">
 ManaKhemia/MOVIE$ for f in *.SFD; do ffmpeg -i "$f" "${f/%.SFD/.mp4}"; done
 ManaKhemia/MOVIE$ ls *.mp4
 A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
@@ -135,15 +139,16 @@ A9_EDB.mp4  A9_ED.mp4  A9_OP.mp4  AVANJ.mp4  AVAN.mp4  SCHOOL.mp4
         Spurred on by the success of VLC and ffmpeg in the previous step, I tried just using those, but neither of them were very happy with it. I tried importing it as Raw Audio in Audacity with the default settings but was greeted by nothing by ear-piercing terribleness. So... it seems like I'm going to have to figure out what's going on—according to <a href="https://en.wikipedia.org/wiki/ADX_(file_format)">Wikipedia</a>:
     </p>
     <p style="margin-left: 5%; font-style: italic;">
-        ADX is a lossy proprietary audio storage and compression format developed by CRI Middleware specifically for use in video games; it is derived from ADPCM. Its most notable feature is a looping function that has proved useful for background sounds in various games that have adopted the format, including many games for the Sega Dreamcast as well as some PlayStation 2, GameCube and Wii games. One of the first games to use ADX was Burning Rangers, on the Sega Saturn. Notably, the Sonic the Hedgehog series from the Dreamcast generation up to at least Shadow the Hedgehog have used this format for sound and voice recordings. <br/>
+        ADX is a lossy proprietary audio storage and compression format developed by CRI Middleware specifically for use in video games; it is derived from ADPCM. Its most notable feature is a looping function that has proved useful for background sounds in various games that have adopted the format, including many games for the Sega Dreamcast as well as some PlayStation 2, GameCube and Wii games. One of the first games to use ADX was Burning Rangers, on the Sega Saturn. Notably, the Sonic the Hedgehog series from the Dreamcast generation up to at least Shadow the Hedgehog have used this format for sound and voice recordings.</p>
 
+    <p>
         On top of the main ADPCM encoding, the ADX toolkit also includes a sibling format, AHX, which uses a variant of MPEG-2 audio intended specifically for voice recordings and <b>a packaging archive, AFS, for bundling multiple ADX and AHX tracks into a single container file</b>.
     </p>
     <p>
         The article goes on to describe the technical specification for the ADX format, but since we're looking at an AFS file, that's not much help at the moment. That's... fine, I guess. The article also links to a <a href="https://web.archive.org/web/20090318103258/http://www.geocities.co.jp/Playtown/2004/dcdev/index.html">very old website</a> (a 2009 wayback-machine snapshot of a Geocities page) with <a href="https://web.archive.org/web/20110927091814/http://www.geocities.co.jp/Playtown/2004/dcdev/adx2wav02.lzh">source code for an AFS extractor</a>. Downloading the code and inspecting it—
     </p>
-    <pre><code>
-Downloads$ 7z l adx2wav02.lzh  tail -9
+    <pre><code class="language-bash">
+Downloads$ 7z l adx2wav02.lzh | tail -9
 Date      Time    Attr         Size   Compressed  Name
 ------------------- ----- ------------ ------------  ------------------------
 2001-01-24 17:21:26 .....         3835         1504  adx2wav.c
@@ -200,7 +205,7 @@ first release
     <p>
         but it is enough to let us know that the script grabs the name of the file from argv, so we can run
     </p>
-    <pre><code>
+    <pre><code class="language-bash">
 Downloads/adx2wav02$ gcc -o afs_extract afs_extract.c
 Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS
     </code></pre>
@@ -209,6 +214,215 @@ Downloads/adx2wav02$ ./afs_extract $ManaKhemia/SOUND/SSE/SSE.AFS
 printf("%s - %d\n",name,n);
     </code></pre>
     <p>which indicated that <code>n==0</code>, which is a problem for the <code>for(i=0;i&lt;n;i++) { ... }</code> loop that starts a few lines later, given that this seems to be the loop that actually pulls the <code>n</code> ADX files out of the archive.</p>
+
+    <h2>III (Part II): Translating C to Python</h2>
+    <p>
+        In order to get a better handle on this code, since there was obviously something happening (though, admittedly, it was probably with the AFS file itself), I began to port the code over to Python 3, which is a language I actually know.
+    </p>
+    <p>
+        The main function is almost trivial, but I really had to figure out the rest of the C code. Of course, it wasn't commented at all, so here's my annotated version:
+    </p>
+    <pre><code class="language-c">
+int afs_extract(char *name) {
+    // This section just establishes a bunch of variables,
+    // which I don't need to deal with in Python.
+    FILE *fp,*out;
+    int i,n;
+    char buf[0x8000];
+
+    struct {
+        char id[4];
+        long num;
+    } hdr;
+
+    struct {
+        long offset;
+        long size;
+    } *idx;
+
+    char basename[256],*p;
+
+    // assign the value of `name` to `basename`
+    // ...which we can do with a simple assignment in Python
+    strcpy(basename,name);
+
+    // strrchr is weird, but we immediately reassign p anyway
+    // whenever it isn't null, and I can't actually find where
+    // it would get used, so... I'm just going to ignore it
+    p = strrchr(basename,'.');
+    if (p) *p=0;
+
+    // open the target file in "rb" mode, and, on error, return -1
+    fp = fopen(name,"rb");
+    if (fp==NULL) return -1;
+
+    /* fread(*ptr, size, nmemb, *stream)
+     * ---------------------------------
+     * reads data from `stream` into the array pointed to by `ptr`
+     * `size` = size (bytes) of each element to be read
+     * `nmemb` = number of elements, each of size `size`
+     *
+     * In this way, we read 8 chunks of 1 byte each from `fp`
+     * (the AFS file) and write them into `hdr`
+     *
+     * Because of the struct defining `hdr`, the first four bytes
+     * should end up as hdr.id (interpreted as a string), and the
+     * remaining four as hdr.num (interpreted as a long).
+    */
+    fread(&hdr,1,8,fp);
+
+    // We compare hdr.id to the literal string "AFS" and if we get
+    // a value other than zero (the strings don't match), we close
+    // the file and complain that it's not a proper AFS file.
+    if (memcmp(hdr.id,"AFS",4)) {
+        fclose(fp);
+        printf("not AFS\n");
+        return -1;
+    }
+
+    // at this point, we needlessly assign n = hdr.num
+    n = hdr.num;
+
+    // This outputs the file we're extracting from and the number
+    // of ADX files contained within it.
+    printf("%s - %d\n",name,n);
+
+    // allocate enough space in `idx` for n copies of the struct
+    // containing the offset and size data?
+    idx = malloc(sizeof(*idx)*n);
+
+    // as before, use fread to read from `fp`: here, we read
+    // n blocks of 8 bytes each, assigning them into `idx`
+    fread(idx,8,n,fp);
+
+    // now, we loop through each of these ADX "header" structs
+    for(i=0;i&lt;n;i++) {
+        int size;
+        char outfile[256];
+
+        // assign outfile as the name of the destination ADX file
+        // indexed by number of the loop
+        sprintf(outfile,"%s_%02d.adx",basename,i);
+
+        // actually open this file in "wb" mode
+        out = fopen(outfile,"wb");
+
+        /* fseek(*stream, offset, whence)
+         * ------------------------------
+         * set the file position of `stream` to a position of `offset`,
+         * relative to `whence`
+         *
+         * In this case, we seek to idx[i].offset: the offset of the current
+         * adx file, and whence=SEEK_SET, meaning that we seek from the
+         * beginning of the file (absolute seeking).
+        */
+        fseek(fp,idx[i].offset,SEEK_SET);
+
+        // needlessly alias idx[i].size, but this is the size of the
+        // ADX data
+        size = idx[i].size;
+
+        // output {destination} {offset} {size}
+        printf("%s %08x %08x\n",outfile,idx[i].offset,size);
+
+        // while we still have to data to read for this file
+        while(size) {
+            // figure out how much to read, capped by the size of the
+            // buffer we established earlier.
+            int rsize = size&lt;sizeof(buf)?size:sizeof(buf);
+
+            // then actually read that many bytes into the buffer
+            rsize = fread(buf,1,rsize,fp);
+
+            // and write it to the outfile
+            fwrite(buf,1,rsize,out);
+
+            // decrement the amount we still have let to read
+            size-=rsize;
+        }
+
+        // close the output file
+        fclose(out);
+    }
+
+    // and clean up some stuff down here too
+    free(idx);
+    fclose(fp);
+    return -1;
+}
+    </code></pre>
+    <p>
+        Which I turned into this Python (3.6+) script:
+    </p>
+    <pre><code class="language-python">
+import collections
+import pathlib
+import sys
+
+
+def afs_extract(filepath: pathlib.Path):
+    with open(filepath, 'rb') as afs:
+        # read 8 bytes from file, with the first four bytes
+        # being hdr.id, and the last four bytes being the
+        # number of ADX files in the archive
+        HDR = collections.namedtuple('HDR', ('id', 'num'))
+        hdr = HDR(
+            id=afs.read(4),
+            # assuming little endian because the sample AFS file
+            # I'm working with gives this as "CF 00 00 00", which
+            # is 207 with little endian and 3,472,883,712 with big
+            # endian, which... just feels too big.
+            num=int.from_bytes(afs.read(4), 'little')
+        )
+
+        # We compare hdr.id to the literal bytestring b'AFS\x00'
+        # and when these don't match, we close the file and complain
+        # that it's not a proper AFS file.
+        if hdr.id != b'AFS\x00':
+            sys.exit('Not an AFS file')
+
+        # output the file we're extracting from and the number of
+        # ADX blocks contained within it
+        print(f'{filepath} - {hdr.num} ADX blocks')
+
+        # read blocks of 8 bytes each, assigning them into `idx`
+        ADXHeader = collections.namedtuple('ADXHeader', ('offset', 'size'))
+        idx = [
+            ADXHeader(
+                offset=int.from_bytes(afs.read(4), 'little'),
+                size=int.from_bytes(afs.read(4), 'little')
+            )
+            for _ in range(hdr.num)
+        ]
+
+        # now, we loop through each of these ADX "header" structs
+        for i, header in enumerate(idx):
+            # assign outfile as the path of the destination ADX file
+            # indexed by the number of the loop, then open it in "wb"
+            # mode
+            outfile = filepath.with_name(f'{filepath.stem}_{i:03}.adx')
+
+            with open(outfile, 'wb') as adx:
+                # set the file position of the input stream according
+                # to the data in the header
+                afs.seek(header.offset)
+
+                # output {destination} {offset} {size}
+                print(f'{str(outfile):&lt;50} offset=0x{header.offset:08X} size=0x{header.size:08X}')
+
+                # read the necessary number of bytes into memory
+                # and write it out to the adx file
+                adx.write(afs.read(header.size))
+
+
+if __name__ == '__main__':
+    if len(sys.argv) &lt; 2:
+        sys.exit('DreamCast AFS extract ADX')
+
+    for filename in sys.argv[1:]:
+        path = pathlib.Path(filename).resolve()
+        afs_extract(path)
+    </code></pre>
 </body>
 
 </html>

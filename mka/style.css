@@ -217,10 +217,15 @@ div.cq-header.muppy {
 } 
 
 /* styling for code blocks */
+p code {
+  background-color: #eee;
+  color: #333;
+}
+
 pre code {
   background-color: #eee;
   color: #333;
   border: 1px solid #999;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
