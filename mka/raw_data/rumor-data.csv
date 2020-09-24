@@ -1,0 +1,53 @@
+Rumor,Condition,Cost,Effect
+Absolute Memory,Don't look at the map in a search more than 10 times,1000,SPD+10
+Big Boss Workerman,Complete more than 25 Jobs,1000,Job Reward +M
+Bonded Team,Everyone's Friendliness averages more than 50,2000,Variable Strikes +50% Effective
+Bully,Sword slash more than 20 monsters in one search,500,There will be more monsters that can be sword slashed
+Burster,Number of Bursts total more than 20,1000,Burst gauge starts slightly at an advantage
+Chicken,Run away from battle more than 20 times,200,SPD+15
+Defender of Justice,Find out that Flay is the Defender of Justice (CQ: Flay II),1000,20% off Blossom's items
+Delinquent,Walk around at night more than 10 times,1000,Slightly lessens monster strength at night
+Dragon Slayer,Defeat the Grandwing Drake (chapter 5),500,ATK+10
+Duke of Destruction,Win the Battle Arena,200,ATK+5
+Failures,Gain 3 [C]s in a row,200,SP+5
+Fearless!,"Have more than 15,000 AP",2000,All Stats +5
+Fighter,Fight more than 200 battles,1000,ATK+15
+Finisher,Number of Finishing Bursts total more than 20,2000,Gain extra on the gauge on entering a Finishing Burst
+Fortune Makers,"Earn more than 100,000 Cole",2000,20% off all shops
+God's Team,Fill up entire encyclopedia,4000,All Stats +30
+Greedy Needy,Gather more than 40 items in one search,500,Enemy drop chance +15%
+Hodge-Podge Team,Join Flay's workshop,0,None
+Hostage Takers,Solve Muppy's hostage situation (CQ: Muppy III),500,"ATK+5, MGK+5"
+Legacy of Justice,Vayne takes over as Defender of Justice (CQ: Flay V),1000,"ATK+10, SPD+5"
+Legendary Team,Defeat enemy at end of Old Schoolhouse - Closed Area,3000,All Stats +20
+Millionaire Idol,"Nikki releases a new song, restoring her popularity (CQ: Nikki V)",2000,30% off Blossom's items
+OCD,End a search with everyone's HP at max more than 10 times,200,RES+10
+Pacifists,Don't fight any enemies in a search more than 10 times,500,SPD+8
+Plain Normal,Gain 3 [B]s in a row,500,SP+10
+Professor,Gather almost all items,2000,Items in battle are 30% more effective
+Quester,Defeat the first boss of Old Schoolhouse - Closed Area,2000,RES+20
+Quiz King,Win the trivia contest,500,RES+12
+Skill Maniac,Know more than 20 Common Skills,1000,MGK+15
+Son of an Alchemist,Find out that Vayne's father is Theofratus,200,MGK+5
+Soon to Flunk,Take 3 extra courses,200,Grading criteria of certain assignments are lowered
+Strongling Fetish,Defeat more than 20 strong monsters,1000,Enemy drop chance +30%
+Synthesis Master,Gain almost all recipes,2000,Range of Ether Level change becomes greater
+Talented Genius,Gain 10 [A]s in courses,2000,Consumed SP-10%
+The Buddy Team,Everyone's Friendliness averages more than 25,500,Variable Strikes +25% Effective
+The Dangerous Ones,Defeat Isolde (chapter 11),1000,All Stats +3
+The Gofers,Complete more than 10 Jobs,500,Job Reward +S
+The Helper Squad,Complete more than 40 Jobs,2000,Job Reward +L
+The Immortal,Have the entire party wiped out more than 10 times,500,DEF+10
+The Jumpy Ones,Jump more than 200 times,200,HP+30
+The Mana Beaters,Defeat the Mana in the Mana Ruins (Zweis Monde: chapter 9),500,MGK+10
+The Mappeteers,Have more than 60% of the map complete,500,RES+8
+The Possessed,Pamela joins your group,200,"DEF+5, RES+5"
+The School Messiah,Save the school from Muppy's brother (CQ: Muppy IV),2000,"ATK+10, MGK+10"
+The Walking Library,Have more than half the items in the game,500,Items in battle are 15% more effective
+The Well Off,"Have more than 30,000 Cole",1000,20% off Leyfa's items
+Those Weird Ones,Muppy joins your group,1000,"DEF+10, RES+10"
+Tough Guys,Be knocked unconscious 20 or more times,200,DEF+5
+Uber Nerds,Gain 4 [A]s in a row,1000,SP+15
+Upcoming Idol,Find out Nikki's song is attracting all the guys,500,10% off Blossom's items
+Wild Child,Total searching time exceeds 100 hours,200,AP Gain +2
+Window Lady,Leave a shop without buying more than 20 times,500,10% off all shops

@@ -69,6 +69,8 @@ recipes = json.loads(pathlib.Path('raw_data/recipe-data.json').read_text())
 itemdata = pd.read_csv('raw_data/item-data.csv', index_col=0)
 course_data = pd.read_csv('raw_data/course-data.csv')
 enemy_data = pd.read_csv('raw_data/enemy-data.csv')
+job_data = pd.read_csv('raw_data/job-data.csv')
+rumor_data = pd.read_csv('raw_data/rumor-data.csv')
 
 
 def find_recipe(item):
@@ -335,7 +337,58 @@ def build_enemies():
         f.write(stream.read())
 
 
+def build_job_data():
+    for row in job_data.to_dict(orient='record'):
+        number = int(row.get('JobNumber', 0))
+        chapter = row.get('Chapter', '')
+        name = row.get('Name', '')
+        client = row.get('Client', '')
+        location = row.get('Location', '')
+        reward = row.get('Reward', '')
+        goal = row.get('Goal', '')
+
+        print(f'''
+    <tr>
+        <td>{number:03}</td>
+        <td>{chapter}</td>
+        <td>{name}</td>
+        <td>{client}</td>
+        <td>{location}</td>
+        <td>{reward}</td>
+        <td>{goal}</td>
+    </tr>
+''')
+
+
+def build_rumor_data():
+    print('''
+    <tr>
+        <th style="width: 20%;">Rumor Name</th>
+        <th style="width: 35%;">Rumor Condition</th>
+        <th style="width: 10%;">Cost</th>
+        <th style="width: 35%;">Effect</th>
+    </tr>
+''')
+
+    for row in rumor_data.to_dict(orient='record'):
+        name = row.get('Rumor', '')
+        condition = row.get('Condition', '')
+        cost = row.get('Cost', '')
+        effect = row.get('Effect', '')
+
+        print(f'''
+    <tr>
+        <td>{name}</td>
+        <td>{condition}</td>
+        <td>{cost}</td>
+        <td>{effect}</td>
+    </tr>
+''')
+
+
 # build_recipes()
-build_character_quests()
+# build_character_quests()
 # build_courses()
 # build_enemies()
+# build_job_data()
+build_rumor_data()
