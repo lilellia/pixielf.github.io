@@ -541,7 +541,7 @@ $ManaKhemia/VPACKJ$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.o
         <tr>
             <td>V00000_002.ogg</td>
             <td>VAYNE</td>
-            <td>サルフャ。。。 君も、一人ぼっちなの？</td>
+            <td>サルフャ...君も、一人ぼっちなの？</td>
         </tr>
 
         <tr>
@@ -607,7 +607,642 @@ $ManaKhemia/VPACKJ$ for i in $(seq -w 00 11); do mkdir V${i}000; mv V${i}000_*.o
 
     <p><img class="icon" src="imgs/rpk-bin-ghex.png" width="772" height="875"></p>
 
-    <p>which is super promising: it's yet another AFS file under the hood (which we can tell because AFS files start with the literal string "AFS").</p>
+    <p>which is super promising: it's yet another AFS file under the hood (which we can tell because AFS files start with the literal string "AFS"). So I fired up my AFS extractor script once more, which resulted in being handed 1000 more ADX/OGG files, which seem to be matches for those found in VPACKJ/V00000.AFS, which... no, I don't understand why either. The first few are definitely the same, and randomly trying #751 (Philo: <i>Nikki-chan, doushite...?</i>—from context of the surrounding lines, this seems to be part of the horror night escapade, wherein Vayne, Philo, and Nikki are exploring the infirmary) revealed another match. Who knows why those are here too?</p>
+
+    <h2>VI: SLUS_217.35</h2>
+
+    <p>Ignoring the system config file (which <i>really</i> isn't interesting), this is the only thing left in the root folder (plus the <code>MODULES/IOPRP310.IMG</code> file, of course). Anyway, looking at this in a hex editor revealed it to be an ELF file (...or, at least, given that the first four bytes were ".ELF"...)</p>
+
+    <p>I'll admit that I've little idea of how to deal with this, but passing it through <code>eu-readelf</code> (from the <code>elfutils</code> package) gave this output:</p>
+
+    <button type="button" class="collapsible"><code class="language-bash">$ManaKhemia$ eu-readelf -a SLUS_217.35</code></button>
+    <div class="content">
+    <pre><code>ELF Header:
+        Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00
+        Class:                             ELF32
+        Data:                              2's complement, little endian
+        Ident Version:                     1 (current)
+        OS/ABI:                            UNIX - System V
+        ABI Version:                       0
+        Type:                              EXEC (Executable file)
+        Machine:                           MIPS
+        Version:                           1 (current)
+        Entry point address:               0x10001c
+        Start of program headers:          52 (bytes into file)
+        Start of section headers:          11204564 (bytes into file)
+        Flags:                             0x20920001
+        Size of this header:               52 (bytes)
+        Size of program header entries:    32 (bytes)
+        Number of program headers entries: 1
+        Size of section header entries:    40 (bytes)
+        Number of section headers entries: 21
+        Section header string table index: 20
+      
+      Section Headers:
+      [Nr] Name                 Type         Addr     Off    Size   ES Flags Lk Inf Al
+      [ 0]                      NULL         00000000 000000 000000  0        0   0  0
+      [ 1] .text                PROGBITS     00100000 001000 40bd90  0 AX     0   0 64
+      [ 2] .init                PROGBITS     0050bd90 40cd90 000024  0 AX     0   0  1
+      [ 3] .fini                PROGBITS     0050bdb4 40cdb4 00001c  0 AX     0   0  1
+      [ 4] .vutext              PROGBITS     0050bdd0 40cdd0 0008b0  0 AX     0   0 16
+      [ 5] .ctors               PROGBITS     0050c680 40d680 000008  0 WA     0   0  4
+      [ 6] .dtors               PROGBITS     0050c688 40d688 000008  0 WA     0   0  4
+      [ 7] .reginfo             SHT_LOPROC+6 0050c690 aaf714 000018  1        0   0  4
+      [ 8] .data                PROGBITS     0050c700 40d700 509ba8  0 WA     0   0 64
+      [ 9] .eh_frame            PROGBITS     00a162a8 9172a8 000484  0 WA     0   0  4
+      [10] .jcr                 PROGBITS     00a1672c 91772c 000004  0 WA     0   0  4
+      [11] .vudata              PROGBITS     00a16730 917730 000000  0 WA     0   0  1
+      [12] .rodata              PROGBITS     00a16780 917780 18fc70  0 A      0   0 64
+      [13] .sdata               PROGBITS     00ba6400 aa7400 008298  0 WA     0   0  8
+      [14] .sbss                NOBITS       00bae700 aaf700 0000ec  0 WA     0   0  8
+      [15] .bss                 NOBITS       00bae800 aaf714 331038  0 WA     0   0 64
+      [16] .vubss               NOBITS       00edf838 aaf714 000000  0 WA     0   0  1
+      [17] .mdebug.eabi64       PROGBITS     00000000 aaf72c 000000  0        0   0  1
+      [18] .DVP.ovlytab         SHT_LOPROC+ffff420 00000000 aaf72c 000000 12 W     19   0  4
+      [19] .DVP.ovlystrtab      STRTAB       00000000 aaf72c 000001  0 W      0   0  1
+      [20] .shstrtab            STRTAB       00000000 aaf72d 0000a6  0        0   0  1
+      
+      Program Headers:
+        Type           Offset   VirtAddr   PhysAddr   FileSiz  MemSiz   Flg Align
+        LOAD           0x001000 0x00100000 0x00100000 0xaae698 0xddf838 RWE 0x1000
+      
+       Section to Segment mapping:
+        Segment Sections...
+         00      .text .init .fini .vutext .ctors .dtors .data .eh_frame .jcr .rodata .sdata .sbss .bss
+      
+      Call frame information section [ 9] '.eh_frame' at offset 0x9172a8:
+      
+       [     0] CIE length=12
+         CIE_id:                   0
+         version:                  1
+         augmentation:             ""
+         code_alignment_factor:    1
+         data_alignment_factor:    4
+         return_address_register:  31
+      
+         Program:
+           def_cfa r29 (M) at offset 0
+      
+       [    10] FDE length=28 cie=[     0]
+         CIE_pointer:              20
+         initial_location:         0x004fcbf8
+         address_range:            0x128
+      
+         Program:
+           advance_loc 16 to 0x10
+           def_cfa_offset 32
+           advance_loc 24 to 0x28
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [    30] FDE length=28 cie=[     0]
+         CIE_pointer:              52
+         initial_location:         0x004fcd20
+         address_range:            0x6c8
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 32
+           advance_loc 24 to 0x1c
+           offset_extended_sf r18 (B) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [    50] CIE length=12
+         CIE_id:                   0
+         version:                  1
+         augmentation:             ""
+         code_alignment_factor:    1
+         data_alignment_factor:    4
+         return_address_register:  31
+      
+         Program:
+           def_cfa r29 (M) at offset 0
+      
+       [    60] FDE length=28 cie=[    50]
+         CIE_pointer:              20
+         initial_location:         0x004fd3e8
+         address_range:            0x130
+      
+         Program:
+           advance_loc 16 to 0x10
+           def_cfa_offset 48
+           advance_loc 24 to 0x28
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [    80] FDE length=28 cie=[    50]
+         CIE_pointer:              52
+         initial_location:         0x004fd518
+         address_range:            0x6c8
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 32
+           advance_loc 24 to 0x1c
+           offset_extended_sf r18 (B) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [    a0] CIE length=12
+         CIE_id:                   0
+         version:                  1
+         augmentation:             ""
+         code_alignment_factor:    1
+         data_alignment_factor:    4
+         return_address_register:  31
+      
+         Program:
+           def_cfa r29 (M) at offset 0
+      
+       [    b0] FDE length=20 cie=[    a0]
+         CIE_pointer:              20
+         initial_location:         0x004fdbe0
+         address_range:            0x18
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [    c8] FDE length=28 cie=[    a0]
+         CIE_pointer:              44
+         initial_location:         0x004fdbf8
+         address_range:            0x6c8
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 32
+           advance_loc 24 to 0x1c
+           offset_extended_sf r18 (B) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [    e8] CIE length=12
+         CIE_id:                   0
+         version:                  1
+         augmentation:             ""
+         code_alignment_factor:    1
+         data_alignment_factor:    4
+         return_address_register:  31
+      
+         Program:
+           def_cfa r29 (M) at offset 0
+      
+       [    f8] FDE length=20 cie=[    e8]
+         CIE_pointer:              20
+         initial_location:         0x004fe2c0
+         address_range:            0x20
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 32
+           advance_loc 4 to 0x8
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   110] FDE length=28 cie=[    e8]
+         CIE_pointer:              44
+         initial_location:         0x004fe2e0
+         address_range:            0x6c8
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 32
+           advance_loc 24 to 0x1c
+           offset_extended_sf r18 (B) at cfa-16
+           offset_extended_sf r16 (@) at cfa-32
+           offset_extended_sf r17 (A) at cfa-24
+           nop
+           nop
+           nop
+      
+       [   130] CIE length=12
+         CIE_id:                   0
+         version:                  1
+         augmentation:             ""
+         code_alignment_factor:    1
+         data_alignment_factor:    4
+         return_address_register:  31
+      
+         Program:
+           def_cfa r29 (M) at offset 0
+      
+       [   140] FDE length=20 cie=[   130]
+         CIE_pointer:              20
+         initial_location:         0x004ff3d0
+         address_range:            0x64
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   158] FDE length=32 cie=[   130]
+         CIE_pointer:              44
+         initial_location:         0x004ff4c8
+         address_range:            0x154
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 64
+           advance_loc 16 to 0x14
+           offset_extended_sf r18 (B) at cfa-32
+           offset_extended_sf r17 (A) at cfa-40
+           offset_extended_sf r16 (@) at cfa-48
+           advance_loc 16 to 0x24
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r19 (C) at cfa-24
+      
+       [   17c] FDE length=24 cie=[   130]
+         CIE_pointer:              80
+         initial_location:         0x004ff620
+         address_range:            0x74
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 12 to 0x10
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r16 (@) at cfa-16
+           nop
+           nop
+      
+       [   198] FDE length=20 cie=[   130]
+         CIE_pointer:              108
+         initial_location:         0x004ff698
+         address_range:            0x1c
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   1b0] FDE length=24 cie=[   130]
+         CIE_pointer:              132
+         initial_location:         0x004ff6b8
+         address_range:            0x4c
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r16 (@) at cfa-16
+           nop
+           nop
+      
+       [   1cc] FDE length=24 cie=[   130]
+         CIE_pointer:              160
+         initial_location:         0x004ff708
+         address_range:            0x6c
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 16 to 0x14
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r16 (@) at cfa-16
+           nop
+           nop
+      
+       [   1e8] FDE length=20 cie=[   130]
+         CIE_pointer:              188
+         initial_location:         0x004ff778
+         address_range:            0x1c
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   200] FDE length=24 cie=[   130]
+         CIE_pointer:              212
+         initial_location:         0x004ff798
+         address_range:            0x30
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r16 (@) at cfa-16
+           nop
+           nop
+      
+       [   21c] FDE length=24 cie=[   130]
+         CIE_pointer:              240
+         initial_location:         0x004ff7c8
+         address_range:            0x110
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 12 to 0x10
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r16 (@) at cfa-16
+           nop
+           nop
+      
+       [   238] FDE length=20 cie=[   130]
+         CIE_pointer:              268
+         initial_location:         0x004ff8d8
+         address_range:            0x14
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 4 to 0x8
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   250] FDE length=20 cie=[   130]
+         CIE_pointer:              292
+         initial_location:         0x004ff8f0
+         address_range:            0x34
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 4 to 0x8
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   268] FDE length=20 cie=[   130]
+         CIE_pointer:              316
+         initial_location:         0x004ff928
+         address_range:            0x80
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 16
+           advance_loc 8 to 0xc
+           offset_extended_sf r31 (O) at cfa-16
+           nop
+      
+       [   280] FDE length=32 cie=[   130]
+         CIE_pointer:              340
+         initial_location:         0x004ff9a8
+         address_range:            0xd4
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 80
+           advance_loc 20 to 0x18
+           offset_extended_sf r18 (B) at cfa-32
+           offset_extended_sf r17 (A) at cfa-40
+           offset_extended_sf r16 (@) at cfa-48
+           advance_loc 12 to 0x24
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r19 (C) at cfa-24
+      
+       [   2a4] FDE length=32 cie=[   130]
+         CIE_pointer:              376
+         initial_location:         0x004ffaa8
+         address_range:            0xd0
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 64
+           advance_loc 12 to 0x10
+           offset_extended_sf r16 (@) at cfa-48
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r17 (A) at cfa-40
+           advance_loc 12 to 0x1c
+           offset_extended_sf r19 (C) at cfa-24
+           offset_extended_sf r18 (B) at cfa-32
+      
+       [   2c8] FDE length=32 cie=[   130]
+         CIE_pointer:              412
+         initial_location:         0x004ffb78
+         address_range:            0xd0
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 64
+           advance_loc 12 to 0x10
+           offset_extended_sf r16 (@) at cfa-48
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r19 (C) at cfa-24
+           advance_loc 12 to 0x1c
+           offset_extended_sf r18 (B) at cfa-32
+           offset_extended_sf r17 (A) at cfa-40
+      
+       [   2ec] FDE length=48 cie=[   130]
+         CIE_pointer:              448
+         initial_location:         0x004ffc48
+         address_range:            0x288
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 12 to 0x10
+           offset_extended_sf r17 (A) at cfa-72
+           offset_extended_sf r16 (@) at cfa-80
+           offset_extended_sf r30 (N) at cfa-16
+           advance_loc 32 to 0x30
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r20 (D) at cfa-48
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r18 (B) at cfa-64
+           nop
+      
+       [   320] FDE length=48 cie=[   130]
+         CIE_pointer:              500
+         initial_location:         0x004ffed0
+         address_range:            0x184
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 12 to 0x10
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r18 (B) at cfa-64
+           offset_extended_sf r16 (@) at cfa-80
+           advance_loc 24 to 0x28
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r20 (D) at cfa-48
+           advance_loc 24 to 0x40
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r30 (N) at cfa-16
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r17 (A) at cfa-72
+      
+       [   354] FDE length=48 cie=[   130]
+         CIE_pointer:              552
+         initial_location:         0x00500058
+         address_range:            0x190
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 12 to 0x10
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r18 (B) at cfa-64
+           offset_extended_sf r17 (A) at cfa-72
+           advance_loc 20 to 0x24
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r20 (D) at cfa-48
+           advance_loc 20 to 0x38
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r16 (@) at cfa-80
+           nop
+           nop
+           nop
+      
+       [   388] FDE length=48 cie=[   130]
+         CIE_pointer:              604
+         initial_location:         0x005001e8
+         address_range:            0x1a8
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 12 to 0x10
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r18 (B) at cfa-64
+           offset_extended_sf r17 (A) at cfa-72
+           advance_loc 24 to 0x28
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r20 (D) at cfa-48
+           advance_loc 20 to 0x3c
+           offset_extended_sf r31 (O) at cfa-16
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r16 (@) at cfa-80
+           nop
+           nop
+           nop
+      
+       [   3bc] FDE length=48 cie=[   130]
+         CIE_pointer:              656
+         initial_location:         0x00500390
+         address_range:            0x30c
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 12 to 0x10
+           offset_extended_sf r16 (@) at cfa-80
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r18 (B) at cfa-64
+           advance_loc 32 to 0x30
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r30 (N) at cfa-16
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r20 (D) at cfa-48
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r17 (A) at cfa-72
+           nop
+      
+       [   3f0] FDE length=36 cie=[   130]
+         CIE_pointer:              708
+         initial_location:         0x005006a0
+         address_range:            0x1b0
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 48
+           advance_loc 12 to 0x10
+           offset_extended_sf r17 (A) at cfa-40
+           offset_extended_sf r20 (D) at cfa-16
+           offset_extended_sf r16 (@) at cfa-48
+           advance_loc 20 to 0x24
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r19 (C) at cfa-24
+           offset_extended_sf r18 (B) at cfa-32
+           nop
+      
+       [   418] FDE length=48 cie=[   130]
+         CIE_pointer:              748
+         initial_location:         0x00500850
+         address_range:            0x350
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 112
+           advance_loc 48 to 0x34
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r30 (N) at cfa-16
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r20 (D) at cfa-48
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r18 (B) at cfa-64
+           offset_extended_sf r16 (@) at cfa-80
+           offset_extended_sf r21 (E) at cfa-40
+           offset_extended_sf r17 (A) at cfa-72
+           nop
+           nop
+      
+       [   44c] FDE length=48 cie=[   130]
+         CIE_pointer:              800
+         initial_location:         0x00500ba0
+         address_range:            0x148
+      
+         Program:
+           advance_loc 4 to 0x4
+           def_cfa_offset 96
+           advance_loc 16 to 0x14
+           offset_extended_sf r20 (D) at cfa-48
+           offset_extended_sf r19 (C) at cfa-56
+           offset_extended_sf r16 (@) at cfa-80
+           advance_loc 24 to 0x2c
+           offset_extended_sf r30 (N) at cfa-16
+           offset_extended_sf r22 (F) at cfa-32
+           offset_extended_sf r21 (E) at cfa-40
+           advance_loc 24 to 0x44
+           offset_extended_sf r31 (O) at cfa-8
+           offset_extended_sf r23 (G) at cfa-24
+           offset_extended_sf r18 (B) at cfa-64
+           offset_extended_sf r17 (A) at cfa-72
+      
+       [   480] Zero terminator</code></pre>
+       </div>
+
+    <p>...I have essentially no idea what that output means (despite <code>eu-readelf</code>'s promise to "print information from ELF file in human-readable form". I made the following attempts:</p>
+
+    <pre><code class="language-bash">$ManaKhemia$ eu-objdump -d SLUS_217.35
+SLUS_217.35: elf32-elf_mips
+
+eu-objdump: cannot disassemble
+$ManaKhemia$ objcopy --dump-section .text=output.bin SLUS_217.35
+objcopy: Unable to recognise the format of the input file `SLUS_217.35`</code></pre>
+
+    <p>Doing a search within the hex editor for <code>41 4E 4E 41</code> ("ANNA") does turn up quite a few results, but I don't know how to make sense of any of them. Most of them fit the regex <code>BUC_ANNA_\w+_(L|R)GP</code>.
+    </p>
 
 </body>
 
