@@ -52,13 +52,6 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-div.trophy-list {
-  display: grid;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 div.trophy {
   display: flex;
   align-items: center;
@@ -69,6 +62,7 @@ div.trophy {
 
 td.trophy.platinum {
   background-color: #c4d4e0;
+  color: #333;
 }
 
 td.trophy.gold {
