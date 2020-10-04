@@ -67,19 +67,19 @@ div.trophy {
   color: #333;
 }
 
-div.trophy.platinum {
+td.trophy.platinum {
   background-color: #c4d4e0;
 }
 
-div.trophy.gold {
+td.trophy.gold {
   background-color: #d4af37;
 }
 
-div.trophy.silver {
+td.trophy.silver {
   background-color: #a8a8a8;
 }
 
-div.trophy.bronze {
+td.trophy.bronze {
   background-color: #945215;
 }
 
