@@ -54,7 +54,8 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
 
 div.trophy-list {
   display: grid;
-  grid-template-columns: 20% 20%;
+  grid-template-columns: 25% 25%;
+  gap: 15px 10px;
 }
 
 .trophy {
