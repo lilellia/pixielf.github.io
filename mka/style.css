@@ -52,7 +52,11 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-div.trophy {
+div.trophy-list {
+  display: grid;
+}
+
+.trophy {
   display: flex;
   align-items: center;
   margin-left: 12px;
