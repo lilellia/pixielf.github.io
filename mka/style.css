@@ -46,6 +46,24 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     background-color: #aaa;
   }
 
+  ol.inline {
+    counter-reset: LIST-ITEMS;
+  }
+
+  ol.inline > li
+  {
+    display: inline;
+    padding-right: 0.5em;
+  }
+  
+  ol.inline > li:before
+  {
+    content: "(" counter( LIST-ITEMS ) ")";
+    counter-increment: LIST-ITEMS;
+    padding-right: 0.25em;
+    font-weight: bold;
+  }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
