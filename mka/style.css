@@ -188,8 +188,10 @@ table.zebra td {
 
 table.zebra tr.trophy-unobtained {
   background-color: #ccc;
+  color: #333;
 }
 
 table.zebra tr.trophy-obtained {
-  background-color: #ecf8ea;
+  background-color: #90ee90;
+  color: #333;
 }
