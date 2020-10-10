@@ -213,3 +213,7 @@ table.zebra tr.trophy-obtained {
   background-color: #90ee90;
   color: #333;
 }
+
+table.zebra a {
+  color: #333;
+}
