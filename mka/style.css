@@ -181,6 +181,7 @@ div.cq-header.muppy {
 } 
 
 td.zebra {
+  border: 0px;
   vertical-align: middle;
   padding: 3px;
 }
