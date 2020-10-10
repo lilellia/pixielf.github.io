@@ -185,3 +185,11 @@ table.zebra td {
   vertical-align: middle;
   padding: 3px;
 }
+
+table.zebra tr.trophy-unobtained {
+  background-color: #ccc;
+}
+
+table.zebra tr.trophy-obtained {
+  background-color: #ecf8ea;
+}
