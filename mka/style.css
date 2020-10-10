@@ -52,43 +52,6 @@ a.poemlink-commentary:hover, a.poemlink-commentary:active {
     overflow: hidden;
   }
 
-div.trophy-list {
-  display: grid;
-  grid-template-columns: 422px 422px 422px;
-  gap: 15px 10px;
-}
-
-.trophy {
-  display: flex;
-  align-items: center;
-  margin-left: 12px;
-  padding: 4px;
-}
-
-td.trophy.platinum {
-  background-color: #c4d4e0;
-  color: #333;
-}
-
-td.trophy.gold {
-  background-color: #d4af37;
-  color: #333;
-}
-
-td.trophy.silver {
-  background-color: #a8a8a8;
-  color: #333;
-}
-
-td.trophy.bronze {
-  background-color: #945215;
-}
-
-.trophy-name {
-  font-size: 150%;
-  font-style: bold;
-}
-
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -216,3 +179,8 @@ div.cq-header.muppy {
   display: none;
   overflow: hidden;
 } 
+
+td.zebra {
+  vertical-align: middle;
+  padding: 3px;
+}
