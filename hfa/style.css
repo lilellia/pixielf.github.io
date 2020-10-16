@@ -21,6 +21,10 @@ h1 {
   padding-left: 50px;
 }
 
+span.japanese {
+  font-style: normal;
+}
+
 .poem {
     font-family: Montserrat, sans-serif;
     font-style: italic;
