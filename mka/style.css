@@ -220,6 +220,7 @@ table.zebra a {
 
 div.progress-bar-container {
   width: 95%;
+  height: 80%;
   background-color: #eee;
   color: #333;
 }
