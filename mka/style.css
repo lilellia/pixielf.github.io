@@ -217,3 +217,13 @@ table.zebra tr.trophy-obtained {
 table.zebra a {
   color: #333;
 }
+
+div.progress-bar-container {
+  width: 95%;
+  background-color: #eee;
+  color: #333;
+}
+
+div.progress-bar {
+  background-color: #008800;
+}
