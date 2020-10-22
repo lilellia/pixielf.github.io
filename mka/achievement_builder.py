@@ -93,7 +93,7 @@ with open(here / 'achievements.html', 'w') as f:
         <!-- header -->
         <table class="zebra">
             <tr>
-                <td width="10%" style="text-align: center;"><img src="imgs/mk2logo.png" width="95%"></td>
+                <td width="10%" style="text-align: center;"><img src="imgs/mklogo.png" width="95%"></td>
                 <td width="75%"><b style="font-size: 200%;">Mana Khemia: Alchemists of Al-Revis</b></td>
                 <td width="3%"><img src="imgs/complete-icon-{icon}.png"></td>
                 <td width="13%;">{obtained}/{total} trophies obtained</td>
