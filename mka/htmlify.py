@@ -67,15 +67,81 @@ with open(HERE / 'data.html', 'w') as f:
 
     # WRITE RECIPE DATA
     f.write('<h1 id="recipe-data">Recipe Data</h1>')
+
+    # ...usable items
     f.write('''
 <button class="collapsible">Usable Items</button>
-<div class="content" id="recipe-data">
+<div class="content">
 ''')
-
     sql = '''
     SELECT "Item Name", "Effect", "Target", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
     FROM "Item Data"
-    WHERE Category = "Usable"
+    WHERE Category = "Usable" AND "Recipe" IS NOT NULL;
+    '''
+    f.write(database_to_table(DB, sql))
+    f.write('</div>')
+
+    # ...material items
+    f.write('''
+<button class="collapsible">Material Items</button>
+<div class="content">
+''')
+    sql = '''
+    SELECT "Item Name", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+    FROM "Item Data"
+    WHERE Category = "Material" AND "Recipe" IS NOT NULL;
+    '''
+    f.write(database_to_table(DB, sql))
+    f.write('</div>')
+
+    # ...weapons items
+    f.write('''
+<button class="collapsible">Weapons</button>
+<div class="content">
+''')
+    sql = '''
+    SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
+    FROM "Item Data"
+    WHERE Category = "Weapon" AND "Recipe" IS NOT NULL;
+    '''
+    f.write(database_to_table(DB, sql))
+    f.write('</div>')
+
+    # ...armor items
+    f.write('''
+<button class="collapsible">Armor</button>
+<div class="content">
+''')
+    sql = '''
+    SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
+    FROM "Item Data"
+    WHERE Category = "Armor" AND "Recipe" IS NOT NULL;
+    '''
+    f.write(database_to_table(DB, sql))
+    f.write('</div>')
+
+    # ...accessories items
+    f.write('''
+<button class="collapsible">Accessories</button>
+<div class="content">
+''')
+    sql = '''
+    SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+    FROM "Item Data"
+    WHERE Category = "Accessory" AND "Recipe" IS NOT NULL;
+    '''
+    f.write(database_to_table(DB, sql))
+    f.write('</div>')
+
+    # ...key items
+    f.write('''
+<button class="collapsible">Key Items</button>
+<div class="content">
+''')
+    sql = '''
+    SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+    FROM "Item Data"
+    WHERE Category = "Key" AND "Recipe" IS NOT NULL;
     '''
     f.write(database_to_table(DB, sql))
     f.write('</div>')
