@@ -1,1 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/lily/Documents/github.io/pixielf.github.io/mka/mkdata.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2384"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainItemData"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="CharacterQuests" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="82"/><column index="3" value="66"/><column index="4" value="76"/><column index="5" value="300"/><column index="6" value="300"/><column index="7" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="CourseData" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="69"/><column index="3" value="76"/><column index="4" value="171"/><column index="5" value="83"/><column index="6" value="300"/><column index="7" value="60"/><column index="8" value="115"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="EnemyData" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="33"/><column index="2" value="280"/><column index="3" value="50"/><column index="4" value="41"/><column index="5" value="40"/><column index="6" value="65"/><column index="7" value="128"/><column index="8" value="128"/><column index="9" value="134"/><column index="10" value="126"/><column index="11" value="127"/><column index="12" value="117"/><column index="13" value="121"/><column index="14" value="300"/><column index="15" value="255"/><column index="16" value="125"/><column index="17" value="51"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter><filter value="Radiating"/></global_filter></table><table schema="main" name="ItemData" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="33"/><column index="2" value="153"/><column index="3" value="85"/><column index="4" value="111"/><column index="5" value="82"/><column index="6" value="103"/><column index="7" value="96"/><column index="8" value="69"/><column index="9" value="63"/><column index="10" value="80"/><column index="11" value="37"/><column index="12" value="87"/><column index="13" value="76"/><column index="14" value="190"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1"></sql><current_tab id="0"/></tab_sql></sqlb_project>
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/lily/Documents/github.io/pixielf.github.io/mka/mkdata.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1599"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,10:mainEnemy Data"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Character Quests" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="149"/><column index="3" value="66"/><column index="4" value="76"/><column index="5" value="277"/><column index="6" value="360"/><column index="7" value="421"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="CharacterQuests" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="82"/><column index="3" value="66"/><column index="4" value="76"/><column index="5" value="300"/><column index="6" value="300"/><column index="7" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Course Data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="69"/><column index="3" value="76"/><column index="4" value="171"/><column index="5" value="83"/><column index="6" value="300"/><column index="7" value="60"/><column index="8" value="119"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="CourseData" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="69"/><column index="3" value="76"/><column index="4" value="171"/><column index="5" value="83"/><column index="6" value="300"/><column index="7" value="60"/><column index="8" value="115"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats><column index="4" value=""/></display_formats><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Enemy Data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="33"/><column index="2" value="280"/><column index="3" value="50"/><column index="4" value="41"/><column index="5" value="40"/><column index="6" value="65"/><column index="7" value="128"/><column index="8" value="128"/><column index="9" value="57"/><column index="10" value="49"/><column index="11" value="50"/><column index="12" value="41"/><column index="13" value="44"/><column index="14" value="300"/><column index="15" value="255"/><column index="16" value="125"/><column index="17" value="51"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Item Data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="33"/><column index="2" value="153"/><column index="3" value="157"/><column index="4" value="300"/><column index="5" value="300"/><column index="6" value="300"/><column index="7" value="96"/><column index="8" value="69"/><column index="9" value="63"/><column index="10" value="300"/><column index="11" value="37"/><column index="12" value="300"/><column index="13" value="76"/><column index="14" value="190"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="ItemData" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="33"/><column index="2" value="153"/><column index="3" value="157"/><column index="4" value="300"/><column index="5" value="300"/><column index="6" value="300"/><column index="7" value="96"/><column index="8" value="69"/><column index="9" value="63"/><column index="10" value="300"/><column index="11" value="37"/><column index="12" value="300"/><column index="13" value="76"/><column index="14" value="190"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Job Data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="96"/><column index="2" value="69"/><column index="3" value="208"/><column index="4" value="185"/><column index="5" value="70"/><column index="6" value="300"/><column index="7" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Rumor Data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="30"/><column index="2" value="144"/><column index="3" value="300"/><column index="4" value="42"/><column index="5" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;Character Quests&quot; (
+    ID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Episode NUMERIC NOT NULL,
+    Available INTEGER NOT NULL,
+    Hook TEXT NOT NULL,
+    Story TEXT,
+    Description TEXT
+);
+INSERT INTO &quot;Character Quests&quot; SELECT * FROM &quot;CharacterQuests&quot;;
+DROP TABLE &quot;CharacterQuests&quot;;
+
+CREATE TABLE &quot;Enemy Data&quot; (
+    ID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    HP INTEGER,
+    AP INTEGER,
+    Cole INTEGER,
+    Species TEXT,
+    Weak TEXT,
+    Resist TEXT,
+    Poison TEXT,
+    Sleep TEXT,
+    Curse TEXT,
+    Seal TEXT,
+    Slow TEXT,
+    Location TEXT,
+    Spoil TEXT,
+    Snack TEXT,
+    Heart INTEGER
+);
+INSERT INTO &quot;Enemy Data&quot; SELECT * FROM &quot;EnemyData&quot;;
+DROP TABLE &quot;EnemyData&quot;;
+
+CREATE TABLE &quot;Item Data&quot; (
+    ID INTEGER PRIMARY KEY,
+    &quot;Item Name&quot; TEXT NOT NULL,
+    &quot;Recipe Name&quot; TEXT,
+    &quot;Recipe Location&quot; TEXT,
+    &quot;Recipe&quot; TEXT,
+    &quot;Effect&quot; TEXT,
+    &quot;Target&quot; TEXT,
+    &quot;Element&quot; TEXT,
+    &quot;E-Level&quot; INTEGER,
+    &quot;E-Effect&quot; TEXT,
+    &quot;Sell&quot; INTEGER,
+    &quot;Location&quot; TEXT,
+    &quot;Category&quot; TEXT,
+    &quot;Users&quot; TEXT
+);
+INSERT INTO &quot;Item Data&quot; SELECT * FROM &quot;ItemData&quot;;
+DROP TABLE &quot;ItemData&quot;;
+
+CREATE TABLE &quot;Job Data&quot; (
+    &quot;Job Number&quot; INTEGER NOT NULL UNIQUE,
+    &quot;Chapter&quot; INTEGER,
+    &quot;Client&quot; TEXT,
+    &quot;Job Name&quot; TEXT,
+    &quot;Request&quot; TEXT,
+    &quot;Goal&quot; TEXT,
+    &quot;Reward&quot; INTEGER
+);
+INSERT INTO &quot;Job Data&quot; SELECT * FROM &quot;JobData&quot;;
+DROP TABLE &quot;JobData&quot;;
+
+CREATE TABLE &quot;Rumor Data&quot; (
+    ID INTEGER PRIMARY KEY,
+    &quot;Rumor Name&quot; TEXT NOT NULL UNIQUE,
+    &quot;Condition&quot; TEXT,
+    &quot;Cost&quot; INTEGER,
+    &quot;Effect&quot; TEXT
+);
+INSERT INTO &quot;Rumor Data&quot; SELECT * FROM &quot;RumorData&quot;;
+DROP TABLE &quot;RumorTable&quot;;</sql><current_tab id="0"/></tab_sql></sqlb_project>
