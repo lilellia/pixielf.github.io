@@ -17,3 +17,8 @@ table.zebra tr.trophy-obtained {
 table.zebra a {
     color: #333;
 }
+
+.detail {
+    font-style: italic;
+    font-size: 75%;
+}
