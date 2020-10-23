@@ -75,7 +75,7 @@ class Poem:
     def htmlify(self):
         s = io.StringIO()
 
-        s.write(f'<h1 class="poemtitle" id="{self.id}">\n\t{self.title}\n</h1>\n')
+        s.write(f'<h1 class="title poemtitle" id="{self.id}">\n\t{self.title}\n</h1>\n')
         with tag(s, tagname='div', **{'class': 'poem'}):
             for stanza in self.stanzas:
                 with tag(s, tagname='p'):
@@ -123,7 +123,7 @@ with open(HERE / 'hfa.html', 'w+') as f:
 
                 # write each poem
                 navbar = []
-                for path in sorted((HERE / 'poems').iterdir()):
+                for path in sorted((HERE / 'poems').iterdir(), key=lambda p: p.stem.lower()):
                     poem = Poem.from_file(path)
                     navbar.append(poem)
                     f.write(poem.htmlify())
