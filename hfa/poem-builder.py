@@ -87,13 +87,13 @@ class Poem:
 
 def parse(text):
     # handle <ja>...</ja> tags
-    text = re.sub(r'<ja>(.*?)</ja>', '<span class="japanese">\g<1></span>', text)
+    text = re.sub(r'<ja>(.*?)</ja>', r'<span class="japanese">\g<1></span>', text)
 
     # convert *...* to <i>...</i>
-    text = re.sub(r'\*(.*?)\*', '<i>\g<1></i>', text)
+    text = re.sub(r'\*(.*?)\*', r'<i>\g<1></i>', text)
 
     # convert _..._ to underline
-    text = re.sub(r'_(.*?)_', '<span class="underline">\g<1></span>', text)
+    text = re.sub(r'_(.*?)_', r'<span class="underline">\g<1></span>', text)
 
     # handle leading spaces
     text = re.sub(r'^\s+', '&nbsp;&nbsp;', text)
