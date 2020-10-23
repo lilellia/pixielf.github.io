@@ -18,12 +18,12 @@ def bisect_iter(iterable, key=bool):
 def tag(stream, tagname, **kwargs):
     stream.write(f'<{tagname}')
     stream.write(''.join(f' {k}="{v}"' for k, v in kwargs.items()))
-    stream.write('>\n')
+    stream.write('>')
 
     try:
         yield
     finally:
-        stream.write(f'\n</{tagname}>')
+        stream.write(f'</{tagname}>')
 
 
 class Poem:
@@ -129,6 +129,6 @@ with open(HERE / 'hfa.html', 'w+') as f:
                     f.write(poem.htmlify())
 
             # build navbar
-            with tag(f, tagname='div', **{'class': 'navbar'}):
+            with tag(f, tagname='div', **{'class': 'sidenav'}):
                 for poem in navbar:
                     f.write(f"""<a href="#{poem.id}">{poem.title}</a><hr class="navdivider">""")
