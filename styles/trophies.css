@@ -1,0 +1,19 @@
+table.zebra td {
+    border: 0px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+table.zebra tr.trophy-unobtained {
+    background-color: #ccc;
+    color: #333;
+}
+
+table.zebra tr.trophy-obtained {
+    background-color: #90ee90;
+    color: #333;
+}
+
+table.zebra a {
+    color: #333;
+}
