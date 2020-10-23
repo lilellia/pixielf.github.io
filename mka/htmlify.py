@@ -1,5 +1,6 @@
 from operator import itemgetter
 import pathlib
+import re
 import sqlite3
 import typing
 
@@ -12,6 +13,12 @@ def database_to_table(dbfilename: pathlib.Path, sql: str, parameters: typing.Tup
     def _parse(val):
         if val is None:
             return ''
+
+        if isinstance(val, str) and val.startswith('-'):
+            # convert to list
+            li = re.findall(r'-\s*(.*)', val)
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in li) + '</ul>'
+
         return str(val)
 
     def _gen():
