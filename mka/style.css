@@ -1,4 +1,4 @@
-div.cq-header {
+.cq {
   display: flex;
   align-items: center;
   width: 100%;
@@ -8,30 +8,30 @@ div.cq-header {
   margin: 18px 0;
 }
 
-div.cq-header.philo {
+.cq#philo {
   background-color: #FFB6C1;
 }
 
-div.cq-header.nikki {
+.cq#nikki {
   background-color: #EEE8AA;
 }
 
-div.cq-header.pamela {
+.cq#pamela {
   background-color: #D8BFD8;
 }
 
-div.cq-header.flay {
+.cq#flay {
   background-color: #CD5C5C;
 }
 
-div.cq-header.roxis {
+.cq#roxis {
   background-color: #F0E68C;
 }
 
-div.cq-header.anna {
+.cq#anna {
   background-color: #ADD8E6;
 }
 
-div.cq-header.muppy {
+.cq#muppy {
   background-color: #B0C4DE;
 }

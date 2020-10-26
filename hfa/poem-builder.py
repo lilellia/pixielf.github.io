@@ -89,6 +89,9 @@ def parse(text):
     # handle <ja>...</ja> tags
     text = re.sub(r'<ja>(.*?)</ja>', r'<span class="japanese">\g<1></span>', text)
 
+    # convert **...*** to <b>...</b>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\g<1></b>', text)
+
     # convert *...* to <i>...</i>
     text = re.sub(r'\*(.*?)\*', r'<i>\g<1></i>', text)
 

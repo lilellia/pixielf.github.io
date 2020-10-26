@@ -1,3 +1,4 @@
+import html
 from operator import itemgetter
 import pathlib
 import re
@@ -9,10 +10,25 @@ HERE = pathlib.Path(__file__).resolve().parent
 DB = HERE / 'mkdata.db'
 
 
-def database_to_table(dbfilename: pathlib.Path, sql: str, parameters: typing.Tuple[str] = None):
-    def _parse(val):
+def database_to_table(
+    dbfilename: pathlib.Path,
+    sql: str, parameters: typing.Tuple[str] = None,
+    comma_to_list: bool = True,
+    cparse: typing.Callable[[str, str], str] = None
+):
+    def _parse(val, header):
+        if isinstance(val, str):
+            val = html.escape(val, quote=False).replace('\n', '<br/>')
+
+        if cparse:
+            val = cparse(val, header)
+
         if val is None:
             return ''
+
+        if comma_to_list and isinstance(val, str) and ',' in val:
+            # convert to list
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in re.split(r'\s*,\s*', val))
 
         if isinstance(val, str) and val.startswith('-'):
             # convert to list
@@ -33,21 +49,248 @@ def database_to_table(dbfilename: pathlib.Path, sql: str, parameters: typing.Tup
             width = 100 // len(columns)
             yield '<thead>\n<tr>\n'
             for col in columns:
-                yield f'<th style="width: {width}%;">{_parse(col)}</th>'
+                yield f'<th style="width: {width}%;">{_parse(col, col)}</th>'
             yield '</tr></thead>'
 
             # body of table
             yield '<tbody>\n'
             for row in result:
                 yield '<tr>\n'
-                for col in row:
-                    yield f'<td style="width: {width}%;">{_parse(col)}</td>'
+                for col, header in zip(row, columns):
+                    yield f'<td style="width: {width}%;">{_parse(col, header)}</td>'
                 yield '</tr>\n'
             yield '</tbody>'
 
             yield '</table>'
 
     return '\n'.join(_gen())
+
+
+def write_collapsible(
+    header: str, sid: str,
+    dbfilename: pathlib.Path, sql: str, parameters=None,
+    comma_to_list: bool = True, cparse: typing.Callable[[str], str] = None
+):
+    def _gen():
+        yield f'<button class="collapsible">{header}</button>'
+        yield f'<div class="content" id="{sid}">'
+        yield database_to_table(dbfilename, sql, parameters, comma_to_list, cparse)
+        yield '</div>'
+        yield ''
+
+    return '\n'.join(_gen())
+
+
+def write_header(header: str, hid: str, level: int = 1):
+    return f'<h{level} id="{hid}"">{header}</h{level}>'
+
+
+def write_minimal_battles():
+    def _gen():
+        with sqlite3.connect(DB) as conn:
+            cur = conn.cursor()
+            fight_numbers = sorted(set(
+                x[0] for x in cur.execute('SELECT "Fight Number" FROM "Minimal Battles";').fetchall()
+            ))
+
+        for fight in fight_numbers:
+            yield f'<h2>Fight #{fight}</h2>'
+            yield database_to_table(
+                DB,
+                sql="""
+                    SELECT "Count" || "x" AS "Count", "Enemy", "Comment", "HP", "Species", "Weak", "Resist",
+                        "Poison", "Sleep", "Curse", "Seal", "Slow", "Spoil", "Snack", "Heart"
+                    FROM "Minimal Battles"
+                    INNER JOIN "Enemy Data"
+                    ON "Minimal Battles"."Enemy" = "Enemy Data"."Name"
+                    WHERE "Fight Number" = ?
+                """,
+                parameters=(fight,)
+            )
+
+        yield """<p>
+            In order to avoid fighting 「Crazed Eye」, we must avoid inishing a finale character quest and get
+            Vayne's ending. Many non-finale character quests (i.e., Philo I/II/III/IV, Nikki I/II, Pamela I, Roxis
+            I/II/III/IV, Anna I, and Muppy I/II/III) can still be completed. This means that the following character
+            quest trophies can still be obtained on this run:
+        </p>"""
+
+        yield """<div>
+        <!-- header -->
+        <table class="zebra">
+            <tr>
+                <td width="10%" style="text-align: center;"><img src="imgs/gamelogo.png" width="95%"></td>
+                <td width="75%"><b style="font-size: 200%;">Mana Khemia: Alchemists of Al-Revis</b></td>
+                <td width="3%"><img src="../trophies/complete-icon-off.png"></td>
+                <td width="13%;">28/54 trophies obtained</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <img src="../trophies/40-platinum.png"> 0/1
+
+                    <img src="../trophies/40-gold.png"> 2/9
+
+                    <img src="../trophies/40-silver.png"> 3/19
+
+                    <img src="../trophies/40-bronze.png"> 23/25
+
+                </td>
+            </tr>
+        </table>
+        <table class="zebra">
+        <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="imgs/vayne.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>With this space, I wish to...</b><br />
+                        <i>Enact your final wish.</i>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-silver.png" width="90%">
+                </td>
+            </tr>
+
+            <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="imgs/philo.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>Was it... a joke?</b><br />
+                        <i>Learn about Philo's mysterious illness.</i><br /><span class="detail">Complete Philo
+                            III.</span>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-bronze.png" width="90%">
+                </td>
+            </tr>
+            <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="imgs/nikki.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>Hey!</b><br />
+                        <i>Learn how Nikki attracts all the guys.</i><br /><span class="detail">Listen to Nikki's song
+                            in the Workshop Hallway after completing Nikki II.</span>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-bronze.png" width="90%">
+                </td>
+            </tr>
+            <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="imgs/roxis.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>This is... a Mana's...</b><br />
+                        <i>Help Roxis form a contract with the Mana of Light.</i><br /><span class="detail">Complete
+                            Roxis II.</span>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-bronze.png" width="90%">
+                </td>
+            </tr>
+            <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="imgs/muppy.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>...without this alchemy...</b><br />
+                        <i>See Muppy's expulsion overturned and the hostage situation resolved.</i><br /><span
+                            class="detail">Complete Muppy III.</span>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-bronze.png" width="90%">
+                </td>
+            </tr>
+        </table>
+        </div>
+        """
+
+    return '\n'.join(_gen())
+
+
+def write_sound_data():
+    def _gen():
+        yield '<button class="collapsible">SOUND/STREAM Data</button>'
+        yield '<div class="content" id="sound-stream">'
+
+        yield database_to_table(
+                DB,
+                sql="""
+                    SELECT printf("%03d", "Track Number") as "Track Number", "Track Name", "Description"
+                    FROM "Sound Stream"
+                """
+            )
+
+        yield '</div>'
+
+    return '\n'.join(_gen())
+
+
+SQL_LOOKUPS = {
+    'Usable': """
+        SELECT "Item Name", "Effect", "Target", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Usable" AND "Recipe" IS NOT NULL;""",
+
+    'Material': """
+        SELECT "Item Name", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Material" AND "Recipe" IS NOT NULL;
+    """,
+
+    'Weapon': """
+        SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Weapon" AND "Recipe" IS NOT NULL;
+    """,
+
+    'Armor': """
+        SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Armor" AND "Recipe" IS NOT NULL;
+    """,
+
+    'Accessory': """
+        SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Accessory" AND "Recipe" IS NOT NULL;
+    """,
+
+    'Key': """
+        SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
+        FROM "Item Data"
+        WHERE Category = "Key" AND "Recipe" IS NOT NULL;
+    """,
+
+    'Nonsynthesizable': """
+        SELECT "Item Name", "Effect", "Target", "E-Effect", "Sell", "Location", "Category"
+        FROM "Item Data"
+        WHERE "Recipe" IS NULL;
+    """
+}
 
 
 with open(HERE / 'data.html', 'w') as f:
@@ -73,85 +316,109 @@ with open(HERE / 'data.html', 'w') as f:
 ''')
 
     # WRITE RECIPE DATA
-    f.write('<h1 id="recipe-data">Recipe Data</h1>')
+    f.write(write_header('Recipe Data', hid='recipe-data'))
 
-    # ...usable items
-    f.write('''
-<button class="collapsible">Usable Items</button>
-<div class="content">
-''')
-    sql = '''
-    SELECT "Item Name", "Effect", "Target", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Usable" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    for category in ('Usable', 'Material', 'Weapon', 'Armor', 'Accessory'):
+        f.write(write_collapsible(
+            f'{category}', f'{category}-items',
+            dbfilename=DB,
+            sql=SQL_LOOKUPS[category]
+        ))
 
-    # ...material items
-    f.write('''
-<button class="collapsible">Material Items</button>
-<div class="content">
-''')
-    sql = '''
-    SELECT "Item Name", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Material" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    # OTHER DATA
+    f.write(write_header('Other Data', hid='other-data'))
 
-    # ...weapons items
-    f.write('''
-<button class="collapsible">Weapons</button>
-<div class="content">
-''')
-    sql = '''
-    SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Weapon" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    # not synthesized items
+    f.write(write_collapsible(
+        'Nonsynthesizable Items', 'nonsynthesizable-items',
+        dbfilename=DB,
+        sql=SQL_LOOKUPS['Nonsynthesizable']
+    ))
 
-    # ...armor items
-    f.write('''
-<button class="collapsible">Armor</button>
-<div class="content">
-''')
-    sql = '''
-    SELECT "Item Name", "Users", "Effect", "Recipe Location", Recipe, "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Armor" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    # enemy data
+    f.write(write_collapsible(
+        'Enemy Data', 'enemy-data',
+        dbfilename=DB,
+        sql="""
+            SELECT "Name", "HP", "Species", "Weak", "Resist", "Poison", "Sleep", "Curse", "Seal", "Slow",
+            "Location", "Spoil", "Snack", "Heart"
+            FROM "Enemy Data"
+        """
+    ))
 
-    # ...accessories items
-    f.write('''
-<button class="collapsible">Accessories</button>
-<div class="content">
-''')
-    sql = '''
-    SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Accessory" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    # course data
+    f.write(write_collapsible(
+        'Course Data', 'course-data',
+        dbfilename=DB,
+        sql="""
+            SELECT "Course Name", "Required", "Instructor", "Description", "Details", "Provided Items", "Hint"
+            FROM "Course Data"
+        """,
+        cparse=lambda val, header: {'YES': '<img src="imgs/required.png">', 'NO': None}.get(val, val)
+    ))
 
-    # ...key items
+    # job data
+    f.write(write_collapsible(
+        'Job Data', 'job-data',
+        dbfilename=DB,
+        sql="""
+            SELECT "Chapter", printf("%03d", "Job Number") as "Job #", "Job Name", "Client",
+                "Request", "Goal", "Reward"
+            FROM "Job Data"
+            ORDER BY "Chapter", "Job Number"
+        """
+    ))
+
+    # rumor data
+    f.write(write_collapsible(
+        'Gossip Shop', 'rumor-data',
+        dbfilename=DB,
+        sql="""
+            SELECT "Rumor Name", "Condition", "Effect", "Cost"
+            FROM "Rumor Data"
+        """
+    ))
+
+    # minimal battles
     f.write('''
-<button class="collapsible">Key Items</button>
-<div class="content">
+    <button class="collapsible">Minimal Battles (Aww, how cute!)</button>
+    <div class="content" id="aww-how-cute">
+
+    <div>
+        <table class="zebra">
+            <tr>
+                <td width="10%" style="text-align: center;"><img src="imgs/gamelogo.png" width="95%"></td>
+                <td width="75%"><b style="font-size: 200%;">Mana Khemia: Alchemists of Al-Revis</b></td>
+                <td width="3%"><img src="../trophies/complete-icon-off.png"></td>
+                <td width="13%;">28/54 trophies obtained</td>
+            </tr>
+                <tr class="trophy-unobtained">
+                <td width="7%" style="text-align: center;">
+                    <img src="https://tcrf.net/images/e/e6/Mana_Khemia2_A9_Wmap01.png" width="70%">
+                </td>
+                <td width="75%">
+                    <p>
+                        <b>Aww, how cute!</b><br />
+                        <i>Complete the game while entering only 22 battles and defeating only 46
+                            enemies.</i><br /><span class="detail">Enter only the 22 required battles and defeat only
+                            those enemies which must be defeated.
+                            Summoned enemies must be prevented when possible.</span>
+                    </p>
+                </td>
+                <td width="15%" style="text-align: center;">
+
+                </td>
+                <td width="3%">
+                    <img src="../trophies/40-gold.png" width="90%">
+                </td>
+            </tr>
+        </table>
+    </div>
 ''')
-    sql = '''
-    SELECT "Item Name", "Effect", "Recipe Location", Recipe, "E-Effect", "Sell", "Location"
-    FROM "Item Data"
-    WHERE Category = "Key" AND "Recipe" IS NOT NULL;
-    '''
-    f.write(database_to_table(DB, sql))
-    f.write('</div>')
+    f.write(write_minimal_battles())
+
+    # SOUND/STREAM Data
+    f.write(write_sound_data())
 
     f.write('</body>')
 
@@ -171,3 +438,48 @@ with open(HERE / 'data.html', 'w') as f:
     }
 </script>''')
     f.write('</html>')
+
+
+############################
+# write character quests ###
+############################
+def write_cq(character):
+    return write_collapsible(
+        character, f'{character.lower()}-cq',
+        dbfilename=DB,
+        sql="""
+            SELECT "Episode", "Chapter " || "Available" AS "Available", "Hook", "Story", "Description"
+            FROM "Character Quests"
+            WHERE "Name" = ?
+            ORDER BY "Episode"
+        """,
+        parameters=(character,),
+        comma_to_list=False
+    )
+
+
+with open(HERE / 'character-quests.html', 'w+') as f:
+    f.write("""
+    <html>
+
+<head>
+    <title>
+        MK: Character Quests
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="../styles/base-style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+</head>
+
+<body style="font-family: Montserrat, sans-serif;">
+    """)
+
+    for character in ('Philo', 'Nikki', 'Pamela', 'Flay', 'Roxis', 'Anna', 'Muppy'):
+        f.write(write_cq(character))
+
+    f.write("""
+    </body>
+
+</html>""")
