@@ -75,11 +75,12 @@ def write_collapsible(
     comma_to_list: bool = True, cparse: typing.Callable[[str], str] = None, class_=None
 ):
     def _gen():
-        yield f'<button class="collapsible">{header}</button>'
         if class_:
-            yield f'<div class="content" id="{sid}" class="{class_}">'
+            yield f'<button class="collapsible" class="{class_}">{header}</button>'
         else:
-            yield f'<div class="content" id="{sid}">'
+            yield f'<button class="collapsible">{header}</button>'
+            
+        yield f'<div class="content" id="{sid}">'
         yield database_to_table(dbfilename, sql, parameters, comma_to_list, cparse)
         yield '</div>'
         yield ''
