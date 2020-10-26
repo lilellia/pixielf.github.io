@@ -1,0 +1,66 @@
+{
+    "Usable": [
+        "SELECT \"Item Name\", \"Effect\", \"Target\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Usable\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Material": [
+        "SELECT \"Item Name\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Material\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Weapon": [
+        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Weapon\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Armor": [
+        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Armor\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Accessory": [
+        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Accessory\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Key": [
+        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Key\" AND \"Recipe\" IS NOT NULL;",
+        true
+    ],
+
+    "Nonsynthesizable Item": [
+        "SELECT \"Item Name\", \"Effect\", \"Target\", \"E-Effect\", \"Sell\", \"Location\", \"Category\" FROM \"Item Data\" WHERE \"Recipe\" IS NULL;",
+        true
+    ],
+
+    "Enemy": [
+        "SELECT \"Name\", \"HP\", \"Species\", \"Weak\", \"Resist\", \"Poison\", \"Sleep\", \"Curse\", \"Seal\", \"Slow\", \"Location\", \"Spoil\", \"Snack\", \"Heart\" FROM \"Enemy Data\";",
+        true
+    ],
+
+    "Course": [
+        "SELECT \"Course Name\" || (CASE \"Required\" WHEN \"YES\" THEN ' <img src=\"imgs/required.png\">' WHEN \"NO\" THEN \"\" END) AS \"Course\", \"Instructor\", \"Description\", \"Details\", \"Provided Items\", \"Hint\" FROM \"Course Data\";",
+        true
+    ],
+
+    "Job": [
+        "SELECT \"Chapter\", printf(\"%03d\", \"Job Number\") AS \"Job #\", \"Job Name\", \"Client\", \"Request\", \"Goal\", \"Reward\" FROM \"Job Data\" ORDER BY \"Chapter\", \"Job Number\";",
+        true
+    ],
+
+    "Gossip Shop": [
+        "SELECT \"Rumor Name\", \"Condition\", \"Effect\", \"Cost\" FROM \"Rumor Data\";",
+        false
+    ],
+
+    "SOUND-STREAM": [
+        "SELECT printf(\"%03d\", \"Track Number\") AS \"Track #\", \"Track Name\", \"Description\" FROM \"Sound Stream\";",
+        false
+    ],
+
+    "Character Quest": [
+        "SELECT \"Episode\", \"Chapter\" || \"Available\" AS \"Available\", \"Hook\", \"Story\", \"Description\" FROM \"Character Quests\" WHERE \"Name\" = ? ORDER BY \"Episode\";",
+        false
+    ]
+}
