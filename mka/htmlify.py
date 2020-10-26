@@ -426,7 +426,7 @@ with open(HERE / 'data.html', 'w') as f:
 ############################
 def write_cq(character):
     return write_collapsible(
-        f'<img src="imgs/{character.lower()}.png"> {character}', f'{character.lower()}-cq',
+        f'<img src="imgs/{character.lower()}.png" width="100"> {character}', f'{character.lower()}-cq',
         dbfilename=DB,
         sql="""
             SELECT "Episode", "Chapter " || "Available" AS "Available", "Hook", "Story", "Description"
