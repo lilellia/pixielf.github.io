@@ -172,15 +172,21 @@ def write_minimal_battles(w: HTMLWriter):
 
         for f in range(1, 23):
             sql = """
-                SELECT "Chapter", "Week"
+                SELECT "Chapter", "Week", "Context"
                 FROM "Minimal Battles"
                 WHERE "Fight Number" = ?;
             """
             columns, records = db_query(DB, sql=sql, args=(f,))
-            chapter, week = records[0]
+            chapter, week, context = records[0]
 
             with w.wraptag('h2'):
-                w.write(f'Fight #{f:02} (C{chapter}W{week})')
+                w.write(f'Fight #{f:02}')
+
+            with w.wraptag('p'):
+                with w.wraptag('b'):
+                    w.write(f'Chapter {chapter}, Week {week}')
+                w.write('<br/>')
+                w.write(context)
 
             sql = """
                 SELECT "Enemy" || (CASE "Count" WHEN "1" THEN " " ELSE " [x" || "Count" || "]" END) AS "Enemy",
