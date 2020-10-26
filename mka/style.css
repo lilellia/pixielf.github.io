@@ -8,6 +8,14 @@
   margin: 18px 0;
 }
 
+button.cq-vayne {
+  background-color: #A0C5D7;
+}
+
+.cq-vayne td.even {
+  background-color: #A0C5D7;
+}
+
 button.cq-philo {
   background-color: #FFB6C1;
 }
@@ -62,4 +70,20 @@ button.cq-muppy {
 
 .cq-muppy td.even {
   background-color: #B0C4DE;
+}
+
+td.cqe-icon {
+  width: 15%;
+  border: 0pt;
+}
+
+td.cqe-dialogue {
+  width: 85%;
+  border: 0pt;
+}
+
+td.cqe-stage-dir {
+  width: 85%;
+  font-style: italic;
+  border: 0pt;
 }

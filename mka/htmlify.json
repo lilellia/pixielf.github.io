@@ -1,31 +1,31 @@
 {
     "Usable": [
-        "SELECT \"Item Name\", \"Effect\", \"Target\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Usable\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Effect\", \"Target\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\" FROM \"Item Data\" WHERE Category = \"Usable\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
     "Material": [
-        "SELECT \"Item Name\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Material\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\" FROM \"Item Data\" WHERE Category = \"Material\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
     "Weapon": [
-        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Weapon\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\" FROM \"Item Data\" WHERE Category = \"Weapon\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
     "Armor": [
-        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Armor\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Users\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\" FROM \"Item Data\" WHERE Category = \"Armor\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
     "Accessory": [
-        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Accessory\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\" FROM \"Item Data\" WHERE Category = \"Accessory\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
     "Key": [
-        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"E-Effect\", \"Sell\", \"Location\" FROM \"Item Data\" WHERE Category = \"Key\" AND \"Recipe\" IS NOT NULL;",
+        "SELECT \"Item Name\", \"Effect\", \"Recipe Location\", Recipe, \"Sell\" FROM \"Item Data\" WHERE Category = \"Key\" AND \"Recipe\" IS NOT NULL;",
         true
     ],
 
@@ -60,7 +60,12 @@
     ],
 
     "Character Quest": [
-        "SELECT \"Episode\", \"Chapter\" || \"Available\" AS \"Available\", \"Hook\", \"Story\", \"Description\" FROM \"Character Quests\" WHERE \"Name\" = ? ORDER BY \"Episode\";",
+        "SELECT \"Episode\", \"Chapter \" || \"Available\" AS \"Available\", \"Hook\", \"Story\", \"Description\" FROM \"Character Quests\" WHERE \"Name\" = ? ORDER BY \"Episode\";",
+        false
+    ],
+
+    "Character Ending": [
+        "SELECT Speaker, Line FROM \"Character Ending Scenes\" WHERE Ending = ? ORDER BY \"Line Number\";",
         false
     ]
 }

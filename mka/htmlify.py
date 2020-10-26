@@ -72,6 +72,28 @@ class HTMLWriter:
             finally:
                 pass
 
+    @staticmethod
+    def _parse(value, comma_to_list: bool = True):
+        if isinstance(value, str):
+            value = html.escape(value, quote=False)
+
+        if value is None:
+            return ''
+
+        if not isinstance(value, str):
+            return str(value)
+
+        if value.startswith('-'):
+            # convert to list
+            _, *items = re.split(r'\s+-\s+', value)
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
+
+        if comma_to_list and ',' in value:
+            items = re.split(r'\s*,\s*', value)
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
+
+        return '\n'.join(f'<p>{line}</p>' for line in value.splitlines())
+
     def database_query(
         self,
         db: pathlib.Path,
@@ -79,27 +101,6 @@ class HTMLWriter:
         args: Optional[Tuple[str]] = None,
         comma_to_list: bool = True
     ):
-        def _parse(value):
-            if isinstance(value, str):
-                value = html.escape(value, quote=False)
-
-            if value is None:
-                return ''
-
-            if not isinstance(value, str):
-                return str(value)
-
-            if value.startswith('-'):
-                # convert to list
-                _, *items = re.split(r'\s+-\s+', value)
-                return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
-
-            if comma_to_list and ',' in value:
-                items = re.split(r'\s*,\s*', value)
-                return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
-
-            return '\n'.join(f'<p>{line}</p>' for line in value.splitlines())
-
         columns, records = db_query(DB, sql, args or tuple())
         with self.wraptag('table', style='width: 100%;'):
             each, marginal = divmod(100, len(columns))
@@ -110,7 +111,7 @@ class HTMLWriter:
                     for i, colhead in enumerate(columns):
                         w = (each + marginal) if i == 0 else each
                         with self.wraptag('th', style=f'width: {w}%;'):
-                            self.write(_parse(colhead))
+                            self.write(self._parse(colhead, comma_to_list=comma_to_list))
 
             # table body
             with self.wraptag('tbody'):
@@ -120,7 +121,7 @@ class HTMLWriter:
                         for j, val in enumerate(row):
                             w = (each + marginal) if j == 0 else each
                             with self.wraptag('td', class_=parity, style=f'width: {w}%;'):
-                                self.write(_parse(val))
+                                self.write(self._parse(val, comma_to_list=comma_to_list))
 
     def allow_collapsible(self):
         with self.wraptag('script'):
@@ -347,6 +348,29 @@ def write_data():
     w.export_to(HERE / 'data.html')
 
 
+def write_endings(w: HTMLWriter, character: str):
+    sql, ctl = SQL_LOOKUPS['Character Ending']
+    _, records = db_query(DB, sql, args=(character,))
+
+    def _write_row(icon, text):
+        with w.wraptag('td', class_='cqe-icon'):
+            w.write(icon or '')
+
+        s = 'dialogue' if icon else 'stage-dir'
+        with w.wraptag('td', class_=f'cqe-{s}'):
+            w.write(text)
+
+    with w.wraptag('div'):
+        with w.wraptag('table', style='width: 100%;'):
+            for speaker, line in records:
+                if speaker and pathlib.Path(HERE / f'imgs/{speaker.lower()}.png').exists():
+                    speaker = f'<img src="imgs/{speaker.lower()}.png" width="75">"'
+
+                with w.wraptag('tr'):
+                    text = w._parse(line, comma_to_list=False)
+                    _write_row(speaker, text)
+
+
 def write_character_quests():
     w = HTMLWriter()
 
@@ -369,8 +393,24 @@ def write_character_quests():
                     header=f'<img src="imgs/{char.lower()}.png" width="100"> {char}',
                     class_=f'cq-{char.lower()}', id_=f'cq-{char.lower()}'
                 ):
+                    with w.wraptag('h2'):
+                        w.write('CQ Episodes')
                     sql, ctl = SQL_LOOKUPS['Character Quest']
                     w.database_query(DB, sql, args=(char,), comma_to_list=ctl)
+
+                    with w.wraptag('h2'):
+                        w.write('Ending')
+                    write_endings(w, character=char)
+
+            # add Vayne ending
+            char = 'Vayne'
+            with w.collapsible(
+                    header=f'<img src="imgs/{char.lower()}.png" width="100"> {char}',
+                    class_=f'cq-{char.lower()}', id_=f'cq-{char.lower()}'
+            ):
+                with w.wraptag('h2'):
+                    w.write('Ending')
+                write_endings(w, character=char)
 
     w.allow_collapsible()
     w.export_to(HERE / 'character-quests.html')
