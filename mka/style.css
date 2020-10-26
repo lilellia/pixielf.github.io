@@ -8,30 +8,58 @@
   margin: 18px 0;
 }
 
-.cq-philo {
+button.cq-philo {
   background-color: #FFB6C1;
 }
 
-.cq-nikki {
+.cq-philo td.even {
+  background-color: #FFB6C1;
+}
+
+button.cq-nikki {
   background-color: #EEE8AA;
 }
 
-.cq-pamela {
+.cq-nikki td.even {
+  background-color: #EEE8AA;
+}
+
+button.cq-pamela {
   background-color: #D8BFD8;
 }
 
-.cq-flay {
+.cq-pamela td.even {
+  background-color: #D8BFD8;
+}
+
+button.cq-flay {
   background-color: #CD5C5C;
 }
 
-.cq-roxis {
+.cq-flay td.even {
+  background-color: #CD5C5C;
+}
+
+button.cq-roxis {
   background-color: #F0E68C;
 }
 
-.cq-anna {
+.cq-roxis td.even {
+  background-color: #F0E68C;
+}
+
+button.cq-anna {
   background-color: #ADD8E6;
 }
 
-.cq-muppy {
+.cq-anna td.even {
+  background-color: #ADD8E6;
+}
+
+button.cq-muppy {
+  background-color: #B0C4DE;
+}
+
+.cq-muppy td.even {
   background-color: #B0C4DE;
 }
