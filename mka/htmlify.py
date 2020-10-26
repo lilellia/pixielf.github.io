@@ -48,6 +48,11 @@ class HTMLWriter:
 
     @contextlib.contextmanager
     def collapsible(self, header: str, class_: str = None, id_: str = None):
+        if class_:
+            class_ = f'collapsible {class_}'
+        else:
+            class_ = 'collapsible'
+
         with self.wraptag('button', class_=class_, id=id_):
             self.write(header)
 
@@ -131,7 +136,7 @@ class HTMLWriter:
             ''')
 
 
-SQL_LOOKUPS = json.loads((HERE / 'rehtmlify.json').read_text())
+SQL_LOOKUPS = json.loads((HERE / 'htmlify.json').read_text())
 
 
 def write_minimal_battles(w: HTMLWriter):
