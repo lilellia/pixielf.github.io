@@ -54,10 +54,11 @@ def database_to_table(
 
             # body of table
             yield '<tbody>\n'
-            for row in result:
+            for i, row in enumerate(result, start=1):
+                parity = 'even' if i % 2 == 0 else 'odd'
                 yield '<tr>\n'
                 for col, header in zip(row, columns):
-                    yield f'<td style="width: {width}%;">{_parse(col, header)}</td>'
+                    yield f'<td class="{parity}" style="width: {width}%;">{_parse(col, header)}</td>'
                 yield '</tr>\n'
             yield '</tbody>'
 
@@ -220,7 +221,8 @@ def write_sound_data():
                 sql="""
                     SELECT printf("%03d", "Track Number") as "Track Number", "Track Name", "Description"
                     FROM "Sound Stream"
-                """
+                """,
+                comma_to_list=False
             )
 
         yield '</div>'
