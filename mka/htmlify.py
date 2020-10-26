@@ -76,7 +76,7 @@ def write_collapsible(
 ):
     def _gen():
         if class_:
-            yield f'<button class="collapsible" class="{class_}">{header}</button>'
+            yield f'<button class="collapsible {class_}">{header}</button>'
         else:
             yield f'<button class="collapsible">{header}</button>'
             
