@@ -12,6 +12,15 @@ HERE = pathlib.Path(__file__).resolve().parent
 DB = HERE / 'mkdata.db'
 
 
+def db_query(database: pathlib.Path, sql: str, args: Optional[Tuple[str]] = None):
+    with sqlite3.connect(database) as conn:
+        c = conn.cursor()
+        records = c.execute(sql, args or tuple())
+        columns = tuple(z[0] for z in records.description)
+
+        return columns, tuple(records)
+
+
 class HTMLWriter:
     def __init__(self):
         self._stream = io.StringIO()
@@ -91,32 +100,27 @@ class HTMLWriter:
 
             return '\n'.join(f'<p>{line}</p>' for line in value.splitlines())
 
-        with sqlite3.connect(db) as conn:
-            c = conn.cursor()
+        columns, records = db_query(DB, sql, args or tuple())
+        with self.wraptag('table', style='width: 100%;'):
+            each, marginal = divmod(100, len(columns))
 
-            result = c.execute(sql, args or tuple())
-            columns = tuple(z[0] for z in result.description)
+            # table header
+            with self.wraptag('thead'):
+                with self.wraptag('tr'):
+                    for i, colhead in enumerate(columns):
+                        w = (each + marginal) if i == 0 else each
+                        with self.wraptag('th', style=f'width: {w}%;'):
+                            self.write(_parse(colhead))
 
-            with self.wraptag('table', style='width: 100%;'):
-                each, marginal = divmod(100, len(columns))
-
-                # table header
-                with self.wraptag('thead'):
+            # table body
+            with self.wraptag('tbody'):
+                for i, row in enumerate(records, start=1):
+                    parity = 'even' if i % 2 == 0 else 'odd'
                     with self.wraptag('tr'):
-                        for i, colhead in enumerate(columns):
-                            w = (each + marginal) if i == 0 else each
-                            with self.wraptag('th', style=f'width: {w}%;'):
-                                self.write(_parse(colhead))
-
-                # table body
-                with self.wraptag('tbody'):
-                    for i, row in enumerate(result, start=1):
-                        parity = 'even' if i % 2 == 0 else 'odd'
-                        with self.wraptag('tr'):
-                            for j, val in enumerate(row):
-                                w = (each + marginal) if j == 0 else each
-                                with self.wraptag('td', class_=parity, style=f'width: {w}%;'):
-                                    self.write(_parse(val))
+                        for j, val in enumerate(row):
+                            w = (each + marginal) if j == 0 else each
+                            with self.wraptag('td', class_=parity, style=f'width: {w}%;'):
+                                self.write(_parse(val))
 
     def allow_collapsible(self):
         with self.wraptag('script'):
@@ -167,8 +171,16 @@ def write_minimal_battles(w: HTMLWriter):
         ''')
 
         for f in range(1, 23):
+            sql = """
+                SELECT "Chapter", "Week"
+                FROM "Minimal Battles"
+                WHERE "Fight Number" = ?;
+            """
+            columns, records = db_query(DB, sql=sql, args=(f,))
+            chapter, week = records[0]
+
             with w.wraptag('h2'):
-                w.write(f'Fight #{f:02}')
+                w.write(f'Fight #{f:02} (C{chapter}W{week})')
 
             sql = """
                 SELECT "Enemy" || (CASE "Count" WHEN "1" THEN " " ELSE " [x" || "Count" || "]" END) AS "Enemy",
