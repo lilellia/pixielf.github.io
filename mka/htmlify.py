@@ -91,7 +91,7 @@ class HTMLWriter:
 
             if value.startswith('-'):
                 # convert to list
-                _, *items = value.split('-')
+                _, *items = re.split(r'\s+-\s+', value)
                 return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
 
             if comma_to_list and ',' in value:
