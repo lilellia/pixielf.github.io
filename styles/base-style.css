@@ -50,7 +50,7 @@ img.icon {
 }
 
 table td {
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     vertical-align: middle;
     padding: 3px;
     font-size: 90%;
@@ -62,7 +62,7 @@ td.even {
 }
 
 td.odd {
-    background-color: #E6E6FA;
+    background-color: #FFFFFF;
     color: #333;
 }
 
@@ -80,12 +80,6 @@ td.odd {
     outline: none;
     font-size: 150%;
     font-style: bold;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
-.active, .collapsible:hover {
-    background-color: #ccc;
 }
 
 /* Style the collapsible content. Note: hidden by default */

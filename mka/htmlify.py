@@ -79,7 +79,7 @@ def write_collapsible(
             yield f'<button class="collapsible {class_}">{header}</button>'
         else:
             yield f'<button class="collapsible">{header}</button>'
-            
+
         yield f'<div class="content" id="{sid}">'
         yield database_to_table(dbfilename, sql, parameters, comma_to_list, cparse)
         yield '</div>'
