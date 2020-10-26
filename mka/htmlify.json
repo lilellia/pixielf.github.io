@@ -35,12 +35,12 @@
     ],
 
     "Enemy": [
-        "SELECT \"Name\", \"HP\", \"Species\", \"Weak\", \"Resist\", \"Poison\", \"Sleep\", \"Curse\", \"Seal\", \"Slow\", \"Location\", \"Spoil\", \"Snack\", \"Heart\" FROM \"Enemy Data\";",
+        "SELECT Name, HP, Species, Weak, Resist, TRIM((CASE WHEN Poison IS NULL THEN \"\" ELSE 'Poison, ' END) || (CASE WHEN Sleep IS NULL THEN \"\" ELSE 'Sleep, ' END) || (CASE WHEN Curse IS NULL THEN \"\" ELSE 'Curse, ' END) || (CASE WHEN Seal IS NULL THEN \"\" ELSE 'Seal, ' END) || (CASE WHEN Slow IS NULL THEN \"\" ELSE 'Slow' END), \" ,\") AS Protections, Location, Spoil, Snack, Heart FROM \"Enemy Data\";",
         true
     ],
 
     "Course": [
-        "SELECT \"Course Name\" || (CASE \"Required\" WHEN \"YES\" THEN ' <img src=\"imgs/required.png\">' WHEN \"NO\" THEN \"\" END) AS \"Course\", \"Instructor\", \"Description\", \"Details\", \"Provided Items\", \"Hint\" FROM \"Course Data\";",
+        "SELECT \"Course Name\" || (CASE \"Required\" WHEN \"YES\" THEN ' <img src=\"imgs/required.png\">' WHEN \"NO\" THEN '' END) AS \"Course\", \"Instructor\", \"Description\", \"Details\", \"Provided Items\", \"Hint\" FROM \"Course Data\";",
         true
     ],
 

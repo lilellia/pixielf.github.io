@@ -191,7 +191,13 @@ def write_minimal_battles(w: HTMLWriter):
             sql = """
                 SELECT "Enemy" || (CASE "Count" WHEN "1" THEN " " ELSE " [x" || "Count" || "]" END) AS "Enemy",
                     "Comment", "HP", "Species", "Weak", "Resist",
-                    "Poison", "Sleep", "Curse", "Seal", "Slow",
+                    TRIM(
+                           (CASE WHEN Poison IS NULL THEN "" ELSE 'Poison, '	END)
+                        || (CASE WHEN Sleep IS NULL THEN "" ELSE 'Sleep, ' END)
+                        || (CASE WHEN Curse IS NULL THEN "" ELSE 'Curse, ' END)
+                        || (CASE WHEN Seal IS NULL THEN "" ELSE 'Seal, ' END)
+                        || (CASE WHEN Slow IS NULL THEN "" ELSE 'Slow' END)
+                    , " ,") AS "Protections",
                     "Spoil", "Snack", "Heart"
                 FROM "Minimal Battles" INNER JOIN "Enemy Data" ON "Minimal Battles"."Enemy" = "Enemy Data"."Name"
                 WHERE "Fight Number" = ?;
