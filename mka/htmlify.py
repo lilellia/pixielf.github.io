@@ -43,7 +43,7 @@ def database_to_table(
             result = cur.execute(sql, parameters or tuple())
             columns = tuple(map(itemgetter(0), result.description))
 
-            yield '<table>\n'
+            yield '<table style="width: 100%;">\n'
 
             # table header
             width = 100 // len(columns)
@@ -116,28 +116,6 @@ def write_minimal_battles():
         </p>"""
 
         yield """<div>
-        <!-- header -->
-        <table class="zebra">
-            <tr>
-                <td width="10%" style="text-align: center;"><img src="imgs/gamelogo.png" width="95%"></td>
-                <td width="75%"><b style="font-size: 200%;">Mana Khemia: Alchemists of Al-Revis</b></td>
-                <td width="3%"><img src="../trophies/complete-icon-off.png"></td>
-                <td width="13%;">28/54 trophies obtained</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <img src="../trophies/40-platinum.png"> 0/1
-
-                    <img src="../trophies/40-gold.png"> 2/9
-
-                    <img src="../trophies/40-silver.png"> 3/19
-
-                    <img src="../trophies/40-bronze.png"> 23/25
-
-                </td>
-            </tr>
-        </table>
         <table class="zebra">
         <tr class="trophy-unobtained">
                 <td width="7%" style="text-align: center;">
@@ -225,6 +203,7 @@ def write_minimal_battles():
                 </td>
             </tr>
         </table>
+        </div>
         </div>
         """
 
@@ -318,7 +297,7 @@ with open(HERE / 'data.html', 'w') as f:
     # WRITE RECIPE DATA
     f.write(write_header('Recipe Data', hid='recipe-data'))
 
-    for category in ('Usable', 'Material', 'Weapon', 'Armor', 'Accessory'):
+    for category in ('Usable', 'Material', 'Weapon', 'Armor', 'Accessory', 'Key'):
         f.write(write_collapsible(
             f'{category}', f'{category}-items',
             dbfilename=DB,
@@ -386,12 +365,6 @@ with open(HERE / 'data.html', 'w') as f:
 
     <div>
         <table class="zebra">
-            <tr>
-                <td width="10%" style="text-align: center;"><img src="imgs/gamelogo.png" width="95%"></td>
-                <td width="75%"><b style="font-size: 200%;">Mana Khemia: Alchemists of Al-Revis</b></td>
-                <td width="3%"><img src="../trophies/complete-icon-off.png"></td>
-                <td width="13%;">28/54 trophies obtained</td>
-            </tr>
                 <tr class="trophy-unobtained">
                 <td width="7%" style="text-align: center;">
                     <img src="https://tcrf.net/images/e/e6/Mana_Khemia2_A9_Wmap01.png" width="70%">
@@ -483,3 +456,20 @@ with open(HERE / 'character-quests.html', 'w+') as f:
     </body>
 
 </html>""")
+
+    f.write('''
+<script>
+    let collapsible = document.getElementsByClassName("collapsible");
+    for (let i = 0; i < collapsible.length; i++) {
+        collapsible[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>''')
+    f.write('</html>')
