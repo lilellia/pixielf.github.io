@@ -77,8 +77,10 @@ def write_collapsible(
     def _gen():
         if class_:
             yield f'<button class="collapsible {class_}">{header}</button>'
+            yield f'<div class="content {class_}" id="{sid}">'
         else:
             yield f'<button class="collapsible">{header}</button>'
+            yield f'<div class="content" id="{sid}">'
 
         yield f'<div class="content" id="{sid}">'
         yield database_to_table(dbfilename, sql, parameters, comma_to_list, cparse)
