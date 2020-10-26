@@ -49,11 +49,11 @@ class HTMLWriter:
     @contextlib.contextmanager
     def collapsible(self, header: str, class_: str = None, id_: str = None):
         if class_:
-            class_ = f'collapsible {class_}'
+            btn_class_ = f'collapsible {class_}'
         else:
-            class_ = 'collapsible'
+            btn_class_ = 'collapsible'
 
-        with self.wraptag('button', class_=class_, id=id_):
+        with self.wraptag('button', class_=btn_class_, id=id_):
             self.write(header)
 
         class_ = f'content {class_}' if class_ else 'content'
