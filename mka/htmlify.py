@@ -18,7 +18,7 @@ def database_to_table(
 ):
     def _parse(val, header):
         if isinstance(val, str):
-            val = html.escape(val, quote=False).replace('\n', '<br/>')
+            val = html.escape(val, quote=False)
 
         if cparse:
             val = cparse(val, header)
@@ -26,16 +26,18 @@ def database_to_table(
         if val is None:
             return ''
 
-        if comma_to_list and isinstance(val, str) and ',' in val:
-            # convert to list
-            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in re.split(r'\s*,\s*', val))
+        if not isinstance(val, str):
+            return str(val)
 
-        if isinstance(val, str) and val.startswith('-'):
+        if val.startswith('-'):
             # convert to list
-            li = re.findall(r'-\s*(.*)', val)
-            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in li) + '</ul>'
+            _, *items = val.split('-')
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in items) + '</ul>'
+        elif comma_to_list and ',' in val:
+            # convert to list
+            return '<ul>' + '\n'.join(f'<li>{x}</li>' for x in re.split(r'\s*,\s*', val)) + '</ul>'
 
-        return str(val)
+        return '\n'.join(f'<p>{line}</p>' for line in val.splitlines())
 
     def _gen():
         with sqlite3.connect(dbfilename) as conn:
@@ -70,11 +72,14 @@ def database_to_table(
 def write_collapsible(
     header: str, sid: str,
     dbfilename: pathlib.Path, sql: str, parameters=None,
-    comma_to_list: bool = True, cparse: typing.Callable[[str], str] = None
+    comma_to_list: bool = True, cparse: typing.Callable[[str], str] = None, class_=None
 ):
     def _gen():
         yield f'<button class="collapsible">{header}</button>'
-        yield f'<div class="content" id="{sid}">'
+        if class_:
+            yield f'<div class="content" id="{sid}" class="{class_}">'
+        else:
+            yield f'<div class="content" id="{sid}">'
         yield database_to_table(dbfilename, sql, parameters, comma_to_list, cparse)
         yield '</div>'
         yield ''
@@ -420,7 +425,7 @@ with open(HERE / 'data.html', 'w') as f:
 ############################
 def write_cq(character):
     return write_collapsible(
-        character, f'{character.lower()}-cq',
+        f'<img src="imgs/{character.lower()}.png"> {character}', f'{character.lower()}-cq',
         dbfilename=DB,
         sql="""
             SELECT "Episode", "Chapter " || "Available" AS "Available", "Hook", "Story", "Description"
@@ -429,7 +434,8 @@ def write_cq(character):
             ORDER BY "Episode"
         """,
         parameters=(character,),
-        comma_to_list=False
+        comma_to_list=False,
+        class_=f'cq-{character.lower()}'
     )
 
 
