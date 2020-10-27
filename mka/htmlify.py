@@ -363,8 +363,8 @@ def write_endings(w: HTMLWriter, character: str):
     with w.wraptag('div'):
         with w.wraptag('table', style='width: 100%;'):
             for speaker, line in records:
-                if speaker and pathlib.Path(HERE / f'imgs/{speaker.lower()}.png').exists():
-                    speaker = f'<img src="imgs/{speaker.lower()}.png" width="75">'
+                if (HERE / (p := f'imgs/{speaker}.png'.lower().replace(' ', '-'))).exists():
+                    speaker = f'<img src="{p}" width="75">'
 
                 with w.wraptag('tr'):
                     text = w._parse(line, comma_to_list=False)
