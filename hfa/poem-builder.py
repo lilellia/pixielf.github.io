@@ -5,6 +5,8 @@ import pathlib
 import re
 from typing import List
 
+import poem_helpers
+
 
 HERE = pathlib.Path(__file__).parent
 
@@ -60,15 +62,15 @@ class Poem:
             # ignore blank lines at the start
             pass
 
-        lines = list(lines)
+        lines = [line] + list(lines)
 
         while lines:
+            line = lines.pop(0)
+
             if (line := line.rstrip()):
                 stanzas[-1].append(parse(line))
             else:
                 stanzas.append([])
-
-            line = lines.pop(0)
 
         return cls(title=title, id=poemid[0], stanzas=stanzas)
 
@@ -129,7 +131,11 @@ with open(HERE / 'hfa.html', 'w+') as f:
                 for path in sorted((HERE / 'poems').iterdir(), key=lambda p: p.stem.lower()):
                     poem = Poem.from_file(path)
                     navbar.append(poem)
-                    f.write(poem.htmlify())
+
+                    html = poem.htmlify()
+                    if (r := poem_helpers.HELPERS.get(poem.title)):
+                        html = r(html)
+                    f.write(html)
 
             # build navbar
             with tag(f, tagname='div', **{'class': 'sidenav'}):
