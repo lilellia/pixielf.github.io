@@ -8,18 +8,18 @@ def darkness(html: str):
     This function intercepts the htmlification and appends the necessary HTML/JS to accompany it.
     """
     necessary = """\
-<table>
+<table style="width: 100%;">
     <tr>
-        <td>
-            <img src="../mka/imgs/philo.png" weight="30" onmouseover="changeEnding('philo')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/nikki.png" weight="30" onmouseover="changeEnding('nikki')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/pamela.png" weight="30" onmouseover="changeEnding('pamela')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/flay.png" weight="30" onmouseover="changeEnding('flay')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/roxis.png" weight="30" onmouseover="changeEnding('roxis')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/anna.png" weight="30" onmouseover="changeEnding('anna')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/muppy.png" weight="30" onmouseover="changeEnding('muppy')" onmouseout="changeEnding(null)"><br/>
+        <td style="width: 5%; border: none;">
+            <img src="../mka/imgs/philo.png" width="4%" onmouseover="changeEnding('philo')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/nikki.png" width="4%" onmouseover="changeEnding('nikki')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/pamela.png" width="4%" onmouseover="changeEnding('pamela')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/flay.png" width="4%" onmouseover="changeEnding('flay')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/roxis.png" width="4%" onmouseover="changeEnding('roxis')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/anna.png" width="4%" onmouseover="changeEnding('anna')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/muppy.png" width="4%" onmouseover="changeEnding('muppy')" onmouseout="changeEnding(null)"><br/>
         </td>
-        <td id="endingSwitch"></td>
+        <td id="endingSwitch" style="width: 94%; border: none;"></td>
     </tr>
 </table>
 
