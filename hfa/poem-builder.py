@@ -106,7 +106,7 @@ def parse(text):
     return text
 
 
-with open(HERE / 'hfa.html', 'w+') as f:
+with open(HERE / 'home.html', 'w+') as f:
     with tag(f, tagname='html'):
         with tag(f, tagname='head'):
             with tag(f, tagname='title'):

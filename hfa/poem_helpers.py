@@ -1,3 +1,5 @@
+# flake8: noqa E501
+
 import re
 
 
@@ -134,7 +136,7 @@ def one(html):
     """ "One" creates level-2 headers to separate its two parts. The default htmlifier inserts those within
     a <p> tag. This function pulls that back out.
     """
-    return re.sub(r'<p>\s*<h2(.*)/h2>\s*</p>', '<h2\g<1>/h2>', html, re.MULTILINE)
+    return re.sub(r'<p>\s*<h2(.*)/h2>\s*</p>', '<h2\g<1>/h2>', html, re.MULTILINE)  # noqa W605
 
 
 HELPERS = {
