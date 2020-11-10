@@ -10,14 +10,14 @@ def darkness(html: str):
     necessary = """\
 <table style="width: 100%;">
     <tr>
-        <td style="width: 5%; border: none;">
-            <img src="../mka/imgs/philo.png" width="4%" onmouseover="changeEnding('philo')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/nikki.png" width="4%" onmouseover="changeEnding('nikki')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/pamela.png" width="4%" onmouseover="changeEnding('pamela')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/flay.png" width="4%" onmouseover="changeEnding('flay')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/roxis.png" width="4%" onmouseover="changeEnding('roxis')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/anna.png" width="4%" onmouseover="changeEnding('anna')" onmouseout="changeEnding(null)"><br/>
-            <img src="../mka/imgs/muppy.png" width="4%" onmouseover="changeEnding('muppy')" onmouseout="changeEnding(null)"><br/>
+        <td style="width: 3%; border: none;">
+            <img src="../mka/imgs/philo.png" width="90%;" onmouseover="changeEnding('philo')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/nikki.png" width="90%;" onmouseover="changeEnding('nikki')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/pamela.png" width="90%;" onmouseover="changeEnding('pamela')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/flay.png" width="90%;" onmouseover="changeEnding('flay')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/roxis.png" width="90%;" onmouseover="changeEnding('roxis')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/anna.png" width="90%;" onmouseover="changeEnding('anna')" onmouseout="changeEnding(null)"><br/>
+            <img src="../mka/imgs/muppy.png" width="90%;" onmouseover="changeEnding('muppy')" onmouseout="changeEnding(null)"><br/>
         </td>
         <td id="endingSwitch" style="width: 94%; border: none;"></td>
     </tr>
