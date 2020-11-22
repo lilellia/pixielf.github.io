@@ -60,8 +60,8 @@ def afs_extract(filepath: pathlib.Path):
                 adx.write(afs.read(header.size))
 
 
-def convert_to_ogg(filepath: pathlib.Path) -> int:
-    dest = filepath.with_suffix('.ogg')
+def convert_filetype(filepath: pathlib.Path, suffix: str) -> int:
+    dest = filepath.with_suffix(suffix)
     args = ('ffmpeg', '-i', filepath, dest)
     print(f'Converting {filepath} → {dest}')
     r = subprocess.run(args, capture_output=True)
@@ -76,9 +76,8 @@ def parse_command_line():
         help='the AFS files to extract'
     )
     parser.add_argument(
-        '-c', '--convert-ogg',
-        action='store_true',
-        help='pass this flag to convert the resulting .adx files to .ogg'
+        '-c', '--convert',
+        help='convert from *.adx to another format'
     )
     parser.add_argument(
         '-r', '--remove-adx', '--delete-adx',
@@ -97,10 +96,10 @@ if __name__ == '__main__':
         afs_extract(path)
 
         for adx in path.parent.glob('*.adx'):
-            if args.convert_ogg:
-                returncode = convert_to_ogg(adx)
+            if args.convert:
+                returncode = convert_filetype(adx, args.convert)
                 if returncode:
-                    sys.stderr.write(f'Error in converting {adx} to .ogg.\n')
+                    sys.stderr.write(f'Error in converting {adx} to *{args.convert}.\n')
 
             if args.remove_adx:
                 print(f'Deleting {adx}')
