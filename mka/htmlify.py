@@ -171,7 +171,7 @@ def write_minimal_battles(w: HTMLWriter):
             </div>
         ''')
 
-        for f in range(1, 23):
+        for f in range(1, 24):
             sql = """
                 SELECT "Chapter", "Week", "Context"
                 FROM "Minimal Battles"
