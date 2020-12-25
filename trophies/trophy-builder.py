@@ -52,6 +52,8 @@ class Trophy:
     def parse_obtained(obtained):
         if obtained is None:
             return ''
+        if obtained == '✓':
+            return '✓'
         return datetime.datetime.strptime(obtained, "%m/%d/%Y %H:%M")
 
     @property
@@ -155,7 +157,14 @@ def write_trophies(stream: io.StringIO, trophies: List[Trophy]):
 
     for trophy in trophies:
         details = f'<br/><span class="detail">{trophy.details}</span>' if trophy.details else ''
-        obtained = trophy.obtained.strftime('%m/%d/%Y %H:%M') if trophy.obtained else ''
+        if trophy.obtained:
+            if isinstance(trophy.obtained, datetime.datetime):
+                obtained = trophy.obtained.strftime('%m/%d/%Y %H:%M')
+            else:
+                # not a datetime object
+                obtained = str(trophy.obtained)
+        else:
+            obtained = ''
         stream.write(
             f"""
     <tr class="trophy-{'obtained' if trophy.obtained else 'unobtained'}">
@@ -189,9 +198,6 @@ def main():
         stream.write('''</div>
 
     <div style="padding-top: 100px;">
-        <p style="font-size: 70%;">Achievement images taken from the <a
-                href="https://atelier.fandom.com/wiki/Atelier_Wiki">Atelier Wiki</a>, used under the Creative Commons
-            Attribution-Share Alike License 3.0 (Unported) (CC-BY-SA).</p>
     </div>
 
 </body>
