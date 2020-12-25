@@ -203,7 +203,7 @@ def write_minimal_battles(w: HTMLWriter):
                 FROM "Minimal Battles" INNER JOIN "Enemy Data" ON "Minimal Battles"."Enemy" = "Enemy Data"."Name"
                 WHERE "Fight Number" = ?;
             """
-            w.database_query(DB, sql, args=(f,))
+            w.database_query(DB, sql, args=(f,), comma_to_list=False)
 
         with w.wraptag('p'):
             w.write(""" In order to avoid fighting 「Crazed Eye」, we must avoid inishing a finale character quest and
@@ -416,5 +416,15 @@ def write_character_quests():
     w.export_to(HERE / 'character-quests.html')
 
 
+def fix_image_tags():
+    with open(HERE / 'data.html') as f:
+        data = f.read()
+    data = re.sub(r'&lt;(img.*?)&gt;', '<\g<1>>', data)     # noqa E605
+
+    with open(HERE / 'data.html', 'w+') as f:
+        f.write(data)
+
+
 write_data()
 write_character_quests()
+fix_image_tags()

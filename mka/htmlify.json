@@ -41,7 +41,7 @@
 
     "Course": [
         "SELECT \"Course Name\" || (CASE \"Required\" WHEN \"YES\" THEN ' <img src=\"imgs/required.png\">' WHEN \"NO\" THEN '' END) AS \"Course\", \"Instructor\", \"Description\", \"Details\", \"Provided Items\", \"Hint\" FROM \"Course Data\";",
-        true
+        false
     ],
 
     "Job": [
